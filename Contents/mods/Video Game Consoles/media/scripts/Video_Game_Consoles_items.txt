@@ -8,7 +8,7 @@ module Video_Game_Consoles
 
 	item SNES
     {
-        DisplayName	   	        =	Super Nintendo,
+        DisplayName	   	        =	Super Moschendo Entertainment System,
         Weight	                =	0.9,
         Icon	                =	SuperNintendo_i,
         DisplayCategory 		=	Electronics,
@@ -18,7 +18,7 @@ module Video_Game_Consoles
 	
 	item Atari
     {
-        DisplayName	   	        =	Atari 2600,
+        DisplayName	   	        =	Tutri 2600,
         Weight	                =	2.1,
         Icon	                =	Atari_i,
         DisplayCategory 		=	Electronics,
@@ -28,7 +28,7 @@ module Video_Game_Consoles
 	
 	item NES
     {
-        DisplayName	   	        =	Nintendo Entertainment System,
+        DisplayName	   	        =	Moschendo Entertainment System,
         Weight	                =	2.27,
         Icon	                =	NES_i,
         DisplayCategory 		=	Electronics,
@@ -38,7 +38,7 @@ module Video_Game_Consoles
 	
 	item GameGear
     {
-        DisplayName	   	        =	Sega Game Gear,
+        DisplayName	   	        =	Weoo Gear,
         Weight	                =	0.52,
         Icon	                =	GameGear_i,
         DisplayCategory 		=	Electronics,
@@ -48,7 +48,7 @@ module Video_Game_Consoles
 	
 	item Genesis
     {
-        DisplayName	            =	Sega Genesis,
+        DisplayName	            =	Weoo Genesis,
         Weight	                =	0.9,
         Icon	                =	Genesis_i,
         DisplayCategory 		=	Electronics,
@@ -58,7 +58,7 @@ module Video_Game_Consoles
 	
 	item GameBoy
     {
-        DisplayName	            =	Game Boy,
+        DisplayName	            =	Moschendo Boy,
         Weight	                =	0.24,
 		Type					=	Drainable,
 		UseDelta 				=	0.1,
@@ -76,7 +76,7 @@ module Video_Game_Consoles
 	
 	item GameBoy_nobat
     {
-        DisplayName	            =	Game Boy,
+        DisplayName	            =	Moschendo Boy,
         Weight	                =	0.22,
         Icon	                =	GameBoy_i,
         DisplayCategory 		=	Electronics,
@@ -94,7 +94,7 @@ module Video_Game_Consoles
 
 	item GB_Cartridge_Zelda
     {
-        DisplayName	            =	GB The Legend of Zelda: Link's Awakening,
+        DisplayName	            =	Moschendo Boy - The Legend of Gewurdo: Woban's Awakening,
         Weight	                =	0.02,
         Icon	                =	GB_Cartridge_Zelda_i,
         DisplayCategory 		=	Electronics,
@@ -104,7 +104,7 @@ module Video_Game_Consoles
 	
 	item GB_Cartridge_Kirby
     {
-        DisplayName	            =	GB Kirby's Dream Land,
+        DisplayName	            =	Moschendo Boy - Kilgare's Dream Land,
         Weight	                =	0.02,
         Icon	                =	GB_Cartridge_Kirby_i,
         DisplayCategory 		=	Electronics,
@@ -114,7 +114,7 @@ module Video_Game_Consoles
 	
 	item GB_Cartridge_Fantasy
     {
-        DisplayName	            =	GB Final Fantasy Adventure,
+        DisplayName	            =	Moschendo Boy - Last Fantasy Adventure,
         Weight	                =	0.02,
         Icon	                =	GB_Cartridge_Fantasy_i,
         DisplayCategory 		=	Electronics,
@@ -124,7 +124,7 @@ module Video_Game_Consoles
 	
 	item GB_Cartridge_Mario
     {
-        DisplayName	            =	GB Super Mario Land,
+        DisplayName	            =	Moschendo Boy - Awesome Guys Land,
         Weight	                =	0.02,
         Icon	                =	GB_Cartridge_Mario_i,
         DisplayCategory 		=	Electronics,
@@ -134,7 +134,7 @@ module Video_Game_Consoles
 	
 	item GB_Cartridge_Tetris
     {
-        DisplayName	            =	GB Tetris,
+        DisplayName	            =	Moschendo Boy - Tetris,
         Weight	                =	0.02,
         Icon	                =	GB_Cartridge_Tetris_i,
         DisplayCategory 		=	Electronics,
@@ -147,7 +147,7 @@ module Video_Game_Consoles
 
 	item GG_Cartridge_Combat
     {
-        DisplayName	            =	GameGear Combat,
+        DisplayName	            =	Weoo Gear - Combat,
         Weight	                =	0.02,
         Icon	                =	GG_Cartridge_Combat_i,
         DisplayCategory 		=	Electronics,
@@ -160,7 +160,7 @@ module Video_Game_Consoles
 	
 	item Atari_Cartridge_Combat
     {
-        DisplayName	            =	Atari Combat,
+        DisplayName	            =	Tutri 2600 - Combat,
         Weight	                =	0.1,
         Icon	                =	Atari_Cartridge_Combat_i,
         DisplayCategory 		=	Electronics,
@@ -170,7 +170,7 @@ module Video_Game_Consoles
 	
 	item Atari_Cartridge_Asteroids
     {
-        DisplayName	            =	Atari Asteroids,
+        DisplayName	            =	Tutri 2600 - Asteroids,
         Weight	                =	0.1,
         Icon	                =	Atari_Cartridge_Asteroids_i,
         DisplayCategory 		=	Electronics,
@@ -180,7 +180,7 @@ module Video_Game_Consoles
 	
 	item Atari_Cartridge_MSPacman
     {
-        DisplayName	            =	Atari MS.PAC-MAN,
+        DisplayName	            =	Tutri 2600 - Misses Munch Man,
         Weight	                =	0.1,
         Icon	                =	Atari_Cartridge_MSPacman_i,
         DisplayCategory 		=	Electronics,
@@ -190,7 +190,7 @@ module Video_Game_Consoles
 	
 	item Atari_Cartridge_Pitfall
     {
-        DisplayName	            =	Atari Pitfall,
+        DisplayName	            =	Tutri 2600 - Pitfall,
         Weight	                =	0.1,
         Icon	                =	Atari_Cartridge_Pitfall_i,
         DisplayCategory 		=	Electronics,
@@ -200,7 +200,7 @@ module Video_Game_Consoles
 	
 	item Atari_Cartridge_Spaceinvaders
     {
-        DisplayName	            =	Atari Space Invaders,
+        DisplayName	            =	Tutri 2600 - Galaxy Invaders,
         Weight	                =	0.1,
         Icon	                =	Atari_Cartridge_Spaceinvaders_i,
         DisplayCategory 		=	Electronics,
@@ -214,7 +214,7 @@ module Video_Game_Consoles
 	
 	item SNES_Cartridge_Mario
     {
-        DisplayName	            =	SNES Super Mario World,
+        DisplayName	            =	Super Moschendo Entertainment System - Awesome Guys World,
         Weight	                =	0.1,
         Icon	                =	SNES_Cartridge_Mario_i,
         DisplayCategory 		=	Electronics,
@@ -224,7 +224,7 @@ module Video_Game_Consoles
 	
 	item SNES_Cartridge_Mana
     {
-        DisplayName	            =	SNES Secret of Mana,
+        DisplayName	            =	Super Moschendo Entertainment System - Relevations of Mana,
         Weight	                =	0.1,
         Icon	                =	SNES_Cartridge_Mana_i,
         DisplayCategory 		=	Electronics,
@@ -234,7 +234,7 @@ module Video_Game_Consoles
 	
 	item SNES_Cartridge_Fox
     {
-        DisplayName	            =	SNES Star Fox,
+        DisplayName	            =	Super Moschendo Entertainment System - Star Squirrel,
         Weight	                =	0.1,
         Icon	                =	SNES_Cartridge_Fox_i,
         DisplayCategory 		=	Electronics,
@@ -244,7 +244,7 @@ module Video_Game_Consoles
 	
 	item SNES_Cartridge_MK2
     {
-        DisplayName	            =	SNES Mortal Kombat 2,
+        DisplayName	            =	Super Moschendo Entertainment System - Intense Combat 2,
         Weight	                =	0.1,
         Icon	                =	SNES_Cartridge_MK2_i,
         DisplayCategory 		=	Electronics,
@@ -254,7 +254,7 @@ module Video_Game_Consoles
 	
 	item SNES_Cartridge_NBA
     {
-        DisplayName	            =	SNES NBA JAM,
+        DisplayName	            =	Super Moschendo Entertainment System - BBall Jam!,
         Weight	                =	0.1,
         Icon	                =	SNES_Cartridge_NBA_i,
         DisplayCategory 		=	Electronics,
@@ -268,7 +268,7 @@ module Video_Game_Consoles
 	
 	item NES_Cartridge_Contra
     {
-        DisplayName	            =	NES Contra,
+        DisplayName	            =	Moschendo Entertainment System - Wontre,
         Weight	                =	0.1,
         Icon	                =	NES_Cartridge_Contra_i,
         DisplayCategory 		=	Electronics,
@@ -278,7 +278,7 @@ module Video_Game_Consoles
 	
 	item NES_Cartridge_Mario3
     {
-        DisplayName	            =	NES Super Mario 3,
+        DisplayName	            =	Moschendo Entertainment System - Awesome Guys 3,
         Weight	                =	0.1,
         Icon	                =	NES_Cartridge_Mario3_i,
         DisplayCategory 		=	Electronics,
@@ -288,7 +288,7 @@ module Video_Game_Consoles
 	
 	item NES_Cartridge_Megaman
     {
-        DisplayName	            =	NES MegaMan,
+        DisplayName	            =	Moschendo Entertainment System - RadRay,
         Weight	                =	0.1,
         Icon	                =	NES_Cartridge_MegaMan_i,
         DisplayCategory 		=	Electronics,
@@ -298,7 +298,7 @@ module Video_Game_Consoles
 	
 	item NES_Cartridge_Metroid
     {
-        DisplayName	            =	NES Metroid,
+        DisplayName	            =	Moschendo Entertainment System - Space Roid,
         Weight	                =	0.1,
         Icon	                =	NES_Cartridge_Metroid_i,
         DisplayCategory 		=	Electronics,
@@ -308,7 +308,7 @@ module Video_Game_Consoles
 	
 	item NES_Cartridge_Zelda
     {
-        DisplayName	            =	NES The Legend Of Zelda,
+        DisplayName	            =	Moschendo Entertainment System - The Legend Of Gewurdo,
         Weight	                =	0.1,
         Icon	                =	NES_Cartridge_Zelda_i,
         DisplayCategory 		=	Electronics,
@@ -322,7 +322,7 @@ module Video_Game_Consoles
 
 	item Genesis_Cartridge_Aladdin
     {
-        DisplayName	            =	Genesis Aladdin,
+        DisplayName	            =	Weoo Genesis - Aladdin,
         Weight	                =	0.1,
         Icon	                =	Genesis_Cartridge_aladdin_i,
         DisplayCategory 		=	Electronics,
@@ -332,7 +332,7 @@ module Video_Game_Consoles
 	
 	item Genesis_Cartridge_gaxe
     {
-        DisplayName	            =	Genesis Golden Axe,
+        DisplayName	            =	Weoo Genesis - Silver Axe,
         Weight	                =	0.1,
         Icon	                =	Genesis_Cartridge_gaxe_i,
         DisplayCategory 		=	Electronics,
@@ -342,7 +342,7 @@ module Video_Game_Consoles
 	
 	item Genesis_Cartridge_ghouls
     {
-        DisplayName	            =	Genesis Ghouls and Ghosts,
+        DisplayName	            =	Weoo Genesis - Ghouls and Goblins,
         Weight	                =	0.1,
         Icon	                =	Genesis_Cartridge_ghouls_i,
         DisplayCategory 		=	Electronics,
@@ -352,7 +352,7 @@ module Video_Game_Consoles
 	
 	item Genesis_Cartridge_sonic
     {
-        DisplayName	            =	Genesis Sonic,
+        DisplayName	            =	Weoo Genesis - Hedgehog,
         Weight	                =	0.1,
         Icon	                =	Genesis_Cartridge_sonic_i,
         DisplayCategory 		=	Electronics,
@@ -362,7 +362,7 @@ module Video_Game_Consoles
 	
 	item Genesis_Cartridge_street
     {
-        DisplayName	            =	Genesis Street Fighter 2,
+        DisplayName	            =	Weoo Genesis - Alley Battler 2,
         Weight	                =	0.1,
         Icon	                =	Genesis_Cartridge_street_i,
         DisplayCategory 		=	Electronics,
@@ -375,7 +375,7 @@ module Video_Game_Consoles
 
 /**Play_GB**/
 
-	recipe Play Zelda
+	recipe Play Game
     {
        GameBoy,
        keep GB_Cartridge_Zelda,
@@ -390,7 +390,7 @@ module Video_Game_Consoles
 	   RemoveResultItem:true
     }
 	
-	recipe Play Kirby
+	recipe Play Game
     {
        GameBoy,
        keep GB_Cartridge_Kirby,
@@ -405,7 +405,7 @@ module Video_Game_Consoles
 	   RemoveResultItem:true
     }
 	
-	recipe Play Final Fantasy
+	recipe Play Game
     {
        GameBoy,
        keep GB_Cartridge_Fantasy,
@@ -420,7 +420,7 @@ module Video_Game_Consoles
 	   RemoveResultItem:true
     }
 	
-	recipe Play Mario
+	recipe Play Game
     {
        GameBoy,
        keep GB_Cartridge_Mario,
@@ -435,7 +435,7 @@ module Video_Game_Consoles
 	   RemoveResultItem:true
     }
 	
-	recipe Play Tetris
+	recipe Play Game
     {
        GameBoy,
        keep GB_Cartridge_Tetris,
@@ -452,7 +452,7 @@ module Video_Game_Consoles
 	
 /**Play_GG**/
 	
-	recipe Play Super Mario World
+	recipe Play Game
     {
        SNES_Cartridge_Mario,
        keep GameGear,
@@ -471,7 +471,7 @@ module Video_Game_Consoles
 	
 /***Play_SNES***/
 
-	recipe Play Super Mario World
+	recipe Play Game
     {
        SNES_Cartridge_Mario,
        keep SNES,
@@ -488,7 +488,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Secret of Mana
+	recipe Play Game
     {
        SNES_Cartridge_Mana,
        keep SNES,
@@ -505,7 +505,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Star Fox
+	recipe Play Game
     {
        SNES_Cartridge_Fox,
        keep SNES,
@@ -522,7 +522,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Mortal Kombat 2
+	recipe Play Game
     {
        SNES_Cartridge_MK2,
        keep SNES,
@@ -539,7 +539,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play NBA JAM
+	recipe Play Game
     {
        SNES_Cartridge_NBA,
        keep SNES,
@@ -558,7 +558,7 @@ module Video_Game_Consoles
 	
 /***Play_Genesis***/
 	
-	recipe Play Aladdin
+	recipe Play Game
     {
        Genesis_Cartridge_Aladdin,
        keep Genesis,
@@ -575,7 +575,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Golden Axe
+	recipe Play Game
     {
        Genesis_Cartridge_gaxe,
        keep Genesis,
@@ -592,7 +592,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Ghouls and Ghosts
+	recipe Play Game
     {
        Genesis_Cartridge_ghouls,
        keep Genesis,
@@ -609,7 +609,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Sonic
+	recipe Play Game
     {
        Genesis_Cartridge_sonic,
        keep Genesis,
@@ -626,7 +626,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Street Fighter 2
+	recipe Play Game
     {
        Genesis_Cartridge_street,
        keep Genesis,
@@ -645,7 +645,7 @@ module Video_Game_Consoles
 	
 /***Play_NES***/
 
-	recipe Play Contra
+	recipe Play Game
     {
        NES_Cartridge_Contra,
        keep NES,
@@ -662,7 +662,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Super Mario 3
+	recipe Play Game
     {
        NES_Cartridge_Mario3,
        keep NES,
@@ -679,7 +679,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Mega Man
+	recipe Play Game
     {
        NES_Cartridge_Megaman,
        keep NES,
@@ -696,7 +696,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Metroid
+	recipe Play Game
     {
        NES_Cartridge_Metroid,
        keep NES,
@@ -713,7 +713,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play The Legend of Zelda
+	recipe Play Game
     {
        NES_Cartridge_Zelda,
        keep NES,
@@ -732,7 +732,7 @@ module Video_Game_Consoles
 	
 /***Atari_Games***/
 
-	recipe Play Combat
+	recipe Play Game
     {
        Atari_Cartridge_Combat,
        keep Atari,
@@ -749,7 +749,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Pitfall
+	recipe Play Game
     {
        Atari_Cartridge_Pitfall,
        keep Atari,
@@ -766,7 +766,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play MS.PAC-MAN
+	recipe Play Game
     {
        Atari_Cartridge_MSPacman,
        keep Atari,
@@ -783,7 +783,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 
-	recipe Play Space Invaders
+	recipe Play Game
     {
        Atari_Cartridge_Spaceinvaders,
        keep Atari,
@@ -800,7 +800,7 @@ module Video_Game_Consoles
 	   IsHidden:true,
     }
 	
-	recipe Play Asteroids
+	recipe Play Game
     {
        Atari_Cartridge_Asteroids,
        keep Atari,
@@ -820,7 +820,7 @@ module Video_Game_Consoles
 
 /***Other***/
 
-	recipe Remove GB Battery
+	recipe Remove Battery
 	{
 		destroy GameBoy,
 		
@@ -833,7 +833,7 @@ module Video_Game_Consoles
 		
 	}
 
-	recipe Insert GB Battery
+	recipe Insert Battery
 	{
 		destroy Battery,
 		destroy GameBoy_nobat,
