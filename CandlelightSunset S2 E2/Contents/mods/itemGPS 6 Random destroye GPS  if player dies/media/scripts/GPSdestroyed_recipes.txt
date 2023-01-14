@@ -1,0 +1,19 @@
+module Base
+{
+	
+    recipe Dismantle GPS
+    {
+    destroy GPSdestroyed,
+    keep Screwdriver/Multitool,
+    NoBrokenItems:true,
+    Result:ElectronicsScrap,
+    Time:500.0,
+    OnCreate:DismantleGPSdest,
+    OnGiveXP:Recipe.OnGiveXP.DismantleRadio,
+    Category:Electrical,
+    AnimNode:Disassemble,
+    Sound:Dismantle_GPS,
+    Prop1:Screwdriver,
+	Prop2:GPSdestroyed,
+    }
+}

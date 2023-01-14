@@ -1,0 +1,7 @@
+description= random destruction of the GPS if the player dies (1 in 3 chance)
+id=itemGPS option6 RandDestroyeGPSifPlayerDies
+poster=poster.png
+
+
+name=itemGPS option6 RandDestroyeGPSifPlayerDies
+

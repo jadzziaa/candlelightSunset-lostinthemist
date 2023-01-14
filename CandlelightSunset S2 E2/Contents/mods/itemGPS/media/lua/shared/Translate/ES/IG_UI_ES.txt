@@ -1,0 +1,18 @@
+IG_UI_ES = {
+   
+IGUI_No_miniMap = "El acceso al mini mapa es a través de GPS.",
+IGUI_No_Map_IG = "No habrá forma de acceder a la tarjeta.",
+IGUI_No_GPS_on = "Necesitas un GPS que funcione.",
+
+IGUI_Plug = "Conectar GPS",
+IGUI_noPlugIfnoBat = "El GPS se ha quedado sin batería.",
+IGUI_noPlugIfnoCable = "Necesitará un cable de GPS para conectarlo al encendedor de cigarrillos.",
+IGUI_unPlug = "Desconectar GPS",
+IGUI_autoUnplugInfo = "El GPS se desconectará automáticamente una vez cargado.",
+IGUI_Info = "info",
+
+IGUI_Item_itemGps = "Una vez descargado el GPS, se apagará por falta de batería, habrá que recargarlo o reemplazarlo por una batería cargada.",
+IGUI_Item_GpsCable = "Este cable se utilizará para recargar el GPS en el mechero, en un coche y en uno de los dos asientos delanteros.",
+
+IGUI_noBattery = "¡Batería insuficiente !",
+    }

@@ -1,0 +1,7 @@
+Recipe_ES = {
+
+Recipe_Insert_Battery_Into_GPS = "Insertar una batería en el GPS",
+Recipe_Remove_Battery_From_GPS = "Retire la batería del GPS",
+Recipe_Dismantle_GPS = "Desmontar el GPS",
+
+}

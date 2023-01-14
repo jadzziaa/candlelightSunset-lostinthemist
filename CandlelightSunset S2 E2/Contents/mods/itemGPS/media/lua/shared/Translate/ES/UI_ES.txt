@@ -1,0 +1,6 @@
+UI_ES = {
+
+UI_optionscreen_binding_HotkeyGPS = "Hotkey GPS",
+UI_optionscreen_binding_GPS_CheckBelt_key = "Comprobar el GPS del cinturón",
+
+}

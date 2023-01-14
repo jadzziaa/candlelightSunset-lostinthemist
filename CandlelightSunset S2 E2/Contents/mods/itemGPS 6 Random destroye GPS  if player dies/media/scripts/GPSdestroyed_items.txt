@@ -1,0 +1,33 @@
+module Base
+{
+	item GPSdestroyed
+    {
+        
+
+        Type			  =	Normal,
+        Weight			  =	1.2,
+        DisplayName		  =	GPS detruit,
+        Icon			  =	GpsDayzCasse,
+        AttachmentType    = Walkie,
+        StaticModel 	  = GPSdayZdestroyed,
+        WorldStaticModel  = GPSdayZdestroyed,
+	    primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+       
+    }
+
+    model GPSdayZdestroyed
+	{
+		mesh    = GPSdayZ,
+		texture = GPSdestroyed_texture,
+		invertX = FALSE,
+		scale   = 0.007,
+
+		attachment world
+		{
+			offset = -0.6980 2.0280 2.8820,
+			rotate = 0.0000 0.0000 -86.0000,
+		}
+	}
+	
+}

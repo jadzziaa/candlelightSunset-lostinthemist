@@ -1,0 +1,6 @@
+UI_CN = {
+
+UI_optionscreen_binding_HotkeyGPS = "热键GPS",
+UI_optionscreen_binding_GPS_CheckBelt_key = "从腰带检查 GPS",
+
+}

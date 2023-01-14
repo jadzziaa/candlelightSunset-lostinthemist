@@ -1,0 +1,19 @@
+IG_UI_CN = {
+   
+IGUI_No_miniMap = "通过GPS访问小地图。",
+IGUI_No_Map_IG = "没有世界地图。",
+IGUI_No_GPS_on = "你需要一个可以工作的GPS。",
+
+IGUI_Plug = "连接GPS",
+IGUI_noPlugIfnoBat = "GPS电池没电了。",
+IGUI_noPlugIfnoCable = "你需要一根GPS电缆将其插入点烟器。",
+IGUI_unPlug = "断开GPS",
+IGUI_autoUnplugInfo = "充电后GPS会自动断开连接。",
+IGUI_Info = "信息",
+
+
+IGUI_Item_itemGps = "GPS一旦放电完，会因电池电量不足而关闭，必须重新充电或更换为充满电的电池。",
+IGUI_Item_GpsCable = "该电缆可用于坐在汽车两个前排座椅上，用点烟器为 GPS 充电。",
+
+IGUI_noBattery = "电池电量不足!",
+    }

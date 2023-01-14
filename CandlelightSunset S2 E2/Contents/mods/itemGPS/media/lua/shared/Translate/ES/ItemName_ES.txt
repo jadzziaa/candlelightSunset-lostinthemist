@@ -1,0 +1,6 @@
+ItemName_ES = {
+
+ItemName_Base.GPScable = "Cable GPS",
+ItemName_Base.GPSdestroyed = "GPS destruido",
+
+}

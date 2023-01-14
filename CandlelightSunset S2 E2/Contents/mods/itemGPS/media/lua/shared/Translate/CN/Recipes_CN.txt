@@ -1,0 +1,7 @@
+Recipe_CN = {
+
+Recipe_Insert_Battery_Into_GPS = "将电池插入GPS",
+Recipe_Remove_Battery_From_GPS = "从GPS中取出电池",
+Recipe_Dismantle_GPS = "拆解GPS",
+
+}

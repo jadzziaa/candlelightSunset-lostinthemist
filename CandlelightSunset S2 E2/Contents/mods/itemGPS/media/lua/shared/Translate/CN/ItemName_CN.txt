@@ -1,0 +1,6 @@
+ItemName_CN = {
+
+ItemName_Base.GPScable = "GPS电缆",
+ItemName_Base.GPSdestroyed = "GPS被毁",
+
+}
