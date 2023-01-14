@@ -1,0 +1,24 @@
+Farming_ES = {
+  -- nombre de vegetales (tipo de semilla)
+  Farming_Avocado = "Aguacate",
+  Farming_Pepper = "Pimiento",
+  Farming_Corn = "Maiz",
+  Farming_Eggplant = "Berenjena",
+  Farming_Leek = "Puerro",
+  Farming_Lettuce = "Lechuga",
+  Farming_Onion = "Cebolla",
+  Farming_Watermelon = "Sandia",
+  Farming_Zucchini = "calabacin",
+  -- fase de crecimiento
+    Farming_Seedling = "Germinando",
+    Farming_Young = "Brote",
+    Farming_Ready_for_Harvest = "Listo para cosecha",
+    Farming_In_bloom = "Floreciendo",
+    Farming_Seed-bearing = "Planta con semillas",
+    Farming_Receding = "Marchitando",
+    Farming_Rotten = "Podrido",
+    Farming_Destroyed = "Destruido",
+    Farming_Seedling = "Germinando",
+    Farming_Fully_grown = "Maduro",
+    Farming_Ready_to_harvest = "Listo para cosecha",
+}

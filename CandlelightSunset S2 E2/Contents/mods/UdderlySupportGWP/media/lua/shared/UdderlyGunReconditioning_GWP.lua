@@ -1,0 +1,15 @@
+print("[UdderlySupport GWP] Looking for Udderly Gun Reconditioning..")
+if UdderlyGunReconditioning and UdderlyGunReconditioning.RecipeAssignments then
+	print("[UdderlySupport GWP] Udderly Gun Reconditioning detected, adding reconditioning recipes.")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[2], "ReconditionHeritage22Revolver")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[2], "ReconditionColtPeacemaker")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[3], "ReconditionThompsonM1A1")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[3], "ReconditionMac10SD")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[5], "ReconditionR870Police")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[6], "ReconditionWinchester1894")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[6], "ReconditionDeLisleCarbine")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[6], "ReconditionModel44")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[6], "ReconditionBigBoy45ACP")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[7], "ReconditionHKG3")
+	table.insert(UdderlyGunReconditioning.RecipeAssignments[7], "ReconditionPSG1")
+end

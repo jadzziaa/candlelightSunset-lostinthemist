@@ -1,0 +1,359 @@
+ItemName_EN={
+--cards
+ItemName_pkmncards.001Bulbasaurcard="Pokémon Trading Card #001 - Bulbasaur",
+
+ItemName_pkmncards.002Ivysaurcard="Pokémon Trading Card #002 - Ivysaur",
+
+ItemName_pkmncards.003Venusaurcard="Pokémon Trading Card #003 - Venusaur (Holo)",
+
+ItemName_pkmncards.004Charmandercard="Pokémon Trading Card #004 - Charmander",
+
+ItemName_pkmncards.005Charmeleoncard="Pokémon Trading Card #005 - Charmeleon",
+
+ItemName_pkmncards.006Charizardcard="Pokémon Trading Card #006 - Charizard (Holo)",
+
+ItemName_pkmncards.007Squirtlecard="Pokémon Trading Card #007 - Squirtle",
+
+ItemName_pkmncards.008Wartortlecard="Pokémon Trading Card #008 - Wartortle",
+
+ItemName_pkmncards.009Blastoisecard="Pokémon Trading Card #009 - Blastoise (Holo)",
+
+ItemName_pkmncards.010Caterpiecard="Pokémon Trading Card #010 - Caterpie",
+
+ItemName_pkmncards.011Metapodcard="Pokémon Trading Card #011 - Metapod",
+
+ItemName_pkmncards.012Butterfreecard="Pokémon Trading Card #012 - Butterfree",
+
+ItemName_pkmncards.013Weedlecard="Pokémon Trading Card #013 - Weedle",
+
+ItemName_pkmncards.014Kakunacard="Pokémon Trading Card #014 - Kakuna",
+
+ItemName_pkmncards.015Beedrillcard="Pokémon Trading Card #015 - Beedrill",
+
+ItemName_pkmncards.016Pidgeycard="Pokémon Trading Card #016 - Pidgey",
+
+ItemName_pkmncards.017Pidgeottocard="Pokémon Trading Card #017 - Pidgeotto",
+
+ItemName_pkmncards.018Pidgeotcard="Pokémon Trading Card #018 - Pidgeot",
+ItemName_pkmncards.018PidgeotHcard="Pokémon Trading Card #018 - Pidgeot (Holo)",
+
+ItemName_pkmncards.019Rattatacard="Pokémon Trading Card #019 - Rattata",
+
+ItemName_pkmncards.020Raticatecard="Pokémon Trading Card #020 - Raticate",
+
+ItemName_pkmncards.021Spearowcard="Pokémon Trading Card #021 - Spearow",
+
+ItemName_pkmncards.022Fearowcard="Pokémon Trading Card #022 - Fearow",
+
+ItemName_pkmncards.023Ekanscard="Pokémon Trading Card #023 - Ekans",
+
+ItemName_pkmncards.024Arbokcard="Pokémon Trading Card #024 - Arbok",
+
+ItemName_pkmncards.025Pikachucard="Pokémon Trading Card #025 - Pikachu",
+ItemName_pkmncards.025PikachuJcard="Pokémon Trading Card #025 - Pikachu (Jungle)",
+
+ItemName_pkmncards.026Raichucard="Pokémon Trading Card #026 - Raichu",
+ItemName_pkmncards.026RaichuHcard="Pokémon Trading Card #026 - Raichu (Holo)",
+ItemName_pkmncards.026RaichuFHcard="Pokémon Trading Card #026 - Raichu (Fossil Holo)",
+
+ItemName_pkmncards.027Sandshrewcard="Pokémon Trading Card #027 - Sandshrew",
+
+ItemName_pkmncards.028Sandslashcard="Pokémon Trading Card #028 - Sandslash",
+
+ItemName_pkmncards.029NidoranFemalecard="Pokémon Trading Card #029 - Nidoran Female",
+
+ItemName_pkmncards.030Nidorinacard="Pokémon Trading Card #030 - Nidorina",
+
+ItemName_pkmncards.031Nidoqueencard="Pokémon Trading Card #031 - Nidoqueen",
+ItemName_pkmncards.031NidoqueenHcard="Pokémon Trading Card #031 - Nidoqueen (Holo)",
+
+ItemName_pkmncards.032NidoranMalecard="Pokémon Trading Card #032 - Nidoran Male",
+
+ItemName_pkmncards.033Nidorinocard="Pokémon Trading Card #033 - Nidorino",
+
+ItemName_pkmncards.034Nidokingcard="Pokémon Trading Card #034 - Nidoking (Holo)",
+
+ItemName_pkmncards.035Clefairycard="Pokémon Trading Card #035 - Clefairy (Holo)",
+
+ItemName_pkmncards.036Clefablecard="Pokémon Trading Card #036 - Clefable",
+ItemName_pkmncards.036ClefableHcard="Pokémon Trading Card #036 - Clefable (Holo)",
+
+ItemName_pkmncards.037Vulpixcard="Pokémon Trading Card #037 - Vulpix",
+
+ItemName_pkmncards.038Ninetalescard="Pokémon Trading Card #038 - Ninetales (Holo)",
+
+ItemName_pkmncards.039Jigglypuffcard="Pokémon Trading Card #039 - Jigglypuff",
+
+ItemName_pkmncards.040Wigglytuffcard="Pokémon Trading Card #040 - Wigglytuff",
+ItemName_pkmncards.040WigglytuffHcard="Pokémon Trading Card #040 - Wigglytuff (Holo)",
+
+ItemName_pkmncards.041Zubatcard="Pokémon Trading Card #041 - Zubat",
+
+ItemName_pkmncards.042Golbatcard="Pokémon Trading Card #042 - Golbat",
+
+ItemName_pkmncards.043Oddishcard="Pokémon Trading Card #043 - Oddish",
+
+ItemName_pkmncards.044Gloomcard="Pokémon Trading Card #044 - Gloom",
+
+ItemName_pkmncards.045Vileplumecard="Pokémon Trading Card #045 - Vileplume",
+ItemName_pkmncards.045VileplumeHcard="Pokémon Trading Card #045 - Vileplume (Holo)",
+
+ItemName_pkmncards.046Parascard="Pokémon Trading Card #046 - Paras",
+
+ItemName_pkmncards.047Parasectcard="Pokémon Trading Card #047 - Parasect",
+
+ItemName_pkmncards.048Venonatcard="Pokémon Trading Card #048 - Venonat",
+
+ItemName_pkmncards.049Venomothcard="Pokémon Trading Card #049 - Venomoth",
+ItemName_pkmncards.049VenomothHcard="Pokémon Trading Card #049 - Venomoth (Holo)",
+
+ItemName_pkmncards.050Diglettcard="Pokémon Trading Card #050 - Diglett",
+
+ItemName_pkmncards.051Dugtriocard="Pokémon Trading Card #051 - Dugtrio",
+
+ItemName_pkmncards.052Meowthcard="Pokémon Trading Card #052 - Meowth",
+
+ItemName_pkmncards.053Persiancard="Pokémon Trading Card #053 - Persian",
+
+ItemName_pkmncards.054Psyduckcard="Pokémon Trading Card #054 - Psyduck",
+
+ItemName_pkmncards.055Golduckcard="Pokémon Trading Card #055 - Golduck",
+
+ItemName_pkmncards.056Mankeycard="Pokémon Trading Card #056 - Mankey",
+
+ItemName_pkmncards.057Primeapecard="Pokémon Trading Card #057 - Primeape",
+
+ItemName_pkmncards.058Growlithecard="Pokémon Trading Card #058 - Growlithe",
+
+ItemName_pkmncards.059Arcaninecard="Pokémon Trading Card #059 - Arcanine",
+
+ItemName_pkmncards.060Poliwagcard="Pokémon Trading Card #060 - Poliwag",
+
+ItemName_pkmncards.061Poliwhirlcard="Pokémon Trading Card #061 - Poliwhirl",
+
+ItemName_pkmncards.062Poliwrathcard="Pokémon Trading Card #062 - Poliwrath (Holo)",
+ItemName_pkmncards.063Abracard="Pokémon Trading Card #063 - Abra",
+
+ItemName_pkmncards.064Kadabracard="Pokémon Trading Card #064 - Kadabra",
+
+ItemName_pkmncards.065Alakazamcard="Pokémon Trading Card #065 - Alakazam (Holo)",
+
+ItemName_pkmncards.066Machopcard="Pokémon Trading Card #066 - Machop",
+
+ItemName_pkmncards.067Machokecard="Pokémon Trading Card #067 - Machoke",
+
+ItemName_pkmncards.068Machampcard="Pokémon Trading Card #068 - Machamp (Holo)",
+
+ItemName_pkmncards.069Bellsproutcard="Pokémon Trading Card #069 - Bellsprout",
+
+ItemName_pkmncards.070Weepinbellcard="Pokémon Trading Card #070 - Weepinbell",
+
+ItemName_pkmncards.071Victreebelcard="Pokémon Trading Card #071 - Victreebel",
+ItemName_pkmncards.071VictreebelHcard="Pokémon Trading Card #071 - Victreebel (Holo)",
+
+ItemName_pkmncards.072Tentacoolcard="Pokémon Trading Card #072 - Tentacool",
+
+ItemName_pkmncards.073Tentacruelcard="Pokémon Trading Card #073 - Tentacruel",
+
+ItemName_pkmncards.074Geodudecard="Pokémon Trading Card #074 - Geodude",
+
+ItemName_pkmncards.075Gravelercard="Pokémon Trading Card #075 - Graveler",
+
+ItemName_pkmncards.076Golemcard="Pokémon Trading Card #076 - Golem",
+
+ItemName_pkmncards.077Ponytacard="Pokémon Trading Card #077 - Ponyta",
+
+ItemName_pkmncards.078Rapidashcard="Pokémon Trading Card #078 - Rapidash",
+
+ItemName_pkmncards.079Slowpokecard="Pokémon Trading Card #079 - Slowpoke",
+
+ItemName_pkmncards.080Slowbrocard="Pokémon Trading Card #080 - Slowbro",
+
+ItemName_pkmncards.081Magnemitecard="Pokémon Trading Card #081 - Magnemite",
+
+ItemName_pkmncards.082Magnetoncard="Pokémon Trading Card #082 - Magneton",
+ItemName_pkmncards.082MagnetonHcard="Pokémon Trading Card #082 - Magneton (Holo)",
+ItemName_pkmncards.082MagnetonFHcard="Pokémon Trading Card #082 - Magneton (Fossil Holo)",
+
+ItemName_pkmncards.083Farfetch'dcard="Pokémon Trading Card #083 - Farfetch'd",
+
+ItemName_pkmncards.084Doduocard="Pokémon Trading Card #084 - Doduo",
+
+ItemName_pkmncards.085Dodriocard="Pokémon Trading Card #085 - Dodrio",
+
+ItemName_pkmncards.086Seelcard="Pokémon Trading Card #086 - Seel",
+
+ItemName_pkmncards.087Dewgongcard="Pokémon Trading Card #087 - Dewgong",
+
+ItemName_pkmncards.088Grimercard="Pokémon Trading Card #088 - Grimer",
+
+ItemName_pkmncards.089Mukcard="Pokémon Trading Card #089 - Muk",
+ItemName_pkmncards.089MukHcard="Pokémon Trading Card #089 - Muk (Holo)",
+
+ItemName_pkmncards.090Shelldercard="Pokémon Trading Card #090 - Shellder",
+
+ItemName_pkmncards.091Cloystercard="Pokémon Trading Card #091 - Cloyster",
+
+ItemName_pkmncards.092Gastlycard="Pokémon Trading Card #092 - Gastly",
+ItemName_pkmncards.092GastlyFcard="Pokémon Trading Card #092 - Gastly (Fossil)",
+
+ItemName_pkmncards.093Hauntercard="Pokémon Trading Card #093 - Haunter",
+ItemName_pkmncards.093HaunterFcard="Pokémon Trading Card #093 - Haunter (Fossil)",
+ItemName_pkmncards.093HaunterHcard="Pokémon Trading Card #093 - Haunter (Holo)",
+
+ItemName_pkmncards.094Gengarcard="Pokémon Trading Card #094 - Gengar",
+ItemName_pkmncards.094GengarHcard="Pokémon Trading Card #094 - Gengar (Holo)",
+
+ItemName_pkmncards.095Onixcard="Pokémon Trading Card #095 - Onix",
+
+ItemName_pkmncards.096Drowzeecard="Pokémon Trading Card #096 - Drowzee",
+
+ItemName_pkmncards.097Hypnocard="Pokémon Trading Card #097 - Hypno",
+ItemName_pkmncards.097HypnoHcard="Pokémon Trading Card #097 - Hypno (Holo)",
+
+ItemName_pkmncards.098Krabbycard="Pokémon Trading Card #098 - Krabby",
+
+ItemName_pkmncards.099Kinglercard="Pokémon Trading Card #099 - Kingler",
+
+ItemName_pkmncards.100Voltorbcard="Pokémon Trading Card #100 - Voltorb",
+
+ItemName_pkmncards.101Electrodecard="Pokémon Trading Card #101 - Electrode",
+ItemName_pkmncards.101ElectrodeHcard="Pokémon Trading Card #101 - Electrode (Holo)",
+ItemName_pkmncards.101ElectrodeJcard="Pokémon Trading Card #101 - Electrode (Jungle)",
+
+ItemName_pkmncards.102Exeggcutecard="Pokémon Trading Card #102 - Exeggcute",
+
+ItemName_pkmncards.103Exeggutorcard="Pokémon Trading Card #103 - Exeggutor",
+
+ItemName_pkmncards.104Cubonecard="Pokémon Trading Card #104 - Cubone",
+
+ItemName_pkmncards.105Marowakcard="Pokémon Trading Card #105 - Marowak",
+
+ItemName_pkmncards.106Hitmonleecard="Pokémon Trading Card #106 - Hitmonlee",
+ItemName_pkmncards.106HitmonleeHcard="Pokémon Trading Card #106 - Hitmonlee (Holo)",
+
+ItemName_pkmncards.107Hitmonchancard="Pokémon Trading Card #107 - Hitmonchan (Holo)",
+
+ItemName_pkmncards.108Lickitungcard="Pokémon Trading Card #108 - Lickitung",
+
+ItemName_pkmncards.109Koffingcard="Pokémon Trading Card #109 - Koffing",
+
+ItemName_pkmncards.110Weezingcard="Pokémon Trading Card #110 - Weezing",
+
+ItemName_pkmncards.111Rhyhorncard="Pokémon Trading Card #111 - Rhyhorn",
+
+ItemName_pkmncards.112Rhydoncard="Pokémon Trading Card #112 - Rhydon",
+
+ItemName_pkmncards.113Chanseycard="Pokémon Trading Card #113 - Chansey (Holo)",
+
+ItemName_pkmncards.114Tangelacard="Pokémon Trading Card #114 - Tangela",
+
+ItemName_pkmncards.115Kangaskhancard="Pokémon Trading Card #115 - Kangaskhan",
+ItemName_pkmncards.115KangaskhanHcard="Pokémon Trading Card #115 - Kangaskhan (Holo)",
+
+ItemName_pkmncards.116Horseacard="Pokémon Trading Card #116 - Horsea",
+
+ItemName_pkmncards.117Seadracard="Pokémon Trading Card #117 - Seadra",
+
+ItemName_pkmncards.118Goldeencard="Pokémon Trading Card #118 - Goldeen",
+
+ItemName_pkmncards.119Seakingcard="Pokémon Trading Card #119 - Seaking",
+
+ItemName_pkmncards.120Staryucard="Pokémon Trading Card #120 - Staryu",
+
+ItemName_pkmncards.121Starmiecard="Pokémon Trading Card #121 - Starmie",
+
+ItemName_pkmncards.122MrMimecard="Pokémon Trading Card #122 - Mr. Mime",
+ItemName_pkmncards.122MrMimeHcard="Pokémon Trading Card #122 - Mr. Mime (Holo)",
+
+ItemName_pkmncards.123Scythercard="Pokémon Trading Card #123 - Scyther",
+ItemName_pkmncards.123ScytherHcard="Pokémon Trading Card #123 - Scyther (Holo)",
+
+ItemName_pkmncards.124Jynxcard="Pokémon Trading Card #124 - Jynx",
+
+ItemName_pkmncards.125Electabuzzcard="Pokémon Trading Card #125 - Electabuzz",
+
+ItemName_pkmncards.126Magmarcard="Pokémon Trading Card #126 - Magmar",
+ItemName_pkmncards.126MagmarFcard="Pokémon Trading Card #126 - Magmar (Fossil)",
+
+ItemName_pkmncards.127Pinsircard="Pokémon Trading Card #127 - Pinsir",
+ItemName_pkmncards.127PinsirHcard="Pokémon Trading Card #127 - Pinsir (Holo)",
+
+ItemName_pkmncards.128Tauroscard="Pokémon Trading Card #128 - Tauros",
+
+ItemName_pkmncards.129Magikarpcard="Pokémon Trading Card #129 - Magikarp",
+
+ItemName_pkmncards.130Gyaradoscard="Pokémon Trading Card #130 - Gyarados (Holo)",
+
+ItemName_pkmncards.131Laprascard="Pokémon Trading Card #131 - Lapras",
+ItemName_pkmncards.131LaprasHcard="Pokémon Trading Card #131 - Lapras (Holo)",
+
+ItemName_pkmncards.132Dittocard="Pokémon Trading Card #132 - Ditto",
+ItemName_pkmncards.132DittoHcard="Pokémon Trading Card #132 - Ditto (Holo)",
+
+ItemName_pkmncards.133Eeveecard="Pokémon Trading Card #133 - Eevee",
+
+ItemName_pkmncards.134Vaporeoncard="Pokémon Trading Card #134 - Vaporeon",
+ItemName_pkmncards.134VaporeonHcard="Pokémon Trading Card #134 - Vaporeon (Holo)",
+
+ItemName_pkmncards.135Jolteoncard="Pokémon Trading Card #135 - Jolteon",
+ItemName_pkmncards.135JolteonHcard="Pokémon Trading Card #135 - Jolteon (Holo)",
+
+ItemName_pkmncards.136Flareoncard="Pokémon Trading Card #136 - Flareon",
+ItemName_pkmncards.136FlareonHcard="Pokémon Trading Card #136 - Flareon (Holo)",
+
+ItemName_pkmncards.137Porygoncard="Pokémon Trading Card #137 - Porygon",
+
+ItemName_pkmncards.138Omanytecard="Pokémon Trading Card #138 - Omanyte",
+
+ItemName_pkmncards.139Omastarcard="Pokémon Trading Card #139 - Omastar",
+
+ItemName_pkmncards.140Kabutocard="Pokémon Trading Card #140 - Kabuto",
+
+ItemName_pkmncards.141Kabutopscard="Pokémon Trading Card #141 - Kabutops",
+ItemName_pkmncards.141KabutopsHcard="Pokémon Trading Card #141 - Kabutops (Holo)",
+
+ItemName_pkmncards.142Aerodactylcard="Pokémon Trading Card #142 - Aerodactyl",
+ItemName_pkmncards.142AerodactylHcard="Pokémon Trading Card #142 - Aerodactyl (Holo)",
+
+ItemName_pkmncards.143Snorlaxcard="Pokémon Trading Card #143 - Snorlax",
+ItemName_pkmncards.143SnorlaxHcard="Pokémon Trading Card #143 - Snorlax (Holo)",
+
+ItemName_pkmncards.144Articunocard="Pokémon Trading Card #144 - Articuno",
+ItemName_pkmncards.144ArticunoHcard="Pokémon Trading Card #144 - Articuno (Holo)",
+
+ItemName_pkmncards.145Zapdoscard="Pokémon Trading Card #145 - Zapdos",
+ItemName_pkmncards.145ZapdosHcard="Pokémon Trading Card #145 - Zapdos (Holo)",
+ItemName_pkmncards.145ZapdosFHcard="Pokémon Trading Card #145 - Zapdos (Fossil Holo)",
+
+ItemName_pkmncards.146Moltrescard="Pokémon Trading Card #146 - Moltres",
+ItemName_pkmncards.146MoltresHcard="Pokémon Trading Card #146 - Moltres (Holo)",
+
+ItemName_pkmncards.147Dratinicard="Pokémon Trading Card #147 - Dratini",
+
+ItemName_pkmncards.148Dragonaircard="Pokémon Trading Card #148 - Dragonair",
+
+ItemName_pkmncards.149Dragonitecard="Pokémon Trading Card #149 - Dragonite",
+ItemName_pkmncards.149DragoniteHcard="Pokémon Trading Card #149 - Dragonite (Holo)",
+
+ItemName_pkmncards.150Mewtwocard="Pokémon Trading Card #150 - Mewtwo (Holo)",
+
+ItemName_pkmncards.151Mewcard="Pokémon Trading Card #151 - Mew (Holo)",
+
+ItemName_pkmncards.boosterpack="Pokémon Trading Cards Booster Pack (Base Set)",
+ItemName_pkmncards.boosterpackjungle="Pokémon Trading Cards Booster Pack (Jungle Set)",
+ItemName_pkmncards.boosterpackfossil="Pokémon Trading Cards Booster Pack (Fossil Set)",
+
+ItemName_pkmncards.boosterpack_trash="Empty Booster Pack Wrapper",
+
+ItemName_pkmncards.boosterbox="Pokémon Trading Cards Booster Box (Base Set)",
+ItemName_pkmncards.boosterboxjungle="Pokémon Trading Cards Booster Box (Jungle Set)",
+ItemName_pkmncards.boosterboxfossil="Pokémon Trading Cards Booster Box (Fossil Set)",
+
+ItemName_pkmncards.cardbinder_empty="Pokémon Trading Card Binder (Empty)",
+ItemName_pkmncards.cardbinder_full="Pokémon Trading Card Binder (Complete)",
+
+ItemName_pkmncards.pkmn_checklist="Pokémon Trading Cards Checklist",
+
+ItemName_pkmncards.pkmncollectiontin="Pokémon Trading Cards Collection Tin",
+}

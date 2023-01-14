@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>a4407c30-5a4f-4eea-a788-721b2ae48e63</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\shoes_socks_textres\Socks_Thigh-High_Striped</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Socks_Thigh-High_Striped_Blue</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Socks_Thigh-High_Striped_Pink</m_BaseTextures>
+	<m_BaseTextures>clothes\shoes_socks_textres\Socks_Thigh-High_Striped_Red</m_BaseTextures>
+</clothingItem>

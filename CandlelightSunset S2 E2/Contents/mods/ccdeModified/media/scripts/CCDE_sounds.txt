@@ -1,0 +1,22 @@
+module Base {
+
+	sound ccdePrinting {
+		category = CDE: Main, loop = false, is3D = true,
+		clip { file = media/sound/printing1.wav, distanceMax = 10, reverbFactor = 0.1, volume = 0.5, }
+	}
+
+	sound ccdeTypingShort {
+		category = CDE: Main, loop = false, is3D = true,
+		clip { file = media/sound/typing1.wav, distanceMax = 10, reverbFactor = 0.1, volume = 1.0, }
+	}
+
+	sound ccdeTypingLong {
+		category = CDE: Main, loop = false, is3D = true,
+		clip { file = media/sound/typing2.wav, distanceMax = 10, reverbFactor = 0.1, volume = 1.0, }
+	}
+
+	sound ccdeTypingEnter {
+		category = CDE: Main, loop = false, is3D = true,
+		clip { file = media/sound/typing3.wav, distanceMax = 10, reverbFactor = 0.1, volume = 1.0, }
+	}
+}

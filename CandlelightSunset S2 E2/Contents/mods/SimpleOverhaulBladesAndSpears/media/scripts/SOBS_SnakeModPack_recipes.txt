@@ -1,0 +1,24 @@
+module AliceBP
+{
+
+    imports
+    {
+        Base
+
+    }
+
+    recipe Attach Military Knife to Spear
+    {
+        SpearCrafted,
+        AliceBP.MilitaryKnife,
+        DuctTape=1,
+
+        Result:AliceBP.SpearMilitaryKnife,
+        Time:250.0,
+		Override:true,			
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+	
+	
+}

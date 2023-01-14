@@ -1,0 +1,29 @@
+Recipes_ES = {
+    Recipe_Open_Packet_of_Avocado_Seeds = "Paquete abierto de semillas de Aguacate",
+    Recipe_Put_Avocado_Seeds_in_Packet = "Poner semillas de Aguacate en el paquete",
+
+    Recipe_Open_Packet_of_Pepper_Seeds = "Paquete abierto de semillas de Pimiento",
+    Recipe_Put_Pepper_Seeds_in_Packet = "Poner semillas de Pimiento en el paquete",
+
+    Recipe_Open_Packet_of_Corn_Seeds = "Paquete abierto de semillas de Maiz",
+    Recipe_Put_Corn_Seeds_in_Packet = "Poner semillas de Maiz en el paquete",
+
+    Recipe_Open_Packet_of_Eggplant_Seeds = "Paquete abierto de semillas de Berenjena",
+    Recipe_Put_Eggplant_Seeds_in_Packet = "Poner semillas de Berenjena en el paquete",
+
+    Recipe_Open_Packet_of_Leek_Seeds = "Paquete abierto de semillas de Puerro",
+    Recipe_Put_Leek_Seeds_in_Packet = "Poner semillas de Puerro en el paquete",
+
+    Recipe_Open_Packet_of_Lettuce_Seeds = "Paquete abierto de semillas de Lechuga",
+    Recipe_Put_Lettuce_Seeds_in_Packet = "Poner semillas de Lechuga en el paquete",
+
+    Recipe_Open_Packet_of_Onion_Seeds = "Paquete abierto de semillas de Cebolla",
+    Recipe_Put_Onion_Seeds_in_Packet = "Poner semillas de Cebolla en el paquete",
+
+    Recipe_Open_Packet_of_Watermelon_Seeds = "Paquete abierto de semillas de Sandia",
+    Recipe_Put_Watermelon_Seeds_in_Packet = "Poner semillas de Sandia en el paquete",
+
+    Recipe_Open_Packet_of_Zucchini_Seeds = "Paquete abierto de semillas de Calabazin",
+    Recipe_Put_Zucchini_Seeds_in_Packet = "Poner semillas de Calabazin en el paquete",
+}
+© 2022 GitHub, Inc.

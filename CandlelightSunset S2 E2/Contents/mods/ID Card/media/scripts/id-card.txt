@@ -1,0 +1,19 @@
+module 
+{
+    imports
+    {
+        Base
+    }
+
+    item IdentificationCard
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Identification Card,
+        Icon	=	IDCARD,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+}

@@ -1,0 +1,19 @@
+module 
+{
+    imports
+    {
+        Base
+    }
+
+    item FirearmPermitA
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Firearm Permit Class A,
+        Icon	=	GLICENSE1,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+}

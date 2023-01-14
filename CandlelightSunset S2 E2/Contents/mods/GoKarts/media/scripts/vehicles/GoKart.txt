@@ -1,0 +1,258 @@
+module Base
+{
+	model GoKartBase
+	{
+		mesh = vehicles/vehicle_GoKart,
+		shader = vehicle_multiuv,
+		invertX = FALSE,
+		scale = 1,
+	}
+	model KartWheel
+	{
+		mesh = vehicles/vehicle_GoKartWheel,
+		texture = vehicles/wheelkart,
+		shader = vehiclewheel,
+		scale = .35,
+	}
+	vehicleEngineRPM Kart
+	{
+		VERSION = 1,
+		data
+		{
+			gearChange = 5500,
+			afterGearChange = 5500,
+		}
+	}
+	vehicle GoKart
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 2,
+		engineRepairLevel = 6,
+		playerDamageProtection = 0.8,
+		engineRPMType = Kart,
+
+		model
+		{
+			file = GoKartBase,
+			scale = 1.0000,
+			offset = 0.0000 0.1600 0.0000,
+		}
+
+		spawnOffsetY = 0.12999995,
+
+		skin
+		{
+			texture = Vehicles/vehicle_GoKart,
+		}
+
+		textureMask = Vehicles/vehicle_RidingMower_mask,
+		textureLights = Vehicles/vehicle_RidingMower_lights,
+		textureDamage1Overlay = Vehicles/vehicle_RidingMower_blood,
+		textureDamage2Overlay = Vehicles/vehicle_RidingMower_blood,
+		textureDamage1Shell = Vehicles/vehicle_RidingMower_shell_damage_01,
+		textureDamage2Shell = Vehicles/vehicle_RidingMower_shell_damage_02,
+		textureRust = Vehicles/vehicle_RidingMower_rust,
+
+		sound
+		{
+			engine = kart_idle,
+			engineStart = kart_start,
+			engineTurnOff = kart_stop,
+			horn = VehicleHornSportsCar,
+			ignitionFail = kart_fail,
+		}
+
+		extents = 0.7800 0.4400 1.6600,
+		mass = 70,
+		physicsChassisShape = 0.7800 0.4800 1.6400,
+		centerOfMassOffset = 0.0000 0.4400 0.0000,
+		textureShadow = Shadows/GoKart_shadow,
+		shadowExtents = 1.5806 1.7688,
+		shadowOffset = 0.0000 0.0000,
+		engineForce = 1500,
+		engineLoudness = 155,
+		engineQuality = 80,
+		maxSpeed = 30f,
+		gearRatioCount = 1,
+		gearRatioR = 1.5,
+		gearRatio1 = 1.5,
+		stoppingMovementForce = 5.0f,
+		rollInfluence = 0.7f,
+		steeringIncrement = 0.05,
+		steeringClamp = 0.4,
+		suspensionStiffness = 70,
+		suspensionCompression = 3.8,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.3f,
+		wheelFriction = 1.8f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 1,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.5300 0.0700 0.4200,
+			radius = 0.1f,
+			width = 0.20f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.5300 0.0700 0.4200,
+			radius = 0.1f,
+			width = 0.20f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.5800 0.0700 -0.6000,
+			radius = 0.1f,
+			width = 0.20f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.5800 0.0700 -0.6000,
+			radius = 0.1f,
+			width = 0.20f,
+		}
+
+		template = PassengerSeat2,
+
+		passenger FrontLeft
+		{
+			showPassenger = true,
+			hasRoof = false,
+
+			position inside
+			{
+				offset = 0.0000 0.2400 -0.2600,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.6000 -0.1200 -0.1600,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		area Engine
+		{
+			xywh = -0.9300 -0.0500 0.9600 1.0600,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.9000 0.0000 0.9000 0.9800,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = 0.0000 0.1100 0.1600 0.1600,
+		}
+
+		area GasTank
+		{
+			xywh = -0.9300 -0.0500 0.6000 0.6000,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 1.0000 0.4300 0.8000 0.8000,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -1.0300 0.4300 0.8000 0.8000,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 1.0000 -0.4300 0.8000 0.8000,
+		}
+
+		area TireRearRight
+		{
+			xywh = -1.0300 -0.4300 0.8000 0.8000,
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+		template = EngineDoor,
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+
+		part Window*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+
+		part Door*
+		{
+			category = nodisplay,
+			itemType= Base.nil,
+		}
+
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = KartWheel,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = KartWheel,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = KartWheel,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = KartWheel,
+			}
+		}
+
+		template = Suspension,
+		template = Brake,
+	}
+}

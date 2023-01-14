@@ -1,0 +1,15 @@
+name=PKMN Trading Cards v1.2
+id=pkmntradingcards1.2
+description=Adds collectible Pokémon trading cards and booster packs to the game world. Collect 'em all!
+description=
+description=V1.2 Update! Made some changes to item distributions, added a fancy tin to store your cards
+description=and added translation files for other users who need them for translations.
+description=
+description=**EXTREMELY IMPORTANT**
+description=
+description=If you downloaded the original version of this mod, DO NOT activate this version on those
+description=saves, or your cards will be erased. Use the included v1.0 Legacy Version on those saves
+description=instead. For new saves, deactivate the old version and use this version instead.
+description=
+description=And don't use both at the same time, I have no idea what will happen!
+poster=poster.png

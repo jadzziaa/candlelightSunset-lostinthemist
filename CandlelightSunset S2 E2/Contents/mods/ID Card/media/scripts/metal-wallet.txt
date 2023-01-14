@@ -1,0 +1,22 @@
+module WalletPlus
+{
+    imports
+    {
+        Base
+    }
+
+    item MetalWallet
+    {
+		WeightReduction	=	3,
+		Weight	=	0.10,
+		Type	=	Container,
+		Capacity	=	8,
+		DisplayName	=	Metal Wallet,
+		Icon	=	METALWALLET,
+        OpenSound   =   WALLETOPEN,
+        CloseSound   =   WALLETCLOSE,
+        PutInSound   =   WALLETCLOSE,
+        AcceptItemFunction = Accept_Documentation
+        AcceptItemFunction = Accept_Money
+    }
+}

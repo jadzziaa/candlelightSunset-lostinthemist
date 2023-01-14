@@ -1,0 +1,19 @@
+module 
+{
+    imports
+    {
+        Base
+    }
+
+    item HuntingPermit
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Hunting Permit,
+        Icon	=	HLICENSE,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+}

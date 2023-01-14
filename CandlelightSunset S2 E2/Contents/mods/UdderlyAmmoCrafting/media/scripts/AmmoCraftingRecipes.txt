@@ -1,0 +1,1031 @@
+module Base
+{
+	imports
+	{
+		Base
+	}	
+
+	/*Vol.1*/
+	recipe Craft22Round
+	{
+		ScrapMetalBits=1,
+		GunPowder=2,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+		
+		Result:22Bullets,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=1;Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+    
+	recipe Craft9Round
+	{
+		ScrapMetalBits=2,
+		GunPowder=5,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+		
+		Result:Bullets9mm,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=1;Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+
+	recipe Craft38Round
+	{
+		ScrapMetalBits=2,
+		GunPowder=9,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:Bullets38,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=2;Reloading=2,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+
+	recipe Craft45Round
+	{
+		ScrapMetalBits=3,
+		GunPowder=10,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:Bullets45,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=2;Reloading=2,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+
+	recipe Craft556Round
+	{
+		ScrapMetalBits=4,
+		GunPowder=11,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:556Bullets,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=4;Reloading=3,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+
+	recipe Craft223Round
+	{
+		ScrapMetalBits=4,
+		GunPowder=11,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:223Bullets,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=4;Reloading=3,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+
+	recipe Craft44Round
+	{
+		ScrapMetalBits=5,
+		GunPowder=15,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:Bullets44,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=2;Reloading=4,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+
+	recipe Craft12Shell
+	{
+		ScrapMetalBits=6,
+		GunPowder=18,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:ShotgunShells,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=3;Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	recipe Craft308Round
+	{
+		ScrapMetalBits=6,
+		GunPowder=21,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:308Bullets,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=4;Reloading=4,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+    
+	recipe Craft762Round
+	{
+		ScrapMetalBits=6,
+		GunPowder=24,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+	
+		Result:762Bullets,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=4;Reloading=5,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+    
+	/*Vol.2*/
+	recipe Craft22Mag10
+	{
+		ScrapMetal=10,
+		SmallSheetMetal=3,
+		BlowTorch=2,
+		Screws=5,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:22ClipRifle,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=2;Reloading=1,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+	
+	recipe Craft9Mag13
+	{
+		ScrapMetal=13,
+		SmallSheetMetal=3,
+		BlowTorch=2,
+		Screws=5,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		
+		Result:9mmClip13,
+		Sound:Hammering,
+		SkillRequired:MetalWelding=3;Reloading=1,
+		NeedToBeLearn:true,
+	}
+
+	recipe Craft9Mag15
+	{
+		ScrapMetal=15,
+		SmallSheetMetal=3,
+		BlowTorch=2,
+		Screws=6,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:9mmClip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=3;Reloading=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+    
+        recipe Craft9Mag17
+	{
+		ScrapMetal=17,
+		SmallSheetMetal=3,
+		BlowTorch=3,
+		Screws=7,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:9mmClip17,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=3;Reloading=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+    
+        recipe Craft9Mag20
+	{
+		ScrapMetal=20,
+		SmallSheetMetal=4,
+		BlowTorch=3,
+		Screws=8,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:9mmClip20,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=3;Reloading=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+    
+        recipe Craft9Mag30
+	{
+		ScrapMetal=30,
+		SmallSheetMetal=5,
+		BlowTorch=5,
+		Screws=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:9mmClip30,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=4;Reloading=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+
+	recipe Craft45Mag7
+	{
+		ScrapMetal=7,
+		SmallSheetMetal=3,
+		BlowTorch=1,
+		Screws=8,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:45Clip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=3;Reloading=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}	
+
+	recipe Craft44Mag8
+	{
+		ScrapMetal=8,
+		SmallSheetMetal=3,
+		BlowTorch=1,
+		Screws=6,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:44Clip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=3;Reloading=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+    
+	recipe Craft223Mag3
+	{
+		ScrapMetal=3,
+		SmallSheetMetal=3,
+		BlowTorch=1,
+		Screws=4,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:223Clip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=5;Reloading=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+    
+	recipe Craft223Mag20
+	{
+		ScrapMetal=20,
+		SmallSheetMetal=4,
+		BlowTorch=3,
+		Screws=8,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:223Clip20,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=5;Reloading=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+
+	recipe Craft308Mag20
+	{
+		ScrapMetal=20,
+		SmallSheetMetal=4,
+		BlowTorch=3,
+		Screws=8,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:M14Clip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=5;Reloading=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+    
+	recipe Craft308Mag3
+	{
+		ScrapMetal=3,
+		SmallSheetMetal=3,
+		BlowTorch=1,
+		Screws=4,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:308Clip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=5;Reloading=3,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+
+	recipe Craft556Mag30
+	{
+		ScrapMetal=30,
+		SmallSheetMetal=1,
+		SheetMetal,
+		WeldingRods=1,
+		BlowTorch=5,
+		Screws=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:556Clip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=6;Reloading=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+
+	recipe Craft762Mag30
+	{
+		ScrapMetal=30,
+		SmallSheetMetal=1,
+		SheetMetal,
+		WeldingRods=1,
+		BlowTorch=5,
+		Screws=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:762Clip,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=6;Reloading=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	} 
+	
+	/*Vol.3*/
+	
+	/*Bullet cost is approximate, I rounded them to nearest whole number when needed.*/
+	
+	/*.05 per bullet*/
+	recipe Scrap22Round
+	{
+		22Bullets,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;1, /*This one is reduced by 1 instead of 2 because otherwise it'd give nothin, might revisit and do chance in the future.*/
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits50PercentChanceOf1,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.133 per bullet*/
+	recipe Scrap9Round
+	{
+		Bullets9mm,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;3,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits1,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.234 per bullet*/
+	recipe Scrap38Round
+	{
+		Bullets38,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;7,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits1,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.267 per bullet*/
+	recipe Scrap45Round
+	{
+		Bullets45,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;8,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits2,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.285 per bullet*/
+	recipe Scrap556Round
+	{
+		556Bullets,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;9,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits3,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.36 per bullet*/
+	recipe Scrap223Round
+	{
+		223Bullets,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;9,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits3,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.39 per bullet*/
+	recipe Scrap44Round
+	{
+		Bullets44,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;13,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits4,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.49 per bullet*/
+	recipe Scrap12Shell
+	{
+		ShotgunShells,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;16,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits5,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.56 per bulet*/
+	recipe Scrap308Round
+	{
+		308Bullets,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;19,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits5,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*.64 per bullet*/
+	recipe Scrap762Round
+	{
+		762Bullets,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;22,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits5,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	recipe CraftGunpowder
+	{
+		Charcoal=10, /*Whole Bag*/
+		CompostBag=4, /*Whole Bag*/
+		SharpedStone=10,
+		keep [Recipe.GetItemTypes.MortarPestle],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:GunPowder=1, /*Jars*/
+		Time:600.0,
+		Category:Firearm,
+		SkillRequired:Reloading=5,
+		NeedToBeLearn:true,
+	}
+	
+	recipe CraftCharcoal
+	{
+		Log=4,
+		NearItem:Campfire,
+		Result:Charcoal,
+		Time:1440.0,
+		Category:Survivalist,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+	}
+	
+	/*Other*/
+
+	/*Replaced with YeetRecipes.lua*/
+	/*This just, for all intents and purposes, yeets the recipe - obsolete doesn't work on it for some reason.*/
+	/*recipe Gather Gunpowder
+	{
+		Bullets38/Bullets44/Bullets45/Bullets9mm/556Bullets/308Bullets/223Bullets/ShotgunShells,
+
+		Result:GunPowder,
+		Time:30.0,
+		Override:true,
+		IsHidden:true,
+		NeedToBeLearn:true,
+	}*/
+	
+	recipe Combine Scrap Metal Bits
+	{
+		ScrapMetalBits=10,
+		
+		Result:ScrapMetal,
+		Time:15.0,
+	}
+	
+	recipe Divide Scrap Metal Into Bits
+	{
+		ScrapMetal,
+		
+		Result:ScrapMetalBits=10,
+		Time:15.0,
+	}
+	
+	/*Ammo Cans*/
+	
+	recipe PackAmmoCan22
+	{
+		22Box=30,
+		
+		Result:AmmoCan22,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan22
+	{
+		AmmoCan22,
+		
+		Result:22Box=30,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan9
+	{
+		Bullets9mmBox=120,
+		
+		Result:AmmoCan9,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan9
+	{
+		AmmoCan9,
+		
+		Result:Bullets9mmBox=120,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan45
+	{
+		Bullets45Box=24,
+		
+		Result:AmmoCan45,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan45
+	{
+		AmmoCan45,
+		
+		Result:Bullets45Box=24,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan38
+	{
+		Bullets38Box=63,
+		
+		Result:AmmoCan38,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan38
+	{
+		AmmoCan38,
+		
+		Result:Bullets38Box=63,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan44
+	{
+		Bullets44Box=69,
+		
+		Result:AmmoCan44,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan44
+	{
+		AmmoCan44,
+		
+		Result:Bullets44Box=69,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan223
+	{
+		223Box=40,
+		
+		Result:AmmoCan223,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan223
+	{
+		AmmoCan223,
+		
+		Result:223Box=40,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan308
+	{
+		308Box=40,
+		
+		Result:AmmoCan308,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan308
+	{
+		AmmoCan308,
+		
+		Result:308Box=40,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan12
+	{
+		ShotgunShellsBox=30,
+		
+		Result:AmmoCan12,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan12
+	{
+		AmmoCan12,
+		
+		Result:ShotgunShellsBox=30,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan556
+	{
+		556Box=20,
+		
+		Result:AmmoCan556,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan556
+	{
+		AmmoCan556,
+		
+		Result:556Box=20,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCan762
+	{
+		762Box=20,
+		
+		Result:AmmoCan762,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCan762
+	{
+		AmmoCan762,
+		
+		Result:762Box=20,
+		Time:30,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	/*Small Cans*/
+	
+	recipe PackAmmoCanSmall22
+	{
+		22Box=15,
+		
+		Result:AmmoCanSmall22,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall22
+	{
+		AmmoCanSmall22,
+		
+		Result:22Box=15,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall9
+	{
+		Bullets9mmBox=60,
+		
+		Result:AmmoCanSmall9,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall9
+	{
+		AmmoCanSmall9,
+		
+		Result:Bullets9mmBox=60,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall45
+	{
+		Bullets45Box=12,
+		
+		Result:AmmoCanSmall45,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall45
+	{
+		AmmoCanSmall45,
+		
+		Result:Bullets45Box=12,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall38
+	{
+		Bullets38Box=32,
+		
+		Result:AmmoCanSmall38,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall38
+	{
+		AmmoCanSmall38,
+		
+		Result:Bullets38Box=32,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall44
+	{
+		Bullets44Box=34,
+		
+		Result:AmmoCanSmall44,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall44
+	{
+		AmmoCanSmall44,
+		
+		Result:Bullets44Box=34,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall223
+	{
+		223Box=20,
+		
+		Result:AmmoCanSmall223,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall223
+	{
+		AmmoCanSmall223,
+		
+		Result:223Box=20,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall308
+	{
+		308Box=20,
+		
+		Result:AmmoCanSmall308,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall308
+	{
+		AmmoCanSmall308,
+		
+		Result:308Box=20,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall12
+	{
+		ShotgunShellsBox=15,
+		
+		Result:AmmoCanSmall12,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall12
+	{
+		AmmoCanSmall12,
+		
+		Result:ShotgunShellsBox=15,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall556
+	{
+		556Box=10,
+		
+		Result:AmmoCanSmall556,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall556
+	{
+		AmmoCanSmall556,
+		
+		Result:556Box=10,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe PackAmmoCanSmall762
+	{
+		762Box=10,
+		
+		Result:AmmoCanSmall762,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+	
+	recipe UnpackAmmoCanSmall762
+	{
+		AmmoCanSmall762,
+		
+		Result:762Box=10,
+		Time:15,
+		Sound:BoxOfRoundsPlaceAll,
+	}
+}

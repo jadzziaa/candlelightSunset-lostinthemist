@@ -1,0 +1,18 @@
+ItemName_ES = {
+	ItemName_Unlimited.Croptop_Fishnet = "Crop top de rejilla de manga corta",
+	ItemName_Unlimited.Shirt_Fishnet = "Camisa de rejilla",
+	ItemName_Unlimited.Gloves_Fishnet = "Guantes de rejilla",
+	ItemName_Unlimited.Gloves_Fishnet_Long = "Guantes largos de rejilla",
+	ItemName_Unlimited.Gloves_VeryLong = "Guantes muy largos",
+	ItemName_Unlimited.Stockings_Fishnet = "Medias de rejilla",
+	ItemName_Unlimited.Socks_Thigh-High_Sport = "Calcetines altos",
+	ItemName_Unlimited.Socks_Thigh-High_Sport_Black = "Calcetines altos negros",
+	ItemName_Unlimited.Socks_Thigh-High_Striped = "Calcetines altos con rayas",
+	ItemName_Unlimited.Socks_Thigh-High_Striped_Colored = "Calcetines altos con rayas de colores",
+	ItemName_Unlimited.Socks_Thigh-High = "Calcetines altos",
+	ItemName_Unlimited.Socks_Polkadot = "Calcetines con lunares",
+	ItemName_Unlimited.Shoes_Boots_Thigh-High = "Botas altas",
+	ItemName_Unlimited.Shoes_Sneakers = "Zapatillas Conserve altas",
+	ItemName_Unlimited.Shoes_Sneakers_Low = "Zapatillas Conserve",
+	ItemName_Unlimited.Shoes_Trainers = "Zapatillas Sadida",
+}

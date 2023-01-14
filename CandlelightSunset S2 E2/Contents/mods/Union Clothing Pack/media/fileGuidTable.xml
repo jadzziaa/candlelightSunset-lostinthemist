@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+ <files>
+ <path>media/clothing/clothingItems/Jacket_Union.xml</path>
+ <guid>718daf2f-8aa8-4a06-8a3a-0ae37681f193</guid>
+ </files>
+ <files>
+ <path>media/clothing/clothingItems/Hat_Union.xml</path>
+ <guid>ad6a57aa-4b27-4dc3-a878-0752481ef39e</guid>
+ </files>
+ <files>
+ <path>media/clothing/clothingItems/Trousers_Union.xml</path>
+ <guid>bfc671ed-f7fc-4bcf-90fc-788637dce56e</guid>
+ </files>
+<files>
+ <path>media/clothing/clothingItems/Jacket_UnionRank.xml</path>
+ <guid>015c5200-642f-4db0-96f2-e5cdba8dc05b</guid>
+ </files>
+<files>
+ <path>media/clothing/clothingItems/Hat_UnionCowboy.xml</path>
+ <guid>6c2d0043-157e-48e8-8cc0-77c26af05b1c</guid>
+ </files>
+
+</fileGuidTable>

@@ -1,0 +1,93 @@
+--Boots Expanded 5.2
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2850935956
+if getActivatedMods():contains("SM4BootsExpanded") then
+--Clothing - Feet
+GaistUtils.doParam("Base.Shoes_ArmyBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_ArmyBootsDesert","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_BlackBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Black","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Brown","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Random","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_RidingBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Wellies","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Fancy","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Strapped","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_BlueTrainers","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_RedTrainers","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_TrainerTINT","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Slippers","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_FlipFlop","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Bowling","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_HikingBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_DrMartens","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_BikerBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_CowboyBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_StrappedBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_JungleBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_FancyBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_PlatformBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_GothBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Satanias","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Oldrocks","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Steelettos","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_KneeHighs","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_HelledBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_PunkBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Hitops","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_ConverseSnickers","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_ConverseBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_LongWinterBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Moccasins","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_MoccasinBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_Sneakers","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_WorkBoots","DisplayCategory","ClothF");
+GaistUtils.doParam("Base.Shoes_BootsBrown","DisplayCategory","ClothF");
+--Clothing - Feet (Socks)
+GaistUtils.doParam("Base.Socks_Ankle","DisplayCategory","ClothFS");
+GaistUtils.doParam("Base.Socks_Long","DisplayCategory","ClothFS");
+--Clothing - Hands
+GaistUtils.doParam("Base.Gloves_BXFishnets","DisplayCategory","ClothHW");
+--Clothing - Legs
+GaistUtils.doParam("Base.Trousers_Denim","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Denim_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Shorts_LongDenim","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Shorts_ShortDenim","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_JeanBaggy","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.TrousersMesh_Leather","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_LeatherBlack","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoGreen","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoGreen_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Shorts_CamoGreenLong","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoGreen_Shorts","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoDesert","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoDesert_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoDesert_Shorts","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoUrban","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoUrban_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Shorts_CamoUrbanLong","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_CamoUrban_Shorts","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Fireman","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Fireman_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Padded","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Padded_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Police","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Police_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_PoliceGrey","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_PoliceGrey_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_PrisonGuard","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_PrisonGuard_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Ranger","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Ranger_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_ArmyService","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_ArmyService_Thight","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_Suit","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_SuitTEXTURE","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_SuitWhite","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_WhiteTEXTURE","DisplayCategory","ClothL");
+GaistUtils.doParam("Base.Trousers_WhiteTINT","DisplayCategory","ClothL");
+--Clothing - Torso (Underwear)
+GaistUtils.doParam("Base.Corset_LeatherBlack","DisplayCategory","ClothTU");
+--Clothing - Underwear
+GaistUtils.doParam("Base.Male_Undies","DisplayCategory","ClothU");
+end

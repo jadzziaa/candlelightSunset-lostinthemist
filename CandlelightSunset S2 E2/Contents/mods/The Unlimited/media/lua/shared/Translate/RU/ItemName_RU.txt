@@ -1,0 +1,18 @@
+ItemName_RU = {
+	ItemName_Unlimited.Croptop_Fishnet = "Сетчатый топ",
+	ItemName_Unlimited.Shirt_Fishnet = "Сетчатая футболка с длинным рукавом",
+	ItemName_Unlimited.Gloves_Fishnet = "Сетчатые перчатки",
+	ItemName_Unlimited.Gloves_Fishnet_Long = "Длинные сетчатые перчатки",
+	ItemName_Unlimited.Gloves_VeryLong = "Очень длинные перчатки",
+	ItemName_Unlimited.Stockings_Fishnet = "Ажурные чулки",
+	ItemName_Unlimited.Socks_Thigh-High_Sport = "Носки до бедра спортивные",
+	ItemName_Unlimited.Socks_Thigh-High_Sport_Black = "Носки до бедра спортивные Черный",
+	ItemName_Unlimited.Socks_Thigh-High_Striped = "Носки до бедра полосатые",
+	ItemName_Unlimited.Socks_Thigh-High_Striped_Colored = "Носки до бедра полосатые",
+	ItemName_Unlimited.Socks_Thigh-High = "Носки до бедра",
+	ItemName_Unlimited.Socks_Polkadot = "Носки в горошек",
+	ItemName_Unlimited.Shoes_Boots_Thigh-High = "Ботинки до бедра",
+	ItemName_Unlimited.Shoes_Sneakers = "Кеды Conserve",
+	ItemName_Unlimited.Shoes_Sneakers_Low = "Низкие кеды Conserve",
+	ItemName_Unlimited.Shoes_Trainers = "Кроссовки Sadida",
+}

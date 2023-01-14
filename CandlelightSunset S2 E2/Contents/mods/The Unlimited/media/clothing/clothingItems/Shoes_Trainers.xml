@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_Shoes_Sneakers_Low.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\F_Shoes_Sneakers_Low.X</m_FemaleModel>
+	<m_GUID>f56b2441-9931-4be9-8480-33a92522ef4f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\shoes_socks_textres\Shoes_Trainers_Black_n_White</textureChoices>
+</clothingItem>

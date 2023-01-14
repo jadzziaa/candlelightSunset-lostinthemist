@@ -1,0 +1,17 @@
+Recipes_EN = {
+	Recipe_ReconditionAA12 = "Recondition AA-12 Shotgun",
+	Recipe_ReconditionAUGA9MM = "Recondition AUG A3 Para",
+	Recipe_ReconditionColtPython = "Recondition Colt Python",
+	Recipe_ReconditionM40 = "Recondition M40 Rifle",
+	Recipe_ReconditionM60 = "Recondition M60 Machinegun",
+	Recipe_ReconditionM249 = "Recondition M249 Machinegun",
+	Recipe_ReconditionStriker = "Recondition Striker Shotgun",
+	
+	Recipe_CraftMagAA12 = "Craft AA-12 Magazine",
+	Recipe_CraftMagAUGA9MM = "Craft AUG Magazine",
+	Recipe_CraftMagM60 = "Craft M60 Magazine",
+	Recipe_CraftMagM249 = "Craft M249 Magazine",
+	
+	Recipe_Open357Box ="Open Box Of .357",
+	Recipe Fill357Box ="Place .357 In Box", 
+}

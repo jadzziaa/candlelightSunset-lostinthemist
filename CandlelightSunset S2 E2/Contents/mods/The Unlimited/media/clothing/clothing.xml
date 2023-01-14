@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedPolka1</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2369</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_Top>true</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--FISHNET STOCKINGS-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>1834095c-0a78-11ed-861d-0242ac120002</itemGUID>
+		</m_items>
+		<!--POLKADOT SOCKS-->
+		<m_items>
+			<itemGUID>b4863d73-7h2n-6frg-m789-138a9da61se7</itemGUID>
+		</m_items>
+		<!--TRAINERS-->
+		<m_items>
+			<itemGUID>f56b2441-9931-4be9-8480-33a92522ef4f</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedPolka2</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2370</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_Top>true</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--POLKADOT SOCKS-->
+		<m_items>
+			<itemGUID>b4863d73-7h2n-6frg-m789-138a9da61se7</itemGUID>
+		</m_items>
+		<!--SNEAKERS_LOW-->
+		<m_items>
+			<itemGUID>13891ad5-259f-4309-94cf-bb6e5fddd939</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>UnlimitedPolka3</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2369</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_Top>true</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--POLKADOT SOCKS-->
+		<m_items>
+			<itemGUID>b4863d73-7h2n-6frg-m789-138a9da61se7</itemGUID>
+		</m_items>
+		<!--SNEAKERS-->
+		<m_items>
+			<itemGUID>ed927ec8-602c-44d2-8e84-080dbffb7cfc</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>UnlimitedPolka4</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2370</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_Top>true</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--POLKADOT SOCKS-->
+		<m_items>
+			<itemGUID>b4863d73-7h2n-6frg-m789-138a9da61se7</itemGUID>
+		</m_items>
+		<!--SNEAKERS_LOW-->
+		<m_items>
+			<itemGUID>13891ad5-259f-4309-94cf-bb6e5fddd939</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighs1</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2371</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--LONG FISHNET GLOVES-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>88781acb-33d2-4c7b-898c-b15b415e093b</itemGUID>
+		</m_items>
+		<!--CROPTOP FISHNET-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b854a976-31j2-45a2-bd8h-6a2134076f47</itemGUID>
+		</m_items>
+		<!--CROPTOP-->
+		<m_items>
+			<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--FISHNETS-->
+		<m_items>
+			<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS SPORT-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48ee6</itemGUID>
+		</m_items>
+		<!--BLACK BOOTS-->
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighs2</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2372</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--LONG FISHNET GLOVES-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>88781acb-33d2-4c7b-898c-b15b415e093b</itemGUID>
+		</m_items>
+		<!--CROPTOP FISHNET-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b854a976-31j2-45a2-bd8h-6a2134076f47</itemGUID>
+		</m_items>
+		<!--CROPTOP-->
+		<m_items>
+			<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--FISHNETS-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS SPORT-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48ee6</itemGUID>
+		</m_items>
+		<!--BLACK SHOES-->
+		<m_items>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighs3</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2373</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--FISHNET GLOVES-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>be1d1a02-daca-4628-ac6f-36965a11b526</itemGUID>
+		</m_items>
+		<!--SHIRT FISHNET-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>c854a357-31j2-21a2-bd3h-6a2486317f16</itemGUID>
+		</m_items>
+		<!--CROPTOP NO ARMS-->
+		<m_items>
+			<itemGUID>06234961-aab3-4ce4-b5d2-2a7e5af074fb</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--FISHNETS-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS SPORT-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48ee6</itemGUID>
+		</m_items>
+		<!--BLACK SHOES-->
+		<m_items>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighs4</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2374</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--FISHNET GLOVES-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>be1d1a02-daca-4628-ac6f-36965a11b526</itemGUID>
+		</m_items>
+		<!--SHIRT FISHNET-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>c854a357-31j2-21a2-bd3h-6a2486317f16</itemGUID>
+		</m_items>
+		<!--CROPTOP NO ARMS-->
+		<m_items>
+			<itemGUID>06234961-aab3-4ce4-b5d2-2a7e5af074fb</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--FISHNETS-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS SPORT-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48ee6</itemGUID>
+		</m_items>
+		<!--BROWN SHOES-->
+		<m_items>
+			<itemGUID>c0a3a194-2ee9-4ce5-9d7a-aa1d5e031cea</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighs5</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2375</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--CROPTOP NO ARMS-->
+		<m_items>
+			<itemGUID>06234961-aab3-4ce4-b5d2-2a7e5af074fb</itemGUID>
+		</m_items>
+		<!--VERY LONG GLOVES-->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>dcdff6f9-f760-4488-af40-121cba556a57</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS SPORT-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48ee6</itemGUID>
+		</m_items>
+		<!--THIGH HIGH BOOTS-->
+		<m_items>
+			<itemGUID>628f89b2-4274-4dba-bb82-fb4f97119fd3</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighs6</m_Name>
+		<m_Guid>unlimitedc-132e-569f-0e8b-405026df3496</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--CROPTOP NO ARMS-->
+		<m_items>
+			<itemGUID>06234961-aab3-4ce4-b5d2-2a7e5af074fb</itemGUID>
+		</m_items>
+		<!--VERY LONG GLOVES-->
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>dcdff6f9-f760-4488-af40-121cba556a57</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS SPORT BLACK-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48ee6</itemGUID>
+		</m_items>
+		<!--THIGH HIGH BOOTS-->
+		<m_items>
+			<itemGUID>628f89b2-4274-4dba-bb82-fb4f97119fd3</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighsStripeless1</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2376</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--CROPTOP FISHNET-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>b854a976-31j2-45a2-bd8h-6a2134076f47</itemGUID>
+		</m_items>
+		<!--CROPTOP-->
+		<m_items>
+			<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--FISHNETS-->
+		<m_items>
+			<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48e61</itemGUID>
+		</m_items>
+		<!--BLACK BOOTS-->
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighsStripeless2</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2377</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--CROPTOP FISHNET-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b854a976-31j2-45a2-bd8h-6a2134076f47</itemGUID>
+		</m_items>
+		<!--CROPTOP-->
+		<m_items>
+			<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48e61</itemGUID>
+		</m_items>
+		<!--SNEAKERS-->
+		<m_items>
+			<itemGUID>ed927ec8-602c-44d2-8e84-080dbffb7cfc</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighsStripeless3</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2378</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--CROPTOP-->
+		<m_items>
+			<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-921b2ae48e61</itemGUID>
+		</m_items>
+		<!--SNEAKERS_LOW-->
+		<m_items>
+			<itemGUID>13891ad5-259f-4309-94cf-bb6e5fddd939</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighsStriped1</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce2389</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_Top>false</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--SHIRT FISHNET-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>c854a357-31j2-21a2-bd3h-6a2486317f16</itemGUID>
+		</m_items>
+		<!--CROPTOP-->
+		<m_items>
+			<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS STRIPED-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-821b2ae48e62</itemGUID>
+		</m_items>
+		<!--TRAINERS-->
+		<m_items>
+			<itemGUID>f56b2441-9931-4be9-8480-33a92522ef4f</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>UnlimitedThighsStriped2</m_Name>
+		<m_Guid>unlimitedc-021d-458e-9d7a-395026ce1498</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>true</m_Top>
+		<!--GLASSES NORMAL-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--NOSERING SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--EARRING STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--EARRING LOOP SMALL SILVER TOP-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--BRACELET CHAIN RIGHT SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+		</m_items>
+		<!--BELLY BUTTON STUD SILVER-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+		</m_items>
+		<!--FISHNET GLOVES-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>be1d1a02-daca-4628-ac6f-36965a11b526</itemGUID>
+		</m_items>
+		<!--SHIRT FISHNET-->
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>c854a357-31j2-21a2-bd3h-6a2486317f16</itemGUID>
+		</m_items>
+		<!--MINISKIRT-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--THIGH HIGH SOCKS STRIPED COLORED-->
+		<m_items>
+			<itemGUID>a4407c30-5a4f-4eea-a788-721b2ae48e63</itemGUID>
+		</m_items>
+		<!--TRAINERS-->
+		<m_items>
+			<itemGUID>f56b2441-9931-4be9-8480-33a92522ef4f</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+</outfitManager>

@@ -1,0 +1,18 @@
+ItemName_TH = {
+	ItemName_Unlimited.Croptop_Fishnet = "เสื้อครอปตาข่าย",
+	ItemName_Unlimited.Shirt_Fishnet = "เสื้อตาข่าย",
+	ItemName_Unlimited.Gloves_Fishnet = "ถุงมือตาข่าย",
+	ItemName_Unlimited.Gloves_Fishnet_Long = "ถุงมือตาข่ายยาว",
+	ItemName_Unlimited.Gloves_VeryLong = "ถุงมือยาว",
+	ItemName_Unlimited.Stockings_Fishnet = "ถุงน่องตาข่าย",
+	ItemName_Unlimited.Socks_Thigh-High_Sport = "ถุงเท้ากีฬายาว",
+	ItemName_Unlimited.Socks_Thigh-High_Sport_Black = "ถุงเท้ากีฬายาว สีดำ",
+	ItemName_Unlimited.Socks_Thigh-High_Striped = "ถุงเท้ากีฬาย ลายทาง",
+	ItemName_Unlimited.Socks_Thigh-High_Striped_Colored = "ถุงเท้ากีฬายาว แถบสี",
+	ItemName_Unlimited.Socks_Thigh-High = "ถุงเท้ากีฬายาว",
+	ItemName_Unlimited.Socks_Polkadot = "ถุงเท้าลายจุด",
+	ItemName_Unlimited.Shoes_Boots_Thigh-High = "รองเท้าบูทแบบสูง",
+	ItemName_Unlimited.Shoes_Sneakers = "Conserve",
+	ItemName_Unlimited.Shoes_Sneakers_Low = "Conserve Low",
+	ItemName_Unlimited.Shoes_Trainers = "Sadida Sneakers",
+}

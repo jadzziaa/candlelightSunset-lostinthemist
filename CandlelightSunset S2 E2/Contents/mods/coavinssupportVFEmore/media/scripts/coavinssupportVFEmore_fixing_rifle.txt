@@ -1,0 +1,92 @@
+module coavinsfirearms {
+	imports {
+		Base
+	}
+
+	fixing Fix AK47_Receiver CleaningKit
+	{
+		Require : AK47_Receiver,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix AK47_GasTube
+	{
+		Require : AK47_GasTube,
+
+		Fixer : CleaningKit=1; Aiming=4,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix AK47_BoltCarrier CleaningKit
+	{
+		Require : AK47_BoltCarrier,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix AK47_Bolt CleaningKit
+	{
+		Require : SKS_Bolt,
+
+		Fixer : CleaningKit=1; Aiming=4,
+		Fixer : FireKlean; Aiming=1,
+	}
+	fixing Fix SKS_Receiver CleaningKit
+	{
+		Require : SKS_Receiver,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix SKS_GasPiston
+	{
+		Require : SKS_GasPiston,
+
+		Fixer : CleaningKit=1; Aiming=4,
+		Fixer : FireKlean; Aiming=2,
+	}
+
+	fixing Fix SKS_TriggerAssembly CleaningKit
+	{
+		Require : SKS_TriggerAssembly,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix SKS_MagazineAssembly CleaningKit
+	{
+		Require : SKS_MagazineAssembly,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix SKS_BoltCarrier CleaningKit
+	{
+		Require : SKS_BoltCarrier,
+
+		Fixer : CleaningKit=1; Aiming=3,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix SKS_Bolt CleaningKit
+	{
+		Require : SKS_Bolt,
+
+		Fixer : CleaningKit=1; Aiming=4,
+		Fixer : FireKlean; Aiming=1,
+	}
+
+	fixing Fix SKS_FiringPin CleaningKit
+	{
+		Require : SKS_FiringPin,
+
+		Fixer : FireKlean=2; Aiming=6,
+		Fixer : CleaningKit=1; Aiming=4,
+	}	
+}

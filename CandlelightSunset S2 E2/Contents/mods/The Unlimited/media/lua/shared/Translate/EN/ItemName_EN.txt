@@ -1,0 +1,18 @@
+ItemName_EN = {
+	ItemName_Unlimited.Croptop_Fishnet = "Fishnet Croptop",
+	ItemName_Unlimited.Shirt_Fishnet = "Fishnet Shirt",
+	ItemName_Unlimited.Gloves_Fishnet = "Fishnet Gloves",
+	ItemName_Unlimited.Gloves_Fishnet_Long = "Fishnet Gloves Long",
+	ItemName_Unlimited.Gloves_VeryLong = "Very Long Gloves",
+	ItemName_Unlimited.Stockings_Fishnet = "Fishnet Stockings",
+	ItemName_Unlimited.Socks_Thigh-High_Sport = "Thigh-High Sport Socks",
+	ItemName_Unlimited.Socks_Thigh-High_Sport_Black = "Thigh-High Sport Socks Black",
+	ItemName_Unlimited.Socks_Thigh-High_Striped = "Thigh-High Socks Striped",
+	ItemName_Unlimited.Socks_Thigh-High_Striped_Colored = "Thigh-High Socks Colored Stripes",
+	ItemName_Unlimited.Socks_Thigh-High = "Thigh-High Socks",
+	ItemName_Unlimited.Socks_Polkadot = "Polkadot Socks",
+	ItemName_Unlimited.Shoes_Boots_Thigh-High = "Thigh-High Boots",
+	ItemName_Unlimited.Shoes_Sneakers = "Conserve",
+	ItemName_Unlimited.Shoes_Sneakers_Low = "Conserve Low",
+	ItemName_Unlimited.Shoes_Trainers = "Sadida Sneakers",
+}

@@ -1,0 +1,103 @@
+module Base
+{
+	imports    
+    {
+		Base
+	}
+    item MagAA12
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	1.2,
+        Type	         =	Normal,
+        DisplayName	 =      AA-12 Drum,
+        Icon	         =	MagAA12,
+        MaxAmmo          = 32,
+        AmmoType         = Base.ShotgunShells,
+        GunType          = AA12,
+        WorldStaticModel = MagAA12,
+	}
+	
+    item 357Magnum
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	0.045,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.357 Ammo,
+        Icon	=	357Bullet,
+        MetalValue = 1,
+        WorldStaticModel = 357Magnum,
+    }
+
+    item 357MagnumBox
+    {
+        DisplayCategory = Ammo,
+        Weight	=	1.9,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .357 Bullets,
+        Icon	=	357Box,
+        MetalValue = 40,
+        WorldStaticModel = 357MagnumBox,
+        PlaceOneSound = BoxOfRoundsPlaceOne,
+        PlaceMultipleSound = BoxOfRoundsPlaceAll,
+    }
+     recipe Open357Box
+	{
+		357MagnumBox,
+		Result:357Magnum=30,
+		Category:Firearm,		
+		Sound:PutItemInBag,
+		Time:2.0,
+	}
+	recipe Fill357Box
+	{
+	      357Magnum=30,
+	      Result:357MagnumBox,
+		Category:Firearm,
+        	Sound:PutItemInBag,
+	      Time:2.0,
+	}
+     item MagAUGA9MM
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.3,
+        Type	         =	Normal,
+        DisplayName	 =      AUG A3 Para Magazine,
+        Icon	         =	AUG9MMMag,
+        MaxAmmo          = 32,
+        AmmoType         = Base.Bullets9mm,
+        GunType          = AUGA9MM,
+        WorldStaticModel = MagAUGA9MM,
+	}
+     item MagM60
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.8,
+        Type	         =	Normal,
+        DisplayName	 =      M60 Magazine,
+        Icon	         =	MagM60,
+        MaxAmmo          = 100,
+        AmmoType         = Base.Bullets308,
+        GunType          = M60,
+        WorldStaticModel = MagM60,
+	}
+     item MagM249
+    {
+        DisplayCategory  = Ammo,
+        CanStack	 =	FALSE,
+        Weight	         =	0.6,
+        Type	         =	Normal,
+        DisplayName	 =      M249 Magazine,
+        Icon	         =	MagM249,
+        MaxAmmo          = 200,
+        AmmoType         = Base.556Bullets,
+        GunType          = M249,
+        WorldStaticModel = MagM249,
+	}
+}
+

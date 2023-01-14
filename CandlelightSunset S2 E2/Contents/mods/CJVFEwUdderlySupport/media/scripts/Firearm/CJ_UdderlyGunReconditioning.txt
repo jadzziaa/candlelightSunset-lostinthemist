@@ -1,0 +1,190 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+	recipe ReconditionAA12
+	{
+		AA12=1,
+		ScrapMetal=100,
+		MetalPipe=1,
+		SmallSheetMetal=4,
+		SheetMetal=1,
+		MetalBar=1,
+		Screws=16,
+		BlowTorch=8.5,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=5;Maintenance=6,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:AA12,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionAUGA9MM
+	{
+		AUGA9MM=1,
+		ScrapMetal=90,
+		MetalPipe=1,
+		SmallSheetMetal=4,
+		MetalBar=2,
+		Screws=16,
+		BlowTorch=8.5,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=5;Maintenance=6,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:AUGA9MM,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionColtPython
+	{
+		ColtPython=1,
+		ScrapMetal=40,
+		SmallSheetMetal=1,
+		Screws=4,
+		BlowTorch=5,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=9;Aiming=5;Maintenance=2,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:ColtPython,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionM40
+	{
+		M40=1,
+		ScrapMetal=100,
+		MetalPipe=1,
+		SmallSheetMetal=1,
+		Plank=1,
+		Screws=12,
+		BlowTorch=7,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=6;Maintenance=3,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:M40,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionM60
+	{
+		M60=1,
+		ScrapMetal=200,
+		SheetMetal=2,
+		MetalPipe=1,
+		SmallSheetMetal=3,
+		MetalBar=2,
+		Screws=20,
+		BlowTorch=12,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=10;Aiming=10;Maintenance=9,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:M60,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionM249
+	{
+		M249=1,
+		ScrapMetal=220,
+		SheetMetal=2,
+		MetalPipe=1,
+		SmallSheetMetal=2,
+		MetalBar=2,
+		Screws=22,
+		BlowTorch=12,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=10;Aiming=10;Maintenance=9,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:M249,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionStriker
+	{
+		Striker=1,
+		ScrapMetal=100,
+		SheetMetal=1,
+		MetalPipe=1,
+		MetalBar=1,
+		SmallSheetMetal=3,
+		Screws=14,
+		BlowTorch=9,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=10;Aiming=6;Maintenance=5,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:Striker,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+}

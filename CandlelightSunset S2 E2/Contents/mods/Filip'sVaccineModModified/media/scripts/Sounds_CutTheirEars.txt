@@ -1,0 +1,14 @@
+module CutTheirEarsSounds{
+    imports {
+        Base
+    }
+
+    sound EarBeingCut {
+        category = Item,
+        clip
+        {
+            file = media/sound/EarBeingCut.ogg,
+        }
+    }
+}
+

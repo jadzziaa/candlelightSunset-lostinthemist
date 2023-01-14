@@ -1,0 +1,19 @@
+module 
+{
+    imports
+    {
+        Base
+    }
+
+    item VehicleRegistration
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Vehicle Registration,
+        Icon	=	VREGISTRATION,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+}

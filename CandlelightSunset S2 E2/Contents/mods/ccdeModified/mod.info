@@ -1,0 +1,4 @@
+name=Clerk Computer Data Entry
+poster=poster.png
+id=ccde_base
+description=Adds the ability to print various documents via clerk computer data entry.

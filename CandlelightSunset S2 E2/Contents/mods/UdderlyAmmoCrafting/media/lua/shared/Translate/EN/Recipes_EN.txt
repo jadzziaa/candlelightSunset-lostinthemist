@@ -1,0 +1,96 @@
+Recipes_EN = 
+{
+	/*Vol.1*/
+	Recipe_Craft22Round = "Craft .22 Round",
+	Recipe_Craft9Round = "Craft 9mm Round",
+	Recipe_Craft38Round = "Craft .38 Special Round",
+	Recipe_Craft45Round = "Craft .45 Auto Round",
+	Recipe_Craft556Round = "Craft 5.56mm Round",
+	Recipe_Craft223Round = "Craft .223 Round",
+	Recipe_Craft44Round = "Craft .44 Magnum Round",
+	Recipe_Craft12Shell = "Craft 12g Shell",
+	Recipe_Craft308Round = "Craft .308 Round",
+	Recipe_Craft762Round = "Craft 7.62mm Round",	
+	
+	/*Vol.2*/
+	Recipe_Craft22Mag10 = "Craft .22 10-Round Magazine",
+	Recipe_Craft9Mag13 = "Craft 9mm 13-Round Magazine",
+	Recipe_Craft9Mag15 = "Craft 9mm 15-Round Magazine",
+	Recipe_Craft9Mag17 = "Craft 9mm 17-Round Magazine",
+	Recipe_Craft9Mag20= "Craft 9mm 20-Round Magazine",
+	Recipe_Craft9Mag30= "Craft 9mm 30-Round Magazine",
+	Recipe_Craft45Mag7 = "Craft .45 7-Round Magazine",
+	Recipe_Craft44Mag8 = "Craft .44 8-Round Magazine",
+	Recipe_Craft223Mag3 = "Craft .223 3-Round Magazine",
+	Recipe_Craft223Mag20 = "Craft .223 20-Round Magazine",
+	Recipe_Craft308Mag20 = "Craft .308 20-Round Magazine",
+	Recipe_Craft308Mag3 = "Craft .308 3-Round Magazine",
+	Recipe_Craft556Mag30 = "Craft 5.56mm 30-Round Magazine",
+	Recipe_Craft762Mag30 = "Craft 7.62mm 30-Round Magazine",
+	
+	/*Vol.3*/
+	Recipe_CraftGunpowder = "Craft Gunpowder",
+	Recipe_CraftCharcoal = "Craft Charcoal",
+	Recipe_Scrap22Round = "Scrap .22 Round",
+	Recipe_Scrap9Round = "Scrap 9mm Round",
+	Recipe_Scrap38Round = "Scrap .38 Special Round",
+	Recipe_Scrap45Round = "Scrap .45 Auto Round",
+	Recipe_Scrap556Round = "Scrap 5.56mm Round",
+	Recipe_Scrap223Round = "Scrap .223 Round",
+	Recipe_Scrap44Round = "Scrap .44 Magnum Round",
+	Recipe_Scrap12Shell = "Scrap 12g Shell",
+	Recipe_Scrap308Round = "Scrap .308 Round",
+	Recipe_Scrap762Round = "Scrap 7.62mm Round",
+	
+	/*Pack Ammo Can*/
+	Recipe_PackAmmoCan22="Pack .22 Ammo Can",
+	Recipe_PackAmmoCan9="Pack 9mm Ammo Can",
+	Recipe_PackAmmoCan45="Pack .45 Ammo Can",
+	Recipe_PackAmmoCan38="Pack .38 Ammo Can",
+	Recipe_PackAmmoCan44="Pack .44 Ammo Can",
+	Recipe_PackAmmoCan223="Pack .223 Ammo Can",
+	Recipe_PackAmmoCan308="Pack .308 Ammo Can",
+	Recipe_PackAmmoCan12="Pack 12g Ammo Can",
+	Recipe_PackAmmoCan556="Pack 5.56mm Ammo Can",
+	Recipe_PackAmmoCan762="Pack 7.62mm Ammo Can",
+	
+	/*Unpack Ammo Can*/
+	Recipe_UnpackAmmoCan22="Unpack .22 Ammo Can",
+	Recipe_UnpackAmmoCan9="Unpack 9mm Ammo Can",
+	Recipe_UnpackAmmoCan45="Unpack .45 Ammo Can",
+	Recipe_UnpackAmmoCan38="Unpack .38 Ammo Can",
+	Recipe_UnpackAmmoCan44="Unpack .44 Ammo Can",
+	Recipe_UnpackAmmoCan223="Unpack .223 Ammo Can",
+	Recipe_UnpackAmmoCan308="Unpack .308 Ammo Can",
+	Recipe_UnpackAmmoCan12="Unpack 12g Ammo Can",
+	Recipe_UnpackAmmoCan556="Unpack 5.56mm Ammo Can",
+	Recipe_UnpackAmmoCan762="Unpack 7.62mm Ammo Can",
+	
+	/*Pack Ammo Can*/
+	Recipe_PackAmmoCanSmall22="Pack .22 Small Ammo Can",
+	Recipe_PackAmmoCanSmall9="Pack 9mm Small Ammo Can",
+	Recipe_PackAmmoCanSmall45="Pack .45 Small Ammo Can",
+	Recipe_PackAmmoCanSmall38="Pack .38 Small Ammo Can",
+	Recipe_PackAmmoCanSmall44="Pack .44 Small Ammo Can",
+	Recipe_PackAmmoCanSmall223="Pack .223 Small Ammo Can",
+	Recipe_PackAmmoCanSmall308="Pack .308 Small Ammo Can",
+	Recipe_PackAmmoCanSmall12="Pack 12g Small Ammo Can",
+	Recipe_PackAmmoCanSmall556="Pack 5.56mm Small Ammo Can",
+	Recipe_PackAmmoCanSmall762="Pack 7.62mm Small Ammo Can",
+	
+	/*Unpack Ammo Can*/
+	Recipe_UnpackAmmoCanSmall22="Unpack .22 Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall9="Unpack 9mm Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall45="Unpack .45 Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall38="Unpack .38 Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall44="Unpack .44 Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall223="Unpack .223 Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall308="Unpack .308 Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall12="Unpack 12g Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall556="Unpack 5.56mm Small Ammo Can",
+	Recipe_UnpackAmmoCanSmall762="Unpack 7.62mm Small Ammo Can",
+	
+	/*Other*/
+	Recipe_Combine_Scrap_Metal_Bits = "Combine Scrap Metal Bits",
+	Recipe_Divide_Scrap_Metal_Into_Bits = "Divide Scrap Metal Into Bits",
+}

@@ -1,0 +1,193 @@
+module Insurgent
+{
+
+	item DeployedParachute
+	{
+		Type = Normal,
+        DisplayName = Deployed Parachute,
+        Icon = DeployedParachute,
+        Weight 	= 10,
+		WorldStaticModel = DeployedParachute,
+	}
+	
+	item Sample1
+	{
+		Type = Normal,
+        DisplayName	= Experimental Vial,
+        Icon = Sample1,
+        Weight 	= 0.2,
+		WorldStaticModel = Sample1,
+	}	
+	
+	item ClassifiedDocument
+	{
+		Type = Normal,
+        DisplayName = Classified Document,
+        Icon = ClassifiedDocument,
+        Weight = 0.5,
+		WorldStaticModel = ClassifiedDocument,
+	}		
+
+	item Vest_BulletArmyInsurgent
+	{
+		Type = Clothing,
+        DisplayName = Insurgent Military Bulletproof Vest,
+        ClothingItem = Vest_BulletArmyInsurgent,
+        BodyLocation = TorsoExtra,
+        Icon = BulletVestInsurgent,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        BiteDefense	= 50,
+        ScratchDefense = 75,
+        BulletDefense = 100,
+        WorldStaticModel = BulletVest_Ground,
+		Weight 	= 2.0,
+	}
+
+    item Hat_ArmyInsurgent
+	{
+		Type = Clothing,
+		DisplayName	= Insurgent Military Helmet,
+		ClothingItem = Hat_ArmyInsurgent,
+		BodyLocation = Hat,
+		Icon = HelmetArmyInsurgent,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation	= 0.3,
+		WaterResistance = 0.3,
+		Weight = 1.0,		
+	}
+
+    item Hat_GasMaskInsurgent
+	{
+		Type = Clothing,
+		DisplayName = Insurgent Military Gas Mask,
+		ClothingItem = Hat_GasMaskInsurgent,
+		BodyLocation = Mask,
+		Icon = GasMaskInsurgent,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		Insulation = 0.1,
+		WaterResistance = 1.0,
+		WindResistance = 0.8,
+        Weight = 1.0,		
+	}
+
+    item Hat_BeretArmyInsurgent
+	{
+		Type = Clothing,
+		DisplayName = Insurgent Military Beret,
+		ClothingItem = Hat_BeretArmyInsurgent,
+		BodyLocation = Hat,
+		Icon = BeretArmyInsurgent,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		ChanceToFall = 60,	
+		Insulation = 0.30,		
+        Weight = 0.5,		
+	}
+
+    item Jacket_ArmyInsurgent
+    {
+        Type = Clothing,
+        DisplayName = Insurgent Military Jacket,
+        ClothingItem = Jacket_ArmyInsurgent,
+        BodyLocation = Jacket,
+        Icon = JacketCamoInsurgent,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.95,
+        BiteDefense = 40,
+        ScratchDefense = 60,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WaterResistance = 0.5,
+        Weight = 3.0,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+        item Trousers_Insurgent
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Insurgent Military Pants,
+        ClothingItem = Trousers_Insurgent,
+        BodyLocation = Pants,
+        Icon = PantsArmyInsurgent,
+        BloodLocation = Trousers,
+        BiteDefense = 30,
+        ScratchDefense = 40,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+	
+    item Bag_ALICEpack_Insurgent
+    {
+		Type = Container,
+        DisplayName = Insurgent Military Backpack,
+        ClothingItem = Bag_ALICEpack_Insurgent,
+        CanBeEquipped = Back,
+        WeightReduction	=	90,
+        Weight	=	2.5,
+        Capacity	=	45,
+        Icon	=	AliceBagInsurgent,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_Camo_Urban_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_Camo_Urban_RHand holdingbagright,
+        WorldStaticModel = ALICE_Pack_Ground,
+    }	
+	
+  	item Gloves_LongInsurgent
+
+	{
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Insurgent Military Gloves,
+		ClothingItem = Gloves_LongInsurgent,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLongInsurgent,
+		BiteDefense = 35,
+		ScratchDefense = 50,		
+		Weight = 0.5,
+		Insulation = 0.80,
+		WindResistance = 0.75,
+		FabricType = Cotton,
+		WorldStaticModel = Gloves_Ground,
+	}	
+
+  	item Gloves_FingerlessInsurgent
+
+	{
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Insurgent Military Fingerless Gloves,
+		ClothingItem = Gloves_FingerlessInsurgent,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesFingerlessInsurgent,
+		BiteDefense = 25,
+		ScratchDefense = 40,		
+		Weight = 0.3,
+		Insulation = 0.5,
+		WindResistance = 0.5,
+		FabricType = Cotton,
+		WorldStaticModel = Gloves_Ground,
+	}	
+	
+}

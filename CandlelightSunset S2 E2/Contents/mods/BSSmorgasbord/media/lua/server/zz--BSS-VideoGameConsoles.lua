@@ -1,0 +1,30 @@
+--Video Game Consoles - Media (Games)
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2831786301
+if getActivatedMods():contains("Video_Game_Consoles") then
+GaistUtils.doParam("Video_Game_Consoles.GB_Cartridge_Zelda","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.GB_Cartridge_Kirby","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.GB_Cartridge_Fantasy","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.GB_Cartridge_Mario","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.GB_Cartridge_Tetris","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.GG_Cartridge_Combat","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Atari_Cartridge_Combat","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Atari_Cartridge_Asteroids","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Atari_Cartridge_MSPacman","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Atari_Cartridge_Pitfall","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Atari_Cartridge_Spaceinvaders","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.SNES_Cartridge_Mario","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.SNES_Cartridge_Mana","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.SNES_Cartridge_Fox","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.SNES_Cartridge_MK2","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.SNES_Cartridge_NBA","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.NES_Cartridge_Contra","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.NES_Cartridge_Mario3","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.NES_Cartridge_Megaman","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.NES_Cartridge_Metroid","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.NES_Cartridge_Zelda","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Genesis_Cartridge_Aladdin","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Genesis_Cartridge_gaxe","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Genesis_Cartridge_ghouls","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Genesis_Cartridge_sonic","DisplayCategory","MediaG");
+GaistUtils.doParam("Video_Game_Consoles.Genesis_Cartridge_street","DisplayCategory","MediaG");
+end

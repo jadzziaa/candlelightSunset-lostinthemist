@@ -1,0 +1,182 @@
+module Base
+{
+
+    recipe Make Wooden Box Trap
+    {
+        Plank=4,
+		WoodenStick,
+        Nails=20,
+		keep Saw/HandAxe/AxeStone/Axe/WoodAxe,
+		keep [Recipe.GetItemTypes.SharpKnife],
+		keep [Recipe.GetItemTypes.Hammer],
+
+        Result:TrapCrate,
+        Sound:Sawing,
+        Time:120.0,
+        Category:Trapper,
+        NeedToBeLearn:true,
+		Override:true
+    }
+
+    recipe Make Stick Trap
+    {
+        WoodenStick=4,
+        Twine=3,
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+        Result:TrapStick,
+        Time:220.0,
+        Category:Trapper,
+        NeedToBeLearn:true,
+		Override:true
+    }
+
+    recipe Make Snare Trap
+    {
+        Plank=1,
+        Twine=2,
+		keep Saw/HandAxe/AxeStone/Axe/WoodAxe,
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+        SkillRequired:Trapping=1,
+        Result:TrapSnare,
+        Sound:Sawing,
+        Time:130.0,
+        Category:Trapper,
+        NeedToBeLearn:true,
+		Override:true
+    }
+
+    recipe Make Trap Box
+    {
+        Plank=4,
+		Wire=5,
+		WoodenStick=2,
+        Nails=10,
+		keep Saw/HandAxe/AxeStone/Axe/WoodAxe,
+		keep [Recipe.GetItemTypes.SharpKnife],
+		keep [Recipe.GetItemTypes.Hammer],
+
+        SkillRequired:Woodwork=2;Trapping=3;,
+        Result:TrapBox,
+        Sound:Sawing,
+        Time:150.0,
+        Category:Trapper,
+        NeedToBeLearn:true,
+		Override:true
+    }
+
+    recipe Make Cage Trap
+    {
+        Wire=10,
+		MetalPipe=4,
+		SheetMetal=2,
+		WeldingRods=2,
+		BlowTorch,
+		keep [Recipe.GetItemTypes.Hammer],
+
+        SkillRequired:Woodwork=2;MetalWelding=2;Trapping=4;,
+        Result:TrapCage,
+        Time:380.0,
+        Category:Trapper,
+        NeedToBeLearn:true,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		Override:true
+    }
+	
+	recipe Make Mousetrap
+    {
+        Wire=2,
+		Plank,
+		ScrapMetal=2,
+		keep Saw/HandAxe/AxeStone/Axe/WoodAxe,
+		keep [Recipe.GetItemTypes.SharpKnife],
+		keep [Recipe.GetItemTypes.Hammer],
+
+        SkillRequired:Woodwork=4;MetalWelding=1;Trapping=2;,
+        Result:TrapMouse,
+        Time:380.0,
+        Category:Trapper,
+        NeedToBeLearn:true,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		Override:true
+    }
+	
+	/************************Traps************************/
+	
+    item TrapSnare
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Snare Trap,
+        Icon	=	TrapSnare,
+        Trap    =   true,
+    }
+
+    item TrapCage
+    {
+        DisplayCategory = Trapping,
+        Weight	=	16,
+        Type	=	Normal,
+        DisplayName	=	Cage Trap,
+        Icon	=	TrapCage,
+        Trap    =   true,
+        MetalValue = 10,
+    }
+
+    item TrapMouse
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Mouse Trap,
+        Icon	=	Mousetrap,
+        Trap    =   true,
+        MetalValue = 2,
+    }
+
+    item TrapBox
+    {
+        DisplayCategory = Trapping,
+        Weight	=	8,
+        Type	=	Normal,
+        DisplayName	=	Trap Box,
+        Icon	=	TrapBox,
+        Trap    =   true,
+    }
+
+    item TrapCrate
+    {
+        DisplayCategory = Trapping,
+        Weight	=	6,
+        Type	=	Normal,
+        DisplayName	=	Trap Crate,
+        Icon	=	TrapCrate,
+        Trap    =   true,
+    }
+
+    item TrapStick
+    {
+        DisplayCategory = Trapping,
+        Weight	=	4,
+        Type	=	Normal,
+        DisplayName	=	Stick Trap,
+        Icon	=	TrapStick,
+        Trap    =   true,
+    }
+	
+	item HuntingMag3
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	The Hunter Magazine Vol. 3,
+        Icon	=	MagazineHunting3,
+        TeachedRecipes  =   Make Trap Box;Make Cage Trap;Make Mousetrap,
+        ReplaceOnUse    =   HuntingMag3,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineHunter3Ground,
+    }
+
+}

@@ -1,0 +1,26 @@
+module Insurgent
+{
+
+	model DeployedParachute
+	{
+		mesh = WorldItems/DeployedParachute,
+		texture = Worlditems/DeployedParachute,
+		scale = 0.005,
+	}
+	
+	model Sample1
+	{
+		mesh = WorldItems/Sample1,
+		texture = Worlditems/Sample1,
+		scale = 0.01,
+	}
+
+	model ClassifiedDocument
+	{
+		mesh = WorldItems/ClassifiedDocument,
+		texture = Worlditems/ClassifiedDocument,
+		scale = 0.01,
+	}
+			
+	
+}

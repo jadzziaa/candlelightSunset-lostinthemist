@@ -1,0 +1,36 @@
+VERSION = 1,
+
+perk Crafting
+{
+	parent = None,
+	translation = Crafting,
+	passive = false,
+	xp1 = 0,
+	xp2 = 0,
+	xp3 = 0,
+	xp4 = 0,
+	xp5 = 0,
+	xp6 = 0,
+	xp7 = 0,
+	xp8 = 0,
+	xp9 = 0,
+	xp10 = 0,
+}
+
+perk VaccineResearch
+{
+	parent = Crafting,
+	translation = VaccineResearch,
+	passive = false,
+	xp1 = 7,
+	xp2 = 50,
+	xp3 = 100,
+	xp4 = 300,
+	xp5 = 400,
+	xp6 = 800,
+	xp7 = 2300,
+	xp8 = 4500,
+	xp9 = 7000,
+	xp10 = 10000,
+
+

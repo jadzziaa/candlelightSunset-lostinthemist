@@ -1,0 +1,2067 @@
+module pkmncards
+{
+imports
+{
+Base
+}
+
+item 001Bulbasaurcard
+{
+DisplayName=Pokémon Trading Card #001 - Bulbasaur,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=001BulbasaurCard,
+}
+
+item 002Ivysaurcard
+{
+DisplayName=Pokémon Trading Card #002 - Ivysaur,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=002IvysaurCard,
+}
+
+item 003Venusaurcard
+{
+DisplayName=Pokémon Trading Card #003 - Venusaur (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=003VenusaurCard,
+}
+
+item 004Charmandercard
+{
+DisplayName=Pokémon Trading Card #004 - Charmander,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=004CharmanderCard,
+}
+
+item 005Charmeleoncard
+{
+DisplayName=Pokémon Trading Card #005 - Charmeleon,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=005CharmeleonCard,
+}
+
+item 006Charizardcard
+{
+DisplayName=Pokémon Trading Card #006 - Charizard (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=006CharizardCard,
+}
+
+item 007Squirtlecard
+{
+DisplayName=Pokémon Trading Card #007 - Squirtle,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=007SquirtleCard,
+}
+
+item 008Wartortlecard
+{
+DisplayName=Pokémon Trading Card #008 - Wartortle,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=008WartortleCard,
+}
+
+item 009Blastoisecard
+{
+DisplayName=Pokémon Trading Card #009 - Blastoise (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=009BlastoiseCard,
+}
+
+item 010Caterpiecard
+{
+DisplayName=Pokémon Trading Card #010 - Caterpie,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=010CaterpieCard,
+}
+
+item 011Metapodcard
+{
+DisplayName=Pokémon Trading Card #011 - Metapod,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=011MetapodCard,
+}
+
+item 012Butterfreecard
+{
+DisplayName=Pokémon Trading Card #012 - Butterfree,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=012ButterfreeCard,
+}
+
+item 013Weedlecard
+{
+DisplayName=Pokémon Trading Card #013 - Weedle,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=013WeedleCard,
+}
+
+item 014Kakunacard
+{
+DisplayName=Pokémon Trading Card #014 - Kakuna,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=014KakunaCard,
+}
+
+item 015Beedrillcard
+{
+DisplayName=Pokémon Trading Card #015 - Beedrill,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=015BeedrillCard,
+}
+
+item 016Pidgeycard
+{
+DisplayName=Pokémon Trading Card #016 - Pidgey,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=016PidgeyCard,
+}
+
+item 017Pidgeottocard
+{
+DisplayName=Pokémon Trading Card #017 - Pidgeotto,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=017PidgeottoCard,
+}
+
+item 018Pidgeotcard
+{
+DisplayName=Pokémon Trading Card #018 - Pidgeot,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=018PidgeotCard,
+}
+
+item 018PidgeotHcard
+{
+DisplayName=Pokémon Trading Card #018 - Pidgeot (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=018PidgeotHCard,
+}
+
+item 019Rattatacard
+{
+DisplayName=Pokémon Trading Card #019 - Rattata,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=019RattataCard,
+}
+
+item 020Raticatecard
+{
+DisplayName=Pokémon Trading Card #020 - Raticate,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=020RaticateCard,
+}
+
+item 021Spearowcard
+{
+DisplayName=Pokémon Trading Card #021 - Spearow,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=021SpearowCard,
+}
+
+item 022Fearowcard
+{
+DisplayName=Pokémon Trading Card #022 - Fearow,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=022FearowCard,
+}
+
+item 023Ekanscard
+{
+DisplayName=Pokémon Trading Card #023 - Ekans,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=023EkansCard,
+}
+
+item 024Arbokcard
+{
+DisplayName=Pokémon Trading Card #024 - Arbok,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=024ArbokCard,
+}
+
+item 025Pikachucard
+{
+DisplayName=Pokémon Trading Card #025 - Pikachu,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=025PikachuCard,
+}
+
+item 025PikachuJcard
+{
+DisplayName=Pokémon Trading Card #025 - Pikachu (Jungle),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=025PikachuJCard,
+}
+
+item 026Raichucard
+{
+DisplayName=Pokémon Trading Card #026 - Raichu,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=026RaichuCard,
+}
+
+item 026RaichuHcard
+{
+DisplayName=Pokémon Trading Card #026 - Raichu (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=026RaichuHCard,
+}
+
+item 026RaichuFHcard
+{
+DisplayName=Pokémon Trading Card #026 - Raichu (Fossil Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=026RaichuFHCard,
+}
+
+item 027Sandshrewcard
+{
+DisplayName=Pokémon Trading Card #027 - Sandshrew,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=027SandshrewCard,
+}
+
+item 028Sandslashcard
+{
+DisplayName=Pokémon Trading Card #028 - Sandslash,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=028SandslashCard,
+}
+
+item 029NidoranFemalecard
+{
+DisplayName=Pokémon Trading Card #029 - Nidoran Female,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=029NidoranFemaleCard,
+}
+
+item 030Nidorinacard
+{
+DisplayName=Pokémon Trading Card #030 - Nidorina,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=030NidorinaCard,
+}
+
+item 031Nidoqueencard
+{
+DisplayName=Pokémon Trading Card #031 - Nidoqueen,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=031NidoqueenCard,
+}
+
+item 031NidoqueenHcard
+{
+DisplayName=Pokémon Trading Card #031 - Nidoqueen (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=031NidoqueenHCard,
+}
+
+item 032NidoranMalecard
+{
+DisplayName=Pokémon Trading Card #032 - Nidoran Male,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=032NidoranMaleCard,
+}
+
+item 033Nidorinocard
+{
+DisplayName=Pokémon Trading Card #033 - Nidorino,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=033NidorinoCard,
+}
+
+item 034Nidokingcard
+{
+DisplayName=Pokémon Trading Card #034 - Nidoking (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=034NidokingCard,
+}
+
+item 035Clefairycard
+{
+DisplayName=Pokémon Trading Card #035 - Clefairy (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=035ClefairyCard,
+}
+
+item 036Clefablecard
+{
+DisplayName=Pokémon Trading Card #036 - Clefable,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=036ClefableCard,
+}
+
+item 036ClefableHcard
+{
+DisplayName=Pokémon Trading Card #036 - Clefable (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=036ClefableHCard,
+}
+
+item 037Vulpixcard
+{
+DisplayName=Pokémon Trading Card #037 - Vulpix,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=037VulpixCard,
+}
+
+item 038Ninetalescard
+{
+DisplayName=Pokémon Trading Card #038 - Ninetales (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=038NinetalesCard,
+}
+
+item 039Jigglypuffcard
+{
+DisplayName=Pokémon Trading Card #039 - Jigglypuff,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=039JigglypuffCard,
+}
+
+item 040Wigglytuffcard
+{
+DisplayName=Pokémon Trading Card #040 - Wigglytuff,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=040WigglytuffCard,
+}
+
+item 040WigglytuffHcard
+{
+DisplayName=Pokémon Trading Card #040 - Wigglytuff (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=040WigglytuffHCard,
+}
+
+item 041Zubatcard
+{
+DisplayName=Pokémon Trading Card #041 - Zubat,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=041ZubatCard,
+}
+
+item 042Golbatcard
+{
+DisplayName=Pokémon Trading Card #042 - Golbat,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=042GolbatCard,
+}
+
+item 043Oddishcard
+{
+DisplayName=Pokémon Trading Card #043 - Oddish,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=043OddishCard,
+}
+
+item 044Gloomcard
+{
+DisplayName=Pokémon Trading Card #044 - Gloom,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=044GloomCard,
+}
+
+item 045Vileplumecard
+{
+DisplayName=Pokémon Trading Card #045 - Vileplume,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=045VileplumeCard,
+}
+
+item 045VileplumeHcard
+{
+DisplayName=Pokémon Trading Card #045 - Vileplume (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=045VileplumeHCard,
+}
+
+item 046Parascard
+{
+DisplayName=Pokémon Trading Card #046 - Paras,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=046ParasCard,
+}
+
+item 047Parasectcard
+{
+DisplayName=Pokémon Trading Card #047 - Parasect,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=047ParasectCard,
+}
+
+item 048Venonatcard
+{
+DisplayName=Pokémon Trading Card #048 - Venonat,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=048VenonatCard,
+}
+
+item 049Venomothcard
+{
+DisplayName=Pokémon Trading Card #049 - Venomoth,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=049VenomothCard,
+}
+
+item 049VenomothHcard
+{
+DisplayName=Pokémon Trading Card #049 - Venomoth (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=049VenomothHCard,
+}
+
+item 050Diglettcard
+{
+DisplayName=Pokémon Trading Card #050 - Diglett,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=050DiglettCard,
+}
+
+item 051Dugtriocard
+{
+DisplayName=Pokémon Trading Card #051 - Dugtrio,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=051DugtrioCard,
+}
+
+item 052Meowthcard
+{
+DisplayName=Pokémon Trading Card #052 - Meowth,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=052MeowthCard,
+}
+
+item 053Persiancard
+{
+DisplayName=Pokémon Trading Card #053 - Persian,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=053PersianCard,
+}
+
+item 054Psyduckcard
+{
+DisplayName=Pokémon Trading Card #054 - Psyduck,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=054PsyduckCard,
+}
+
+item 055Golduckcard
+{
+DisplayName=Pokémon Trading Card #055 - Golduck,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=055GolduckCard,
+}
+
+item 056Mankeycard
+{
+DisplayName=Pokémon Trading Card #056 - Mankey,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=056MankeyCard,
+}
+
+item 057Primeapecard
+{
+DisplayName=Pokémon Trading Card #057 - Primeape,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=057PrimeapeCard,
+}
+
+item 058Growlithecard
+{
+DisplayName=Pokémon Trading Card #058 - Growlithe,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=058GrowlitheCard,
+}
+
+item 059Arcaninecard
+{
+DisplayName=Pokémon Trading Card #059 - Arcanine,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=059ArcanineCard,
+}
+
+item 060Poliwagcard
+{
+DisplayName=Pokémon Trading Card #060 - Poliwag,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=060PoliwagCard,
+}
+
+item 061Poliwhirlcard
+{
+DisplayName=Pokémon Trading Card #061 - Poliwhirl,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=061PoliwhirlCard,
+}
+
+item 062Poliwrathcard
+{
+DisplayName=Pokémon Trading Card #062 - Poliwrath (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=062PoliwrathCard,
+}
+
+item 063Abracard
+{
+DisplayName=Pokémon Trading Card #063 - Abra,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=063AbraCard,
+}
+
+item 064Kadabracard
+{
+DisplayName=Pokémon Trading Card #064 - Kadabra,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=064KadabraCard,
+}
+
+item 065Alakazamcard
+{
+DisplayName=Pokémon Trading Card #065 - Alakazam (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=065AlakazamCard,
+}
+
+item 066Machopcard
+{
+DisplayName=Pokémon Trading Card #066 - Machop,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=066MachopCard,
+}
+
+item 067Machokecard
+{
+DisplayName=Pokémon Trading Card #067 - Machoke,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=067MachokeCard,
+}
+
+item 068Machampcard
+{
+DisplayName=Pokémon Trading Card #068 - Machamp (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=068MachampCard,
+}
+
+item 069Bellsproutcard
+{
+DisplayName=Pokémon Trading Card #069 - Bellsprout,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=069BellsproutCard,
+}
+
+item 070Weepinbellcard
+{
+DisplayName=Pokémon Trading Card #070 - Weepinbell,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=070WeepinbellCard,
+}
+
+item 071Victreebelcard
+{
+DisplayName=Pokémon Trading Card #071 - Victreebel,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=071VictreebelCard,
+}
+
+item 071VictreebelHcard
+{
+DisplayName=Pokémon Trading Card #071 - Victreebel (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=071VictreebelHCard,
+}
+
+item 072Tentacoolcard
+{
+DisplayName=Pokémon Trading Card #072 - Tentacool,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=072TentacoolCard,
+}
+
+item 073Tentacruelcard
+{
+DisplayName=Pokémon Trading Card #073 - Tentacruel,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=073TentacruelCard,
+}
+
+item 074Geodudecard
+{
+DisplayName=Pokémon Trading Card #074 - Geodude,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=074GeodudeCard,
+}
+
+item 075Gravelercard
+{
+DisplayName=Pokémon Trading Card #075 - Graveler,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=075GravelerCard,
+}
+
+item 076Golemcard
+{
+DisplayName=Pokémon Trading Card #076 - Golem,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=076GolemCard,
+}
+
+item 077Ponytacard
+{
+DisplayName=Pokémon Trading Card #077 - Ponyta,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=077PonytaCard,
+}
+
+item 078Rapidashcard
+{
+DisplayName=Pokémon Trading Card #078 - Rapidash,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=078RapidashCard,
+}
+
+item 079Slowpokecard
+{
+DisplayName=Pokémon Trading Card #079 - Slowpoke,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=079SlowpokeCard,
+}
+
+item 080Slowbrocard
+{
+DisplayName=Pokémon Trading Card #080 - Slowbro,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=080SlowbroCard,
+}
+
+item 081Magnemitecard
+{
+DisplayName=Pokémon Trading Card #081 - Magnemite,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=081MagnemiteCard,
+}
+
+item 082Magnetoncard
+{
+DisplayName=Pokémon Trading Card #082 - Magneton,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=082MagnetonCard,
+}
+
+item 082MagnetonHcard
+{
+DisplayName=Pokémon Trading Card #082 - Magneton (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=082MagnetonHCard,
+}
+
+item 082MagnetonFHcard
+{
+DisplayName=Pokémon Trading Card #082 - Magneton (Fossil Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=082MagnetonFHCard,
+}
+
+item 083Farfetch'dcard
+{
+DisplayName=Pokémon Trading Card #083 - Farfetch'd,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=083FarfetchdCard,
+}
+
+item 084Doduocard
+{
+DisplayName=Pokémon Trading Card #084 - Doduo,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=084DoduoCard,
+}
+
+item 085Dodriocard
+{
+DisplayName=Pokémon Trading Card #085 - Dodrio,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=085DodrioCard,
+}
+
+item 086Seelcard
+{
+DisplayName=Pokémon Trading Card #086 - Seel,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=086SeelCard,
+}
+
+item 087Dewgongcard
+{
+DisplayName=Pokémon Trading Card #087 - Dewgong,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=087DewgongCard,
+}
+
+item 088Grimercard
+{
+DisplayName=Pokémon Trading Card #088 - Grimer,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=088GrimerCard,
+}
+
+item 089Mukcard
+{
+DisplayName=Pokémon Trading Card #089 - Muk,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=089MukCard,
+}
+
+item 089MukHcard
+{
+DisplayName=Pokémon Trading Card #089 - Muk (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=089MukHCard,
+}
+
+item 090Shelldercard
+{
+DisplayName=Pokémon Trading Card #090 - Shellder,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=090ShellderCard,
+}
+
+item 091Cloystercard
+{
+DisplayName=Pokémon Trading Card #091 - Cloyster,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=091CloysterCard,
+}
+
+item 092Gastlycard
+{
+DisplayName=Pokémon Trading Card #092 - Gastly,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=092GastlyCard,
+}
+
+item 092GastlyFcard
+{
+DisplayName=Pokémon Trading Card #092 - Gastly (Fossil),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=092GastlyFCard,
+}
+
+item 093Hauntercard
+{
+DisplayName=Pokémon Trading Card #093 - Haunter,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=093HaunterCard,
+}
+
+item 093HaunterFcard
+{
+DisplayName=Pokémon Trading Card #093 - Haunter (Fossil),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=093HaunterFCard,
+}
+
+item 093HaunterHcard
+{
+DisplayName=Pokémon Trading Card #093 - Haunter (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=093HaunterHCard,
+}
+
+item 094Gengarcard
+{
+DisplayName=Pokémon Trading Card #094 - Gengar,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=094GengarCard,
+}
+
+item 094GengarHcard
+{
+DisplayName=Pokémon Trading Card #094 - Gengar (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=094GengarHCard,
+}
+
+item 095Onixcard
+{
+DisplayName=Pokémon Trading Card #095 - Onix,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=095OnixCard,
+}
+
+item 096Drowzeecard
+{
+DisplayName=Pokémon Trading Card #096 - Drowzee,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=096DrowzeeCard,
+}
+
+item 097Hypnocard
+{
+DisplayName=Pokémon Trading Card #097 - Hypno,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=097HypnoCard,
+}
+
+item 097HypnoHcard
+{
+DisplayName=Pokémon Trading Card #097 - Hypno (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=097HypnoHCard,
+}
+
+item 098Krabbycard
+{
+DisplayName=Pokémon Trading Card #098 - Krabby,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=098KrabbyCard,
+}
+
+item 099Kinglercard
+{
+DisplayName=Pokémon Trading Card #099 - Kingler,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=099KinglerCard,
+}
+
+item 100Voltorbcard
+{
+DisplayName=Pokémon Trading Card #100 - Voltorb,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=100VoltorbCard,
+}
+
+item 101Electrodecard
+{
+DisplayName=Pokémon Trading Card #101 - Electrode,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=101ElectrodeCard,
+}
+
+item 101ElectrodeHcard
+{
+DisplayName=Pokémon Trading Card #101 - Electrode (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=101ElectrodeHCard,
+}
+
+item 101ElectrodeJcard
+{
+DisplayName=Pokémon Trading Card #101 - Electrode (Jungle),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=101ElectrodeJCard,
+}
+
+item 102Exeggcutecard
+{
+DisplayName=Pokémon Trading Card #102 - Exeggcute,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=102ExeggcuteCard,
+}
+
+item 103Exeggutorcard
+{
+DisplayName=Pokémon Trading Card #103 - Exeggutor,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=103ExeggutorCard,
+}
+
+item 104Cubonecard
+{
+DisplayName=Pokémon Trading Card #104 - Cubone,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=104CuboneCard,
+}
+
+item 105Marowakcard
+{
+DisplayName=Pokémon Trading Card #105 - Marowak,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=105MarowakCard,
+}
+
+item 106Hitmonleecard
+{
+DisplayName=Pokémon Trading Card #106 - Hitmonlee,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=106HitmonleeCard,
+}
+
+item 106HitmonleeHcard
+{
+DisplayName=Pokémon Trading Card #106 - Hitmonlee (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=106HitmonleeHCard,
+}
+
+item 107Hitmonchancard
+{
+DisplayName=Pokémon Trading Card #107 - Hitmonchan (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=107HitmonchanCard,
+}
+
+item 108Lickitungcard
+{
+DisplayName=Pokémon Trading Card #108 - Lickitung,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=108LickitungCard,
+}
+
+item 109Koffingcard
+{
+DisplayName=Pokémon Trading Card #109 - Koffing,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=109KoffingCard,
+}
+
+item 110Weezingcard
+{
+DisplayName=Pokémon Trading Card #110 - Weezing,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=110WeezingCard,
+}
+
+item 111Rhyhorncard
+{
+DisplayName=Pokémon Trading Card #111 - Rhyhorn,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=111RhyhornCard,
+}
+
+item 112Rhydoncard
+{
+DisplayName=Pokémon Trading Card #112 - Rhydon,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=112RhydonCard,
+}
+
+item 113Chanseycard
+{
+DisplayName=Pokémon Trading Card #113 - Chansey (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=113ChanseyCard,
+}
+
+item 114Tangelacard
+{
+DisplayName=Pokémon Trading Card #114 - Tangela,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=114TangelaCard,
+}
+
+item 115Kangaskhancard
+{
+DisplayName=Pokémon Trading Card #115 - Kangaskhan,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=115KangaskhanCard,
+}
+
+item 115KangaskhanHcard
+{
+DisplayName=Pokémon Trading Card #115 - Kangaskhan (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=115KangaskhanHCard,
+}
+
+item 116Horseacard
+{
+DisplayName=Pokémon Trading Card #116 - Horsea,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=116HorseaCard,
+}
+
+item 117Seadracard
+{
+DisplayName=Pokémon Trading Card #117 - Seadra,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=117SeadraCard,
+}
+
+item 118Goldeencard
+{
+DisplayName=Pokémon Trading Card #118 - Goldeen,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=118GoldeenCard,
+}
+
+item 119Seakingcard
+{
+DisplayName=Pokémon Trading Card #119 - Seaking,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=119SeakingCard,
+}
+
+item 120Staryucard
+{
+DisplayName=Pokémon Trading Card #120 - Staryu,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=120StaryuCard,
+}
+
+item 121Starmiecard
+{
+DisplayName=Pokémon Trading Card #121 - Starmie,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=121StarmieCard,
+}
+
+item 122MrMimecard
+{
+DisplayName=Pokémon Trading Card #122 - Mr. Mime,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=122MrMimeCard,
+}
+
+item 122MrMimeHcard
+{
+DisplayName=Pokémon Trading Card #122 - Mr. Mime (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=122MrMimeHCard,
+}
+
+item 123Scythercard
+{
+DisplayName=Pokémon Trading Card #123 - Scyther,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=123ScytherCard,
+}
+
+item 123ScytherHcard
+{
+DisplayName=Pokémon Trading Card #123 - Scyther (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=123ScytherHCard,
+}
+
+item 124Jynxcard
+{
+DisplayName=Pokémon Trading Card #124 - Jynx,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=124JynxCard,
+}
+
+item 125Electabuzzcard
+{
+DisplayName=Pokémon Trading Card #125 - Electabuzz,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=125ElectabuzzCard,
+}
+
+item 126Magmarcard
+{
+DisplayName=Pokémon Trading Card #126 - Magmar,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=126MagmarCard,
+}
+
+item 126MagmarFcard
+{
+DisplayName=Pokémon Trading Card #126 - Magmar (Fossil),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=126MagmarFCard,
+}
+
+item 127Pinsircard
+{
+DisplayName=Pokémon Trading Card #127 - Pinsir,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=127PinsirCard,
+}
+
+item 127PinsirHcard
+{
+DisplayName=Pokémon Trading Card #127 - Pinsir (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=127PinsirHCard,
+}
+
+item 128Tauroscard
+{
+DisplayName=Pokémon Trading Card #128 - Tauros,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=128TaurosCard,
+}
+
+item 129Magikarpcard
+{
+DisplayName=Pokémon Trading Card #129 - Magikarp,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=129MagikarpCard,
+}
+
+item 130Gyaradoscard
+{
+DisplayName=Pokémon Trading Card #130 - Gyarados (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=130GyaradosCard,
+}
+
+item 131Laprascard
+{
+DisplayName=Pokémon Trading Card #131 - Lapras,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=131LaprasCard,
+}
+
+item 131LaprasHcard
+{
+DisplayName=Pokémon Trading Card #131 - Lapras (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=131LaprasHCard,
+}
+
+item 132Dittocard
+{
+DisplayName=Pokémon Trading Card #132 - Ditto,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=132DittoCard,
+}
+
+item 132DittoHcard
+{
+DisplayName=Pokémon Trading Card #132 - Ditto (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=132DittoHCard,
+}
+
+item 133Eeveecard
+{
+DisplayName=Pokémon Trading Card #133 - Eevee,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=133EeveeCard,
+}
+
+item 134Vaporeoncard
+{
+DisplayName=Pokémon Trading Card #134 - Vaporeon,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=134VaporeonCard,
+}
+
+item 135Jolteoncard
+{
+DisplayName=Pokémon Trading Card #135 - Jolteon,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=135JolteonCard,
+}
+
+item 136Flareoncard
+{
+DisplayName=Pokémon Trading Card #136 - Flareon,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=136FlareonCard,
+}
+
+item 134VaporeonHcard
+{
+DisplayName=Pokémon Trading Card #134 - Vaporeon (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=134VaporeonHCard,
+}
+
+item 135JolteonHcard
+{
+DisplayName=Pokémon Trading Card #135 - Jolteon (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=135JolteonHCard,
+}
+
+item 136FlareonHcard
+{
+DisplayName=Pokémon Trading Card #136 - Flareon (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=136FlareonHCard,
+}
+
+item 137Porygoncard
+{
+DisplayName=Pokémon Trading Card #137 - Porygon,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=137PorygonCard,
+}
+
+item 138Omanytecard
+{
+DisplayName=Pokémon Trading Card #138 - Omanyte,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=138OmanyteCard,
+}
+
+item 139Omastarcard
+{
+DisplayName=Pokémon Trading Card #139 - Omastar,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=139OmastarCard,
+}
+
+item 140Kabutocard
+{
+DisplayName=Pokémon Trading Card #140 - Kabuto,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=140KabutoCard,
+}
+
+item 141Kabutopscard
+{
+DisplayName=Pokémon Trading Card #141 - Kabutops,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=141KabutopsCard,
+}
+
+item 141KabutopsHcard
+{
+DisplayName=Pokémon Trading Card #141 - Kabutops (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=141KabutopsHCard,
+}
+
+item 142Aerodactylcard
+{
+DisplayName=Pokémon Trading Card #142 - Aerodactyl,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=142AerodactylCard,
+}
+
+item 142AerodactylHcard
+{
+DisplayName=Pokémon Trading Card #142 - Aerodactyl (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=142AerodactylHCard,
+}
+
+item 143Snorlaxcard
+{
+DisplayName=Pokémon Trading Card #143 - Snorlax,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=143SnorlaxCard,
+}
+
+item 143SnorlaxHcard
+{
+DisplayName=Pokémon Trading Card #143 - Snorlax (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=143SnorlaxHCard,
+}
+
+item 144Articunocard
+{
+DisplayName=Pokémon Trading Card #144 - Articuno,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=144ArticunoCard,
+}
+
+item 144ArticunoHcard
+{
+DisplayName=Pokémon Trading Card #144 - Articuno (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=144ArticunoHCard,
+}
+
+item 145Zapdoscard
+{
+DisplayName=Pokémon Trading Card #145 - Zapdos,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=145ZapdosCard,
+}
+
+item 145ZapdosHcard
+{
+DisplayName=Pokémon Trading Card #145 - Zapdos (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=145ZapdosHCard,
+}
+
+item 145ZapdosFHcard
+{
+DisplayName=Pokémon Trading Card #145 - Zapdos (Fossil Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=145ZapdosFHCard,
+}
+
+item 146Moltrescard
+{
+DisplayName=Pokémon Trading Card #146 - Moltres,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=146MoltresCard,
+}
+
+item 146MoltresHcard
+{
+DisplayName=Pokémon Trading Card #146 - Moltres (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=146MoltresHCard,
+}
+
+item 147Dratinicard
+{
+DisplayName=Pokémon Trading Card #147 - Dratini,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=147DratiniCard,
+}
+
+item 148Dragonaircard
+{
+DisplayName=Pokémon Trading Card #148 - Dragonair,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=148DragonairCard,
+}
+
+item 149Dragonitecard
+{
+DisplayName=Pokémon Trading Card #149 - Dragonite,
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=149DragoniteCard,
+}
+
+item 149DragoniteHcard
+{
+DisplayName=Pokémon Trading Card #149 - Dragonite (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=149DragoniteHCard,
+}
+
+item 150Mewtwocard
+{
+DisplayName=Pokémon Trading Card #150 - Mewtwo (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=150MewtwoCard,
+}
+
+item 151Mewcard
+{
+DisplayName=Pokémon Trading Card #151 - Mew (Holo),
+Icon=pkmn_cardback,
+Weight=0.01,
+Type=Normal,
+WorldStaticModel=151MewCard,
+}
+
+item boosterpack
+{
+DisplayName=Pokémon Trading Cards Booster Pack (Base Set),
+Icon=pkmn_booster_1_2,
+Weight=0.1,
+Type=Normal,
+WorldStaticModel=boosterpack,
+}
+
+item boosterpackjungle
+{
+DisplayName=Pokémon Trading Cards Booster Pack (Jungle Set),
+Icon=pkmn_booster_jungle,
+Weight=0.1,
+Type=Normal,
+WorldStaticModel=boosterpackjungle,
+}
+
+item boosterpackfossil
+{
+DisplayName=Pokémon Trading Cards Booster Pack (Fossil Set),
+Icon=pkmn_booster_fossil,
+Weight=0.1,
+Type=Normal,
+WorldStaticModel=boosterpackfossil,
+}
+
+item boosterpack_trash
+{
+DisplayName=Empty Booster Pack Wrapper,
+Icon=booster_trash,
+Weight=0.03,
+Type=Normal,
+}
+
+item boosterbox
+{
+DisplayName=Pokémon Trading Cards Booster Box (Base Set),
+Icon=bbox,
+Weight=2.0,
+Type=Normal,
+WorldStaticModel=pkmnboosterbox,
+}
+
+item boosterboxjungle
+{
+DisplayName=Pokémon Trading Cards Booster Box (Jungle Set),
+Icon=bboxjungle,
+Weight=2.0,
+Type=Normal,
+WorldStaticModel=pkmnboosterboxjungle,
+}
+
+item boosterboxfossil
+{
+DisplayName=Pokémon Trading Cards Booster Box (Fossil Set),
+Icon=bboxfossil,
+Weight=2.0,
+Type=Normal,
+WorldStaticModel=pkmnboosterboxfossil,
+}
+
+recipe Open Booster Pack (Base Set)
+{
+boosterpack,
+Result:boosterpack_trash,
+OnCreate:openboosterpack,
+Time:15.0,
+Category:Cooking,
+}
+
+recipe Open Booster Pack (Jungle Set)
+{
+boosterpackjungle,
+Result:boosterpack_trash,
+OnCreate:openboosterpackjungle,
+Time:15.0,
+Category:Cooking,
+}
+
+recipe Open Booster Pack (Fossil Set)
+{
+boosterpackfossil,
+Result:boosterpack_trash,
+OnCreate:openboosterpackfossil,
+Time:15.0,
+Category:Cooking,
+}
+
+recipe Open Booster Box (Base Set)
+{
+boosterbox,
+Result:boosterpack=12,
+Time:20.0,
+Category:Cooking,
+}
+
+recipe Open Booster Box (Jungle Set)
+{
+boosterboxjungle,
+Result:boosterpackjungle=12,
+Time:20.0,
+Category:Cooking,
+}
+
+recipe Open Booster Box (Fossil Set)
+{
+boosterboxfossil,
+Result:boosterpackfossil=12,
+Time:20.0,
+Category:Cooking,
+}
+
+item cardbinder_empty
+{
+DisplayName=Pokémon Trading Card Binder (Empty),
+Icon=pkmn_binder,
+Weight=0.3,
+Type=Normal,
+WorldStaticModel=pkmnbinderempty,
+}
+
+item cardbinder_full
+{
+DisplayName=Pokémon Trading Card Binder (Complete),
+Icon=pkmn_binder,
+Weight=1.8,
+Type=Normal,
+WorldStaticModel=pkmnbinderfull,
+}
+
+item pkmn_checklist
+{
+Weight=0.05,
+Type=Map,
+DisplayName=Pokémon Trading Cards Checklist,
+Map=pkmnchecklist_paper,
+Icon=pkmn_checklist,
+WorldStaticModel=pkmn_checklist,
+}
+
+item pkmncollectiontin
+{
+Weight=0.6,
+Type=Container,
+WeightReduction=75,
+Capacity=3,
+DisplayName=Pokémon Trading Cards Collection Tin,
+DisplayCategory=Container,
+WorldStaticModel=pkmntin,
+Icon=pkmn_tin,
+}
+
+recipe Place Complete Collection in Binder
+{
+cardbinder_empty,
+001Bulbasaurcard,
+002Ivysaurcard,
+003Venusaurcard,
+004Charmandercard,
+005Charmeleoncard,
+006Charizardcard,
+007Squirtlecard,
+008Wartortlecard,
+009Blastoisecard,
+010Caterpiecard,
+011Metapodcard,
+012Butterfreecard,
+013Weedlecard,
+014Kakunacard,
+015Beedrillcard,
+016Pidgeycard,
+017Pidgeottocard,
+018Pidgeotcard,
+018PidgeotHcard,
+019Rattatacard,
+020Raticatecard,
+021Spearowcard,
+022Fearowcard,
+023Ekanscard,
+024Arbokcard,
+025Pikachucard,
+025PikachuJcard,
+026Raichucard,
+026RaichuHcard,
+026RaichuFHcard,
+027Sandshrewcard,
+028Sandslashcard,
+029NidoranFemalecard,
+030Nidorinacard,
+031Nidoqueencard,
+031NidoqueenHcard,
+032NidoranMalecard,
+033Nidorinocard,
+034Nidokingcard,
+035Clefairycard,
+036Clefablecard,
+036ClefableHcard,
+037Vulpixcard,
+038Ninetalescard,
+039Jigglypuffcard,
+040Wigglytuffcard,
+040WigglytuffHcard,
+041Zubatcard,
+042Golbatcard,
+043Oddishcard,
+044Gloomcard,
+045Vileplumecard,
+045VileplumeHcard,
+046Parascard,
+047Parasectcard,
+048Venonatcard,
+049Venomothcard,
+049VenomothHcard,
+050Diglettcard,
+051Dugtriocard,
+052Meowthcard,
+053Persiancard,
+054Psyduckcard,
+055Golduckcard,
+056Mankeycard,
+057Primeapecard,
+058Growlithecard,
+059Arcaninecard,
+060Poliwagcard,
+061Poliwhirlcard,
+062Poliwrathcard,
+063Abracard,
+064Kadabracard,
+065Alakazamcard,
+066Machopcard,
+067Machokecard,
+068Machampcard,
+069Bellsproutcard,
+070Weepinbellcard,
+071Victreebelcard,
+071VictreebelHcard,
+072Tentacoolcard,
+073Tentacruelcard,
+074Geodudecard,
+075Gravelercard,
+076Golemcard,
+077Ponytacard,
+078Rapidashcard,
+079Slowpokecard,
+080Slowbrocard,
+081Magnemitecard,
+082Magnetoncard,
+082MagnetonHcard,
+082MagnetonFHcard,
+083Farfetch'dcard,
+084Doduocard,
+085Dodriocard,
+086Seelcard,
+087Dewgongcard,
+088Grimercard,
+089Mukcard,
+089MukHcard,
+090Shelldercard,
+091Cloystercard,
+092Gastlycard,
+092GastlyFcard,
+093Hauntercard,
+093HaunterFcard,
+093HaunterHcard,
+094Gengarcard,
+094GengarHcard,
+095Onixcard,
+096Drowzeecard,
+097Hypnocard,
+097HypnoHcard,
+098Krabbycard,
+099Kinglercard,
+100Voltorbcard,
+101Electrodecard,
+101ElectrodeHcard,
+101ElectrodeJcard,
+102Exeggcutecard,
+103Exeggutorcard,
+104Cubonecard,
+105Marowakcard,
+106Hitmonleecard,
+106HitmonleeHcard,
+107Hitmonchancard,
+108Lickitungcard,
+109Koffingcard,
+110Weezingcard,
+111Rhyhorncard,
+112Rhydoncard,
+113Chanseycard,
+114Tangelacard,
+115Kangaskhancard,
+115KangaskhanHcard,
+116Horseacard,
+117Seadracard,
+118Goldeencard,
+119Seakingcard,
+120Staryucard,
+121Starmiecard,
+122MrMimecard,
+122MrMimeHcard,
+123Scythercard,
+123ScytherHcard,
+124Jynxcard,
+125Electabuzzcard,
+126Magmarcard,
+126MagmarFcard,
+127Pinsircard,
+127PinsirHcard,
+128Tauroscard,
+129Magikarpcard,
+130Gyaradoscard,
+131Laprascard,
+131LaprasHcard,
+132Dittocard,
+132DittoHcard,
+133Eeveecard,
+134Vaporeoncard,
+134VaporeonHcard,
+135Jolteoncard,
+135JolteonHcard,
+136Flareoncard,
+136FlareonHcard,
+137Porygoncard,
+138Omanytecard,
+139Omastarcard,
+140Kabutocard,
+141Kabutopscard,
+141KabutopsHcard,
+142Aerodactylcard,
+142AerodactylHcard,
+143Snorlaxcard,
+143SnorlaxHcard,
+144Articunocard,
+144ArticunoHcard,
+145Zapdoscard,
+145ZapdosHcard,
+145ZapdosFHcard,
+146Moltrescard,
+146MoltresHcard,
+147Dratinicard,
+148Dragonaircard,
+149Dragonitecard,
+149DragoniteHcard,
+150Mewtwocard,
+Result:cardbinder_full,
+Time:50.0,
+Category:Cooking,
+}
+}

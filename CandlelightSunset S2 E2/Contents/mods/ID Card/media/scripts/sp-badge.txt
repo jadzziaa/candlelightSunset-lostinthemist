@@ -1,0 +1,19 @@
+module 
+{
+    imports
+    {
+        Base
+    }
+
+    item StatePoliceBadge
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Kentucky State Police Badge,
+        Icon	=	SPBADGE,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+}

@@ -1,0 +1,5 @@
+name=Big Progress Bar
+poster=preview.png
+id=bigprogressbar
+description=Makes the progress bar for actions a lot bigger. Probably not compatible with other mods that modify the standard UI.pack file.
+pack=UI

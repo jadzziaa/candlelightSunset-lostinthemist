@@ -1,0 +1,5 @@
+Tooltip_RU = 
+{
+	Tooltip_IndustrialBreachingHammer = "Может уничтожить несколько вещей прежде, чем сломается.",
+	Tooltip_PoliceBreachingHammer = "Может уничтожить несколько вещей прежде, чем сломается.",	
+}

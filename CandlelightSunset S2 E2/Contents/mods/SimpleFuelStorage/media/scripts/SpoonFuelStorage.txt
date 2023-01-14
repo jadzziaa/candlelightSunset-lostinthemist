@@ -1,0 +1,89 @@
+module SpoonFuelStorage
+{
+
+	imports
+	{
+		Base
+	}
+	
+	recipe Assemble Fuel Barrel
+    {
+       SheetMetal=4,
+	   WeldingRods=2,
+       BlowTorch,
+       keep [Recipe.GetItemTypes.Hammer],
+
+       Result                   :SpoonFuelBarrelEmpty,
+       Time                     :400.0,
+       Sound                    :LogAddToStack,
+       AnimNode 				:Disassemble,
+       Prop1					:BlowTorch,
+       Category                 :Welding,
+	   SkillRequired            :MetalWelding=2,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+       CanBeDoneFromFloor       :TRUE,
+    }
+	
+	recipe Disassemble Fuel Barrel
+    {
+       SpoonFuelBarrelEmpty,
+       BlowTorch,
+       keep [Recipe.GetItemTypes.Hammer],
+
+       Result                   :SheetMetal=4,
+       Time                     :200.0,
+       Sound                    :LogAddToStack,
+       AnimNode 				:Disassemble,
+       Prop1					:BlowTorch,
+       Category                 :Welding,
+       CanBeDoneFromFloor       :TRUE,
+    }
+	
+	item SpoonFuelBarrelEmpty
+	{
+	    DisplayCategory = VehicleMaintenance,
+		Weight	=	15.0,
+		Type	=	Normal,
+		UseWhileEquipped	=	FALSE,
+		DisplayName	=	Fuel Barrel (Empty),
+		Icon	=	SpoonBarrel,
+		UseWorldItem = TRUE,
+		WorldStaticModel = item_SpoonBarrel,
+	}
+
+	item SpoonFuelBarrel
+	{
+	    DisplayCategory = VehicleMaintenance,
+		Weight	=	25,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.02,
+		DisplayName	=	Fuel Barrel,
+		Icon	=	SpoonBarrel,
+		ReplaceOnDeplete	=	SpoonFuelBarrelEmpty,
+		StaticModel = item_SpoonBarrel,
+        WorldStaticModel = item_SpoonBarrel,
+		Tags = Petrol,
+	}
+	
+	recipe Fill Fuel Barrel
+	{
+		SpoonFuelBarrelEmpty,
+		PetrolCan=50,
+		
+		Result:SpoonFuelBarrel,
+		Time:30.0,
+		CanBeDoneFromFloor       :TRUE,
+	}
+	
+	recipe Fill Fuel Can
+	{
+		SpoonFuelBarrel=10,
+		EmptyPetrolCan,
+		
+		Result:PetrolCan,
+		Time:30.0,
+		CanBeDoneFromFloor       :TRUE,
+	}
+		
+}

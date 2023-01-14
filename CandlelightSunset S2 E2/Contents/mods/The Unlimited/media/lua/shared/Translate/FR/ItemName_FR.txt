@@ -1,0 +1,18 @@
+ItemName_FR = {
+	ItemName_Unlimited.Croptop_Fishnet = "Haut Court en Résille",
+	ItemName_Unlimited.Shirt_Fishnet = "Chemise Résille",
+	ItemName_Unlimited.Gloves_Fishnet = "Fishnet Gloves",
+	ItemName_Unlimited.Gloves_Fishnet_Long = "Fishnet Gloves Long",
+	ItemName_Unlimited.Gloves_VeryLong = "Gants Très Longs",
+	ItemName_Unlimited.Stockings_Fishnet = "bas résille",
+	ItemName_Unlimited.Socks_Thigh-High_Sport = "Chaussettes Cuissardes",
+	ItemName_Unlimited.Socks_Thigh-High_Sport_Black = "Chaussettes Cuissardes noires",
+	ItemName_Unlimited.Socks_Thigh-High_Striped = "Chaussettes Cuissardes Rayées",
+	ItemName_Unlimited.Socks_Thigh-High_Striped_Colored = "Chaussettes Cuissardes Rayures Colorées",
+	ItemName_Unlimited.Socks_Thigh-High = "Chaussettes Cuissardes",
+	ItemName_Unlimited.Socks_Polkadot = "Chaussettes à Pois",
+	ItemName_Unlimited.Shoes_Boots_Thigh-High = "Cuissardes",
+	ItemName_Unlimited.Shoes_Sneakers = "Baskets Conserve",
+	ItemName_Unlimited.Shoes_Sneakers_Low = "Baskets Conserve Taille Basse",
+	ItemName_Unlimited.Shoes_Trainers = "Baskets Sadida",
+}

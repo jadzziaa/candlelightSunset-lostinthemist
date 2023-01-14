@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\Jackets\Union_Jacket_Rank</m_MaleModel>
+	<m_FemaleModel>skinned\Jackets\F_Union_Jacket_Rank</m_FemaleModel>
+    <m_GUID>015c5200-642f-4db0-96f2-e5cdba8dc05b</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+
+    <textureChoices>/clothes/Jacket/CVUnion_JacketRank</textureChoices>
+</clothingItem>

@@ -1,0 +1,1906 @@
+module SapphCooking
+{
+	imports
+	{
+		Base,
+	}	
+	item CocktailMixer
+	{
+		Weight 		= 0.3,
+		Type 		= Normal,
+		DisplayName 		= Cocktail Mixer,
+		Icon 		= CocktailMixerIcon,
+		WorldStaticModel 		= CocktailMixer_Ground,
+	}
+	item LowballGlassWater
+	{
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.4,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserCeramic,
+		FillFromTapSound 		= GetWaterFromTapCeramic,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 1,
+		DisplayName 		= Lowball Glass with Water,
+		ReplaceOnDeplete 		= LowballGlass,
+		ReplaceOnUseOn 		= WaterSource-LowballGlassWater,
+		Icon 		= LowballGlassWaterIcon,
+		IsCookable 		= TRUE,
+		RainFactor 		= 0.1,
+		Tooltip 		= Tooltip_item_RainFromGround,
+		StaticModel 		= H_LowballGlass_Water,
+		EatType 		= Mug,
+		WorldStaticModel 		= LowballGlass_Water,
+	}
+	item LowballGlass
+	{
+		Type 		= Normal,
+		DisplayCategory 		= Cooking,
+		StaticModel 		= H_LowballGlass_Water,
+		CanStoreWater 		= TRUE,
+		ReplaceOnUseOn 		= WaterSource-LowballGlassWater,
+		RainFactor 		= 0.1,
+		Tooltip 		= Tooltip_item_RainFromGround,
+		DisplayName 		= Lowball Glass,
+		Icon 		= LowballGlassIcon,
+		Weight 		= 0.1,
+		WorldStaticModel 		= LowballGlass_Empty,
+	}
+	item BottleofLemonJuice
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -10,
+		Weight 		= 1.0,
+		Type 		= Food,
+		ThirstChange 		= -50,
+		DisplayName 		= Bottle of Lemon Juice,
+		Icon 		= BottlewithPineappleJuiceIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromCarton,
+		FoodType 		= NoExplicit,
+		Carbohydrates 		= 5,
+		Proteins 		= 40,
+		Lipids 		= 2.5,
+		Calories 		= 15,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_BottleDrinkmix_Lemonade,
+		WorldStaticModel 		= BottleDrinkmix_Lemonade,
+		UnhappyChange 		= -3,
+		BoredomChange 		= -3,
+		ReplaceOnUse 		= WaterBottleEmpty,
+	}
+	item BottleofOrangeJuice
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -10,
+		Weight 		= 1.0,
+		Type 		= Food,
+		ThirstChange 		= -50,
+		DisplayName 		= Bottle of Orange Juice,
+		Icon 		= BottlewithOrangeJuiceIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromCarton,
+		FoodType 		= NoExplicit,
+		Carbohydrates 		= 5,
+		Proteins 		= 40,
+		Lipids 		= 2.5,
+		Calories 		= 15,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_BottleDrinkmix_Orange,
+		WorldStaticModel 		= BottleDrinkmix_Orange,
+		UnhappyChange 		= -3,
+		BoredomChange 		= -3,
+		ReplaceOnUse 		= WaterBottleEmpty,
+	}
+	item CocktailGlass
+	{
+		Type 		= Normal,
+		DisplayCategory 		= Cooking,
+		CanStoreWater 		= TRUE,
+		ReplaceOnUseOn 		= WaterSource-CocktailGlassWater,
+		RainFactor 		= 0.1,
+		Tooltip 		= Tooltip_item_RainFromGround,
+		DisplayName 		= Cocktail Glass,
+		Icon 		= CocktailGlassEmptyIcon,
+		Weight 		= 0.1,
+		WorldStaticModel 		= CocktailGlass_Empty,
+		StaticModel 		= H_CocktailGlass_Water,
+	}
+	item CocktailGlassWater
+	{
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.4,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserCeramic,
+		FillFromTapSound 		= GetWaterFromTapCeramic,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 1,
+		DisplayName 		= Cocktail Glass with Water,
+		ReplaceOnDeplete 		= CocktailGlass,
+		ReplaceOnUseOn 		= WaterSource-CocktailGlassWater,
+		Icon 		= CocktailGlassWaterIcon,
+		IsCookable 		= TRUE,
+		RainFactor 		= 0.1,
+		Tooltip 		= Tooltip_item_RainFromGround,
+		StaticModel 		= H_CocktailGlass_Water,
+		EatType 		= Mug,
+		WorldStaticModel 		= CocktailGlass_Water,
+	}
+	item LowballGlassSazerac
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Sazerac Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassRedIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Red,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Red,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassMartini
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Martini Drink,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassMartiniIcon,
+		StaticModel 		= H_CocktailGlass_Lightgreen,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_Lightgreen,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassGimlet
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Gimlet Drink,
+		ReplaceOnUse 		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteIcon,
+		StaticModel 		= H_CocktailGlass_Gray,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item GinFull
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -20,
+		Weight 		= 0.7,
+		Type 		= Food,
+		ThirstChange 		= -20,
+		DisplayName 		= Gin Bottle,
+		Alcoholic 		= TRUE,
+		UnhappyChange 		= -10,
+		ReplaceOnUse 		= GinEmpty,
+		Icon 		= GinFullIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+		AlcoholPower 		= 2,
+		Carbohydrates 		= 30,
+		Proteins 		= 0,
+		Lipids 		= 0,
+		Calories 		= 140,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_AlcoholGin,
+		EatType 		= Bourbon,
+		WorldStaticModel 		= AlcoholGin,
+	}
+	item GinEmpty
+	{
+		DisplayCategory 		= WaterContainer,
+		Weight 		= 0.3,
+		CanStoreWater 		= TRUE,
+		Type 		= Normal,
+		DisplayName 		= Empty Bottle,
+		ReplaceOnUseOn 		= WaterSource-GinWaterFull,
+		Icon 		= GinFullIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= AlcoholGinEmpty,
+	}
+	item GinWaterFull
+	{
+		DisplayCategory 		= Water,
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.7,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserGlass,
+		FillFromTapSound 		= GetWaterFromTapGlass,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 0.08,
+		DisplayName 		= Water Bottle,
+		ReplaceOnDeplete 		= GinEmpty,
+		ReplaceOnUseOn 		= WaterSource-GinWaterFull,
+		Icon 		= GinWaterIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= AlcoholGinWater,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassOldFashioned
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Old Fashioned Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiskeyIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Orange,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Orange,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassGin
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Gin,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassTripleSec
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Triple Sec,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassWhiteRum
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of White Rum,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassWhiteTequila
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of White Tequila,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassCachaça
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Cachaça,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassAgua
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Agua Ardiente,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassVodka
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Vodka,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassWhiskey
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Whiskey,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiskeyIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Orange,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Orange,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassLiqueur
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Liqueur,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiskeyIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Orange,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Orange,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassManhattan
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -10,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Manhattan Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassRedIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Red,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= LowballGlass_Red,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassWhiskeySour
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -10,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Whiskey Sour Drink,
+		ReplaceOnUse 		= CocktailGlass,
+		Icon 		= CocktailGlassOrangeIcon,
+		StaticModel 		= H_CocktailGlass_Orange,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_Orange,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LiqueurBottle
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -20,
+		Weight 		= 0.7,
+		Type 		= Food,
+		ThirstChange 		= -20,
+		DisplayName 		= Liqueur Bottle,
+		Alcoholic 		= TRUE,
+		UnhappyChange 		= -10,
+		ReplaceOnUse 		= LiqueurEmpty,
+		Icon 		= WhiskeyFull,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+		AlcoholPower 		= 2,
+		Carbohydrates 		= 21,
+		Proteins 		= 0,
+		Lipids 		= 0,
+		Calories 		= 161,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= WhiskeyBottle,
+		EatType 		= Bourbon,
+		WorldStaticModel 		= WhiskeyBottleGround,
+	}
+	item LowballGlassNegroni
+	{
+		ThirstChange 		= -5,
+		HungerChange 		= -5,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Negroni Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassRedIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Red,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= LowballGlass_Red,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item VodkaFull
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -20,
+		Weight 		= 0.7,
+		Type 		= Food,
+		ThirstChange 		= -20,
+		DisplayName 		= Vodka Bottle,
+		Alcoholic 		= TRUE,
+		UnhappyChange 		= -10,
+		ReplaceOnUse 		= VodkaEmpty,
+		Icon 		= GinFullIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+		AlcoholPower 		= 2,
+		Carbohydrates 		= 31,
+		Proteins 		= 0,
+		Lipids 		= 0,
+		Calories 		= 150,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_AlcoholVodka,
+		EatType 		= Bourbon,
+		WorldStaticModel 		= SapphAlcoholVodka,
+	}
+	item VodkaEmpty
+	{
+		DisplayCategory 		= WaterContainer,
+		Weight 		= 0.3,
+		CanStoreWater 		= TRUE,
+		Type 		= Normal,
+		DisplayName 		= Empty Bottle,
+		ReplaceOnUseOn 		= WaterSource-VodkaWaterFull,
+		Icon 		= GinFullIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= AlcoholVodkaEmpty,
+	}
+	item VodkaWaterFull
+	{
+		DisplayCategory 		= Water,
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.7,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserGlass,
+		FillFromTapSound 		= GetWaterFromTapGlass,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 0.08,
+		DisplayName 		= Water Bottle,
+		ReplaceOnDeplete 		= VodkaEmpty,
+		ReplaceOnUseOn 		= WaterSource-VodkaWaterFull,
+		Icon 		= GinWaterIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= SapphAlcoholVodkaWater,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LiqueurEmpty
+	{
+		DisplayCategory 		= WaterContainer,
+		Weight 		= 0.3,
+		CanStoreWater 		= TRUE,
+		Type 		= Normal,
+		DisplayName 		= Empty Bottle,
+		ReplaceOnUseOn 		= WaterSource-WhiskeyWaterFull,
+		Icon 		= WhiskeyEmpty,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= WhiskeyBottleGround,
+	}
+	item LiqueurWaterFull
+	{
+		DisplayCategory 		= Water,
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.7,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserGlass,
+		FillFromTapSound 		= GetWaterFromTapGlass,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 0.08,
+		DisplayName 		= Water Bottle,
+		ReplaceOnDeplete 		= WhiskeyEmpty,
+		ReplaceOnUseOn 		= WaterSource-LiqueurWaterFull,
+		Icon 		= Whiskey_Water_Full,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= WhiskeyBottleGround,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassMoscowMule
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Moscow Mule Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassLightGreenIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Lightgreen,
+		EatType 		= Mug,
+		ThirstChange 		= -10,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -8,
+		WorldStaticModel 		= LowballGlass_Lightgreen,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item TequilaFull
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -20,
+		Weight 		= 0.7,
+		Type 		= Food,
+		ThirstChange 		= -20,
+		DisplayName 		= Tequila Bottle,
+		Alcoholic 		= TRUE,
+		UnhappyChange 		= -10,
+		ReplaceOnUse 		= GinEmpty,
+		Icon 		= TequilaFullIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+		AlcoholPower 		= 2,
+		Carbohydrates 		= 25,
+		Proteins 		= 0,
+		Lipids 		= 0,
+		Calories 		= 148,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_AlcoholTequila,
+		EatType 		= Bourbon,
+		WorldStaticModel 		= AlcoholTequila,
+	}
+	item TequilaEmpty
+	{
+		DisplayCategory 		= WaterContainer,
+		Weight 		= 0.3,
+		CanStoreWater 		= TRUE,
+		Type 		= Normal,
+		DisplayName 		= Empty Bottle,
+		ReplaceOnUseOn 		= WaterSource-TequilaWaterFull,
+		Icon 		= TequilaEmptyIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= AlcoholTequilaEmpty,
+	}
+	item TequilaWaterFull
+	{
+		DisplayCategory 		= Water,
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.7,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserGlass,
+		FillFromTapSound 		= GetWaterFromTapGlass,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 0.08,
+		DisplayName 		= Water Bottle,
+		ReplaceOnDeplete 		= GinEmpty,
+		ReplaceOnUseOn 		= WaterSource-GinWaterFull,
+		Icon 		= TequilaWaterIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= AlcoholTequilaWater,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassMargarita
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Margarita Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassWhiteIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Gray,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Gray,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CachaçaEmpty
+	{
+		DisplayCategory 		= WaterContainer,
+		Weight 		= 0.3,
+		CanStoreWater 		= TRUE,
+		Type 		= Normal,
+		DisplayName 		= Empty Bottle,
+		ReplaceOnUseOn 		= WaterSource-CachaçaWaterFull,
+		Icon 		= GinFullIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= AlcoholCachacaEmpty,
+	}
+	item CachaçaFull
+	{
+		DisplayCategory 		= Food,
+		HungerChange 		= -20,
+		Weight 		= 0.7,
+		Type 		= Food,
+		ThirstChange 		= -20,
+		DisplayName 		= Cachaça Bottle,
+		Alcoholic 		= TRUE,
+		UnhappyChange 		= -10,
+		ReplaceOnUse 		= CachaçaEmpty,
+		Icon 		= GinIcon,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+		AlcoholPower 		= 2,
+		Carbohydrates 		= 32,
+		Proteins 		= 0,
+		Lipids 		= 0,
+		Calories 		= 145,
+		Packaged 		= TRUE,
+		CantBeFrozen 		= TRUE,
+		StaticModel 		= H_AlcoholCachaca,
+		EatType 		= Bourbon,
+		WorldStaticModel 		= AlcoholCachaca,
+	}
+	item CachaçaWaterFull
+	{
+		DisplayCategory 		= Water,
+		IsWaterSource 		= TRUE,
+		Weight 		= 0.7,
+		CanStoreWater 		= TRUE,
+		FillFromDispenserSound 		= GetWaterFromDispenserGlass,
+		FillFromTapSound 		= GetWaterFromTapGlass,
+		Type 		= Drainable,
+		UseWhileEquipped 		= FALSE,
+		UseDelta 		= 0.08,
+		DisplayName 		= Water Bottle,
+		ReplaceOnDeplete 		= GinEmpty,
+		ReplaceOnUseOn 		= WaterSource-CachaçaWaterFull,
+		Icon 		= GinWaterIcon,
+		StaticModel 		= WhiskeyBottle,
+		WorldStaticModel 		= AlcoholCachacaWater,
+		EatType 		= Bourbon,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassCaipirinha
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Capirinha Drink,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassLightGreenIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Lightgreen,
+		EatType 		= Mug,
+		ThirstChange 		= -10,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -10,
+		WorldStaticModel 		= LowballGlass_Lightgreen,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassTequila
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass  of Tequila,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassYellowIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Yellow,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Yellow,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item LowballGlassBeer
+	{
+		Weight 		= 0.4,
+		Type 		= Food,
+		DisplayName 		= Glass of Beer,
+		ReplaceOnUse 		= LowballGlass,
+		Icon 		= LowballGlassYellowIcon,
+		RainFactor 		= 0.1,
+		StaticModel 		= H_LowballGlass_Yellow,
+		EatType 		= Mug,
+		ThirstChange 		= -5,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		HungerChange 		= -5,
+		WorldStaticModel 		= LowballGlass_Yellow,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassCabernetSauvignon
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Cabernet Sauvignon Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRedWineIcon,
+		StaticModel 		= H_CocktailGlass_RedWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RedWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassMerlot
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Merlot Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRedWineIcon,
+		StaticModel 		= H_CocktailGlass_RedWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RedWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassPinotNoir
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Pinot Noir Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRedWineIcon,
+		StaticModel 		= H_CocktailGlass_RedWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RedWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassWildBerry
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Wild Berry Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRedWineIcon,
+		StaticModel 		= H_CocktailGlass_RedWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RedWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassBerryWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Berry Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRedWineIcon,
+		StaticModel 		= H_CocktailGlass_RedWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RedWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassRedWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Red Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRedWineIcon,
+		StaticModel 		= H_CocktailGlass_RedWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RedWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassPeachWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Peach Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRoseWineIcon,
+		StaticModel 		= H_CocktailGlass_RoseWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RoseWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassRosehipWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Rosehip Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRoseWineIcon,
+		StaticModel 		= H_CocktailGlass_RoseWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RoseWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassStrawberryWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Strawberry Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRoseWineIcon,
+		StaticModel 		= H_CocktailGlass_RoseWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RoseWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassRoseWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Rose Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassRoseWineIcon,
+		StaticModel 		= H_CocktailGlass_RoseWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_RoseWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassPinotGrigioWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Pinot Grigio Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassSauvignonBlancWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Sauvignon Blanc Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassRieslingWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Riesling Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassPineappleWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Pineapple Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassPearWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Pear Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassBananaWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Banana Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassWhiteWine
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of White Wine,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassVermouth
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Vermouth,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+	item CocktailGlassDryVermouth
+	{
+		ThirstChange 		= -10,
+		HungerChange 		= -8,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Glass of Dry Vermouth,
+		ReplaceOnUse		= CocktailGlass,
+		Icon 		= CocktailGlassWhiteWineIcon,
+		StaticModel 		= H_CocktailGlass_WhiteWine,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_WhiteWine,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+
+	item CocktailGlassWhiskey
+	{
+		ThirstChange 		= -5,
+		HungerChange 		= -5,
+		Weight 		= 0.4,
+		Type 		= Food,
+		UseWhileEquipped 		= FALSE,
+		DisplayName 		= Whiskey Glass,
+		ReplaceOnUse 		= CocktailGlass,
+		Icon 		= CocktailGlassOrangeIcon,
+		StaticModel 		= H_CocktailGlass_Orange,
+		EatType 		= Mug,
+		Alcoholic 		= true,
+		AlcoholPower 		= 1,
+		WorldStaticModel 		= CocktailGlass_Orange,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottleGlass,
+	}
+
+
+
+
+
+
+
+	recipe Make An Old Fashioned Drink
+	{
+		Sugar;1,
+		WhiskeyFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassOldFashioned,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Manhattan Drink
+	{
+		Vermouth;1,
+		WhiskeyFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassManhattan,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Manhattan Drink
+	{
+		DryVermouth;1,
+		WhiskeyFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassManhattan,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Sazerac Drink
+	{
+		Sugar;1,
+		CarbonatedWater;1,
+		WhiskeyFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassSazerac,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Beer
+	{
+		BeerBottle;4,
+		destroy LowballGlass,
+		Result 		: LowballGlassBeer,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Whiskey
+	{
+		WhiskeyFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassWhiskey,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Liqueur
+	{
+		LiqueurBottle;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassLiqueur,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of White Tequila
+	{
+		WhiteTequila;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassWhiteTequila,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Marguerita Drink
+	{
+		keep CocktailMixer,
+		Salt;1,
+		BottleofLemonJuice;1,
+		TequilaFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassMargarita,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Marguerita Drink
+	{
+		keep CocktailMixer,
+		Salt;1,
+		BottleofLemonJuice;1,
+		WhiteTequila;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassMargarita,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+
+
+	recipe Make An Gimlet Drink
+	{
+		Sugar;1,
+		GinFull;1,
+		BottleofLemonJuice;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassGimlet,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Gimlet Drink
+	{
+		Sugar;1,
+		Ginebra;1,
+		BottleofLemonJuice;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassGimlet,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Whiskey Sour Drink
+	{
+		BottleofLemonJuice;1,
+		keep CocktailMixer,
+		Egg/BrownEgg/WildEggs,
+		WhiskeyFull;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassWhiskeySour,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Caipirinha Drink
+	{
+		Sugar;1,
+		BottleofLemonJuice;1,
+		CachaçaFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassCaipirinha,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Vodka Martini Drink
+	{
+		VodkaFull;1,
+		Vermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An  Vodka Martini Drink
+	{
+		VodkaFull;1,
+		DryVermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Vodka Martini Drink
+	{
+		VodkaFull;1,
+		Ginebra;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make  Vodka Martini Drink
+	{
+		VodkaFull;1,
+		GinFull;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make an Vodka Martini Drink
+	{
+		legourmet.VodkaFull;1,
+		Vermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make an  Vodka Martini Drink
+	{
+		legourmet.VodkaFull;1,
+		DryVermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Vodka Martini Drink
+	{
+		legourmet.VodkaFull;1,
+		Ginebra;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make Vodka Martini Drink
+	{
+		legourmet.VodkaFull;1,
+		GinFull;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Moscow Mule Drink
+	{
+		keep CocktailMixer,
+		VodkaFull;1,
+		BottleofLemonJuice;1,
+		destroy CocktailGlass,
+		Result 		: LowballGlassMoscowMule,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Moscow Mule Drink
+	{
+		keep CocktailMixer,
+		legourmet.VodkaFull;1,
+		BottleofLemonJuice;1,
+		destroy CocktailGlass,
+		Result 		: LowballGlassMoscowMule,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Negroni Drink
+	{
+		keep CocktailMixer,
+		Vermouth;1,
+		GinFull;1,
+		LiqueurBottle;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassNegroni,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Negroni Drink
+	{
+		keep CocktailMixer,
+		Vermouth;1,
+		Ginebra;1,
+		LiqueurBottle;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassNegroni,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make an Negroni Drink
+	{
+		keep CocktailMixer,
+		DryVermouth;1,
+		GinFull;1,
+		LiqueurBottle;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassNegroni,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Negroni Drink
+	{
+		keep CocktailMixer,
+		DryVermouth;1,
+		Ginebra;1,
+		LiqueurBottle;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassNegroni,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Martini Drink
+	{
+		keep CocktailMixer,
+		GinFull;1,
+		Vermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Martini Drink
+	{
+		keep CocktailMixer,
+		Ginebra;1,
+		Vermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make an Martini Drink
+	{
+		keep CocktailMixer,
+		GinFull;1,
+		DryVermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Martini Drink
+	{
+		keep CocktailMixer,
+		Ginebra;1,
+		DryVermouth;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMartini,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Gin
+	{
+		GinFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassGin,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Gin
+	{
+		Ginebra;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassGin,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Triple Sec
+	{
+		TripleSec;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassTripleSec,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of White Rum
+	{
+		WhiteRum;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassWhiteRum,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Cachaça
+	{
+		CachaçaFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassCachaça,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Agua Ardiente
+	{
+		Aguaardiente;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassAgua,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Vodka
+	{
+		VodkaFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassVodka,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Vodka
+	{
+		legourmet.VodkaFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassVodka,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Glass of Tequila
+	{
+		TequilaFull;1,
+		destroy LowballGlass,
+		Result 		: LowballGlassTequila,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make An Cocktail Glass with Whiskey
+	{
+		WhiskeyFull;1,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassWhiskey,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Berry Wine
+	{
+		BerryWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassBerryWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Red Wine
+	{
+		Wine2a;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassRedWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Rose Wine
+	{
+		Wine3a;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassRoseWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of White Wine
+	{
+		Winea;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassWhiteWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Vermouth
+	{
+		Vermouth;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassVermouth,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Dry Vermouth
+	{
+		DryVermouth;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassDryVermouth,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Banana Wine
+	{
+		BananaWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassBananaWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Cabernet Sauvignon Wine
+	{
+		RedWineAgedFully;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassCabernetSauvignon,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Glass of Cabernet Sauvignon Wine
+	{
+		WineBoxSmall3;4,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassCabernetSauvignon,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Merlot Wine
+	{
+		RedWineAged;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMerlot,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Glass of Merlot Wine
+	{
+		WineBoxSmall2;4,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassMerlot,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Peach Wine
+	{
+		PeachWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassPeachWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Pear Wine
+	{
+		PearWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassPearWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Pineapple Wine
+	{
+		PineappleWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassPineappleWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Pinot Grigio Wine
+	{
+		WhiteWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassPinotGrigioWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Glass of Pinot Grigio Wine
+	{
+		WineBoxSmall4;4,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassPinotGrigioWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Pinot Noir Wine
+	{
+		RedWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassPinotNoir,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Glass of Pinot Noir Wine
+	{
+		WineBoxSmall1;4,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassPinotNoir,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Riesling Wine
+	{
+		WhiteWineAged;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassRieslingWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Glass of Riesling Wine
+	{
+		WineBoxSmall5;4,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassRieslingWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Rosehip Wine
+	{
+		RosehipWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassRosehipWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Sauvignon Blanc Wine
+	{
+		WhiteWineAgedFully;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassSauvignonBlancWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make a Glass of Sauvignon Blanc Wine
+	{
+		WineBoxSmall6;4,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassSauvignonBlancWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Strawberry Wine
+	{
+		StrawberryWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassStrawberryWine,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+	recipe Make A Glass of Wild Berry Wine
+	{
+		WildBerryWine;2,
+		destroy CocktailGlass,
+		Result 		: CocktailGlassWildBerry,
+		Time 		: 80.0,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.None,
+		Sound 		: CupFill,
+	}
+
+	recipe Make Molotov Cocktail
+	{
+		CachaçaEmpty/GinEmpty/LiqueurEmpty/TequilaEmpty/VodkaEmpty,
+		RippedSheets/RippedSheetsDirty,
+		PetrolCan=1,
+		Result 		: Molotov,
+		Time 		: 50.0,
+	}
+	recipe Make Molotov Cocktail2
+	{
+		VodkaFull/CachaçaFull/TequilaFull,
+		RippedSheets/RippedSheetsDirty,
+		Result 		: Molotov,
+		Time 		: 50.0,
+	}
+}

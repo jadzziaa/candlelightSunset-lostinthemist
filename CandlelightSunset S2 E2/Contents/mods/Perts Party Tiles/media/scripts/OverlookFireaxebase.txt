@@ -1,0 +1,19 @@
+module Base  
+{
+
+	model OverlookFireAxe 
+	{
+		mesh = weapons/2handed/OFireAxe,
+                                        texture = weapons/2handed/OFireAxe,
+
+                attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+	}
+
+
+	
+}

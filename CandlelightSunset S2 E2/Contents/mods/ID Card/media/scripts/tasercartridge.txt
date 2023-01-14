@@ -1,0 +1,23 @@
+module 
+{
+    imports
+    {
+        Base
+    }
+
+    item TaserCartridge
+    {
+        DisplayCategory = Ammo,
+        Count	=	1,
+        Weight	=	1.1,
+        Type	=	Normal,
+        DisplayName	=	M-26 Taser Cartridge,
+        Icon	=	TASERCARTRIDGE,
+        MaxAmmo = 2,
+        AmmoType = TaserProng,
+        MetalValue = 1,
+        WorldStaticModel = Seed,
+        GunType = Taser,
+        AlwaysWelcomeGift	=	TRUE,
+    }
+}

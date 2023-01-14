@@ -1,0 +1,8 @@
+name=真正的梯子(Real Ladder)
+id=QNW_Ladder
+description=地图上的梯子现在能够攀爬，并且玩家也能建造梯子。
+description=Ladders on the map can now be climbed, and players can also build ladders.
+poster=poster.png
+require=QNW_QNWLibrary
+pack=Ladder
+tiledef=Ladder 999

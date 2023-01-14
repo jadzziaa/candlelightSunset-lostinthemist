@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\Hat_Union</m_MaleModel>
+	<m_FemaleModel>static\clothes\Hat_Union</m_FemaleModel>
+	<m_GUID>ad6a57aa-4b27-4dc3-a878-0752481ef39e</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>default</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes/Hat/Hat_TexUnion</textureChoices>
+</clothingItem>

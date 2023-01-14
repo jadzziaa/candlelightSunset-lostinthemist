@@ -1,0 +1,22 @@
+module SilentsGlassShiv
+{
+
+	imports
+	{
+		Base,
+	}
+
+    recipe Attach Glass Shiv to Spear
+    {
+        SpearCrafted,
+        GlassShiv,
+        DuctTape=1,
+
+        Result:SpearGlassShiv,
+        Time:250.0,
+		Override:true,			
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+    }
+
+}

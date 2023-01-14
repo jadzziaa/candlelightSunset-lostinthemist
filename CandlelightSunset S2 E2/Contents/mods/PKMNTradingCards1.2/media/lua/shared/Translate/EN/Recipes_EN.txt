@@ -1,0 +1,10 @@
+Recipes_EN={
+
+Recipe_Open_Booster_Pack_(Base_Set)="Open Booster Pack (Base Set)",
+Recipe_Open_Booster_Pack_(Jungle_Set)="Open Booster Pack (Jungle Set)",
+Recipe_Open_Booster_Pack_(Fossil_Set)="Open Booster Pack (Fossil Set)",
+
+Recipe_Open_Booster_Box_(Base_Set)="Open Booster Box (Base Set)",
+Recipe_Open_Booster_Box_(Jungle_Set)="Open Booster Box (Jungle Set)",
+Recipe_Open_Booster_Box_(Fossil_Set)="Open Booster Box (Fossil Set)",
+Recipe_Place_Complete_Collection_in_Binder="Place Complete Collection in Binder",

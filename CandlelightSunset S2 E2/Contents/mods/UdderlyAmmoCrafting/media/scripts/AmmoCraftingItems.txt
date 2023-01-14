@@ -1,0 +1,343 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+	
+	/*Magazines*/
+	
+	item Magazine_UdderlyAmmoCrafting_1_Ammo
+	{
+		Weight=.1,
+		Type=Literature,
+		DisplayName=Gunsmithing Vol. 1: Ammunition,
+		Icon=Magazine_UdderlyAmmoCrafting_1_Ammo,
+		ReplaceOnUse=Magazine_UdderlyAmmoCrafting_1_Ammo,
+		StaticModel=Magazine,
+		WorldStaticModel=MagazineGround,
+	}
+	
+	item Magazine_UdderlyAmmoCrafting_2_Magazine
+	{
+		Weight=.1,
+		Type=Literature,
+		DisplayName=Gunsmithing Vol. 2: Magazines,
+		Icon=Magazine_UdderlyAmmoCrafting_2_Magazine,
+		ReplaceOnUse=Magazine_UdderlyAmmoCrafting_2_Magazine,
+		StaticModel=Magazine,
+		WorldStaticModel=MagazineGround,
+	}
+	
+	item Magazine_UdderlyAmmoCrafting_3_Gunpowder
+	{
+		Weight=.1,
+		Type=Literature,
+		DisplayName=Gunsmithing Vol. 3: Gunpowder,
+		Icon=Magazine_UdderlyAmmoCrafting_3_Gunpowder,
+		ReplaceOnUse=Magazine_UdderlyAmmoCrafting_3_Gunpowder,
+		StaticModel=Magazine,
+		WorldStaticModel=MagazineGround,
+	}
+	
+	/*Ammo Cans*/
+	
+	/*Large ones hold 24lbs of ammo boxes, remove 1/3 weight for packing/carrying bonus to get 18 and plus one for the can to get 19*/
+	item AmmoCan22
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.22 Ammo Can (3000 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan9
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=9mm Ammo Can (3600 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan38
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.38 Ammo Can (720 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan45
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.45 Ammo Can (1890 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan44
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.44 Ammo Can (828 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan223
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.223 Ammo Can (1600 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan308
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.308 Ammo Can (1600 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan12
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=12g Ammo Can (720 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan556
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=5.56mm Ammo Can (1200 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	item AmmoCan762
+	{
+		Weight=19,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCan,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=7.62mm Ammo Can (800 Rounds),
+		StaticModel=AmmoCan,
+		WorldStaticModel=AmmoCan,
+	}
+	
+	/*Small ones hold 12lbs of ammo boxes, remove 1/3 weight for packing/carrying bonus to get 8 and plus one for the can to get 9*/
+	item AmmoCanSmall22
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.22 Small Ammo Can (1500 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall9
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=9mm Small Ammo Can (1800 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall38
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.38 Small Ammo Can (360 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall45
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.45 Small Ammo Can (960 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall44
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.44 Small Ammo Can (408 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall223
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.223 Small Ammo Can (800 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall308
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=.308 Small Ammo Can (800 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall12
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=12g Small Ammo Can (360 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall556
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=5.56mm Small Ammo Can (600 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	item AmmoCanSmall762
+	{
+		Weight=9,
+		Type=Normal,
+		DisplayCategory=Ammo,
+		Icon=AmmoCanSmall,
+		AlwaysWelcomeGift=TRUE,
+		DisplayName=7.62mm Small Ammo Can (400 Rounds),
+		StaticModel=AmmoCanSmall,
+		WorldStaticModel=AmmoCanSmall,
+	}
+	
+	/*
+	Boxes to make up 24lbs (using weight as loose proxy for size)
+	--------------------------------------------------------------------------------------
+	22 holds 10 (100) -> 30 boxes (.8ea) -> 3000rds
+	9 holds 6 (30) -> 120 boxes (.2ea) -> 3600rds
+	45 holds 6 (30) -> 24 boxes (1ea) -> 720rds
+	38 holds 6 (30) -> 63 boxes (.38ea) -> 1890rds
+	44 holds 4 (12) -> 69 boxes (.35ea) -> 828rds
+	223 holds 8 (40) -> 40 boxes (.6ea) -> 1600rds
+ 	308 holds 8 (40) -> 40 boxes (.6ea) -> 1600rds
+	12 holds 4 (24) -> 30 boxes (.8ea) -> 720rds
+	556 holds 12 (60) -> 20 boxes (1.2ea) -> 1200rds
+	762 holds 8 (40) -> 20 boxes (1.2ea) -> 800rds
+	*/
+	
+	/*Boxes to make up 12lbs (for smaller can)
+	22 -> 15 -> 1500rds
+	9 -> 60 -> 1800rds
+	45 -> 12 -> 360rds
+	38 -> 32 -> 960rds
+	44 -> 34 -> 408rds
+	223 -> 20 -> 800rds
+	308 -> 20 -> 800rds
+	12 -> 15 -> 360rds
+	556 -> 10 -> 600rds
+	762 -> 10 -> 400rds
+	*/
+	
+	/*Other Items*/
+	
+	item ScrapMetalBits
+	{
+		DisplayCategory = Material,
+		Weight = 0.01,
+		Type = Normal,
+		DisplayName =Scrap Metal Bits,
+		Icon = ScrapMetalBits,
+		MetalValue = 1,
+		SurvivalGear = TRUE,
+		WorldStaticModel = ScrapMetalBits,
+	}
+	
+	/*Overrides*/
+	
+	item GunPowder
+	{
+		DisplayCategory = Material,
+		Weight	=	0.01, /*10% weight*/
+		Type	=	Drainable,
+		UseDelta = 0.001, /*1k uses instead of 10*/
+		UseWhileEquipped = FALSE,
+		DisplayName	=	Gunpowder,
+		Icon	=	GunpowderJar,
+		WeightEmpty = 0.01,
+		WorldStaticModel = GunpowderJar,
+	}
+}

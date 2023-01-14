@@ -1,0 +1,9 @@
+IGUI_RU = {
+	IGUI_ItemCat_TestTube = "TestTube",
+	IGUI_perks_VaccineResearch = "VaccineResearch",
+	IGUI_perks_Crafting = "Crafting",
+	IGUI_CraftCategory_Equipment = "Equipment",
+	IGUI_CraftCategory_Decorations = "Decorations",
+	IGUI_CraftCategory_Chemistry = "Chemistry",
+	IGUI_CraftCategory_Other = "Other",
+}

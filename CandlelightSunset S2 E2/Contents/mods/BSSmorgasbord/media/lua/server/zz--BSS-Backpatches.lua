@@ -1,0 +1,36 @@
+--Backpatches (build 41)
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2262247530
+if getActivatedMods():contains("Backpatches") then
+GaistUtils.doParam("Base.PatchAlien","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchChieftan","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchCobra","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchCowSkull","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchDeathOrGlory","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchDevil","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchDinosaur","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchDragon","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchEagle","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchFangs","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchFlail","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchFrankenstein","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchFuckOff","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchGarfield","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchGasmask","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchGoalieMask","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchHorse","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchKatana","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchNinja","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchPanther","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchPeaceSign","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchPitbull","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchPlanet","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchPotLeaf","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchPumpkin","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchRose","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchScorpion","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchSixguns","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchStPauli","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchTiger","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchWarrior","DisplayCategory","CraftTailor");
+GaistUtils.doParam("Base.PatchWolf","DisplayCategory","CraftTailor");
+end

@@ -1,0 +1,22 @@
+module WalletPlus
+{
+    imports
+    {
+        Base
+    }
+
+    item LeatherWallet
+    {
+		WeightReduction	=	1,
+		Weight	=	0.4,
+		Type	=	Container,
+		Capacity	=	4,
+		DisplayName	=	Leather Wallet,
+		Icon	=	Wallet_01,
+        OpenSound   =   WALLETOPEN,
+        CloseSound   =   WALLETCLOSE,
+        PutInSound   =   WALLETCLOSE,
+        AcceptItemFunction = Accept_Documentation
+        AcceptItemFunction = Accept_Money
+    }
+}

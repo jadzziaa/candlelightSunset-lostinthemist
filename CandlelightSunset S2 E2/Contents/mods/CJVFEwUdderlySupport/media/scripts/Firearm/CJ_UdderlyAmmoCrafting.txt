@@ -1,0 +1,40 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+	recipe Craft357Round
+	{
+		ScrapMetalBits=3,
+		GunPowder=9,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep Wrench,
+
+		Result:Bullets357,
+		Sound:Hammering,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=2;Reloading=2,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.IgnoreCount,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+	
+	/*Fuckin guessin' here, should look it up properly later, I just made it a bit smaller than 45.*/
+	recipe Scrap357Round
+	{
+		Bullets357,
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		   
+		Result:GunPowder;7,
+		Time:15.0,
+		Category:Firearm,
+		SkillRequired:Reloading=1,
+		NeedToBeLearn:true,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits3,
+		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
+	}
+}

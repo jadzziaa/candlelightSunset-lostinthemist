@@ -1,0 +1,5 @@
+Tooltip_EN = 
+{
+	Tooltip_IndustrialBreachingHammer = "Can demolish a couple of things before breaking.",
+	Tooltip_PoliceBreachingHammer = "Can demolish a few things before breaking.",	
+}

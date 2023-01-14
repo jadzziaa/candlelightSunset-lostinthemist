@@ -1,0 +1,10 @@
+name=Hard Forage
+id=HardForage
+description=Forage zones wont be refilled/updated daily but rather with weather events only. 
+description=Nerfed vegatation zone output goodies a little to encourage more forest trips.
+description=Junk food category now only lets you find canned food.
+description=Nerfed peoples specialities on certain item categories so they could have better chance of finding other stuff as well.
+description=Worms and termites come in bulk now - 1 to 8 and 1 to 10 respectively.
+description=Its a small workaround to force people to wonder further from their bases.
+description=Goes hand in hand with my Hard Fishing mod.
+poster=poster.png
