@@ -15,15 +15,6 @@ registerAsLoot("Base.SpoonMagazinePrserving", 0.1, "ClassroomShelves");
 registerAsLoot("Base.SpoonMagazinePrserving", 0.1, "ClassroomMisc");
 registerAsLoot("Base.SpoonMagazinePrserving", 0.5, "MagazineRackMixed");
 
-registerAsLoot("Base.SpoonMagazineBrewing", 0.8, "BookstoreBooks");
-registerAsLoot("Base.SpoonMagazineBrewing", 0.2, "PostOfficeBooks");
-registerAsLoot("Base.SpoonMagazineBrewing", 0.7, "LibraryBooks");
-registerAsLoot("Base.SpoonMagazineBrewing", 1, "LivingRoomShelf");
-registerAsLoot("Base.SpoonMagazineBrewing", 0.8, "GigamartFarming");
-registerAsLoot("Base.SpoonMagazineBrewing", 0.1, "ClassroomShelves");
-registerAsLoot("Base.SpoonMagazineBrewing", 0.1, "ClassroomMisc");
-registerAsLoot("Base.SpoonMagazineBrewing", 0.5, "MagazineRackMixed");
-
 registerAsLoot("Base.WoodenBarrel", 2, "CrateFarming");
 registerAsLoot("Base.WoodenBarrel", 2, "GardenStoreMisc");
 registerAsLoot("Base.WoodenBarrel", 2, "GigamartFarming");
