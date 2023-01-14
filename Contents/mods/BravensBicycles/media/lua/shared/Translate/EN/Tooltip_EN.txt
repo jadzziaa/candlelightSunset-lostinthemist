@@ -1,6 +1,6 @@
 Tooltip_EN = {
-	Tooltip_item_BicycleFrame = "Can be dropped to spawn a bike with all the parts you have in your inventory.",
-	Tooltip_item_BicycleBasket = "Can be installed on regular bikes for extra storage.",
-	Tooltip_item_BicycleLock = "Used to lock a bike, preventing others from entering it.",
-	Tooltip_item_BicycleLockKey = "Used to remove a bike's lock.",
+	Tooltip_item_BicycleFrame = "Must be dropped to use.",
+	Tooltip_item_BicycleBasket = "Installable on regular bicycles for additional capacity.",
+	Tooltip_item_BicycleLock = "Locks a bicycle.",
+	Tooltip_item_BicycleLockKey = "Unlocks a bicycle.",
 }

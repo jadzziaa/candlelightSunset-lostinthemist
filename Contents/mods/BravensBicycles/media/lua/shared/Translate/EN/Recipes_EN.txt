@@ -1,15 +1,15 @@
 Recipes_EN = {
-    Recipe_CraftScrapFrame1 = "Weld regular scrap frame",
-    Recipe_CraftScrapSuspension1 = "Weld regular scrap suspension",
-    Recipe_CraftScrapBrakes1 = "Weld regular scrap brakes",
-    Recipe_CraftScrapTire1 = "Mold regular scrap tire",
+    Recipe_CraftScrapFrame1 = "Weld Bicycle Frame - Regular (Scrap)",
+    Recipe_CraftScrapSuspension1 = "Weld Bicycle Suspension - Regular (Scrap)",
+    Recipe_CraftScrapBrakes1 = "Weld Bicycle Brakes - Regular (Scrap)",
+    Recipe_CraftScrapTire1 = "Mold Bicycle Tire - Regular (Scrap)",
 
-    Recipe_CraftScrapFrame2 = "Weld MTB scrap frame",
-    Recipe_CraftScrapSuspension2 = "Weld MTB scrap suspension",
-    Recipe_CraftScrapBrakes2 = "Weld MTB scrap brakes",
-    Recipe_CraftScrapTire2 = "Mold MTB scrap tire",
+    Recipe_CraftScrapFrame2 = "Weld Bicycle Frame - Mountain (Scrap)",
+    Recipe_CraftScrapSuspension2 = "Weld Bicycle Suspension - Mountain (Scrap)",
+    Recipe_CraftScrapBrakes2 = "Weld Bicycle Brakes - Mountain (Scrap)",
+    Recipe_CraftScrapTire2 = "Mold Bicycle Tire - Mountain (Scrap)",
 
-    Recipe_CraftScrapSeat = "Make scrap seat",
-    Recipe_CraftBikeLock = "Craft bike lock",
-    Recipe_CraftHeadlight = "Craft bike headlight",
+    Recipe_CraftScrapSeat = "Make Bicycle Seat (Scrap)",
+    Recipe_CraftBikeLock = "Craft Bicycle Lock and Key",
+    Recipe_CraftHeadlight = "Craft Bicycle Headlight",
 }
