@@ -62,7 +62,7 @@ module Base
 	
 	recipe Stomp Food to Mush
     {	
-		FishFillet/SteakSlice/Steak/Smallanimalmeat/Rabbitmeat/Smallbirdmeat/Sugar/SugarBrown/HomemadeMeat/DryBerry/SaltedFish/SmokedFish/SmokedMeat/SaltedMeat/Cabbage/Corn/Potato/BloomingBroccoli/RedRadish/Strewberrie/Tomato/Carrots/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/Onion/Lettuce/BellPepper/Avocado/Zucchini/Peas/Broccoli/Eggplant/Leek/Lemon/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/BerryPoisonIvy/Peach/Pineapple/Cherry/Watermelon/WatermelonSliced/WatermelonSmashed/Grapes/Orange/Apple/Banana;10,
+		FishFillet/PorkChop/MuttonChop/DeerChop/Choppedporkmeat/BadMuttonChop/BadMooseChop/BadDeerChop/BadCowChop/BadPorkChop/BadBisonChop/BadBearChop/BearSteak/MooseSteak/BisonSteak/Chicken/Chickenchest/ChickenWing/Cowribs/SteakSlice/Steak/Smallanimalmeat/Rabbitmeat/Smallbirdmeat/Sugar/SugarBrown/HomemadeMeat/DryBerry/SaltedFish/SmokedFish/SmokedMeat/SaltedMeat/Cabbage/Corn/Potato/BloomingBroccoli/RedRadish/Strewberrie/Tomato/Carrots/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/Onion/Lettuce/BellPepper/Avocado/Zucchini/Peas/Broccoli/Eggplant/Leek/Lemon/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/BerryPoisonIvy/Peach/Pineapple/Cherry/Watermelon/WatermelonSliced/WatermelonSmashed/Grapes/Orange/Apple/Banana;10,
 		keep WoodenBarrel/Pot/BucketEmpty/Saucepan,
 		keep Log,
 
