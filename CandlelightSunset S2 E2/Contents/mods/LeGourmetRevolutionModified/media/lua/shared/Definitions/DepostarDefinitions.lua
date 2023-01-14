@@ -164,6 +164,69 @@ Cowribs.minSkill = 6;
 Cowribs.maxSkill = 10;
 Cowribs.DataName = "Cowribs";
 
+local BonesCow = {};
+Cowribs.type = "Base.Bone";
+Cowribs.minCount = 20;
+Cowribs.maxCount = 40;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "BonesCow";
+
+local LeatherStripsDirtyCow = {};
+Cowribs.type = "Base.LeatherStripsDirty";
+Cowribs.minCount = 15;
+Cowribs.maxCount = 30;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "LeatherStripsDirtyCow";
+
+local BonesDeer = {};
+Cowribs.type = "Base.Bone";
+Cowribs.minCount = 10;
+Cowribs.maxCount = 20;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "BonesDeer";
+
+local LeatherStripsDirtyDeer = {};
+Cowribs.type = "Base.LeatherStripsDirty";
+Cowribs.minCount = 7;
+Cowribs.maxCount = 15;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "LeatherStripsDirtyDeer";
+
+local BonesSheep = {};
+Cowribs.type = "Base.Bone";
+Cowribs.minCount = 7;
+Cowribs.maxCount = 15;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "BonesSheep";
+
+local LeatherStripsDirtySheep = {};
+Cowribs.type = "Base.LeatherStripsDirty";
+Cowribs.minCount = 5;
+Cowribs.maxCount = 10;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "LeatherStripsDirtySheep";
+
+local BonesCrow = {};
+Cowribs.type = "Base.Bone";
+Cowribs.minCount = 2;
+Cowribs.maxCount = 4;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "BonesCrow";
+
+local LeatherStripsDirtyCrow = {};
+Cowribs.type = "Base.LeatherStripsDirty";
+Cowribs.minCount = 1;
+Cowribs.maxCount = 2;
+Cowribs.minSkill = 1;
+Cowribs.maxSkill = 10;
+Cowribs.DataName = "LeatherStripsDirtyCrow";
 
 --Chuletas de cordero mal cortados
 local BadMuttonChop = {};
@@ -473,6 +536,8 @@ table.insert(DepostarDefinitions["DeadPork"].items, Ham);
 table.insert(DepostarDefinitions["DeadPork"].items, Tendon);
 table.insert(DepostarDefinitions["DeadPork"].items, Bacon);
 table.insert(DepostarDefinitions["DeadPork"].items, HogCasings);
+table.insert(DepostarDefinitions["DeadPork"].items, BonesSheep);
+table.insert(DepostarDefinitions["DeadPork"].items, LeatherStripsDirtySheep);
 
 -- Vaca
 table.insert(DepostarDefinitions["DeadCow"].items, BadCowChop);
@@ -485,6 +550,8 @@ table.insert(DepostarDefinitions["DeadCow"].items, Cowmeat);
 table.insert(DepostarDefinitions["DeadCow"].items, Tendon);
 table.insert(DepostarDefinitions["DeadCow"].items, HogCasings);
 table.insert(DepostarDefinitions["DeadCow"].items, Cowribs);
+table.insert(DepostarDefinitions["DeadCow"].items, BonesCow);
+table.insert(DepostarDefinitions["DeadCow"].items, LeatherStripsDirtyCow);
 
 --Sheep
 table.insert(DepostarDefinitions["DeadSheep"].items, BadMuttonChop);
@@ -495,6 +562,8 @@ table.insert(DepostarDefinitions["DeadSheep"].items, MuttonChopB);
 table.insert(DepostarDefinitions["DeadSheep"].items, MuttonChopC);
 table.insert(DepostarDefinitions["DeadSheep"].items, Tendon);
 table.insert(DepostarDefinitions["DeadSheep"].items, HogCasings);
+table.insert(DepostarDefinitions["DeadSheep"].items, BonesSheep);
+table.insert(DepostarDefinitions["DeadSheep"].items, LeatherStripsDirtySheep);
 
 --Bear
 table.insert(DepostarDefinitions["DeadBear"].items, BadBearChop);
@@ -504,6 +573,8 @@ table.insert(DepostarDefinitions["DeadBear"].items, BearSteak);
 table.insert(DepostarDefinitions["DeadBear"].items, BearSteakB);
 table.insert(DepostarDefinitions["DeadBear"].items, BearSteakC);
 table.insert(DepostarDefinitions["DeadBear"].items, Tendon);
+table.insert(DepostarDefinitions["DeadBear"].items, BonesCow);
+table.insert(DepostarDefinitions["DeadBear"].items, LeatherStripsDirtyCow);
 
 --Bison
 table.insert(DepostarDefinitions["DeadBison"].items, BadBisonChop);
@@ -514,6 +585,8 @@ table.insert(DepostarDefinitions["DeadBison"].items, BisonSteakB);
 table.insert(DepostarDefinitions["DeadBison"].items, BisonSteakC);
 table.insert(DepostarDefinitions["DeadBison"].items, Tendon);
 table.insert(DepostarDefinitions["DeadBison"].items, HogCasings);
+table.insert(DepostarDefinitions["DeadBison"].items, BonesCow);
+table.insert(DepostarDefinitions["DeadBison"].items, LeatherStripsDirtyCow);
 
 --Moose
 table.insert(DepostarDefinitions["DeadMoose"].items, BadMooseChop);
@@ -524,6 +597,8 @@ table.insert(DepostarDefinitions["DeadMoose"].items, MooseSteakB);
 table.insert(DepostarDefinitions["DeadMoose"].items, MooseSteakC);
 table.insert(DepostarDefinitions["DeadMoose"].items, Tendon);
 table.insert(DepostarDefinitions["DeadMoose"].items, HogCasings);
+table.insert(DepostarDefinitions["DeadMoose"].items, BonesCow);
+table.insert(DepostarDefinitions["DeadMoose"].items, LeatherStripsDirtyCow);
 
 table.insert(DepostarDefinitions["DeadDeer"].items, BadDeerChop);
 table.insert(DepostarDefinitions["DeadDeer"].items, BadDeerChopB);
@@ -533,3 +608,5 @@ table.insert(DepostarDefinitions["DeadDeer"].items, DeerChopB);
 table.insert(DepostarDefinitions["DeadDeer"].items, DeerChopC);
 table.insert(DepostarDefinitions["DeadDeer"].items, Tendon);
 table.insert(DepostarDefinitions["DeadDeer"].items, HogCasings);
+table.insert(DepostarDefinitions["DeadDeer"].items, BonesDeer);
+table.insert(DepostarDefinitions["DeadDeer"].items, LeatherStripsDirtyDeer);

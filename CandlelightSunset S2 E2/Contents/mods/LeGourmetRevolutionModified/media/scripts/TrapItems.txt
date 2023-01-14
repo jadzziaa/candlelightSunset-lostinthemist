@@ -2068,7 +2068,7 @@ module Base
         Sound:SliceMeat,
         Time:125.0,
 		SkillRequired:Cooking=4,
-        OnCreate:DepostarMTAnimal_OnCreate,
+        OnCreate:CutCrow_OnCreate,
         Category:Survivalist,
         OnGiveXP:Give10CookingXP,
     }
@@ -2280,7 +2280,7 @@ module Base
         Result:Smallbirdmeat,
         Sound:SliceMeat,
         Time:50.0,
-        OnCreate:CutAnimal_OnCreate,
+        OnCreate:CutCrow_OnCreate,
         Category:Cooking,
         OnGiveXP:Give10CookingXP,
     }
@@ -2321,7 +2321,7 @@ module Base
         Result:Smallbirdmeat,
         Sound:SliceMeat,
         Time:50.0,
-        OnCreate:CutAnimal_OnCreate,
+        OnCreate:CutCrow_OnCreate,
         Category:Cooking,
         OnGiveXP:Give10CookingXP,
     }
