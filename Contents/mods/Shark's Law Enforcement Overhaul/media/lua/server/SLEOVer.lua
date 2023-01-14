@@ -1,0 +1,1 @@
+Events.OnGameBoot.Add(print("Shark's Law Enforcement Overhaul - Fixes"))

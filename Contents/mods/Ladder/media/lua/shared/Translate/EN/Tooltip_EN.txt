@@ -1,0 +1,3 @@
+Tooltip_EN = {
+    Tooltip_QNW_Ladder_LadderDesc            =   "can climb",
+}

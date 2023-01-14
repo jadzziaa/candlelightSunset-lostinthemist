@@ -1,0 +1,292 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+	recipe ReconditionThompsonM1A1
+	{
+		GWP.ThompsonM1A1=1,
+		ScrapMetal=60,
+		MetalPipe=1,
+		SmallSheetMetal=2,
+		Plank=1,
+		Screws=10,
+		BlowTorch=3,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=10;Aiming=7;Maintenance=6,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.ThompsonM1A1,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionMac10SD
+	{
+		GWP.Mac10SD=1,
+		ScrapMetal=70,
+		SmallSheetMetal=3,
+		Screws=9,
+		BlowTorch=3,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=10;Aiming=6;Maintenance=6,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.Mac10SD,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionColtPeacemaker
+	{
+		GWP.ColtPeacemaker=1,
+		ScrapMetal=38,
+		SmallSheetMetal=1,
+		Screws=6,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=8;Aiming=6;Maintenance=2,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.ColtPeacemaker,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionHeritage22Revolver
+	{
+		GWP.Heritage22Revolver=1,
+		ScrapMetal=28,
+		SmallSheetMetal=1,
+		Screws=3,
+		BlowTorch=1,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=8;Aiming=3;Maintenance=1,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.Heritage22Revolver,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionWinchester1894
+	{
+		GWP.Winchester1894=1,
+		ScrapMetal=90,
+		MetalPipe=1,
+		SmallSheetMetal=1,
+		Plank=1,
+		Screws=12,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=6;Maintenance=2,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.Winchester1894,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionModel44
+	{
+		GWP.Model44=1,
+		ScrapMetal=90,
+		MetalPipe=1,
+		SmallSheetMetal=2,
+		Plank=1,
+		Screws=14,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=7;Maintenance=3,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.Model44,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionBigBoy45ACP
+	{
+		GWP.BigBoy45ACP=1,
+		ScrapMetal=85,
+		MetalPipe=1,
+		SmallSheetMetal=1,
+		Plank=1,
+		Screws=14,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=6;Maintenance=3,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.BigBoy45ACP,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionHKG3
+	{
+		GWP.HKG3=1,
+		ScrapMetal=120,
+		MetalPipe=1,
+		SmallSheetMetal=2,
+		Plank=1,
+		Screws=16,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=7;Maintenance=5
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.HKG3,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionPSG1
+	{
+		GWP.PSG1=1,
+		ScrapMetal=120,
+		SheetMetal=1,
+		MetalPipe=1,
+		SmallSheetMetal=3,
+		MetalBar=1,
+		Screws=16,
+		BlowTorch=3,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=10;Aiming=10;Maintenance=6,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.PSG1,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionR870Police
+	{
+		R870Police=1,
+		ScrapMetal=90,
+		SheetMetal=1,
+		MetalPipe=1,
+		MetalBar=1,
+		SmallSheetMetal=2,
+		Screws=12,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		SkillRequired:MetalWelding=10;Aiming=6;Maintenance=5,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:R870Police,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+	
+	recipe ReconditionDeLisleCarbine
+	{
+		GWP.DeLisleCarbine=1,
+		ScrapMetal=80,
+		MetalPipe=1,
+		SmallSheetMetal=2,
+		Plank=1,
+		Screws=14,
+		BlowTorch=2,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:MetalWelding=9;Aiming=6;Maintenance=2,
+		Sound:BlowTorch,
+		NeedToBeLearn:true,
+		Result:GWP.DeLisleCarbine,
+		Time:350.0,
+		Category:Firearm,
+		OnGiveXP:MetalWeldingAndMaintenance10,
+		OnCreate:ReconditionGun,
+		RemoveResultItem:true,
+		AllowDestroyedItem:true,
+	}
+}

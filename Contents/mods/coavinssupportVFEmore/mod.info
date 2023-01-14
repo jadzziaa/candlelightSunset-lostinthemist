@@ -1,0 +1,6 @@
+name=Coavins Firearm Repair: Further Support for "VANILLA FIREARMS EXPANSION"
+poster=preview.png
+id=coavinssupportVFEmore
+require=coavinsfirearms,VFExpansion1
+description=This is an expansion pack for Coavins Firearm Repair.
+description= Adds extra support for mod: "VANILLA FIREARMS EXPANSION"

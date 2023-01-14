@@ -1,0 +1,20 @@
+module Unlimited
+{
+	model Croptop_Fishnet_Ground
+    {
+        mesh = WorldItems/Clothing/Croptop_Fishnet_Ground,
+        scale = 0.33,
+    }
+	
+	model Gloves_VeryLong_Ground
+    {
+        mesh = WorldItems/Clothing/Gloves_VeryLong_Ground,
+        scale = 0.33,
+    }
+	
+	model Socks_Thigh-High_Ground
+    {
+        mesh = WorldItems/Clothing/Socks_Thigh-High_Ground,
+        scale = 0.33,
+    }
+}

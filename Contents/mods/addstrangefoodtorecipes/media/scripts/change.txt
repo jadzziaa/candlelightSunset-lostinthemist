@@ -1,0 +1,89 @@
+module Base
+{
+	item Cockroach
+	{
+		DisplayName = Cockroach,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Cockroach,
+        EvolvedRecipe = Stir fry Griddle Pan:13;Stir fry:13;Salad:13;Soup:7;Stew:7;Pizza:13,		
+		FishingLure = true,
+		IsCookable = TRUE,
+		MinutesToCook = 5,
+		MinutesToBurn = 25,
+		HungerChange = -5,
+		UnhappyChange = 20,
+		Calories = 30,
+		Carbohydrates = 1.27,		
+		Lipids = 3.9,
+		Proteins = 7.41,
+		WorldStaticModel = Cockroach_Ground,
+        EvolvedRecipeName = Cockroach,		
+	}
+
+	item Cricket
+	{
+		DisplayName = Cricket,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Cricket,	
+        EvolvedRecipe = Stir fry Griddle Pan:13;Stir fry:13;Salad:13;Soup:7;Stew:7;Pizza:13,			
+		FishingLure = true,
+		IsCookable = TRUE,
+		MinutesToCook = 5,
+		MinutesToBurn = 25,
+		HungerChange = -5,
+		UnhappyChange = 20,
+		Calories = 20,
+		Carbohydrates = 1.34,
+		Lipids = 1.32,
+		Proteins = 3.6,
+		WorldStaticModel = Cricket_Ground,
+        EvolvedRecipeName = Cricket,		
+	}
+	
+	item Grasshopper
+	{
+		DisplayName = Grasshopper,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Grasshopper,
+        EvolvedRecipe = Stir fry Griddle Pan:13;Stir fry:13;Salad:13;Soup:7;Stew:7;Pizza:13,			
+		FishingLure = true,
+		IsCookable = TRUE,
+		MinutesToCook = 5,
+		MinutesToBurn = 25,
+		HungerChange = -5,
+		UnhappyChange = 20,
+		Calories = 25,
+		Carbohydrates = 3,
+		Lipids = 0.24,
+		Proteins = 5.55,
+		WorldStaticModel = Grasshopper_Ground,
+        EvolvedRecipeName = Grasshopper,		
+	}
+	
+	item Worm
+	{
+		DisplayName = Worm,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.01,
+		Icon = Worm,
+        EvolvedRecipe = Stir fry Griddle Pan:13;Stir fry:13;Salad:13;Soup:7;Stew:7;Pizza:13,			
+		FishingLure = true,
+		HungerChange = -2,
+		UnhappyChange = 20,
+		Calories = 3,
+		Carbohydrates = 0,
+		Lipids = 0.1,
+		Proteins = 0.5,
+		WorldStaticModel = Worm_Ground,
+        EvolvedRecipeName = Worm,		
+	}	
+}
+
+

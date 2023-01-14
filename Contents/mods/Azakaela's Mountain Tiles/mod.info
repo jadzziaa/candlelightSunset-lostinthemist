@@ -1,0 +1,6 @@
+name=Azakaela's Mountain Tiles
+id=AzaMountainTiles
+description=Some tiles for making elevated terrain that fit with vanilla.
+pack=VanillaMountainTiles
+tiledef=RockyCliff 8912
+poster=poster.png

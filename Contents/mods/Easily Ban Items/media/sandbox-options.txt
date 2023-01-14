@@ -1,0 +1,79 @@
+VERSION = 1,
+
+option BanItems1
+{type = string,page = BanItems0,translation = BanItems1,default = TypeItemID,}
+
+option BanItems2
+{type = string,page = BanItems0,translation = BanItems2,default = TypeItemID,}
+
+
+
+option BanItems3
+{type = string,page = BanItems0,translation = BanItems3,default = TypeItemID,}
+
+option BanItems4
+{type = string,page = BanItems0,translation = BanItems4,default = TypeItemID,}
+
+option BanItems5
+{type = string,page = BanItems0,translation = BanItems5,default = TypeItemID,}
+
+option BanItems6
+{type = string,page = BanItems0,translation = BanItems6,default = TypeItemID,}
+
+option BanItems7
+{type = string,page = BanItems0,translation = BanItems7,default = TypeItemID,}
+
+option BanItems8
+{type = string,page = BanItems0,translation = BanItems8,default = TypeItemID,}
+
+option BanItems9
+{type = string,page = BanItems0,translation = BanItems9,default = TypeItemID,}
+
+option BanItems10
+{type = string,page = BanItems0,translation = BanItems10,default = TypeItemID,}
+
+option BanItems11
+{type = string,page = BanItems0,translation = BanItems11,default = TypeItemID,}
+
+option BanItems12
+{type = string,page = BanItems0,translation = BanItems12,default = TypeItemID,}
+
+option BanItems13
+{type = string,page = BanItems0,translation = BanItems13,default = TypeItemID,}
+
+option BanItems14
+{type = string,page = BanItems0,translation = BanItems14,default = TypeItemID,}
+
+option BanItems15
+{type = string,page = BanItems0,translation = BanItems15,default = TypeItemID,}
+
+option BanItems16
+{type = string,page = BanItems0,translation = BanItems16,default = TypeItemID,}
+
+option BanItems17
+{type = string,page = BanItems0,translation = BanItems17,default = TypeItemID,}
+
+option BanItems18
+{type = string,page = BanItems0,translation = BanItems18,default = TypeItemID,}
+
+option BanItems19
+{type = string,page = BanItems0,translation = BanItems19,default = TypeItemID,}
+
+option BanItems20
+{type = string,page = BanItems0,translation = BanItems20,default = TypeItemID,}
+
+option BanItems21
+{type = string,page = BanItems0,translation = BanItems21,default = TypeItemID,}
+
+option BanItems22
+{type = string,page = BanItems0,translation = BanItems22,default = TypeItemID,}
+
+option BanItems23
+{type = string,page = BanItems0,translation = BanItems23,default = TypeItemID,}
+
+option BanItems24
+{type = string,page = BanItems0,translation = BanItems24,default = TypeItemID,}
+
+option BanItems25
+{type = string,page = BanItems0,translation = BanItems25,default = TypeItemID,}
+

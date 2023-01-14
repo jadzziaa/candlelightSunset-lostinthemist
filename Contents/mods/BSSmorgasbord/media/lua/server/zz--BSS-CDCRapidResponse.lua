@@ -1,0 +1,30 @@
+--CDC Rapid Response
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2857296919
+if getActivatedMods():contains("CDCRapidResponse") then
+GaistUtils.doParam("CDCRR.Bitezapro","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.CDCYellowAirdrop","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.CDCOrangeAirdrop","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.CDCRedAirdrop","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.CDCFamilyPack","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.CDCProPack1","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.CDCProPack2","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.PremiumViralTest","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.Viazom","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.Zedalis","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.Zomboflex","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.ViralTestResultInconclusive","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.ViralTestResultPositive","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.ViralTestResultNegative","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.ConsumerViralTest","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.Fevarax","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.Globunex","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.Humanox","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.KX9Spike","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.Novaulin","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.RotomRNA","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.Salivix","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.Sovextin","DisplayCategory","Drugs");
+GaistUtils.doParam("CDCRR.CDCKX93185RapidResponseGeneralGuide","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.CDCKX93185RapidResponseMedicationGuide","DisplayCategory","Medical");
+GaistUtils.doParam("CDCRR.CDCKX93185RapidResponseAntidoteGuide","DisplayCategory","Medical");
+end

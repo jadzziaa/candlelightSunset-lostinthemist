@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+	ContextMenu_QNW_Ladder_Ladder           =   "Ladder",
+	ContextMenu_QNW_Ladder_LadderWithFloor  =   "Ladder(with floor)",
+}

@@ -1,0 +1,4 @@
+name=Fire Ignites Players Slower
+poster=poster.png
+id=FIPS
+description=Prevents fire from igniting AND causing "burnt" status on limbs too quickly. (In vanilla, sometimes it was instant and this could cause you to start limping).

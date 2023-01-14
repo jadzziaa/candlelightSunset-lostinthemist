@@ -1,0 +1,5 @@
+name=Udderly Ammo Crafting
+id=UdderlyAmmoCrafting
+poster=preview.png
+description=Adds crafting recipes for bullets, magazines, and gunpowder.
+require=VFExpansion1

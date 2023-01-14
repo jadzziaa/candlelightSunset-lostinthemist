@@ -1,0 +1,15 @@
+module Base
+{
+
+item CrazedRamblings
+{
+DisplayCategory = Literature,
+Type = Map,
+DisplayName = Crazed Ramblings,
+Icon = Paper,
+Weight = 0.1,
+Map = Ramblings1,
+WorldStaticModel = SheetOfPaper,
+}
+
+}

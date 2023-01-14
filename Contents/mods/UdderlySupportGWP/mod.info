@@ -1,0 +1,5 @@
+name=UdderlySupport GWP
+id=UdderlySupportGWP
+description=Adds support to UdderlyEvelyn's mods for GWP.
+poster=preview.png
+require=GunrunnersWeaponPack

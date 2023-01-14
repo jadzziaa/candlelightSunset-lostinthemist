@@ -1,0 +1,29 @@
+--Braven's Bicycles
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2829166253
+if getActivatedMods():contains("BBVehicles") then
+GaistUtils.doParam("Base.BicyclesMagVol1","DisplayCategory","LitR");
+GaistUtils.doParam("Base.BicyclesMagVol2","DisplayCategory","LitR");
+GaistUtils.doParam("Base.BicyclesMagVol3","DisplayCategory","LitR");
+GaistUtils.doParam("Base.BicycleFrameRegular","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleFrameRegularScrap","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleFrameMTB","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleFrameMTBScrap","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleSuspensionRegular3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleSuspensionRegularScrap3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleSuspensionMTB3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleSuspensionMTBScrap3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleBrakesRegular3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleBrakesRegularScrap3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleBrakesMTB3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleBrakesMTBScrap3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleTireRegular","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleTireRegularScrap","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleTireMTB","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleTireMTBScrap","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleSeat","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleSeatScrap","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleBasket3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleHeadlight3","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleLock","DisplayCategory","MechBike");
+GaistUtils.doParam("Base.BicycleLockKey","DisplayCategory","MechBike");
+end

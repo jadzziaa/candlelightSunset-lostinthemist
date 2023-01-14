@@ -1,0 +1,5 @@
+name=Better Guns B41 by SM4
+poster=poster.png
+id=SM4BetterGuns
+description=<RGB:1,1,0.5>Rebalances all firearms to have more realistic stats.
+requires=ItemTweakerAPI

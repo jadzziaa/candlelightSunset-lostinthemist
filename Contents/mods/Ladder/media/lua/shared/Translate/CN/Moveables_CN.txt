@@ -1,0 +1,3 @@
+Moveables_CN = {
+    QNW_Ladder = "梯子",
+}

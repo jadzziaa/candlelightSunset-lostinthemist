@@ -1,0 +1,21 @@
+module Base
+{
+
+	item PetrolCan
+	{
+	    DisplayCategory = VehicleMaintenance,
+		Weight	=	5,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.100,
+		DisplayName	=	Gas Can,
+		Icon	=	Petrol,
+		ReplaceOnDeplete	=	EmptyPetrolCan,
+		StaticModel = GasCan,
+		ReplaceInSecondHand = Bag_GasCan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_GasCan_RHand holdingbagright,
+        WorldStaticModel = GasCan_Ground,
+		Tags = Petrol,
+	}
+	
+}

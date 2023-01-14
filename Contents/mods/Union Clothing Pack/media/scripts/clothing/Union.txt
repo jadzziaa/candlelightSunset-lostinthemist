@@ -1,0 +1,88 @@
+module Union {
+	
+    item Jacket_Union
+    {
+        Type = Clothing,
+        DisplayName = Union Jacket,
+        ClothingItem = Jacket_Union,
+        BodyLocation = Jacket,
+        IconsForTexture = UnionJacket,
+        BloodLocation = Jacket,
+        FabricType = Leather,	
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 15,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.25,
+        Insulation = 0.85,
+        WindResistance = 0.6,
+        WaterResistance = 0.2,
+        Weight = 1.5,
+		
+        WorldStaticModel = Jacket_Ground,
+    }
+item Hat_UnionCowboy
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Union Officer Hat,
+		ClothingItem = Hat_UnionCowboy,
+		BodyLocation = Hat,
+		IconsForTexture = OfficerHat,
+		CanHaveHoles = false,
+		ChanceToFall = 50,
+        Insulation = 0.3,
+        WindResistance = 0.2,
+        BloodLocation = Head,
+	}
+item Jacket_UnionRank
+    {
+        Type = Clothing,
+        DisplayName = Union Officer Jacket,
+        ClothingItem = Jacket_UnionRank,
+        BodyLocation = Jacket,
+        IconsForTexture = UnionOfficerJacket,
+        BloodLocation = Jacket,
+        FabricType = Leather,	
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 15,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.25,
+        Insulation = 0.85,
+        WindResistance = 0.6,
+        WaterResistance = 0.2,
+        Weight = 1.5,
+		
+        WorldStaticModel = Jacket_Ground,
+    }
+
+	item Hat_Union
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Union Hat,
+        ClothingItem = Hat_Union,
+        BodyLocation = Hat,
+        Icon = UnionHat,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Insulation = 0.3,
+        BloodLocation = Head,
+        Weight = 0.5,
+    }
+  	 item Trousers_Union
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Union Pants,
+        ClothingItem = Trousers_Union,
+        BodyLocation = Pants,
+        IconsForTexture = UnionTrousers,
+        BloodLocation = Trousers,
+        Insulation = 0.2,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+}

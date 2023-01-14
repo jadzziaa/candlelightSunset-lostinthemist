@@ -1,0 +1,9 @@
+Sandbox_EN = {
+    Sandbox_FancyHandwork = "Fancy Handwork",
+
+    Sandbox_FancyHandwork_ExperiencedAim = "Firearm aim animation change level",
+    Sandbox_FancyHandwork_ExperiencedAim_tooltip = "Player Firearm Level to change to Tactical Aiming animation. <LINE> Set to 0 to always use this.  Set to 11 to never.",
+    
+    Sandbox_FancyHandwork_TurnDelay = "Delay forced turn to object when not moving",
+    Sandbox_FancyHandwork_TurnDelay_tooltip = "When a player is not moving, they will turn to face an object they are interacting with. <LINE> This option adds a delay to prevent this from occurring briefly when you stop moving. <LINE> NOTE: Based on your Framerate! 60 = 1 Second at 60 FPS.",
+}

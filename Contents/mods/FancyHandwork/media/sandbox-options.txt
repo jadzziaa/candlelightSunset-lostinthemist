@@ -1,0 +1,10 @@
+VERSION = 1,
+option FancyHandwork.ExperiencedAim {
+        type = integer, min = 0, max = 11, default = 3,
+        page = FancyHandwork, translation = FancyHandwork_ExperiencedAim,
+}
+
+option FancyHandwork.TurnDelay {
+        type = integer, min = 0, max = 2400, default = 60,
+        page = FancyHandwork, translation = FancyHandwork_TurnDelay,
+}

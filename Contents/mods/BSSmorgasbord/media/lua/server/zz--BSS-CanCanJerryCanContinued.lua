@@ -1,0 +1,25 @@
+--CAN CAN Jerrycan Continue [41.73]+
+--https://steamcommunity.com/sharedfiles/filedetails/?id=2839607633
+if getActivatedMods():contains("2558749083") then
+GaistUtils.doParam("Base.EmptyJerrycan","DisplayCategory","Container")
+GaistUtils.doParam("Base.Jerrycan","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN3","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN3","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN4","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN4","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN5","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN5","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN2","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN2","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN6","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN6","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN7","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN7","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN8","DisplayCategory","Container")
+GaistUtils.doParam("Base.EmptyCAN9","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN9","DisplayCategory","Fuel")
+GaistUtils.doParam("Base.EmptyCAN10","DisplayCategory","Container")
+GaistUtils.doParam("Base.EmptyCAN11","DisplayCategory","Container")
+GaistUtils.doParam("Base.EmptyCAN12","DisplayCategory","Container")
+GaistUtils.doParam("Base.GasCAN10","DisplayCategory","Fuel")
+end

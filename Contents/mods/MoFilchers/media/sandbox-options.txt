@@ -1,0 +1,43 @@
+VERSION = 1,
+
+option MoFilchers.ModPriority = {
+	type = string, 
+	default = G:X:C:J:M:F:V,
+	page = MoFilchers, 
+	translation = MoFilchers_ModPriority,
+}
+
+option MoFilchers.ReplaceSeeds = {
+	type = boolean,
+	default = false,
+	page = MoFilchers,
+	translation = MoFilchers_ReplaceSeeds,
+}
+
+option MoFilchers.GourmetLearnSow = {
+	type = boolean,
+	default = false,
+	page = MoFilchers,
+	translation = MoFilchers_LearnSow,
+}
+
+option MoFilchers.GourmetOverride = {
+	type = boolean,
+	default = true,
+	page = MoFilchers,
+	translation = MoFilchers_GourmetOverride,
+}
+
+option MoFilchers.PlantRefund = {
+	type = boolean,
+	default = true,
+	page = MoFilchers,
+	translation = MoFilchers_PlantRefund,
+}
+
+option MoFilchers.KeepFurrows = {
+	type = boolean,
+	default = true,
+	page = MoFilchers,
+	translation = MoFilchers_KeepFurrows,
+}

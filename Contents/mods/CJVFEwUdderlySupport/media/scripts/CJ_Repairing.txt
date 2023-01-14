@@ -1,0 +1,56 @@
+module Base
+{
+	imports    
+    {
+		Base
+	}
+    fixing Fix AA-12 Shotgun
+    {
+       Require : AA12,
+       Fixer: AA12; Aiming=6,
+       Fixer: CleaningKit=1; Aiming=2,
+       Fixer: FireKlean; Aiming=1,
+    }
+    fixing Fix AUG A3 Para
+    {
+       Require : AUGA9MM,
+       Fixer: AUGA9MM; Aiming=5,
+       Fixer: CleaningKit=1; Aiming=2,
+       Fixer: FireKlean; Aiming=1,
+    }
+    fixing Fix Colt Python
+    {
+       Require : ColtPython,
+       Fixer: AA12; Aiming=2,
+       Fixer: CleaningKit=1; Aiming=2,
+       Fixer: FireKlean; Aiming=1,
+    }
+    fixing Fix M40
+    {
+       Require : M40,
+       Fixer: AA12; Aiming=3,
+       Fixer: CleaningKit=1; Aiming=2,
+       Fixer: FireKlean; Aiming=1,
+    }
+    fixing Fix M60 Machinegun
+    {
+       Require : M60
+       Fixer: AA12; Aiming=7,
+       Fixer: CleaningKit=1; Aiming=2,
+       Fixer: FireKlean; Aiming=1,
+    }
+    fixing Fix M249 Machinegun
+    {
+       Require : M249,
+       Fixer: AA12; Aiming=7,
+       Fixer: CleaningKit=1; Aiming=2,
+       Fixer: FireKlean; Aiming=1,
+    }
+    fixing Fix Armsel Striker
+    {
+       Require : Striker,
+       Fixer: AA12; Aiming=4,
+       Fixer: CleaningKit=1; Aiming=2,
+       Fixer: FireKlean; Aiming=1,
+    }
+}

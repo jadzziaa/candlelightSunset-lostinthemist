@@ -1,0 +1,7 @@
+Tooltip_EN = {
+	Tooltip_Sow_Cannibis = "Sow Cannabis",
+	Tooltip_Sow_Avocado = "Sow Avocado",
+	Tooltip_Sow_Lemongrass = "Sow Lemongrass",
+	Tooltip_Sow_Cauliflower = "Sow Cauliflower",
+	Tooltip_Sow_Beets = "Sow Beets",
+}

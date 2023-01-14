@@ -1,0 +1,4 @@
+Recipes_EN = {
+	Recipe_Convert_to_SoulFilchers = "Convert to Soul Filcher's",
+	Recipe_Convert_to_MoCrops = "Convert to Mo' Crops",
+}

@@ -1,0 +1,86 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+	recipe CraftMagAA12
+	{
+		ScrapMetal=80,
+		SheetMetal=2,
+		SmallSheetMetal=3,
+		BlowTorch=20,
+		Screws=12,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:MagAA12,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=7;Reloading=7,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+	
+	recipe CraftMagAUGA9MM
+	{
+		ScrapMetal=40,
+		SmallSheetMetal=5,
+		BlowTorch=16,
+		Screws=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:MagAUGA9MM,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=6;Reloading=6,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+	
+	recipe CraftMagM60
+	{
+		ScrapMetal=120,
+		SheetMetal=2,
+		SmallSheetMetal=4,
+		BlowTorch=20,
+		Screws=16,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:MagM60,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=9;Reloading=10,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+	
+	recipe CraftMagM249
+	{
+		ScrapMetal=200,
+		SheetMetal=2,
+		SmallSheetMetal=4,
+		BlowTorch=20,
+		Screws=22,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:MagM249,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=9;Reloading=10,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+}

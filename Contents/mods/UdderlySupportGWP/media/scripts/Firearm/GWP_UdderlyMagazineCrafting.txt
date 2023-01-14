@@ -1,0 +1,64 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+	recipe Craft45Clip30
+	{
+		ScrapMetal=30,
+		SmallSheetMetal=5,
+		BlowTorch=6,
+		Screws=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:GWP.45Clip30,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=4;Reloading=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+	
+	recipe Craft45Clip30Mac10
+	{
+		ScrapMetal=30,
+		SmallSheetMetal=5,
+		BlowTorch=6,
+		Screws=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:GWP.45Clip30Mac10,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=4;Reloading=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+	
+	recipe CraftHK308Mag
+	{
+		ScrapMetal=20,
+		SmallSheetMetal=4,
+		BlowTorch=4,
+		Screws=8,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep [Recipe.GetItemTypes.Hammer],
+
+		Result:GWP.HK308Mag,
+		Sound:Hammering,
+		Time:300.0,
+		Category:Firearm,
+		SkillRequired:MetalWelding=5;Reloading=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		NeedToBeLearn:true,
+	}
+}

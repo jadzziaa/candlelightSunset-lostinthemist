@@ -1,0 +1,62 @@
+Sandbox_CN = {
+Sandbox_BanItems0 = "ban物品!",
+
+Sandbox_BanItems1 = "禁止物品1",
+Sandbox_BanItems1_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems2 = "禁止物品2",
+Sandbox_BanItems2_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems3 = "禁止物品3",
+Sandbox_BanItems3_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems4 = "禁止物品4",
+Sandbox_BanItems4_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems5 = "禁止物品5",
+Sandbox_BanItems5_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems6 = "禁止物品6",
+Sandbox_BanItems6_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems7 = "禁止物品7",
+Sandbox_BanItems7_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems8 = "禁止物品8",
+Sandbox_BanItems8_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems9 = "禁止物品9",
+Sandbox_BanItems9_tooltip = "输入物品ID，而不是物品名字。无需前缀，例如Katana",
+
+Sandbox_BanItems10 = "禁止物品10",
+
+Sandbox_BanItems11 = "禁止物品11",
+
+Sandbox_BanItems12 = "禁止物品12",
+
+Sandbox_BanItems13 = "禁止物品13",
+
+Sandbox_BanItems14 = "禁止物品14",
+
+Sandbox_BanItems15 = "禁止物品15",
+
+Sandbox_BanItems16 = "禁止物品16",
+
+Sandbox_BanItems17 = "禁止物品17",
+
+Sandbox_BanItems18 = "禁止物品18",
+
+Sandbox_BanItems19 = "禁止物品19",
+
+Sandbox_BanItems20 = "禁止物品20",
+
+Sandbox_BanItems21 = "禁止物品21",
+
+Sandbox_BanItems22 = "禁止物品22",
+
+Sandbox_BanItems23 = "禁止物品23",
+
+Sandbox_BanItems24 = "禁止物品24",
+
+Sandbox_BanItems25 = "禁止物品25",
+}

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Insurgent Outfits -->
+<outfitManager>
+
+<m_MaleOutfits> <m_Name>InsurgentOfficer</m_Name>
+		<m_Guid>01acfa1b-d246-41b4-9b3a-e91e7861dg6a</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Insurgent Beret -->
+			<itemGUID>88fa54ef-801d-45f0-87c7-57e9fdab7421</itemGUID>
+		</m_items>	
+		<m_items> <!-- eyepatch right -->
+			<itemGUID>aa0e5d09-6509-4d4f-9943-737ab4105590</itemGUID>
+		</m_items>			
+		<m_items> <!-- Insurgent Leather Gloves -->
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afab6543</itemGUID>
+		</m_items>	
+		<m_items> <!-- Insurgent Bullet Vest -->
+			<itemGUID>9dda7402-c7f9-46f8-baae-b4b13eab7542</itemGUID>
+		</m_items>		
+		<m_items> <!-- Urban Camo Shirt -->
+			<itemGUID>dd34e357-8851-4fe6-9ee3-61d4ce953e66</itemGUID>
+		</m_items>		
+		<m_items> <!-- Insurgent Trousers -->
+			<itemGUID>2424958a-64aa-4494-aeba-ad05a0ab8525</itemGUID>
+		</m_items>		
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Military boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>	
+		<m_items> <!-- Simple Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Dog tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>		
+		<m_items>
+			<!-- Watches  -->
+			<!-- Digital black watch Left -->
+			<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			<subItems>
+			<!-- Classic Military watch Left -->
+			<itemGUID>807fade7-aa54-432d-b038-4bf584c79723</itemGUID>
+			</subItems>	
+		</m_items>			
+	</m_MaleOutfits>	
+	
+<m_MaleOutfits> <m_Name>InsurgentRifleman</m_Name>
+		<m_Guid>01acfa1b-d246-41b4-9b3a-e91e8651yt6a</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Insurgent Helmet -->
+			<itemGUID>abd1d362-2780-4438-a3d2-423b53ab5743</itemGUID>
+		</m_items>	
+		<m_items> <!-- Insurgent Gas Mask -->
+			<itemGUID>92efbe27-baa3-4e7f-bc7c-cb4713ab5326</itemGUID>
+		</m_items>	
+		<m_items> <!-- Insurgent Leather Gloves -->
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afab6543</itemGUID>
+		</m_items>			
+		<m_items> <!-- Insurgent Bullet Vest -->	
+			<itemGUID>9dda7402-c7f9-46f8-baae-b4b13eab7542</itemGUID>
+		</m_items>			
+		<m_items> <!-- Insurgent Jacket -->	
+			<itemGUID>46ab6db7-285a-4baa-b767-52b382ab5321</itemGUID>
+		</m_items>		
+		<m_items> <!-- Urban Camo Shirt -->
+			<itemGUID>dd34e357-8851-4fe6-9ee3-61d4ce953e66</itemGUID>
+		</m_items>		
+		<m_items> <!-- Insurgent Trousers -->
+			<itemGUID>2424958a-64aa-4494-aeba-ad05a0ab8525</itemGUID>
+		</m_items>		
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Military boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Simple Holster -->		
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>			
+		<m_items> <!-- Dog tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>			
+		<m_items>
+			<!-- Watches  -->
+			<!-- Digital black watch Left -->
+			<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			<subItems>
+			<!-- Classic Military watch Left -->
+			<itemGUID>807fade7-aa54-432d-b038-4bf584c79723</itemGUID>
+			</subItems>	
+		</m_items>			
+	</m_MaleOutfits>	
+	
+	<m_MaleOutfits> <m_Name>InsurgentMarksman</m_Name>
+		<m_Guid>01acfa1b-d246-41b4-9b3a-e91e5321uy6a</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Balaclava -->		
+			<itemGUID>22c8fd40-4c25-4e82-9353-f70aa582611a</itemGUID>
+		</m_items>	
+		<m_items> <!-- Insurgent Fingerless Gloves -->		
+			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6ab8763</itemGUID>
+		</m_items>		
+		<m_items> <!-- Insurgent Alice Pack -->		
+			<itemGUID>ad3d9327-8f90-4d15-a43d-abc1d1ab1235</itemGUID>
+		</m_items>		
+		<m_items> <!-- Insurgent Bullet Vest -->		
+			<itemGUID>9dda7402-c7f9-46f8-baae-b4b13eab7542</itemGUID>
+		</m_items>			
+		<m_items> <!-- Urban Camo t Shirt -->
+			<itemGUID>1095daca-6a73-4c65-a4f2-e728ba714175</itemGUID>
+		</m_items>		
+		<m_items> <!-- Insurgent Trousers -->
+			<itemGUID>2424958a-64aa-4494-aeba-ad05a0ab8525</itemGUID>
+		</m_items>		
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Military boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Simple Holster -->		
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items> <!-- Bullet ammo strap -->		
+			<itemGUID>15514b21-1567-4a0b-a171-9740ee9b7b3a</itemGUID>
+		</m_items>		
+		<m_items> <!-- Dog tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>			
+		<m_items>
+			<!-- Watches  -->
+			<!-- Digital black watch Left -->
+			<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			<subItems>
+			<!-- Classic Military watch Left -->
+			<itemGUID>807fade7-aa54-432d-b038-4bf584c79723</itemGUID>
+			</subItems>	
+		</m_items>			
+	</m_MaleOutfits>	
+	
+	<m_MaleOutfits> <m_Name>InsurgentAssault</m_Name>
+		<m_Guid>01acfa1b-d246-41b4-9b3a-e91e9871tr6a</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Balaclava -->		
+			<itemGUID>22c8fd40-4c25-4e82-9353-f70aa582611a</itemGUID>
+		</m_items>	
+		<m_items> <!-- Insurgent Fingerless Gloves -->	
+			<itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6ab8763</itemGUID>
+		</m_items>			
+		<m_items> <!-- Insurgent Bullet Vest -->	
+			<itemGUID>9dda7402-c7f9-46f8-baae-b4b13eab7542</itemGUID>
+		</m_items>			
+		<m_items> <!-- Insurgent Jacket -->	
+			<itemGUID>46ab6db7-285a-4baa-b767-52b382ab5321</itemGUID>
+		</m_items>		
+		<m_items> <!-- Urban Camo Shirt -->
+			<itemGUID>dd34e357-8851-4fe6-9ee3-61d4ce953e66</itemGUID>
+		</m_items>		
+		<m_items> <!-- Insurgent Trousers -->
+			<itemGUID>2424958a-64aa-4494-aeba-ad05a0ab8525</itemGUID>
+		</m_items>		
+		<m_items> <!-- Long Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>	
+		<m_items> <!-- Military boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Simple Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>	
+		<m_items> <!-- Shell ammo strap -->
+			<itemGUID>264e5345-105f-40a3-8ac0-48bf3e91ffd4</itemGUID>
+		</m_items>			
+		<m_items> <!-- Dog tags -->
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>			
+		<m_items>
+			<!-- Watches  -->
+			<!-- Digital black watch Left -->
+			<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			<subItems>
+			<!-- Classic Military watch Left -->
+			<itemGUID>807fade7-aa54-432d-b038-4bf584c79723</itemGUID>
+			</subItems>	
+		</m_items>			
+	</m_MaleOutfits>	
+
+</outfitManager>

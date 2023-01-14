@@ -1,0 +1,1407 @@
+module pkmncards
+{
+imports
+{
+Base
+}
+
+model 001BulbasaurCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/001BulbasaurCard,
+scale=0.5,
+}
+
+model 002IvysaurCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/002IvysaurCard,
+scale=0.5,
+}
+
+model 003VenusaurCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/003VenusaurCard,
+scale=0.5,
+}
+
+model 004CharmanderCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/004CharmanderCard,
+scale=0.5,
+}
+
+model 005CharmeleonCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/005CharmeleonCard,
+scale=0.5,
+}
+
+model 006CharizardCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/006CharizardCard,
+scale=0.5,
+}
+
+model 007SquirtleCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/007SquirtleCard,
+scale=0.5,
+}
+
+model 008WartortleCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/008WartortleCard,
+scale=0.5,
+}
+
+model 009BlastoiseCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/009BlastoiseCard,
+scale=0.5,
+}
+
+model 010CaterpieCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/010CaterpieCard,
+scale=0.5,
+}
+
+model 011MetapodCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/011MetapodCard,
+scale=0.5,
+}
+
+model 012ButterfreeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/012ButterfreeCard,
+scale=0.5,
+}
+
+model 013WeedleCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/013WeedleCard,
+scale=0.5,
+}
+
+model 014KakunaCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/014KakunaCard,
+scale=0.5,
+}
+
+model 015BeedrillCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/015BeedrillCard,
+scale=0.5,
+}
+
+model 016PidgeyCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/016PidgeyCard,
+scale=0.5,
+}
+
+model 017PidgeottoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/017PidgeottoCard,
+scale=0.5,
+}
+
+model 018PidgeotCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/018PidgeotCard,
+scale=0.5,
+}
+
+model 018PidgeotHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/018PidgeotHCard,
+scale=0.5,
+}
+
+model 019RattataCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/019RattataCard,
+scale=0.5,
+}
+
+model 020RaticateCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/020RaticateCard,
+scale=0.5,
+}
+
+model 021SpearowCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/021SpearowCard,
+scale=0.5,
+}
+
+model 022FearowCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/022FearowCard,
+scale=0.5,
+}
+
+model 023EkansCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/023EkansCard,
+scale=0.5,
+}
+
+model 024ArbokCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/024ArbokCard,
+scale=0.5,
+}
+
+model 025PikachuCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/025PikachuCard,
+scale=0.5,
+}
+
+model 025PikachuJCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/025PikachuJCard,
+scale=0.5,
+}
+
+model 026RaichuCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/026RaichuCard,
+scale=0.5,
+}
+
+model 026RaichuHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/026RaichuHCard,
+scale=0.5,
+}
+
+model 026RaichuFHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/026RaichuFHCard,
+scale=0.5,
+}
+
+model 027SandshrewCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/027SandshrewCard,
+scale=0.5,
+}
+
+model 028SandslashCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/028SandslashCard,
+scale=0.5,
+}
+
+model 029NidoranFemaleCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/029NidoranFemaleCard,
+scale=0.5,
+}
+
+model 030NidorinaCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/030NidorinaCard,
+scale=0.5,
+}
+
+model 031NidoqueenCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/031NidoqueenCard,
+scale=0.5,
+}
+
+model 031NidoqueenHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/031NidoqueenHCard,
+scale=0.5,
+}
+
+model 032NidoranMaleCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/032NidoranMaleCard,
+scale=0.5,
+}
+
+model 033NidorinoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/033NidorinoCard,
+scale=0.5,
+}
+
+model 034NidokingCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/034NidokingCard,
+scale=0.5,
+}
+
+model 035ClefairyCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/035ClefairyCard,
+scale=0.5,
+}
+
+model 036ClefableCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/036ClefableCard,
+scale=0.5,
+}
+
+model 036ClefableHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/036ClefableHCard,
+scale=0.5,
+}
+
+model 037VulpixCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/037VulpixCard,
+scale=0.5,
+}
+
+model 038NinetalesCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/038NinetalesCard,
+scale=0.5,
+}
+
+model 039JigglypuffCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/039JigglypuffCard,
+scale=0.5,
+}
+
+model 040WigglytuffCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/040WigglytuffCard,
+scale=0.5,
+}
+
+model 040WigglytuffHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/040WigglytuffHCard,
+scale=0.5,
+}
+
+model 041ZubatCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/041ZubatCard,
+scale=0.5,
+}
+
+model 042GolbatCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/042GolbatCard,
+scale=0.5,
+}
+
+model 043OddishCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/043OddishCard,
+scale=0.5,
+}
+
+model 044GloomCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/044GloomCard,
+scale=0.5,
+}
+
+model 045VileplumeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/045VileplumeCard,
+scale=0.5,
+}
+
+model 045VileplumeHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/045VileplumeHCard,
+scale=0.5,
+}
+
+model 046ParasCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/046ParasCard,
+scale=0.5,
+}
+
+model 047ParasectCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/047ParasectCard,
+scale=0.5,
+}
+
+model 048VenonatCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/048VenonatCard,
+scale=0.5,
+}
+
+model 049VenomothCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/049VenomothCard,
+scale=0.5,
+}
+
+model 049VenomothHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/049VenomothHCard,
+scale=0.5,
+}
+
+model 050DiglettCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/050DiglettCard,
+scale=0.5,
+}
+
+model 051DugtrioCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/051DugtrioCard,
+scale=0.5,
+}
+
+model 052MeowthCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/052MeowthCard,
+scale=0.5,
+}
+
+model 053PersianCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/053PersianCard,
+scale=0.5,
+}
+
+model 054PsyduckCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/054PsyduckCard,
+scale=0.5,
+}
+
+model 055GolduckCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/055GolduckCard,
+scale=0.5,
+}
+
+model 056MankeyCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/056MankeyCard,
+scale=0.5,
+}
+
+model 057PrimeapeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/057PrimeapeCard,
+scale=0.5,
+}
+
+model 058GrowlitheCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/058GrowlitheCard,
+scale=0.5,
+}
+
+model 059ArcanineCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/059ArcanineCard,
+scale=0.5,
+}
+
+model 060PoliwagCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/060PoliwagCard,
+scale=0.5,
+}
+
+model 061PoliwhirlCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/061PoliwhirlCard,
+scale=0.5,
+}
+
+model 062PoliwrathCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/062PoliwrathCard,
+scale=0.5,
+}
+
+model 063AbraCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/063AbraCard,
+scale=0.5,
+}
+
+model 064KadabraCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/064KadabraCard,
+scale=0.5,
+}
+
+model 065AlakazamCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/065AlakazamCard,
+scale=0.5,
+}
+
+model 066MachopCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/066MachopCard,
+scale=0.5,
+}
+
+model 067MachokeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/067MachokeCard,
+scale=0.5,
+}
+
+model 068MachampCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/068MachampCard,
+scale=0.5,
+}
+
+model 069BellsproutCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/069BellsproutCard,
+scale=0.5,
+}
+
+model 070WeepinbellCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/070WeepinbellCard,
+scale=0.5,
+}
+
+model 071VictreebelCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/071VictreebelCard,
+scale=0.5,
+}
+
+model 071VictreebelHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/071VictreebelHCard,
+scale=0.5,
+}
+
+model 072TentacoolCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/072TentacoolCard,
+scale=0.5,
+}
+
+model 073TentacruelCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/073TentacruelCard,
+scale=0.5,
+}
+
+model 074GeodudeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/074GeodudeCard,
+scale=0.5,
+}
+
+model 075GravelerCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/075GravelerCard,
+scale=0.5,
+}
+
+model 076GolemCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/076GolemCard,
+scale=0.5,
+}
+
+model 077PonytaCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/077PonytaCard,
+scale=0.5,
+}
+
+model 078RapidashCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/078RapidashCard,
+scale=0.5,
+}
+
+model 079SlowpokeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/079SlowpokeCard,
+scale=0.5,
+}
+
+model 080SlowbroCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/080SlowbroCard,
+scale=0.5,
+}
+
+model 081MagnemiteCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/081MagnemiteCard,
+scale=0.5,
+}
+
+model 082MagnetonCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/082MagnetonCard,
+scale=0.5,
+}
+
+model 082MagnetonHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/082MagnetonHCard,
+scale=0.5,
+}
+
+model 082MagnetonFHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/082MagnetonFHCard,
+scale=0.5,
+}
+
+model 083FarfetchdCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/083FarfetchdCard,
+scale=0.5,
+}
+
+model 084DoduoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/084DoduoCard,
+scale=0.5,
+}
+
+model 085DodrioCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/085DodrioCard,
+scale=0.5,
+}
+
+model 086SeelCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/086SeelCard,
+scale=0.5,
+}
+
+model 087DewgongCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/087DewgongCard,
+scale=0.5,
+}
+
+model 088GrimerCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/088GrimerCard,
+scale=0.5,
+}
+
+model 089MukCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/089MukCard,
+scale=0.5,
+}
+
+model 089MukHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/089MukHCard,
+scale=0.5,
+}
+
+model 090ShellderCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/090ShellderCard,
+scale=0.5,
+}
+
+model 091CloysterCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/091CloysterCard,
+scale=0.5,
+}
+
+model 092GastlyCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/092GastlyCard,
+scale=0.5,
+}
+
+model 092GastlyFCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/092GastlyFCard,
+scale=0.5,
+}
+
+model 093HaunterCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/093HaunterCard,
+scale=0.5,
+}
+
+model 093HaunterFCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/093HaunterFCard,
+scale=0.5,
+}
+
+model 093HaunterHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/093HaunterHCard,
+scale=0.5,
+}
+
+model 094GengarCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/094GengarCard,
+scale=0.5,
+}
+
+model 094GengarHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/094GengarHCard,
+scale=0.5,
+}
+
+model 095OnixCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/095OnixCard,
+scale=0.5,
+}
+
+model 096DrowzeeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/096DrowzeeCard,
+scale=0.5,
+}
+
+model 097HypnoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/097HypnoCard,
+scale=0.5,
+}
+
+model 097HypnoHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/097HypnoHCard,
+scale=0.5,
+}
+
+model 098KrabbyCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/098KrabbyCard,
+scale=0.5,
+}
+
+model 099KinglerCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/099KinglerCard,
+scale=0.5,
+}
+
+model 100VoltorbCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/100VoltorbCard,
+scale=0.5,
+}
+
+model 101ElectrodeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/101ElectrodeCard,
+scale=0.5,
+}
+
+model 101ElectrodeHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/101ElectrodeHCard,
+scale=0.5,
+}
+
+model 101ElectrodeJCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/101ElectrodeJCard,
+scale=0.5,
+}
+
+model 102ExeggcuteCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/102ExeggcuteCard,
+scale=0.5,
+}
+
+model 103ExeggutorCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/103ExeggutorCard,
+scale=0.5,
+}
+
+model 104CuboneCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/104CuboneCard,
+scale=0.5,
+}
+
+model 105MarowakCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/105MarowakCard,
+scale=0.5,
+}
+
+model 106HitmonleeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/106HitmonleeCard,
+scale=0.5,
+}
+
+model 106HitmonleeHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/106HitmonleeHCard,
+scale=0.5,
+}
+
+model 107HitmonchanCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/107HitmonchanCard,
+scale=0.5,
+}
+
+model 108LickitungCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/108LickitungCard,
+scale=0.5,
+}
+
+model 109KoffingCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/109KoffingCard,
+scale=0.5,
+}
+
+model 110WeezingCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/110WeezingCard,
+scale=0.5,
+}
+
+model 111RhyhornCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/111RhyhornCard,
+scale=0.5,
+}
+
+model 112RhydonCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/112RhydonCard,
+scale=0.5,
+}
+
+model 113ChanseyCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/113ChanseyCard,
+scale=0.5,
+}
+
+model 114TangelaCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/114TangelaCard,
+scale=0.5,
+}
+
+model 115KangaskhanCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/115KangaskhanCard,
+scale=0.5,
+}
+
+model 115KangaskhanHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/115KangaskhanHCard,
+scale=0.5,
+}
+
+model 116HorseaCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/116HorseaCard,
+scale=0.5,
+}
+
+model 117SeadraCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/117SeadraCard,
+scale=0.5,
+}
+
+model 118GoldeenCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/118GoldeenCard,
+scale=0.5,
+}
+
+model 119SeakingCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/119SeakingCard,
+scale=0.5,
+}
+
+model 120StaryuCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/120StaryuCard,
+scale=0.5,
+}
+
+model 121StarmieCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/121StarmieCard,
+scale=0.5,
+}
+
+model 122MrMimeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/122MrMimeCard,
+scale=0.5,
+}
+
+model 122MrMimeHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/122MrMimeHCard,
+scale=0.5,
+}
+
+model 123ScytherCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/123ScytherCard,
+scale=0.5,
+}
+
+model 123ScytherHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/123ScytherHCard,
+scale=0.5,
+}
+
+model 124JynxCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/124JynxCard,
+scale=0.5,
+}
+
+model 125ElectabuzzCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/125ElectabuzzCard,
+scale=0.5,
+}
+
+model 126MagmarCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/126MagmarCard,
+scale=0.5,
+}
+
+model 126MagmarFCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/126MagmarFCard,
+scale=0.5,
+}
+
+model 127PinsirCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/127PinsirCard,
+scale=0.5,
+}
+
+model 127PinsirHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/127PinsirHCard,
+scale=0.5,
+}
+
+model 128TaurosCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/128TaurosCard,
+scale=0.5,
+}
+
+model 129MagikarpCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/129MagikarpCard,
+scale=0.5,
+}
+
+model 130GyaradosCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/130GyaradosCard,
+scale=0.5,
+}
+
+model 131LaprasCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/131LaprasCard,
+scale=0.5,
+}
+
+model 131LaprasHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/131LaprasHCard,
+scale=0.5,
+}
+
+model 132DittoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/132DittoCard,
+scale=0.5,
+}
+
+model 132DittoHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/132DittoHCard,
+scale=0.5,
+}
+
+model 133EeveeCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/133EeveeCard,
+scale=0.5,
+}
+
+model 134VaporeonCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/134VaporeonCard,
+scale=0.5,
+}
+
+model 134VaporeonHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/134VaporeonHCard,
+scale=0.5,
+}
+
+model 135JolteonCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/135JolteonCard,
+scale=0.5,
+}
+
+model 135JolteonHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/135JolteonHCard,
+scale=0.5,
+}
+
+model 136FlareonCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/136FlareonCard,
+scale=0.5,
+}
+
+model 136FlareonHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/136FlareonHCard,
+scale=0.5,
+}
+
+model 137PorygonCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/137PorygonCard,
+scale=0.5,
+}
+
+model 138OmanyteCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/138OmanyteCard,
+scale=0.5,
+}
+
+model 139OmastarCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/139OmastarCard,
+scale=0.5,
+}
+
+model 140KabutoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/140KabutoCard,
+scale=0.5,
+}
+
+model 141KabutopsCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/141KabutopsCard,
+scale=0.5,
+}
+
+model 141KabutopsHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/141KabutopsHCard,
+scale=0.5,
+}
+
+model 142AerodactylCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/142AerodactylCard,
+scale=0.5,
+}
+
+model 142AerodactylHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/142AerodactylHCard,
+scale=0.5,
+}
+
+model 143SnorlaxCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/143SnorlaxCard,
+scale=0.5,
+}
+
+model 143SnorlaxHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/143SnorlaxHCard,
+scale=0.5,
+}
+
+model 144ArticunoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/144ArticunoCard,
+scale=0.5,
+}
+
+model 144ArticunoHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/144ArticunoHCard,
+scale=0.5,
+}
+
+model 145ZapdosCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/145ZapdosCard,
+scale=0.5,
+}
+
+model 145ZapdosHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/145ZapdosHCard,
+scale=0.5,
+}
+
+model 145ZapdosFHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/145ZapdosFHCard,
+scale=0.5,
+}
+
+model 146MoltresCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/146MoltresCard,
+scale=0.5,
+}
+
+model 146MoltresHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/146MoltresHCard,
+scale=0.5,
+}
+
+model 147DratiniCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/147DratiniCard,
+scale=0.5,
+}
+
+model 148DragonairCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/148DragonairCard,
+scale=0.5,
+}
+
+model 149DragoniteCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/149DragoniteCard,
+scale=0.5,
+}
+
+model 149DragoniteHCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/149DragoniteHCard,
+scale=0.5,
+}
+
+model 150MewtwoCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/150MewtwoCard,
+scale=0.5,
+}
+
+model 151MewCard
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/151MewCard,
+scale=0.5,
+}
+
+model pkmnbinderempty
+{
+mesh=WorldItems/BookClosed,
+texture=WorldItems/pkmnbinder,
+scale=0.5,
+}
+
+model boosterpack
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/boosterpack,
+scale=0.55,
+}
+
+model boosterpackjungle
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/boosterpackjungle,
+scale=0.55,
+}
+
+model boosterpackfossil
+{
+mesh=WorldItems/CreditCard,
+texture=WorldItems/boosterpackfossil,
+scale=0.55,
+}
+
+model pkmnbinderfull
+{
+mesh=WorldItems/Book,
+texture=WorldItems/pkmnbinder,
+scale=0.5,
+}
+
+model pkmnboosterbox
+{
+mesh=WorldItems/BoxOfShotGunShells,
+Texture=WorldItems/boosterbox,
+Scale=1.2,
+}
+
+model pkmnboosterboxjungle
+{
+mesh=WorldItems/BoxOfShotGunShells,
+Texture=WorldItems/boosterboxjungle,
+Scale=1.2,
+}
+
+model pkmnboosterboxfossil
+{
+mesh=WorldItems/BoxOfShotGunShells,
+Texture=WorldItems/boosterboxfossil,
+Scale=1.2,
+}
+
+model pkmn_checklist
+{
+mesh=WorldItems/Map,
+texture=WorldItems/pkmn_checklist,
+Scale=0.6,
+}
+
+model pkmntin
+{
+mesh=WorldItems/present5,
+texture=WorldItems/pkmntin,
+Scale=0.3,
+}
+}

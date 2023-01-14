@@ -1,0 +1,15 @@
+Sandbox_EN = {
+	Sandbox_MoFilchers = "Farming Compatability",
+	Sandbox_MoFilchers_ModPriority = "Mod Priority Order",
+	Sandbox_MoFilchers_ModPriority_tooltip = "Determine's priority order. Remember to follow the format! (G = LeGourmetRevolution, X  = Xnertot, C = Farming Coffee Time, J= Jigga, M = MoCrops, F = Filcher, V = Vanilla).",
+	Sandbox_MoFilchers_ReplaceSeeds = "Replace Seeds",
+	Sandbox_MoFilchers_ReplaceSeeds_tooltip = "Whether or not seeds are replaced with the prioritized mod's counterpart. False will result in removal.",
+	Sandbox_MoFilchers_GourmetOverride = "Le Gourmet Revolution Textures",
+	Sandbox_MoFilchers_GourmetOverride_tooltip = "Whether or not LGR crop textures are used over other mods, regardless of priority.",
+	Sandbox_MoFilchers_LearnSow = "Le Gourmet Revolution Sowing",
+	Sandbox_MoFilchers_LearnSow_tooltip = "Whether or not you're required to use LGR's system to learn how to sow seeds.",
+	Sandbox_MoFilchers_PlantRefund = "Le Gourmet Revolution Refund",
+	Sandbox_MoFilchers_PlantRefund_tooltip = "Whether or not you're refunded the sticks and sheet rope used in support plant recipes.",
+	Sandbox_MoFilchers_KeepFurrows = "Keep Furrows",
+	Sandbox_MoFilchers_KeepFurrows_tooltip = "Whether or not to use Hydrocraft's keep furrows feature. Does not require Hydrocraft to be installed.",
+}

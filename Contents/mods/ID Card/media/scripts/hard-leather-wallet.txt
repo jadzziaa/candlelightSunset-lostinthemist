@@ -1,0 +1,22 @@
+module WalletPlus
+{
+    imports
+    {
+        Base
+    }
+
+    item HardLeatherWallet
+    {
+		WeightReduction	=	2,
+		Weight	=	0.4,
+		Type	=	Container,
+		Capacity	=	6,
+		DisplayName	=	Hardened Leather Wallet,
+		Icon	=	LEATHERWALLET,
+        OpenSound   =   WALLETOPEN,
+        CloseSound   =   WALLETCLOSE,
+        PutInSound   =   WALLETCLOSE,
+        AcceptItemFunction = Accept_Documentation
+        AcceptItemFunction = Accept_Money
+    }
+}

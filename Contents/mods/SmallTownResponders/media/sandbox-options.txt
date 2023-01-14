@@ -1,0 +1,324 @@
+VERSION = 1,
+
+option STR.CustomZones
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_CustomZones,
+}
+option STR.LootZones
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_LootZones,
+}
+option STR.DuffelLoot
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_DuffelLoot,
+}
+option STR.CustomVehicleZones
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_CustomVehicleZones,
+}
+option STR.STEVOnly
+{
+	type = boolean,
+	default = false,
+
+	page = STR,
+	translation = STR_STEVOnly,
+}
+option STR.TrueSTEV
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_TrueSTEV,
+}
+option STR.ZombieOverrides
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_ZombieOverrides,
+}
+option STR.VehicleOverrides
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_VehicleOverrides,
+}
+option STR.TrunkOverrides
+{
+	type = boolean,
+	default = true,
+
+	page = STR,
+	translation = STR_TrunkOverrides,
+}
+option STR.TickrateOverrides
+{
+	type = integer,
+	min = 50,
+	max = 250,
+	default = 150,
+
+	page = STR,
+	translation = STR_TickrateOverrides,
+}
+option STEV.Meade
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_Meade,
+}
+option STEV.Riverside
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_Riverside,
+}
+option STEV.Rosewood
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_Rosewood,
+}
+option STEV.WestPoint
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_WestPoint,
+}
+option STEV.Muldraugh
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_Muldraugh,
+}
+option STEV.JCSD
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_JCSD,
+}
+option STEV.JCPD
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_JCPD,
+}
+option STEV.KSP
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_KSP,
+}
+option STEV.Louisville
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_Louisville,
+}
+option STEV.Rangers
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_Rangers,
+}
+option STEV.USPS
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_USPS,
+}
+option STEV.JCDOC
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_JCDOC,
+}
+option STEV.MCDOC
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_MCDOC,
+}
+option STEV.EMS
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_EMS,
+}
+option STEV.RosewoodFire
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_RosewoodFire,
+}
+option STEV.LouisvilleFire
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_LouisvilleFire,
+}
+option STEV.MeadeFire
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_MeadeFire,
+}
+option STEV.BankTruck
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_BankTruck,
+}
+option STEV.RCRPD
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_RCRPD,
+}
+option STEV.RCRFD
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 35,
+
+	page = STEV,
+	translation = STEV_RCRFD,
+}
+option STEV.RCRDOC
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_RCRDOC,
+}
+option STEV.FSwat
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 5,
+
+	page = STEV,
+	translation = STEV_FSwat,
+}
+option STEV.SRate
+{
+	type = integer,
+	min = 0,
+	max = 40,
+	default = 25,
+
+	page = STEV,
+	translation = STEV_SRate,
+}
+option STEV.NChance
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 5,
+
+	page = STEV,
+	translation = STEV_NChance,
+}

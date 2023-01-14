@@ -1,0 +1,175 @@
+module Unlimited
+{
+	item Croptop_Fishnet
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Fishnet Croptop,
+        ClothingItem = Croptop_Fishnet,
+        BodyLocation = TankTop,
+        Icon = CroptopBlackFishnet,
+        BloodLocation = Shirt,
+        Insulation = 0.0,
+        WindResistance = 0.0,
+        WorldStaticModel = Croptop_Fishnet_Ground,
+		Weight = 0.2,
+    }
+	item Shirt_Fishnet
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Fishnet Shirt,
+        ClothingItem = Shirt_Fishnet,
+        BodyLocation = TankTop,
+        Icon = ShirtBlackFishnet,
+        BloodLocation = ShirtLongSleeves,
+        Insulation = 0.0,
+        WindResistance = 0.0,
+        WorldStaticModel = Shirt_Ground,
+		Weight = 0.2,
+    }
+	item Gloves_Fishnet
+	{
+		Type = Clothing,
+		DisplayName = Fishnet Gloves,
+		DisplayCategory = Clothing,
+		ClothingItem = Gloves_Fishnet,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = Gloves_Fishnet,
+		Weight = 0.1,
+        Insulation = 0.0,
+        WindResistance = 0.0,
+		WorldStaticModel = Gloves_Ground,
+	}
+	item Gloves_Fishnet_Long
+	{
+		Type = Clothing,
+		DisplayName = Long Fishnet Gloves,
+		DisplayCategory = Clothing,
+		ClothingItem = Gloves_Fishnet_Long,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = Gloves_Fishnet_Long,
+		Weight = 0.1,
+        Insulation = 0.0,
+        WindResistance = 0.0,
+		WorldStaticModel = GlovesLong_Ground,
+	}
+	item Gloves_VeryLong
+	{
+		Type = Clothing,
+		DisplayName = Very Long Gloves,
+		DisplayCategory = Clothing,
+		ClothingItem = Gloves_VeryLong,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = VeryLongGlovesBlack,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+		WorldStaticModel = Gloves_VeryLong_Ground,
+		Weight = 0.2,
+	}
+	item Socks_Thigh-High_Sport
+	{
+		Type = Clothing,
+		DisplayName = Thigh-High Sport Socks,
+		DisplayCategory = Clothing,
+		ClothingItem = Socks_Thigh-High_Sport,
+		BodyLocation = Socks,
+		Icon = SocksThighHighSport,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.65,
+        WindResistance = 0.65,
+        Weight = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Socks_Thigh-High_Ground,
+	}
+	item Socks_Thigh-High_Sport_Black
+	{
+		Type = Clothing,
+		DisplayName = Thigh-High Sport Socks,
+		DisplayCategory = Clothing,
+		ClothingItem = Socks_Thigh-High_Sport_Black,
+		BodyLocation = Socks,
+		Icon = SocksThighHighSport_Black,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.65,
+        WindResistance = 0.65,
+        Weight = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Socks_Thigh-High_Ground,
+	}
+	item Socks_Thigh-High_Striped
+	{
+		Type = Clothing,
+		DisplayName = Thigh-High Socks Striped,
+		DisplayCategory = Clothing,
+		ClothingItem = Socks_Thigh-High_Striped,
+		BodyLocation = Socks,
+		Icon = SocksThighHighStriped,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.65,
+        WindResistance = 0.65,
+        Weight = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Socks_Thigh-High_Ground,
+	}
+	item Socks_Thigh-High_Striped_Colored
+	{
+		Type = Clothing,
+		DisplayName = Thigh-High Socks Colored Stripes,
+		DisplayCategory = Clothing,
+		ClothingItem = Socks_Thigh-High_Striped_Colored,
+		BodyLocation = Socks,
+		IconsForTexture = SocksThighHighStriped;SocksThighHighStriped_Blue;SocksThighHighStriped_Pink;SocksThighHighStriped_Red,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.65,
+        WindResistance = 0.65,
+        Weight = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Socks_Thigh-High_Ground,
+	}
+	item Socks_Thigh-High
+	{
+		Type = Clothing,
+		DisplayName = Thigh-High Socks,
+		DisplayCategory = Clothing,
+		ClothingItem = Socks_Thigh-High,
+		BodyLocation = Socks,
+		Icon = SocksThighHigh,
+		BloodLocation = Shoes;LowerLegs,
+        Insulation = 0.65,
+        WindResistance = 0.65,
+        Weight = 0.2,
+        FabricType = Cotton,
+		WorldStaticModel = Socks_Thigh-High_Ground,
+	}
+	item Socks_Polkadot
+	{
+		Type = Clothing,
+		DisplayName = Polkadot Socks,
+		DisplayCategory = Clothing,
+		ClothingItem = Socks_Polkadot,
+		BodyLocation = Socks,
+		Icon = PolkaSocks,
+		BloodLocation = Shoes,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Sock_Ankle_Ground,
+	}
+	item Stockings_Fishnet
+	{
+		Type = Clothing,
+		DisplayName = Fishnet Stockings,
+		DisplayCategory = Accessory,
+		ClothingItem = Stockings_Fishnet,
+		BodyLocation = UnderwearExtra1,
+		Icon = StockingsFishnet,
+        Weight = 0.1,
+		WorldStaticModel = Socks_Thigh-High_Ground,
+	}
+}

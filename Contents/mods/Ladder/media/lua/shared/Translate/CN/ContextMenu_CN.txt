@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+	ContextMenu_QNW_Ladder_Ladder           =   "梯子",
+	ContextMenu_QNW_Ladder_LadderWithFloor  =   "梯子（附带地板）",
+}

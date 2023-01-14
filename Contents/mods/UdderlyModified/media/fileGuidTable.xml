@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Cow.xml</path>
+		<guid>e050826a-a62e-4d2a-b6dd-32d29748c88d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Cow_LHand.xml</path>
+		<guid>1f944349-2710-4b6b-8f70-fd46192f9966</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Cow_RHand.xml</path>
+		<guid>e060a676-fce4-4c9c-b1d0-479aacb229de</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Henson.xml</path>
+		<guid>3edb0f67-53c4-46cf-aab8-544568675ded</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Henson_LHand.xml</path>
+		<guid>176f01ef-ab0d-49a7-810b-08d18378ca32</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Henson_RHand.xml</path>
+		<guid>41e54548-14f7-4d6e-b3d0-db8115b1010f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Leather.xml</path>
+		<guid>0b71a2ce-df82-49a9-b4c1-65bdbbe0355a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Leather_LHand.xml</path>
+		<guid>20dbd79b-411a-4bc6-84c0-785cb025e435</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ALICEpack_Leather_RHand.xml</path>
+		<guid>5729ba5f-546b-4443-aef0-77270b2a49e6</guid>
+	</files>
+</fileGuidTable>

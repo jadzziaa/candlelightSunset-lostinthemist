@@ -1,0 +1,359 @@
+ItemName_FR={
+--cards
+ItemName_pkmncards.001Bulbasaurcard="Carte Pokémon #001 - Bulbizarre",
+
+ItemName_pkmncards.002Ivysaurcard="Carte Pokémon #002 - Herbizarre",
+
+ItemName_pkmncards.003Venusaurcard="Carte Pokémon #003 - Florizarre (Holo)",
+
+ItemName_pkmncards.004Charmandercard="Carte Pokémon #004 - Salamèche",
+
+ItemName_pkmncards.005Charmeleoncard="Carte Pokémon #005 - Reptincel",
+
+ItemName_pkmncards.006Charizardcard="Carte Pokémon #006 - Dracaufeu (Holo)",
+
+ItemName_pkmncards.007Squirtlecard="Carte Pokémon #007 - Carapuce",
+
+ItemName_pkmncards.008Wartortlecard="Carte Pokémon #008 - Carabaffe",
+
+ItemName_pkmncards.009Blastoisecard="Carte Pokémon #009 - Tortank (Holo)",
+
+ItemName_pkmncards.010Caterpiecard="Carte Pokémon #010 - Chenipan",
+
+ItemName_pkmncards.011Metapodcard="Carte Pokémon #011 - Chrysacier",
+
+ItemName_pkmncards.012Butterfreecard="Carte Pokémon #012 - Papilusion",
+
+ItemName_pkmncards.013Weedlecard="Carte Pokémon #013 - Aspicot",
+
+ItemName_pkmncards.014Kakunacard="Carte Pokémon #014 - Coconfort",
+
+ItemName_pkmncards.015Beedrillcard="Carte Pokémon #015 - Dardagnan",
+
+ItemName_pkmncards.016Pidgeycard="Carte Pokémon #016 - Roucool",
+
+ItemName_pkmncards.017Pidgeottocard="Carte Pokémon #017 - Roucoups",
+
+ItemName_pkmncards.018Pidgeotcard="Carte Pokémon #018 - Roucarnage",
+ItemName_pkmncards.018PidgeotHcard="Carte Pokémon #018 - Roucarnage (Holo)",
+
+ItemName_pkmncards.019Rattatacard="Carte Pokémon #019 - Rattata",
+
+ItemName_pkmncards.020Raticatecard="Carte Pokémon #020 - Rattatac",
+
+ItemName_pkmncards.021Spearowcard="Carte Pokémon #021 - Piafabec",
+
+ItemName_pkmncards.022Fearowcard="Carte Pokémon #022 - Rapasdepic",
+
+ItemName_pkmncards.023Ekanscard="Carte Pokémon #023 - Abo",
+
+ItemName_pkmncards.024Arbokcard="Carte Pokémon #024 - Arbok",
+
+ItemName_pkmncards.025Pikachucard="Carte Pokémon #025 - Pikachu",
+ItemName_pkmncards.025PikachuJcard="Carte Pokémon #025 - Pikachu (Jungle)",
+
+ItemName_pkmncards.026Raichucard="Carte Pokémon #026 - Raichu",
+ItemName_pkmncards.026RaichuHcard="Carte Pokémon #026 - Raichu (Holo)",
+ItemName_pkmncards.026RaichuFHcard="Carte Pokémon #026 - Raichu (Holo Fossile)",
+
+ItemName_pkmncards.027Sandshrewcard="Carte Pokémon #027 - Sabelette",
+
+ItemName_pkmncards.028Sandslashcard="Carte Pokémon #028 - Sablaireau",
+
+ItemName_pkmncards.029NidoranFemalecard="Carte Pokémon #029 - Nidoran Femelle",
+
+ItemName_pkmncards.030Nidorinacard="Carte Pokémon #030 - Nidorina",
+
+ItemName_pkmncards.031Nidoqueencard="Carte Pokémon #031 - Nidoqueen",
+ItemName_pkmncards.031NidoqueenHcard="Carte Pokémon #031 - Nidoqueen (Holo)",
+
+ItemName_pkmncards.032NidoranMalecard="Carte Pokémon #032 - Nidoran Mâle",
+
+ItemName_pkmncards.033Nidorinocard="Carte Pokémon #033 - Nidorino",
+
+ItemName_pkmncards.034Nidokingcard="Carte Pokémon #034 - Nidoking (Holo)",
+
+ItemName_pkmncards.035Clefairycard="Carte Pokémon #035 - Mélofée (Holo)",
+
+ItemName_pkmncards.036Clefablecard="Carte Pokémon #036 - Mélodelfe",
+ItemName_pkmncards.036ClefableHcard="Carte Pokémon #036 - Mélodelfe (Holo)",
+
+ItemName_pkmncards.037Vulpixcard="Carte Pokémon #037 - Goupix",
+
+ItemName_pkmncards.038Ninetalescard="Carte Pokémon #038 - Feunard (Holo)",
+
+ItemName_pkmncards.039Jigglypuffcard="Carte Pokémon #039 - Rondoudou",
+
+ItemName_pkmncards.040Wigglytuffcard="Carte Pokémon #040 - Grodoudou",
+ItemName_pkmncards.040WigglytuffHcard="Carte Pokémon #040 - Grodoudou (Holo)",
+
+ItemName_pkmncards.041Zubatcard="Carte Pokémon #041 - Nosferapti",
+
+ItemName_pkmncards.042Golbatcard="Carte Pokémon #042 - Nosferalto",
+
+ItemName_pkmncards.043Oddishcard="Carte Pokémon #043 - Mystherbe",
+
+ItemName_pkmncards.044Gloomcard="Carte Pokémon #044 - Ortide",
+
+ItemName_pkmncards.045Vileplumecard="Carte Pokémon #045 - Rafflesia",
+ItemName_pkmncards.045VileplumeHcard="Carte Pokémon #045 - Rafflesia (Holo)",
+
+ItemName_pkmncards.046Parascard="Carte Pokémon #046 - Paras",
+
+ItemName_pkmncards.047Parasectcard="Carte Pokémon #047 - Parasect",
+
+ItemName_pkmncards.048Venonatcard="Carte Pokémon #048 - Mimitoss",
+
+ItemName_pkmncards.049Venomothcard="Carte Pokémon #049 - Aéromite",
+ItemName_pkmncards.049VenomothHcard="Carte Pokémon #049 - Aéromite (Holo)",
+
+ItemName_pkmncards.050Diglettcard="Carte Pokémon #050 - Taupiqueur",
+
+ItemName_pkmncards.051Dugtriocard="Carte Pokémon #051 - Triopikeur",
+
+ItemName_pkmncards.052Meowthcard="Carte Pokémon #052 - Miaouss",
+
+ItemName_pkmncards.053Persiancard="Carte Pokémon #053 - Persian",
+
+ItemName_pkmncards.054Psyduckcard="Carte Pokémon #054 - Psykokwak",
+
+ItemName_pkmncards.055Golduckcard="Carte Pokémon #055 - Akwakwak",
+
+ItemName_pkmncards.056Mankeycard="Carte Pokémon #056 - Férosinge",
+
+ItemName_pkmncards.057Primeapecard="Carte Pokémon #057 - Colossinge",
+
+ItemName_pkmncards.058Growlithecard="Carte Pokémon #058 - Caninos",
+
+ItemName_pkmncards.059Arcaninecard="Carte Pokémon #059 - Arcanin",
+
+ItemName_pkmncards.060Poliwagcard="Carte Pokémon #060 - Ptitard",
+
+ItemName_pkmncards.061Poliwhirlcard="Carte Pokémon #061 - Têtarte",
+
+ItemName_pkmncards.062Poliwrathcard="Carte Pokémon #062 - Tartard (Holo)",
+ItemName_pkmncards.063Abracard="Carte Pokémon #063 - Abra",
+
+ItemName_pkmncards.064Kadabracard="Carte Pokémon #064 - Kadabra",
+
+ItemName_pkmncards.065Alakazamcard="Carte Pokémon #065 - Alakazam (Holo)",
+
+ItemName_pkmncards.066Machopcard="Carte Pokémon #066 - Machoc",
+
+ItemName_pkmncards.067Machokecard="Carte Pokémon #067 - Machopeur",
+
+ItemName_pkmncards.068Machampcard="Carte Pokémon #068 - Mackogneur (Holo)",
+
+ItemName_pkmncards.069Bellsproutcard="Carte Pokémon #069 - Chétiflor",
+
+ItemName_pkmncards.070Weepinbellcard="Carte Pokémon #070 - Boustiflor",
+
+ItemName_pkmncards.071Victreebelcard="Carte Pokémon #071 - Empiflor",
+ItemName_pkmncards.071VictreebelHcard="Carte Pokémon #071 - Empiflor (Holo)",
+
+ItemName_pkmncards.072Tentacoolcard="Carte Pokémon #072 - Tentacool",
+
+ItemName_pkmncards.073Tentacruelcard="Carte Pokémon #073 - Tentacruel",
+
+ItemName_pkmncards.074Geodudecard="Carte Pokémon #074 - Racaillou",
+
+ItemName_pkmncards.075Gravelercard="Carte Pokémon #075 - Gravalanch",
+
+ItemName_pkmncards.076Golemcard="Carte Pokémon #076 - Grolem",
+
+ItemName_pkmncards.077Ponytacard="Carte Pokémon #077 - Ponyta",
+
+ItemName_pkmncards.078Rapidashcard="Carte Pokémon #078 - Galopa",
+
+ItemName_pkmncards.079Slowpokecard="Carte Pokémon #079 - Ramoloss",
+
+ItemName_pkmncards.080Slowbrocard="Carte Pokémon #080 - Flagadoss",
+
+ItemName_pkmncards.081Magnemitecard="Carte Pokémon #081 - Magnéti",
+
+ItemName_pkmncards.082Magnetoncard="Carte Pokémon #082 - Magnéton",
+ItemName_pkmncards.082MagnetonHcard="Carte Pokémon #082 - Magnéton (Holo)",
+ItemName_pkmncards.082MagnetonFHcard="Carte Pokémon #082 - Magnéton (Holo Fossile)",
+
+ItemName_pkmncards.083Farfetch'dcard="Carte Pokémon #083 - Canarticho",
+
+ItemName_pkmncards.084Doduocard="Carte Pokémon #084 - Doduo",
+
+ItemName_pkmncards.085Dodriocard="Carte Pokémon #085 - Dodrio",
+
+ItemName_pkmncards.086Seelcard="Carte Pokémon #086 - Otaria",
+
+ItemName_pkmncards.087Dewgongcard="Carte Pokémon #087 - Lamantine",
+
+ItemName_pkmncards.088Grimercard="Carte Pokémon #088 - Tadmorv",
+
+ItemName_pkmncards.089Mukcard="Carte Pokémon #089 - Grotadmorv",
+ItemName_pkmncards.089MukHcard="Carte Pokémon #089 - Grotadmorv (Holo)",
+
+ItemName_pkmncards.090Shelldercard="Carte Pokémon #090 - Kokiyas",
+
+ItemName_pkmncards.091Cloystercard="Carte Pokémon #091 - Crustabri",
+
+ItemName_pkmncards.092Gastlycard="Carte Pokémon #092 - Fantominus",
+ItemName_pkmncards.092GastlyFcard="Carte Pokémon #092 - Fantominus (Fossile)",
+
+ItemName_pkmncards.093Hauntercard="Carte Pokémon #093 - Spectrum",
+ItemName_pkmncards.093HaunterFcard="Carte Pokémon #093 - Spectrum (Fossile)",
+ItemName_pkmncards.093HaunterHcard="Carte Pokémon #093 - Spectrum (Holo)",
+
+ItemName_pkmncards.094Gengarcard="Carte Pokémon #094 - Ectoplasma",
+ItemName_pkmncards.094GengarHcard="Carte Pokémon #094 - Ectoplasma (Holo)",
+
+ItemName_pkmncards.095Onixcard="Carte Pokémon #095 - Onix",
+
+ItemName_pkmncards.096Drowzeecard="Carte Pokémon #096 - Soporifik",
+
+ItemName_pkmncards.097Hypnocard="Carte Pokémon #097 - Hypnomade",
+ItemName_pkmncards.097HypnoHcard="Carte Pokémon #097 - Hypnomade (Holo)",
+
+ItemName_pkmncards.098Krabbycard="Carte Pokémon #098 - Krabby",
+
+ItemName_pkmncards.099Kinglercard="Carte Pokémon #099 - Krabboss",
+
+ItemName_pkmncards.100Voltorbcard="Carte Pokémon #100 - Voltorbe",
+
+ItemName_pkmncards.101Electrodecard="Carte Pokémon #101 - électrode",
+ItemName_pkmncards.101ElectrodeHcard="Carte Pokémon #101 - électrode (Holo)",
+ItemName_pkmncards.101ElectrodeJcard="Carte Pokémon #101 - électrode (Jungle)",
+
+ItemName_pkmncards.102Exeggcutecard="Carte Pokémon #102 - Noeunoeuf",
+
+ItemName_pkmncards.103Exeggutorcard="Carte Pokémon #103 - Noadkoko",
+
+ItemName_pkmncards.104Cubonecard="Carte Pokémon #104 - Osselait",
+
+ItemName_pkmncards.105Marowakcard="Carte Pokémon #105 - Ossatueur",
+
+ItemName_pkmncards.106Hitmonleecard="Carte Pokémon #106 - Kicklee",
+ItemName_pkmncards.106HitmonleeHcard="Carte Pokémon #106 - Kicklee (Holo)",
+
+ItemName_pkmncards.107Hitmonchancard="Carte Pokémon #107 - Tygnon (Holo)",
+
+ItemName_pkmncards.108Lickitungcard="Carte Pokémon #108 - Excelangue",
+
+ItemName_pkmncards.109Koffingcard="Carte Pokémon #109 - Smogo",
+
+ItemName_pkmncards.110Weezingcard="Carte Pokémon #110 - Smogogo",
+
+ItemName_pkmncards.111Rhyhorncard="Carte Pokémon #111 - Rhinocorne",
+
+ItemName_pkmncards.112Rhydoncard="Carte Pokémon #112 - Rhinoféros",
+
+ItemName_pkmncards.113Chanseycard="Carte Pokémon #113 - Leveinard (Holo)",
+
+ItemName_pkmncards.114Tangelacard="Carte Pokémon #114 - Saquedeneu",
+
+ItemName_pkmncards.115Kangaskhancard="Carte Pokémon #115 - Kangourex",
+ItemName_pkmncards.115KangaskhanHcard="Carte Pokémon #115 - Kangourex (Holo)",
+
+ItemName_pkmncards.116Horseacard="Carte Pokémon #116 - Hypotrempe",
+
+ItemName_pkmncards.117Seadracard="Carte Pokémon #117 - Hypocéan",
+
+ItemName_pkmncards.118Goldeencard="Carte Pokémon #118 - Poissirène",
+
+ItemName_pkmncards.119Seakingcard="Carte Pokémon #119 - Poissoroy",
+
+ItemName_pkmncards.120Staryucard="Carte Pokémon #120 - Stari",
+
+ItemName_pkmncards.121Starmiecard="Carte Pokémon #121 - Staross",
+
+ItemName_pkmncards.122MrMimecard="Carte Pokémon #122 - M. Mime",
+ItemName_pkmncards.122MrMimeHcard="Carte Pokémon #122 - M. Mime (Holo)",
+
+ItemName_pkmncards.123Scythercard="Carte Pokémon #123 - Insécateur",
+ItemName_pkmncards.123ScytherHcard="Carte Pokémon #123 - Insécateur (Holo)",
+
+ItemName_pkmncards.124Jynxcard="Carte Pokémon #124 - Lippoutou",
+
+ItemName_pkmncards.125Electabuzzcard="Carte Pokémon #125 - élektek",
+
+ItemName_pkmncards.126Magmarcard="Carte Pokémon #126 - Magmar",
+ItemName_pkmncards.126MagmarFcard="Carte Pokémon #126 - Magmar (Fossile)",
+
+ItemName_pkmncards.127Pinsircard="Carte Pokémon #127 - Scarabrute",
+ItemName_pkmncards.127PinsirHcard="Carte Pokémon #127 - Scarabrute (Holo)",
+
+ItemName_pkmncards.128Tauroscard="Carte Pokémon #128 - Tauros",
+
+ItemName_pkmncards.129Magikarpcard="Carte Pokémon #129 - Magicarpe",
+
+ItemName_pkmncards.130Gyaradoscard="Carte Pokémon #130 - Léviator (Holo)",
+
+ItemName_pkmncards.131Laprascard="Carte Pokémon #131 - Lokhlass",
+ItemName_pkmncards.131LaprasHcard="Carte Pokémon #131 - Lokhlass (Holo)",
+
+ItemName_pkmncards.132Dittocard="Carte Pokémon #132 - Métamorph",
+ItemName_pkmncards.132DittoHcard="Carte Pokémon #132 - Métamorph (Holo)",
+
+ItemName_pkmncards.133Eeveecard="Carte Pokémon #133 - évoli",
+
+ItemName_pkmncards.134Vaporeoncard="Carte Pokémon #134 - Aquali",
+ItemName_pkmncards.134VaporeonHcard="Carte Pokémon #134 - Aquali (Holo)",
+
+ItemName_pkmncards.135Jolteoncard="Carte Pokémon #135 - Voltali",
+ItemName_pkmncards.135JolteonHcard="Carte Pokémon #135 - Voltali (Holo)",
+
+ItemName_pkmncards.136Flareoncard="Carte Pokémon #136 - Pyroli",
+ItemName_pkmncards.136FlareonHcard="Carte Pokémon #136 - Pyroli (Holo)",
+
+ItemName_pkmncards.137Porygoncard="Carte Pokémon #137 - Porygon",
+
+ItemName_pkmncards.138Omanytecard="Carte Pokémon #138 - Omanita",
+
+ItemName_pkmncards.139Omastarcard="Carte Pokémon #139 - Omonistar",
+
+ItemName_pkmncards.140Kabutocard="Carte Pokémon #140 - Kabuto",
+
+ItemName_pkmncards.141Kabutopscard="Carte Pokémon #141 - Kabutops",
+ItemName_pkmncards.141KabutopsHcard="Carte Pokémon #141 - Kabutops (Holo)",
+
+ItemName_pkmncards.142Aerodactylcard="Carte Pokémon #142 - Ptéra",
+ItemName_pkmncards.142AerodactylHcard="Carte Pokémon #142 - Ptéra (Holo)",
+
+ItemName_pkmncards.143Snorlaxcard="Carte Pokémon #143 - Ronflex",
+ItemName_pkmncards.143SnorlaxHcard="Carte Pokémon #143 - Ronflex (Holo)",
+
+ItemName_pkmncards.144Articunocard="Carte Pokémon #144 - Artikodin",
+ItemName_pkmncards.144ArticunoHcard="Carte Pokémon #144 - Artikodin (Holo)",
+
+ItemName_pkmncards.145Zapdoscard="Carte Pokémon #145 - électhor",
+ItemName_pkmncards.145ZapdosHcard="Carte Pokémon #145 - électhor (Holo)",
+ItemName_pkmncards.145ZapdosFHcard="Carte Pokémon #145 - électhor (Holo Fossile)",
+
+ItemName_pkmncards.146Moltrescard="Carte Pokémon #146 - Sulfura",
+ItemName_pkmncards.146MoltresHcard="Carte Pokémon #146 - Sulfura (Holo)",
+
+ItemName_pkmncards.147Dratinicard="Carte Pokémon #147 - Minidraco",
+
+ItemName_pkmncards.148Dragonaircard="Carte Pokémon #148 - Draco",
+
+ItemName_pkmncards.149Dragonitecard="Carte Pokémon #149 - Dracolosse",
+ItemName_pkmncards.149DragoniteHcard="Carte Pokémon #149 - Dracolosse (Holo)",
+
+ItemName_pkmncards.150Mewtwocard="Carte Pokémon #150 - Mewtwo (Holo)",
+
+ItemName_pkmncards.151Mewcard="Carte Pokémon #151 - Mew (Holo)",
+
+ItemName_pkmncards.boosterpack="Booster de cartes Pokémon (Set de base)",
+ItemName_pkmncards.boosterpackjungle="Booster de cartes Pokémon (Set Jungle)",
+ItemName_pkmncards.boosterpackfossil="Booster de cartes Pokémon (Set Fossile)",
+
+ItemName_pkmncards.boosterpack_trash="Papier d'emballage de Booster",
+
+ItemName_pkmncards.boosterbox="Boîte de Booster de cartes Pokémon (Set de base)",
+ItemName_pkmncards.boosterboxjungle="Boîte de Booster de cartes Pokémon (Set Jungle)",
+ItemName_pkmncards.boosterboxfossil="Boîte de Booster de cartes Pokémon (Set Fossile)",
+
+ItemName_pkmncards.cardbinder_empty="Album de cartes Pokémon (Vide)",
+ItemName_pkmncards.cardbinder_full="Album de cartes Pokémon (Complet)",
+
+ItemName_pkmncards.pkmn_checklist="Liste des cartes Pokémon",
+
+ItemName_pkmncards.pkmncollectiontin="Coffret en métal de cartes Pokémon",
+}

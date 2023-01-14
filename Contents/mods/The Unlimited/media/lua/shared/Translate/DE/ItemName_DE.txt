@@ -1,0 +1,18 @@
+ItemName_DE = {
+	ItemName_Unlimited.Croptop_Fishnet = "Netzoberteil Kurz",
+	ItemName_Unlimited.Shirt_Fishnet = "Netzoberteil Lang",
+	ItemName_Unlimited.Gloves_Fishnet = "Netzhandschuhe",
+	ItemName_Unlimited.Gloves_Fishnet_Long = "Netzhandschuhe Lang",
+	ItemName_Unlimited.Gloves_VeryLong = "Oberarmhandschuhe",
+	ItemName_Unlimited.Stockings_Fishnet = "Netzstrümpfe",
+	ItemName_Unlimited.Socks_Thigh-High_Sport = "Oberschenkelsportsocken",
+	ItemName_Unlimited.Socks_Thigh-High_Sport_Black = "Oberschenkelsportsocken Schwarz",
+	ItemName_Unlimited.Socks_Thigh-High_Striped = "Oberschenkelsocken Gestreift",
+	ItemName_Unlimited.Socks_Thigh-High_Striped_Colored = "Oberschenkelsocken farbige Streifen",
+	ItemName_Unlimited.Socks_Thigh-High = "Oberschenkelsocken",
+	ItemName_Unlimited.Socks_Polkadot = "Polkadotsocken",
+	ItemName_Unlimited.Shoes_Boots_Thigh-High = "Oberschenkelstiefel",
+	ItemName_Unlimited.Shoes_Sneakers = "Conserve Sneakers",
+	ItemName_Unlimited.Shoes_Sneakers_Low = "Conserve Sneakers Niedrig",
+	ItemName_Unlimited.Shoes_Trainers = "Sadida Sneakers",
+}

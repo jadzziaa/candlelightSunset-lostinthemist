@@ -1,0 +1,31 @@
+module Base
+{
+	
+	evolvedrecipe ESaltedMeat
+	{
+		BaseItem:SaltedMeat,
+		MaxItems:6,
+		ResultItem:SaltedMeat,
+		Name:Salt Meat,
+		CanAddSpicesEmpty:true,
+	}
+	
+	evolvedrecipe ESmokedMeat
+	{
+		BaseItem:SmokedMeat,
+		MaxItems:6,
+		ResultItem:SmokedMeat,
+		Name:Smoke Meat,
+		CanAddSpicesEmpty:true,
+	}
+	
+	evolvedrecipe ESalami
+	{
+		BaseItem:SalamiHomemade,
+		MaxItems:6,
+		ResultItem:SalamiHomemade,
+		Name:Make Homemade Salami,
+		CanAddSpicesEmpty:true,
+	}
+	
+}

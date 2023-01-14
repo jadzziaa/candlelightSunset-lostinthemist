@@ -1,0 +1,16 @@
+Recipes_EN = {
+	Recipe_ReconditionThompsonM1A1 = "Recondition Thompson M1A1 Submachinegun",
+	Recipe_ReconditionMac10SD = "Recondition Mac-10 Submachinegun SD",
+	Recipe_ReconditionColtPeacemaker = "Recondition Colt Peacemaker",
+	Recipe_ReconditionHeritage22Revolver = "Recondition Heritage .22 Revolver",
+	Recipe_ReconditionWinchester1894 = "Recondition Winchester 1894",
+	Recipe_ReconditionModel44 = "Recondition Ruger Model 44 Carbine",
+	Recipe_ReconditionPSG1 = "Recondition H&K PSG-1 Sniper Rifle",
+	Recipe_ReconditionBigBoy45ACP = "Recondition Henry Big Boy 45ACP",
+	Recipe_ReconditionHKG3 = "Recondition H&K G3 Battle Rifle",
+	Recipe_ReconditionR870Police = "Recondition Model 870 Police",
+	
+	Recipe_Craft45Clip30 = "Craft .45 30-Round Magazine",
+	Recipe_Craft45Clip30Mac10 = "Craft .45 30-Round Magazine (Mac-10)",
+	Recipe_CraftHK308Mag = "Craft .308 20-Round Magazine (H&K)",
+}

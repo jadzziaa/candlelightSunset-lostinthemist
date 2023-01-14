@@ -1,0 +1,10 @@
+module Base {
+
+    model Taser
+    {
+        mesh = weapons/firearm/Taser,
+        texture = weapons/firearm/Taser,
+        scale = 0.1,
+    }
+
+}

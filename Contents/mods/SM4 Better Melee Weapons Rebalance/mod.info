@@ -1,0 +1,5 @@
+name=Better Melee Weapons B41 by SM4
+poster=poster.png
+id=SM4BetterMelee
+description=<RGB:1,1,0.5>Rebalances all weapons and tools to be more realistic and have more unique damage, range, durability, and height attributes.
+requires=ItemTweakerAPI

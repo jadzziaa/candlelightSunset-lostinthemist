@@ -1,0 +1,20 @@
+module 
+{
+    imports
+    {
+        Base
+    }
+
+    item TaserProng
+    {
+        DisplayCategory = Ammo,
+        Count	=	2,
+        Weight	=	0.04,
+        Type	=	Normal,
+        DisplayName	=	M-26 Taser Prong,
+        Icon	=	RifleAmmo308,
+        AlwaysWelcomeGift	=	TRUE,
+        MetalValue = 1,
+        WorldStaticModel = 9mmRounds,
+    }
+}

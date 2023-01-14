@@ -1,0 +1,144 @@
+module LabBooks {
+	imports {
+		Base
+	}
+
+	/* ------------------------------ Books & Magazines ------------------------------ */
+
+	item BkLaboratoryEquipment1 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkLaboratoryEquipment1,
+		Icon = BkLaboratoryEquipment1,
+		TeachedRecipes = LabAssembleMicroscope;LabAssembleChromatograph;LabAssembleChemistrySet;LabAssembleSpectrometer;LabAssembleCentrifuge;LabAssembleMuffleFurnace;LabAssembleWorkbench;LabAssembleEasel;LabTableMorgue1;LabTableMorgue2,
+		ReplaceOnUse = BkLaboratoryEquipment1,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedLightBlue_Ground,
+		Tooltip = Tooltip_BkLaboratoryEquipment1,
+	}
+	item BkLaboratoryEquipment2 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkLaboratoryEquipment2,
+		Icon = BkLaboratoryEquipment2,
+		TeachedRecipes = DecAssembleSkeleton;DecAssembleVirusModel;DecAssembleCaduceus;DecAssembleWhiteboard;DecPaintPeriodicTablePoster;DecPaintSexyNursePoster;DecPaintWashYourHandsPoster;DecPaintBiohazardPoster;DecPaintHumanBrainPoster;DecAssemblePharmacyNeonSign;DecAssemblePizzaNeonSign,
+		ReplaceOnUse = BkLaboratoryEquipment2,
+		StaticModel = Book,
+		WorldStaticModel = BookLightBlue_Ground,
+		Tooltip = Tooltip_BkLaboratoryEquipment2,
+	}
+	item BkLaboratoryEquipment3 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkLaboratoryEquipment3,
+		Icon = BkLaboratoryEquipment3,
+		TeachedRecipes = FrnMakeTestTube;FrnMakeCocktailGlass;FrnMakeLowballGlass;FrnMakeFlask;FrnMakeJar;FrnMakeIngotMold;FrnMakeCoinMold;FrnMeltGoldJewelry;FrnMeltSilverJewelry;FrnMakeGoldIngot;FrnMakeGoldIngot2;FrnMakeGoldCoin;FrnMakeSilverCoin;FrnMakeGoldCoin2;FrnMakeSilverCoin2;ChmMakeSyringe;FrnMakeSilverIngot;FrnMakeSilverIngot2,
+		ReplaceOnUse = BkLaboratoryEquipment3,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedLightBlue_Ground,
+		Tooltip = Tooltip_BkLaboratoryEquipment3,
+	}
+	item BkVirologyCourses1 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkVirologyCourses1,
+		Icon = BkVirologyCourses1,
+		TeachedRecipes = ChmCollectInfectedSaliva;ChmResearchSaliva;ChmResearchBlood;ChmTakeBloodForAnalysis;ChmGetBloodTest;ChmGetBloodTestTwo;ChmCollectInfectedBlood;ChmSterilizeTestTube;ChmSterilizeFlask;ChmSterilizeLabSyringeReusable,
+		ReplaceOnUse = BkVirologyCourses1,
+		StaticModel = Book,
+		WorldStaticModel = BookYellow_Ground,
+		Tooltip = Tooltip_BkVirologyCourses1,
+	}
+	item BkVirologyCourses2 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkVirologyCourses2,
+		Icon = BkVirologyCourses2,
+		TeachedRecipes = ChmIsolateVirusFromSaliva;ChmResearchVirus;ChmDivideBloodIntoComponents;ChmDivideBloodIntoComponentsTwo;ChmExtractLeukocytesFromBloodCells;ChmExtractAntibodiesFromLeukocytes,
+		ReplaceOnUse = BkVirologyCourses2,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedYellow_Ground,
+		Tooltip = Tooltip_BkVirologyCourses2,
+	}
+	item BkVirologyCourses3 {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkVirologyCourses3,
+		Icon = BkVirologyCourses3,
+		TeachedRecipes = ChmWeakenVirus;ChmMakeAlbumin;ChmSynthesizeTestVaccine;ChmSynthesizeTestVaccineTwo;ChmTestVaccine1;ChmTestVaccine1Two;ChmTestVaccine1Three;ChmTestVaccine1Four;LabVaccineFormula1;LabVaccineFormula2;LabVaccineFormula3,
+		ReplaceOnUse = BkVirologyCourses3,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedYellow_Ground,
+		Tooltip = Tooltip_BkVirologyCourses3,
+	}
+	item BkChemistryCourse {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkChemistryCourse,
+		Icon = BkChemistryCourse,
+		TeachedRecipes = ChmMixFlaskOfSodiumHypochlorite;ChmMixFlaskOfSodiumHypochlorite2;ChmMixFlaskOfAmmoniumSulfate;ChmMixFlaskOfAmmoniumSulfate2;ChmMixFlaskOfHydrogenPeroxide;ChmMixFlaskOfHydrogenPeroxide2;ChmMakeChlorineTablets;ChmMakeBottleOfBleach;ExtractSulfuricAcid;ExtractSulfuricAcid2;DistillationOfWood;DistillationOfWoodAcid;MakeFormaldehyde;ChmMakeBottleOfDisinfectant,
+		ReplaceOnUse = BkChemistryCourse,
+		StaticModel = Book,
+		WorldStaticModel = BookClosedRedPink_Ground,
+		Tooltip = Tooltip_BkChemistryCourse,
+	}
+	item BkTestVaccineV2Recipe {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkTestVaccineV2Recipe,
+		Icon = BkTestVaccineV2Recipe,
+		TeachedRecipes = ChmSynthesizeTestVaccineV2;ChmSynthesizeTestVaccineV2Two;ChmTestVaccine2;ChmTestVaccine2Two;ChmTestVaccine2Three;ChmTestVaccine2Four,
+		ReplaceOnUse = BkTestVaccineV2Recipe,
+		StaticModel = DrHydeRecipeStatic,
+		WorldStaticModel = Item_BkTestVaccineV2Recipe,
+		Tooltip = Tooltip_BkTestVaccineV2Recipe,
+	}
+	item BkTestVaccineV3Recipe {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkTestVaccineV3Recipe,
+		Icon = BkTestVaccineV2Recipe,
+		TeachedRecipes = ChmSynthesizeTestVaccineV3;ChmSynthesizeTestVaccineV3Two;ChmTestVaccine3;ChmTestVaccine3Two;ChmTestVaccine3Three;ChmTestVaccine3Four,
+		ReplaceOnUse = BkTestVaccineV3Recipe,
+		StaticModel = DrHydeRecipeStatic,
+		WorldStaticModel = Item_BkTestVaccineV2Recipe,
+		Tooltip = Tooltip_BkTestVaccineV3Recipe,
+	}
+	item BkQualityVaccineRecipe {
+		Weight = 0.5,
+		Type = Literature,
+		DisplayName = BkQualityVaccineRecipe,
+		Icon = BkQualityVaccineRecipe,
+		TeachedRecipes = ChmSynthesizeQualityVaccine;ChmSynthesizeQualityVaccineTwo,
+		ReplaceOnUse = BkQualityVaccineRecipe,
+		StaticModel = DrHydeRecipeStatic,
+		WorldStaticModel = Item_BkQualityVaccineRecipe,
+		Tooltip = Tooltip_BkQualityVaccineRecipe,
+	}
+
+
+}
+
+module DrHyde {
+	imports {
+		Base
+	}
+
+	
+
+	item CureNotes {
+		Weight = 0.2,
+		Type = Literature,
+		DisplayName = Dr. Hyde's Notes,
+		Icon = DrHyde_Recipe,
+		TeachedRecipes = ChmSynthesizeCure;ChmSynthesizeCureTwo;,
+		StaticModel = DrHydeRecipeStatic,
+		WorldStaticModel = DrHydeRecipeStatic,
+		Tooltip = Tooltip_CureNotes,
+		
+	}
+
+	
+
+}
+

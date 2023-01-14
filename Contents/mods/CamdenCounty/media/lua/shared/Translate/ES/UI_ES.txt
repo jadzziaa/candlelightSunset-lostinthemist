@@ -1,0 +1,5 @@
+UI_ES = {
+UI_REMOVE_VEG = "Remover vegetación",
+UI_FOUNDSOMETHING = "He encontrado algo...",
+UI_GAINSKILL = "Rebuscar"
+}
