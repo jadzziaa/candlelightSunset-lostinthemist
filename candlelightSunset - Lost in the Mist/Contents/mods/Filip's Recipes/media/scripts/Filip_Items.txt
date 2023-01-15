@@ -1,0 +1,16 @@
+module FIL_Items {
+    
+	imports
+	{
+		Base
+	}
+
+    item BucketofFrogs {
+        Type = Normal,
+        Icon = BucketofFrogs,
+        Weight = 4.0,
+        DisplayName = BucketofFrogs,
+        Tooltip = Tooltip_BucketofFrogs,
+		Tags = HasMetal,
+    }
+}

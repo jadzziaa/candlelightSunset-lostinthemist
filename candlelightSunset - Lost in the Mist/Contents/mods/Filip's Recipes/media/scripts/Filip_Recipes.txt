@@ -156,6 +156,13 @@ module FIL_Crafting
 		Time:20.0,
 		Category:Other,
 	}
-
-	
+	recipe Make a bucket of frogs {
+		Frog=15,
+		BucketEmpty=1,
+		Result:BucketofFrogs=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:150.0,
+		Category:Other,
+	}
 }

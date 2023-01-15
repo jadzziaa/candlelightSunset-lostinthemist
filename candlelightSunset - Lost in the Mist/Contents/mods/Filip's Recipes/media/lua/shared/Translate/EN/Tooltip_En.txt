@@ -1,0 +1,3 @@
+Tooltip_EN = {
+    Tooltip_BucketofFrogs = "Make sure to feed them.",
+}
