@@ -165,4 +165,12 @@ module FIL_Crafting
 		Time:150.0,
 		Category:Other,
 	}
+	recipe Make a blank map {
+		SheetPaper2=1,
+		Result:CamdenMapEmpty=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:10.0,
+		Category:Other,
+	}
 }
