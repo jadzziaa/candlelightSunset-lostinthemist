@@ -1,0 +1,59 @@
+
+module fBT {  imports { Base  }
+  
+ sound BearTrapSound {  category = Improvised, clip { file = media/sound/BearTrap_sfx.ogg,  }  }
+ sound BearTrapSetupSound {  category = Improvised, clip { file = media/sound/BearTrapSetup_sfx.ogg,  }  }
+
+
+    recipe Craft Bear Trap
+	{
+    keep [Recipe.GetItemTypes.Screwdriver], 
+    ScrapMetal = 4,
+    SheetMetal = 4,
+    Result:BearTrapClose,
+    Category:Survivalist, 
+    Time:600.0,
+    Prop1:Source=1,
+    AnimNode:disassemble,
+    CanBeDoneFromFloor:true,
+    OnGiveXP:Recipe.OnGiveXP.None, 
+    SkillRequired:MetalWelding=5,
+    SkillRequired:Trapping=4,
+	}   
+
+    recipe Set Bear Trap
+	{
+    keep [Recipe.GetItemTypes.Screwdriver], 
+    fBT.BearTrapOpen/fBT.BearTrapClose,
+    Result:BearTrapOpen,
+    RemoveResultItem:true,
+    Category:Survivalist, 
+    Time:500.0,
+    Prop1:Source=1,
+    AnimNode:disassemble,
+    CanBeDoneFromFloor:true,
+    OnGiveXP:Recipe.OnGiveXP.None, 
+    OnTest:isNothingThere,
+    OnCreate:SetBearTrap, 
+	}
+
+    item BearTrapOpen
+    {
+        DisplayCategory = Trapping,
+        Type			= Normal,
+        Icon			= BearTrapOpen_ico,
+        Weight          	= 1.5,
+        DisplayName		= Bear Trap Open,
+     
+    }
+    item BearTrapClose
+    {
+        DisplayCategory = Trapping,
+        Type			= Normal,
+        Icon			= BearTrapClose_ico,
+        Weight          	= 1.5,
+        DisplayName		= Bear Trap Closed,
+ 
+    }
+    
+}
