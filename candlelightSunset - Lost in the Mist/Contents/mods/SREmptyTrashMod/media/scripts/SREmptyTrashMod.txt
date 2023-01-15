@@ -1,0 +1,11 @@
+module Base
+{
+    recipe Empty Trash
+    {
+        Garbagebag,
+
+        Result:Garbagebag,
+        Time:10.0,
+        Category:Tailoring
+    }
+}

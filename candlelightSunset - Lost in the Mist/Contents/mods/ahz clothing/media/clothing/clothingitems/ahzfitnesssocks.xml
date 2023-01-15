@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_BaseTextures>clothes\ahz\fitness\socks1</m_BaseTextures>	
+	<m_BaseTextures>clothes\ahz\fitness\socks2</m_BaseTextures>		
+	<m_BaseTextures>clothes\ahz\fitness\socks3</m_BaseTextures>	
+	<m_BaseTextures>clothes\ahz\fitness\socks4</m_BaseTextures>	
+	<m_BaseTextures>clothes\ahz\fitness\socks5</m_BaseTextures>	
+	<m_BaseTextures>clothes\ahz\fitness\socks6</m_BaseTextures>
+</clothingItem>

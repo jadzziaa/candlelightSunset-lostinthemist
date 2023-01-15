@@ -1,0 +1,6 @@
+skirt mesh, base textures ported from DOAX3S - Ocean Sunfish set
+skirt mesh scale, uv space references from clothes box https://steamcommunity.com/sharedfiles/filedetails/?id=2847911733
+color, uv space references from brita's armor pack https://steamcommunity.com/workshop/filedetails/?id=2460154811
+base body mesh used in weight copying and exporting from project zomboid discord (thanks to everyone in modelling and modding chat for answering my questions aswell)
+steam guide for how to make and implement clothing https://steamcommunity.com/sharedfiles/filedetails/?id=2648115890
+weeb clothes for distribution references https://steamcommunity.com/workshop/filedetails/?id=2269595907

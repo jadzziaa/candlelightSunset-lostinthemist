@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\ahzpleatedminiskirt</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\ahzpleatedminiskirt</m_FemaleModel>
+	<m_GUID>42472edb-1409-475d-95cf-722a7419021c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>true</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\ahz\shortpleatedskirt\tintable_plaid1</textureChoices>
+</clothingItem>	
