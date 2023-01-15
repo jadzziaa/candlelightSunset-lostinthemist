@@ -1,0 +1,154 @@
+module FIL_Crafting
+{
+	imports
+	{
+		Base
+	}
+		
+	recipe Craft a roasting pan {
+        SheetMetal=1,
+        keep Hammer/BallPeenHammer/HammerStone/ClubHammer,
+        Result:RoastingPan=1,
+        Sound:PZ_Hammer,
+        Time:200.0,
+		Category:Welding,
+		CanBeDoneFromFloor:False,
+		SkillRequired:MetalWelding=2,
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Metalworking2,
+    }
+    recipe Craft a large gas can {
+        keep Hammer/BallPeenHammer/HammerStone/ClubHammer,
+		keep WeldingMask,
+		Aluminum=4,
+		ScrapMetal=10,
+		WeldingRods=2,
+		BlowTorch=2,
+		Result:LargePetrolCan=1,
+        Sound:Blow_Torch_A,
+        Time:400.0,
+		Category:Welding,
+		CanBeDoneFromFloor:False,
+		SkillRequired:MetalWelding=4,
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Metalworking4,
+    }
+    recipe Craft a bowl {
+        keep HuntingKnife/KitchenKnife/FlintKnife,
+        keep Saw/GardenSaw,
+        Log=1,
+        Result:Bowl=1,
+        Sound:PZ_Saw,
+        Time:200.0,
+        Category:Carpentry,
+		CanBeDoneFromFloor:False,
+		SkillRequired:Woodwork=2,
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Carpentry2,
+    }
+	recipe Make sheets of paper {
+		Notebook/Journal/TJMJournalBlack/TJMJournalYellow/TJMJournalWhite/TJMJournalRed/TJMJournalPurple/TJMJournalOrange/TJMJournalGreen/TJMJournalBrown/TJMJournalBlue,
+		Result:SheetPaper2=10,
+		Sound:PZ_ClothesRipping,
+		Time:100.0,
+		Category:Cartography,
+		CanBeDoneFromFloor:False,
+		NeedToBeLearn:false,
+	}
+	recipe Make sugar {
+		keep HuntingKnife/KitchenKnife/FlintKnife,
+		keep Strainer,
+		Sugarcane=3,
+		WaterPot=25,
+		Result:Sugar=1,
+        Time:450.0,
+		Category:Cooking,
+		CanBeDoneFromFloor:False,
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Cooking2,
+	}
+	recipe Make a razor {
+		SmallSheetMetal=1,
+		ScrapMetal=1,
+		BlowTorch=1,
+		Result:Razor=1,
+        Sound:Blow_Torch_A,
+        Time:250.0,
+		Category:Other,
+		CanBeDoneFromFloor:False,
+		SkillRequired:MetalWelding=3;
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Metalworking2,
+	}
+	recipe Make a spoon {
+		ScrapMetal=1,
+		BlowTorch=1,
+		Result:Spoon=1,
+        Sound:Blow_Torch_A,
+        Time:200.0,
+		Category:Other,
+		CanBeDoneFromFloor:False,
+		SkillRequired:MetalWelding=3;
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Metalworking2,
+	}
+	recipe Make a trowel {
+		SmallSheetMetal=1,
+		MetalPipe=1,
+		BlowTorch=1,
+		Result:HandShovel=1,
+        Sound:Blow_Torch_A,
+        Time:200.0,
+		Category:Other,
+		CanBeDoneFromFloor:False,
+		SkillRequired:MetalWelding=4;
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Metalworking2,
+	}
+	recipe Make a file {
+		SmallSheetMetal=2,
+		BlowTorch=1,
+		Result:TW.File=1,
+        Sound:Blow_Torch_A,
+        Time:200.0,
+		Category:Other,
+		CanBeDoneFromFloor:False,
+		SkillRequired:MetalWelding=4;
+		NeedToBeLearn:false,
+		OnGiveXP:FIL_OnGiveXP_Metalworking4,
+	}
+	recipe Convert a cork {
+		Cork=1,
+		Result:Corks=1,
+        Time:10.0,
+		Category:Other,
+		CanBeDoneFromFloor:False,
+		NeedToBeLearn:false,
+	}
+	recipe Convert cork {
+		Corks=1,
+		Result:Cork=1,
+        Time:10.0,
+		Category:Other,
+		CanBeDoneFromFloor:False,
+		NeedToBeLearn:false,
+	}
+	recipe Make a Pizza {
+	   Spatula,
+	   keep Bowl,
+       Water=3,
+       Flour=2,
+       Salt=1,
+       Yeast,
+	   OilOlive=1,
+	   Cheese=1,
+	   TomatoPaste=2,
+       Result:Spatula,
+       NeedToBeLearn:false,
+       Time:50.0,
+       Category:Cooking,
+	   OnCreate:FIL_OnCreate_PizzaRecipe,
+    }
+
+	
+}
