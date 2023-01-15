@@ -149,6 +149,13 @@ module FIL_Crafting
        Category:Cooking,
 	   OnCreate:FIL_OnCreate_PizzaRecipe,
     }
+	recipe Convert a barrel {
+		Moveables.industry_01_23,
+		Result:SpoonFuelStorage.SpoonFuelBarrelEmpty,
+		NeedToBeLearn:false,
+		Time:20.0,
+		Category:Other,
+	}
 
 	
 }
