@@ -213,9 +213,41 @@ local function InsurgentBeginGame(_player)
     if player:getHoursSurvived() > 0 then return end
     if player:getDescriptor():getProfession() == "insurgent" then
         local inv = player:getInventory();
-		if player:HasTrait("AxemanNew") then
+		if player:HasTrait("Prepguard") then
+            inv:AddItems("Base.HolsterSimple", 1);
+            inv:AddItems("Base.9mmClip", 1);
+            inv:AddItems("Base.Pistol", 1);
+            inv:AddItems("Base.Bullets9mmBox", 1);
+            inv:AddItems("Base.CamdenMapEmpty", 1);
+        end
+		if player:HasTrait("Prepfood") then
+            inv:AddItems("Base.TinOpener", 1);
+            inv:AddItems("Base.TinnedSoup", 1);
+            inv:AddItems("Base.CannedBolognese", 1);
+            inv:AddItems("Base.TunaTin", 2);
+            inv:AddItems("Base.Spoon", 2);
+            inv:AddItems("Base.CamdenMapEmpty", 1);
+        end
+		if player:HasTrait("Prepmedic") then
+            inv:AddItems("Base.CamdenMapEmpty", 1);
+            local firstaidkit = inv:AddItems("Base.FirstAidKit", 1);
+            firstaidkit:getInventory():AddItems("Base.Bandaid", 2);
+            firstaidkit:getInventory():AddItems("Base.AlcoholBandage", 2);
+            firstaidkit:getInventory():AddItems("Base.Splint", 1);
+            firstaidkit:getInventory():AddItems("Base.SutureNeedle", 1);
+            firstaidkit:getInventory():AddItems("Base.SutureNeedleHolder", 1);
+        end
+		if player:HasTrait("Prepslayer") then
+            inv:AddItems("Base.BaseballBat", 1);
+            inv:AddItems("Base.Machete", 1);
+            inv:AddItems("Base.ClubHammer", 1);
+            inv:AddItems("Base.CamdenMapEmpty", 1);
+        end
+		if player:HasTrait("Prepworker") then
             inv:AddItems("Base.Hammer", 1);
-            inv:AddItems("Base.HuntingKnife", 1);
+            inv:AddItems("Base.HandAxe", 1);
+            inv:AddItems("Base.Saw", 1);
+            inv:AddItems("Base.CamdenMapEmpty", 1);
         end
 
         if player:HasTrait("RoughLanding") and player:isFemale() then

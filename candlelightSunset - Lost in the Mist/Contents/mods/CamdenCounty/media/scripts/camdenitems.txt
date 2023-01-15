@@ -13,5 +13,15 @@ item CamdenMap
         Map                 =           CamdenMap,
         WorldStaticModel = Map,
     }
+item CamdenMapEmpty
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Custom Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           CamdenMapEmpty,
+        WorldStaticModel = Map,
+    }
 	
 }

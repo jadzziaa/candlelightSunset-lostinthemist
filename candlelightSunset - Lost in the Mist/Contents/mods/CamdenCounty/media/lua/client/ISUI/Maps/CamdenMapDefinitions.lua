@@ -268,3 +268,25 @@ LootMaps.Init.CamdenMap = function(mapUI)
 	-- The original loot map texture, used to position things correctly.
 	overlayPNG(mapUI, 32*300+55, 41*300+155, 0.666, "lootMapPNG", "media/ui/LootableMaps/camdenmap.png", 1.0)
 end
+
+LootMaps.Init.CamdenMapEmpty = function(mapUI)
+	local mapAPI = mapUI.javaObject:getAPIv1()
+
+	-- Add XML data from base-game map directories.
+	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+
+	-- Specify the appearance of the map.
+	MapUtils.initDefaultStyleV1(mapUI)
+
+	-- Use solid color for water instead of a texture.
+	replaceWaterStyle(mapUI)
+
+	-- Show only this area from the full map.
+	mapAPI:setBoundsInSquares(9700, 12470, 10579, 13199)
+
+	-- Draw a paper-like texture overtop the map.
+	MapUtils.overlayPaper(mapUI)
+
+	-- The original loot map texture, used to position things correctly.
+	overlayPNG(mapUI, 32*300+55, 41*300+155, 0.666, "lootMapPNG", "media/ui/LootableMaps/camdenmapempty.png", 1.0)
+end

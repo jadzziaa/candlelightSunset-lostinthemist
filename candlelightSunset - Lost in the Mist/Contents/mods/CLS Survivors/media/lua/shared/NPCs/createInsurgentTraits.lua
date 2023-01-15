@@ -1,9 +1,11 @@
 require "NPCs/MainCreationMethods"
 
+--REMOVEAL OF VANILLA PROFESSIONS
 ProfessionFramework.RemoveDefaultProfessions = true
 
 local function initInsurgentTraits()
 
+	--TRAITS SETUP
     local generatorknowledge = TraitFactory.addTrait("GeneratorKnowledge", getText("UI_trait_GeneratorKnowledge"), 0, getText("UI_trait_GeneratorKnowledgeDesc"), true, false);
 	generatorknowledge:getFreeRecipes():add("Generator");
 
@@ -125,7 +127,17 @@ local function initInsurgentTraits()
 	local fishermanplus = TraitFactory.addTrait("Fishermanplus", getText("UI_trait_Fishermanplus"), 1, getText("UI_trait_SkillplusDesc"), false, false);
 	fishermanplus:addXPBoost(Perks.Fishing, 3);
 
-	--NO UNPROFESSIONAL TRAITS AS SURVIVOR
+	local prepguard = TraitFactory.addTrait("Prepguard", getText("UI_trait_Prepguard"), 1, getText("UI_trait_Prepared"), false, false);
+
+	local prepfood = TraitFactory.addTrait("Prepfood", getText("UI_trait_Prepfood"), 1, getText("UI_trait_Prepared"), false, false);
+
+	local prepmedic = TraitFactory.addTrait("Prepmedic", getText("UI_trait_Prepmedic"), 1, getText("UI_trait_Prepared"), false, false);
+
+	local prepslayer = TraitFactory.addTrait("Prepslayer", getText("UI_trait_Prepslayer"), 1, getText("UI_trait_Prepared"), false, false);
+
+	local prepworker = TraitFactory.addTrait("Prepworker", getText("UI_trait_Prepworker"), 1, getText("UI_trait_Prepared"), false, false);
+
+	--TRAITS MUTUAL EXCLUSION
 	TraitFactory.setMutualExclusive("VaccineSpecialist", "Deadeye");
 	TraitFactory.setMutualExclusive("VaccineSpecialist", "Corpsman");
 	TraitFactory.setMutualExclusive("VaccineSpecialist", "Scavenger");
@@ -268,7 +280,18 @@ local function initInsurgentTraits()
 	TraitFactory.setMutualExclusive("Tailorplus", "Researcherplus");
 	TraitFactory.setMutualExclusive("Tailorplus", "Fishermanplus");
 	TraitFactory.setMutualExclusive("Researcherplus", "Fishermanplus");
+	TraitFactory.setMutualExclusive("Prepguard", "Prepfood");
+	TraitFactory.setMutualExclusive("Prepguard", "Prepmedic");
+	TraitFactory.setMutualExclusive("Prepguard", "Prepslayer");
+	TraitFactory.setMutualExclusive("Prepguard", "Prepworker");
+	TraitFactory.setMutualExclusive("Prepfood", "Prepmedic");
+	TraitFactory.setMutualExclusive("Prepfood", "Prepslayer");
+	TraitFactory.setMutualExclusive("Prepfood", "Prepworker");
+	TraitFactory.setMutualExclusive("Prepmedic", "Prepslayer");
+	TraitFactory.setMutualExclusive("Prepmedic", "Prepworker");
+	TraitFactory.setMutualExclusive("Prepslayer", "Prepworker");
 
+	--TRAITS EXCLUSIVENESS TO PROFESSION
     local generatorknowledge = profExclTrait:new();
     generatorknowledge.traitName = "GeneratorKnowledge";
     table.insert(generatorknowledge.exclusiveProf, "insurgent");
@@ -428,8 +451,34 @@ local function initInsurgentTraits()
     fishermanplus.traitName = "Fishermanplus";
     table.insert(fishermanplus.exclusiveProf, "insurgent");
     table.insert(profExlusiveTraitsList, fishermanplus);
+
+	local prepguard = profExclTrait:new();
+    prepguard.traitName = "Prepguard";
+    table.insert(prepguard.exclusiveProf, "insurgent");
+    table.insert(profExlusiveTraitsList, prepguard);
+
+	local prepfood = profExclTrait:new();
+    prepfood.traitName = "Prepfood";
+    table.insert(prepfood.exclusiveProf, "insurgent");
+    table.insert(profExlusiveTraitsList, prepfood);
+
+	local prepmedic = profExclTrait:new();
+    prepmedic.traitName = "Prepmedic";
+    table.insert(prepmedic.exclusiveProf, "insurgent");
+    table.insert(profExlusiveTraitsList, prepmedic);
+
+	local prepslayer = profExclTrait:new();
+    prepslayer.traitName = "Prepslayer";
+    table.insert(prepslayer.exclusiveProf, "insurgent");
+    table.insert(profExlusiveTraitsList, prepslayer);
+
+	local prepworker = profExclTrait:new();
+    prepworker.traitName = "Prepworker";
+    table.insert(prepworker.exclusiveProf, "insurgent");
+    table.insert(profExlusiveTraitsList, prepworker);
 end
 
+--PROFESSION SETUP
 local function initInsurgentProfs()
     local insurgent = ProfessionFactory.addProfession("insurgent", getText("UI_prof_insurgent"), "profession_insurgent", 4);
     insurgent:addFreeTrait("Desensitized");
