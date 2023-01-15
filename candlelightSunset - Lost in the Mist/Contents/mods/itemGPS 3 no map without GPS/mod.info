@@ -1,0 +1,7 @@
+description=this is an option, select only one option number 3,this is not necessarily required: if you have not activate gps, you can't open world map
+id=itemGPS option3 NoMap WithoutGPS
+poster=poster.png
+
+
+name=itemGPS option3 NoMap WithoutGPS
+
