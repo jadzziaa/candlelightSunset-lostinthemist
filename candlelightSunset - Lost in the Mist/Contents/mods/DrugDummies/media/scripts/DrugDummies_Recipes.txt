@@ -1,24 +1,26 @@
-module DrugDummies {
-    imports {
+module DrugDummies 
+{
+    imports 
+    {
         Base
     }
 
-    recipe Roll a blunt {
-        WeedBaggie=1,
-        SheetPaper2=1,
-        Result:WeedBlunt=1,
-        Time:100.0,
-        Category:Other,
-        CanBeDoneFromFloor:False,
-        NeedToBeLearn=False,
-    }
-    recipe Fill a baggie with cocaine {
-        EmptyBaggie=1,
-        CocaineBrick=1,
-        Result:CocaineBaggie=1,
-        Time:100.0,
-        Category:Other,
-        CanBeDoneFromFloor:False,
-        NeedToBeLearn=False,
-    }
+	recipe Roll a blunt {
+		WeedBaggie=1,
+		SheetPaper2=1,
+		Result:WeedBlunt=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:150.0,
+		Category:Other,
+	}
+	recipe Fill a baggie with cocaine {
+		EmptyBaggie=1,
+		CocaineBrick=1,
+		Result:CocaineBaggie=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:150.0,
+		Category:Other,
+	}
 }

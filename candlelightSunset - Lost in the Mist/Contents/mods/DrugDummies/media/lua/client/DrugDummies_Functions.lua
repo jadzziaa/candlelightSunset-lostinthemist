@@ -7,5 +7,5 @@ function OnSmoke_WeedBlunt(food, player)
 	
 	stats:setBoredom(stats:getBoredom() - 55.5);
 	stats:setFear(stats:getFear() - 0.333);
-	stats:setDrunkenness(stats:getDrunkenness() + 50);
+	stats:setDrunkenness(stats:getDrunkenness() + 90);
 end

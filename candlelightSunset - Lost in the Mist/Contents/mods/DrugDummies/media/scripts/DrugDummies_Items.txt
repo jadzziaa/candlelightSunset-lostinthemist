@@ -24,8 +24,9 @@ module DrugDummies {
     item CocaineBrick {
         Type = Drainable,
         Icon = CocaineBrick,
-        Weight = 0.1,
+        Weight = 1.0,
         UseDelta = 0.04,
+        ReplaceOnUse = ,
         DisplayName = Cocaine Brick,
         DisplayCategory = Drug,
         WorldStaticModel = DrugDummies.Item_CocaineBrick,

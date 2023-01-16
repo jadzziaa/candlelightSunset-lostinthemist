@@ -13,35 +13,35 @@ module DrugDummies {
     model Item_CocaineBaggie
 	{
 		mesh = WorldItems/CandyPackage,
-		texture = PA_CokeBaggie,
+		texture = WorldItems/Item_CocaineBaggie,
 		scale = 0.15,
 	}
 	
 	model Item_CocaineBrick
 	{
-		mesh = Item_CocaineBrick,
-		texture = Item_CocaineBrick,
+		mesh = WorldItems/Item_CocaineBrick,
+		texture = WorldItems/Item_CocaineBrick,
 		scale = 0.075,
 	}
 
 	model Item_EmptyBaggie
 	{
 		mesh = WorldItems/CandyPackage,
-		texture = Item_EmptyBaggie,
+		texture = WorldItems/Item_EmptyBaggie,
 		scale = 0.15,
 	}
 
     model Item_MethBaggie
 	{
 		mesh = WorldItems/CandyPackage,
-		texture = Item_MethBaggie,
+		texture = WorldItems/Item_MethBaggie,
 		scale = 0.15,
 	}
 
     model Item_WeedBaggie
 	{
 		mesh = WorldItems/CandyPackage,
-		texture = Item_WeedBaggie,
+		texture = WorldItems/Item_WeedBaggie,
 		scale = 0.15,
 	}
 }
