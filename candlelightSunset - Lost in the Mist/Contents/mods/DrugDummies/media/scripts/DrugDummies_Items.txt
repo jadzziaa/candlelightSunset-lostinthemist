@@ -1,0 +1,65 @@
+module DrugDummies {
+	imports {
+		Base
+	}
+
+    item WeedBlunt {
+        Count = 1,
+        HungerChange = 0,
+        Type = Food,
+        Icon = WeedBlunt,
+        Weight = 0.1,
+        DisplayName = Weed Blunt,
+        DisplayCategory = Drug,
+        StressChange	=	-70,
+		UnhappyChange	=	-70,
+        OnEat = OnSmoke_WeedBlunt,
+		CustomContextMenu = Smoke,
+        CantBeFrozen = TRUE,
+		StaticModel = Cigarette,
+		EatType = Cigarettes,
+        WorldStaticModel = DrugDummies.Item_WeedBlunt,
+    }
+    item CocaineBrick {
+        Type = Normal,
+        Icon = CocaineBrick,
+        Weight = 0.1,
+        UseDelta = 0.04,
+        DisplayName = Cocaine Brick,
+        DisplayCategory = Drug,
+        WorldStaticModel = DrugDummies.Item_CocaineBrick,
+    }
+    item CocaineBaggie {
+        Type = Normal,
+        Icon = CocaineBaggie,
+        Weight = 0.1,
+        DisplayName = Cocaine Baggie,
+        DisplayCategory = Drug,
+        WorldStaticModel = DrugDummies.Item_CocaineBaggie,
+    }
+    item MethBaggie {
+        Type = Normal,
+        Icon = MethBaggie,
+        Weight = 0.1,
+        DisplayName = Meth Baggie,
+        DisplayCategory = Drug,
+        WorldStaticModel = DrugDummies.Item_MethBaggie,
+    }
+    item WeedBaggie {
+        Type = Normal,
+        Icon = WeedBaggie,
+        Weight = 0.1,
+        UseDelta = 0.5,
+        ReplaceOnUse = EmptyBaggie,
+        DisplayName = Weed Baggie,
+        DisplayCategory = Drug,
+        WorldStaticModel = DrugDummies.Item_WeedBaggie,
+    }
+    item EmptyBaggie {
+        Type = Normal,
+        Icon = EmptyBaggie,
+        Weight = 0.1,
+        DisplayName = Empty Baggie,
+        WorldStaticModel = DrugDummies.Item_EmptyBaggie,
+    }
+}

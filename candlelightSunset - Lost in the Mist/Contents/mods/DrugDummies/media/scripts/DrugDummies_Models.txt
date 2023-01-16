@@ -1,0 +1,47 @@
+module DrugDummies {
+    imports {
+        Base
+    }
+
+    model Item_WeedBlunt
+    {
+        mesh = WorldItems/Item_WeedBlunt,
+        texture = WorldItems/Item_WeedBlunt,
+        scale = 0.01
+    }
+
+    model Item_CocaineBaggie
+	{
+		mesh = WorldItems/CandyPackage,
+		texture = Item_CocaineBaggie,
+		scale = 0.15,
+	}
+	
+	model Item_CocaineBrick
+	{
+		mesh = Item_CocaineBrick,
+		texture = Item_CocaineBrick,
+		scale = 0.075,
+	}
+
+	model Item_EmptyBaggie
+	{
+		mesh = WorldItems/CandyPackage,
+		texture = Item_EmptyBaggie,
+		scale = 0.15,
+	}
+
+    model Item_MethBaggie
+	{
+		mesh = WorldItems/CandyPackage,
+		texture = Item_MethBaggie,
+		scale = 0.15,
+	}
+
+    model Item_WeedBaggie
+	{
+		mesh = WorldItems/CandyPackage,
+		texture = Item_WeedBaggie,
+		scale = 0.15,
+	}
+}
