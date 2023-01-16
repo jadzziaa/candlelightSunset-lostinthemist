@@ -23,4 +23,12 @@ module DrugDummies
 		Time:150.0,
 		Category:Other,
 	}
+	recipe Empty out a baggie {
+		destroy CocaineBaggie/WeedBaggie/MethBaggie,
+		Result:EmptyBaggie=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:40.0,
+		Category:Other,
+	}
 }
