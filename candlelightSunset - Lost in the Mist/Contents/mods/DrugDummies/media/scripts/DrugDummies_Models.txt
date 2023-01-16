@@ -13,7 +13,7 @@ module DrugDummies {
     model Item_CocaineBaggie
 	{
 		mesh = WorldItems/CandyPackage,
-		texture = Item_CocaineBaggie,
+		texture = PA_CokeBaggie,
 		scale = 0.15,
 	}
 	

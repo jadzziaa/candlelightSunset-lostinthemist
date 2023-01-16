@@ -18,10 +18,11 @@ module DrugDummies {
         CantBeFrozen = TRUE,
 		StaticModel = Cigarette,
 		EatType = Cigarettes,
+		CustomEatSound = ,
         WorldStaticModel = DrugDummies.Item_WeedBlunt,
     }
     item CocaineBrick {
-        Type = Normal,
+        Type = Drainable,
         Icon = CocaineBrick,
         Weight = 0.1,
         UseDelta = 0.04,
@@ -46,7 +47,7 @@ module DrugDummies {
         WorldStaticModel = DrugDummies.Item_MethBaggie,
     }
     item WeedBaggie {
-        Type = Normal,
+        Type = Drainable,
         Icon = WeedBaggie,
         Weight = 0.1,
         UseDelta = 0.5,
