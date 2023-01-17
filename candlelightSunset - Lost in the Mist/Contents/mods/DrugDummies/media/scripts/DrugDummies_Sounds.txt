@@ -1,0 +1,13 @@
+module DrugDummies {
+	imports {
+		Base
+	}
+    
+    sound DrugSnort {
+		category = Player,
+		clip
+		{
+			file = media/sound/DrugSnort.ogg,
+		}
+    }
+}

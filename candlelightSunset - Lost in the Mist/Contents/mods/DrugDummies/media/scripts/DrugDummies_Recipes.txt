@@ -31,4 +31,28 @@ module DrugDummies
 		Time:40.0,
 		Category:Other,
 	}
+	recipe Snort Cocaine {
+		CocaineBaggie=1,
+		Result:CocaineBaggie,
+		RemoveResultItem:true,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:100.0,
+		Sound:DrugSnort,
+		Category:Other,
+		AnimNode:Sneeze1,
+		OnCreate:OnSnort_CocaineBaggie,
+	}
+	recipe Snort Meth {
+		MethBaggie=1,
+		Result:MethBaggie,
+		RemoveResultItem:true,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:100.0,
+		Sound:DrugSnort,
+		Category:Other,
+		AnimNode:Sneeze1,
+		OnCreate:OnSnort_MethBaggie,
+	}
 }
