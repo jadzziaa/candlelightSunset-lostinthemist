@@ -1,0 +1,4 @@
+UI_EN = {
+UI_trait_DrugAddict = "Drug Addict",
+UI_trait_DrugAddictDesc = "You can't live without them.",
+}
