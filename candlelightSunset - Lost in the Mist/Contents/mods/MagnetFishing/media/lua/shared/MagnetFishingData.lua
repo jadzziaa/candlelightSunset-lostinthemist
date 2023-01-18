@@ -28,13 +28,6 @@ MagnetFishing.Tier3Magnets = {
 -- Data is formatted as such. Tier:Rarity:MinAmount:MaxAmount:MinCondition:MaxCondition
 
 -- TIER 1 ITEMS
-dataDictionary["Base.223Bullets"] = {1, 10, 1, 3}
-dataDictionary["Base.308Bullets"] = {1, 10, 1, 3}
-dataDictionary["Base.Bullets38"] = {1, 10, 1, 3}
-dataDictionary["Base.Bullets44"] = {1, 10, 1, 3}
-dataDictionary["Base.Bullets45"] = {1, 10, 1, 3}
-dataDictionary["Base.Bullets9mm"] = {1, 10, 1, 3}
-dataDictionary["Base.ShotgunShells"] = {1, 10, 1, 3}
 dataDictionary["Base.Battery"] = {1, 60, 1, 2, 0, 35}
 dataDictionary["Base.CarvingFork"] = {1, 10, 1, 1}
 dataDictionary["Base.WristWatch_Left_DigitalBlack"] = {1, 10, 1, 1}
@@ -160,19 +153,6 @@ dataDictionary["Base.UnusableMetal"] = {2, 35, 1, 1}
 dataDictionary["farming.HandShovel"] = {2, 25, 1, 1}
 dataDictionary["camping.TentPeg"] = {2, 10, 1, 1}
 dataDictionary["Base.MediumFishingMagnet"] = {2, 10, 1, 1}
-dataDictionary["Base.Pistol3"] = {2, 5, 1, 1, 0, 10}
-dataDictionary["Base.Pistol2"] = {2, 5, 1, 1, 0, 10}
-dataDictionary["Base.Pistol"] = {2, 5, 1, 1, 0, 10}
-dataDictionary["Base.Revolver_Short"] = {2, 5, 1, 1, 0, 10}
-dataDictionary["Base.Revolver"] = {2, 5, 1, 1, 0, 10}
-dataDictionary["Base.Revolver_Long"] = {2, 5, 1, 1, 0, 10}
-dataDictionary["Base.44Clip"] = {2, 10, 1, 1}
-dataDictionary["Base.M14Clip"] = {2, 10, 1, 1}
-dataDictionary["Base.556Clip"] = {2, 10, 1, 1}
-dataDictionary["Base.45Clip"] = {2, 10, 1, 1}
-dataDictionary["Base.9mmClip"] = {2, 10, 1, 1}
-dataDictionary["Base.223Clip"] = {2, 10, 1, 1}
-dataDictionary["Base.308Clip"] = {2, 10, 1, 1}
 dataDictionary["Base.Toolbox"] = {2, 20, 1, 1}
 dataDictionary["Base.TinOpener"] = {2, 30, 1, 1}
 
@@ -199,15 +179,6 @@ dataDictionary["Base.WeldingMask"] = {3, 10, 1, 1}
 dataDictionary["Base.WeldingRods"] = {3, 10, 1, 1}
 dataDictionary["Base.TirePump"] = {3, 15, 1, 1}
 dataDictionary["Base.LargeFishingMagnet"] = {3, 5, 1, 1}
-dataDictionary["Base.AssaultRifle"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.AssaultRifle"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.AssaultRifle2"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.VarmintRifle"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.HuntingRifle"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.DoubleBarrelShotgun"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.Shotgun"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.DoubleBarrelShotgunSawnoff"] = {3, 5, 1, 1, 0, 10}
-dataDictionary["Base.ShotgunSawnoff"] = {3, 5, 1, 1, 0, 10}
 
 -- MODDED ITEMS
 local activatedMods = getActivatedMods()
