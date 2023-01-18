@@ -44,4 +44,11 @@ module DrugDummies {
 		texture = WorldItems/Item_WeedBaggie,
 		scale = 0.15,
 	}
+
+    model Item_ActivatedCharcoal
+	{
+		mesh = WorldItems/PillBottle,
+		texture = WorldItems/Item_ActivatedCharcoal,
+		scale = 0.4,
+	}
 }

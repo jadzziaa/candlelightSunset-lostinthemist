@@ -69,4 +69,13 @@ module DrugDummies {
         DisplayName = Empty Baggie,
         WorldStaticModel = DrugDummies.Item_EmptyBaggie,
     }
+    item ActivatedCharcoal {
+        Type = Drainable,
+        Icon = ActivatedCharcoal,
+        Weight = 0.2,
+        UseDelta = 0.1,
+        DisplayName = Activated Charcoal,
+        DisplayCategory = FirstAid,
+        WorldStaticModel = DrugDummies.Item_ActivatedCharcoal,
+    }
 }

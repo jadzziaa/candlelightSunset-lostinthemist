@@ -10,6 +10,7 @@ local overdosevalue = 0;
 local overdosecheckval = false;
 local overdosefunctionval = false;
 local overdosewarningval = false;
+local hasstoppedoverdose = false;
 
 function OverdoseValue()
 	return overdosevalue
@@ -20,6 +21,12 @@ function OverdoseRemove()
 		overdosevalue = overdosevalue - 1
 	else
 		Events.EveryTenMinutes.Remove(OverdoseRemove);
+	end--if
+
+	if overdosevalue < 145 then
+		if hasstoppedoverdose == true then
+			hasstoppedoverdose = false;
+		end--if
 	end--if
 end--function
 
@@ -103,6 +110,14 @@ function OnSnort_CocaineBaggie(items, result, player)
 			Events.OnTick.Add(OverdoseFunctionStats);
 			Events.EveryTenMinutes.Add(OverdoseFunctionDeath);
 		end--if
+	else
+		if hasstoppedoverdose == true then
+			if overdosevalue >= 145 then
+				Events.OnTick.Add(OverdoseFunctionStats);
+				Events.EveryTenMinutes.Add(OverdoseFunctionDeath);
+				hasstoppedoverdose = false;
+			end--if
+		end--if
 	end--if
 end--function
 
@@ -153,6 +168,13 @@ function OnSnort_MethBaggie(items, result, player)
 			Events.OnTick.Add(OverdoseFunctionStats);
 			Events.EveryTenMinutes.Add(OverdoseFunctionDeath);
 		end--if
+	else
+		if hasstoppedoverdose == true then
+			if overdosevalue >= 145 then
+				Events.OnTick.Add(OverdoseFunctionStats);
+				Events.EveryTenMinutes.Add(OverdoseFunctionDeath);
+			end--if
+		end--if
 	end--if
 end--function
 
@@ -187,4 +209,21 @@ function OverdoseFunctionDeath()
 	local stats = getPlayer():getStats();
 
 	dmg:setFoodSicknessLevel(dmg:getFoodSicknessLevel() + 35);
+end--function
+
+function OnTake_ActivatedCharcoal()
+	local dmg = getPlayer():getBodyDamage();
+	local oneintwochance = 1;
+
+	if overdosevalue > 100 then
+		dmg:setFoodSicknessLevel(dmg:getFoodSicknessLevel() - 20);
+	else
+		dmg:setFoodSicknessLevel(dmg:getFoodSicknessLevel() + 13);
+	end--if
+
+	if ZombRand(4) > oneintwochance then
+		Events.OnTick.Remove(OverdoseFunctionStats);
+		Events.EveryTenMinutes.Remove(OverdoseFunctionDeath);
+		hasstoppedoverdose = true;
+	end--if
 end--function

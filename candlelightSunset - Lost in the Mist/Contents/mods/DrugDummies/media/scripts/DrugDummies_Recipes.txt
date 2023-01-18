@@ -55,4 +55,15 @@ module DrugDummies
 		AnimNode:Sneeze1,
 		OnCreate:OnSnort_MethBaggie,
 	}
+	recipe Take Activated Charcoal {
+		ActivatedCharcoal=1,
+		Result:ActivatedCharcoal,
+		RemoveResultItem:true,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:60.0,
+		Category:Other,
+		AnimNode:Eat1HandF,
+		OnCreate:OnTake_ActivatedCharcoal,
+	}
 }
