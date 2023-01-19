@@ -123,7 +123,7 @@ function OnSnort_CocaineBaggie(items, result, player)
 
 	--OVERDOSING---------------------------------------------------------
 	overdosevalue = overdosevalue + 36
-AddictionFunction
+	
 	if overdosecheckval == true then
 		OverdoseCheck();
 		overdosecheckval = false;
