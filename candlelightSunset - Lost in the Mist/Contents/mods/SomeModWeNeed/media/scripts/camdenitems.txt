@@ -7,7 +7,7 @@ item CamdenMap
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Camden County Map,
+        DisplayName			=		    Map of Region,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           CamdenMap,
