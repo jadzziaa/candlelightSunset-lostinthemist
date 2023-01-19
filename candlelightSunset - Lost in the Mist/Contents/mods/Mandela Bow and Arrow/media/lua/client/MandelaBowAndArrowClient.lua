@@ -1013,7 +1013,7 @@ function Client.OnGameBoot()
 		archer:addXPBoost(Perks.Archery, 4);
 	end]]--
 	Client.FirearmsB41Patch();
-	local archer = TraitFactory.addTrait("MBAOarcher", getText("UI_trait_archer"), 4, getText("UI_trait_archerdesc"), false)
+	local archer = TraitFactory.addTrait("MBAOarcher", getText("UI_trait_archer"), 0, getText("UI_trait_archerdesc"), true, false)
 	archer:addXPBoost(Perks.Archery, 3);
 end
 

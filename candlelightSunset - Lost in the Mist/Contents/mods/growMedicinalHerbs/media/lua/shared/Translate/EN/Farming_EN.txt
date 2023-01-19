@@ -1,0 +1,22 @@
+Farming_EN = {
+  -- vegetables name (type of seed)
+  Farming_Comfrey = "Comfrey",
+  Farming_Ginseng = "Ginseng",
+  Farming_Plantain = "Plantain",
+  Farming_LemonGrass = "Lemongrass",
+  Farming_WildGarlic = "''Wild'' Garlic",
+  Farming_CommonMallow = "Common Mallow",
+  Farming_BlackSage = "Black Sage",
+  -- growing phase
+    Farming_Seedling = "Seedling",
+    Farming_Young = "Young",
+    Farming_Ready_for_Harvest = "Ready for Harvest",
+    Farming_In_bloom = "Blooming",
+    Farming_Seed-bearing = "Seed-bearing",
+    Farming_Receding = "Receding",
+    Farming_Rotten = "Rotten",
+    Farming_Destroyed = "Destroyed",
+    Farming_Seedling = "Seedling",
+    Farming_Fully_grown = "Fully grown",
+    Farming_Ready_to_harvest = "Ready to harvest",
+}

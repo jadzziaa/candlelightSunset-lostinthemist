@@ -1,0 +1,127 @@
+module newcontainers 
+
+{
+	imports
+	{
+		Base
+	}
+
+	item carcrateb
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	Car Crate,
+		Icon	=	carcrate_b,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrateb_Ground,
+	}
+	
+	item carcrateg
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	Car Crate,
+		Icon	=	carcrate_g,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrateg_Ground,
+	}
+
+	item carcrateo
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	Car Crate,
+		Icon	=	carcrate_o,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrateo_Ground,
+	}
+	
+	item carcrater
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	Car Crate,
+		Icon	=	carcrate_r,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcrater_Ground,
+	}
+	
+	item carcratey
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	25,
+		Weight	=	1,
+		Type	=	Container,
+		Capacity	=	25,
+		DisplayName	=	Car Crate,
+		Icon	=	carcrate_y,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = carcratey_Ground,
+	}
+	
+	item cardboardbox
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	30,
+		Weight	=	0.5,
+		Type	=	Container,
+		Capacity	=	20,
+		DisplayName	=	Cardboard Box,
+		Icon	=	Cardboardbox,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = cardboardbox_Ground,
+	}
+
+	item jugempty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Water Jug,
+		ReplaceOnUseOn	=	WaterSource-jugfull,
+		Icon	=	waterjug,
+		MetalValue = 5,
+		WorldStaticModel = waterjugempty,
+		ReplaceTypes = WaterSource jugfull,
+	}
+
+	item spicerack
+	{
+	    DisplayCategory = Container,
+		WeightReduction	=	10,
+		Weight	=	.5,
+		Type	=	Container,
+		Capacity	=	2,
+		DisplayName	=	Spice Rack,
+		Icon	=	spicerack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        WorldStaticModel = spicerack,
+	}
+}

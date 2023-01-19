@@ -1,0 +1,8 @@
+module Base
+{
+    model JacketSteamGuide_Ground
+    {
+        mesh = WorldItems/Clothing/MyFirstJacket_Ground,
+        scale = 1,
+    }
+}

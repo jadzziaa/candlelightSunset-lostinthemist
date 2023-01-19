@@ -1,0 +1,30 @@
+module newcontainers 
+
+{
+	imports
+	{
+		Base
+	}
+	
+	item jugfull
+	{
+		DisplayName = Water Jug,
+		DisplayCategory = Water,
+		Type = Drainable,
+		Weight = 20,
+		Icon = waterjug,
+		CanStoreWater = TRUE,
+		FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound = GetWaterFromTapPlasticMedium,
+		IsWaterSource = TRUE,
+		ReplaceOnDeplete = jugempty,
+		ReplaceOnUseOn = WaterSource-jugfull,
+		UseDelta = 0.004,
+		UseWhileEquipped = FALSE,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		StaticModel = PopBottle,
+		WorldStaticModel = waterjug,
+		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
+	}
+}

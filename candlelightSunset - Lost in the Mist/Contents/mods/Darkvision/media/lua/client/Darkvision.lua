@@ -167,7 +167,7 @@ Events.OnCreatePlayer.Add(Darkvision.start)
 -- Darkvision Trait
 
 Darkvision.trait = function()
-    TraitFactory.addTrait("Darkvision", "Darkvision", 4, "See at night like you were born to live in darkness.", false)
+    TraitFactory.addTrait("Darkvision", "Darkvision", 0, "See at night like you were born to live in darkness.", true, false)
 end
 
 Events.OnGameBoot.Add(Darkvision.trait)

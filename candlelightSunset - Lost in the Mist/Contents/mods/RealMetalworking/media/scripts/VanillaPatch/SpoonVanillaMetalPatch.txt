@@ -31,17 +31,6 @@ module Base
 		WorldStaticModel = PropaneTank,
 	}
 	
-	recipe Refill Blowtorch with Petrol
-    {
-       destroy BlowTorch=1,
-       [Recipe.GetItemTypes.Petrol]=2,
-
-       Result:BlowTorch,
-       Time:50.0,
-       Category:Welding,
-	   Override:true
-    }
-	
 	recipe Empty Propane Tank
     {
 		destroy PropaneTank,

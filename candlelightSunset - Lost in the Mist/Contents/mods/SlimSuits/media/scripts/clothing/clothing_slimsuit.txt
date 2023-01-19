@@ -1,0 +1,36 @@
+module Base
+{
+    item SlimSuitJacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Slim Suit Jacket,
+        ClothingItem = SlimSuitJacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = JacketSuitBlack,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 30,
+		BiteDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,
+    }
+
+    	recipe Make Slim Suit Jacket
+    {
+        Suit_Jacket=1,
+        Thread=4,
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        Result:SlimSuitJacket,
+        Time:800.0,
+        AnimNode:RipSheets,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=3,
+    }
+}

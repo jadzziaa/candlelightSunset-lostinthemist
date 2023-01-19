@@ -1,0 +1,132 @@
+module newcontainers
+
+{
+	imports
+	{
+		Base
+	}
+	
+	model ammocan_Ground
+    {
+        mesh = WorldItems/ammocan,
+		texture= WorldItems/ammocan,
+        scale = 0.8,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 180.0000 0.0000,
+		}
+	}
+	
+	model basket_Ground
+    {
+        mesh = WorldItems/basket,
+		texture= WorldItems/basket,
+	}
+
+	model carcrateb_Ground
+    {
+        mesh = WorldItems/carcrate,
+		texture= WorldItems/carcrate_b,
+        scale = 0.7,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model carcrateg_Ground
+    {
+        mesh = WorldItems/carcrate,
+		texture= WorldItems/carcrate_g,
+        scale = 0.7,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model carcrateo_Ground
+    {
+        mesh = WorldItems/carcrate,
+		texture= WorldItems/carcrate_o,
+        scale = 0.7,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model carcrater_Ground
+    {
+        mesh = WorldItems/carcrate,
+		texture= WorldItems/carcrate_r,
+        scale = 0.7,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model carcratey_Ground
+    {
+        mesh = WorldItems/carcrate,
+		texture= WorldItems/carcrate_y,
+        scale = 0.7,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model cardboardbox_Ground
+    {
+        mesh = WorldItems/cardboardbox,
+        scale = 0.7,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model spicerack
+	{
+		mesh = WorldItems/spicerack,
+		texture = WorldItems/spicerack,
+		scale = 0.8,
+	}
+	
+	model tacklebox_Ground
+    {
+        mesh = WorldItems/tacklebox,
+		texture= WorldItems/tacklebox,
+		scale = 0.8,
+	}
+		
+	model waterjug
+	{
+		mesh = WorldItems/waterjug,
+		texture = WorldItems/waterjug,
+		scale = 0.8,
+	}
+	
+	model waterjugempty
+	{
+		mesh = WorldItems/waterjug,
+		texture = WorldItems/waterjugempty,
+		scale = 0.8,
+	}
+}

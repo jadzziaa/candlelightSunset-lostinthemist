@@ -1,0 +1,82 @@
+module GMH {
+    imports {
+        Base
+    }
+
+/**********************************************************************/
+/******************************Seeds***************************************/
+/**********************************************************************/
+
+	item Comfreyseed {
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Comfrey Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+	item Ginsengseed {
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Ginseng Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+	item Plantainseed {
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Plantain Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+	item LemonGrassseed {
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Lemongrass Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+	item WildGarlicseed {
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Wild Garlic Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+	item CommonMallowseed {
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Common Mallow Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+	item BlackSageseed {
+	    DisplayCategory = Gardening,
+		Type				=		Normal,
+		DisplayName			=		Black Sage Seeds,
+		Icon				=		TZ_CabbageLettuceSeeds,
+		Weight				=		0.009,
+		SurvivalGear = TRUE,
+		WorldStaticModel = Seeds_Ground,
+	}
+
+
+
+}

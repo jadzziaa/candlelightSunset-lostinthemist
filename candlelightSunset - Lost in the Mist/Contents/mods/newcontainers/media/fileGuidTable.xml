@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/Bag_basket_LHand.xml</path>
+		<guid>bf40b5f6-30cc-4d1b-a2da-2ca8901ffa9e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_basket_RHand.xml</path>
+		<guid>b6350553-20fa-4b9d-ac5b-12ac198610d6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ammocan_LHand.xml</path>
+		<guid>d004debd-8c7c-45f2-920d-676ea80d4797</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_ammocan_RHand.xml</path>
+		<guid>defd4566-d452-4a3e-b5f8-487edc7ef8ab</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_tacklebox_LHand.xml</path>
+		<guid>5e8aa412-f221-4611-9bab-61db72be63f2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bag_tacklebox_RHand.xml</path>
+		<guid>6f1f26cc-9cfc-4c66-a1ee-c1e414ceb527</guid>
+	</files>
+</fileGuidTable>
+
+

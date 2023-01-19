@@ -5,8 +5,8 @@ local gTime = getGameTime();
 local year = gTime:getYear()
 local month = gTime:getMonth()+1
 local day = gTime:getDay()+1
-local textdate = string.format("%i/%i/%i", month, day, year+15)
-local textdate1 = string.format("%i/%i/%i", month, day, year+16)
+local textdate = string.format("%i/%i/%i", month, day, year+5)
+local textdate1 = string.format("%i/%i/%i", month, day, year+6)
 local randomno1 = ZombRand(90)+10
 
 function FIL_RandomNumber()

@@ -1,0 +1,62 @@
+module newcontainers
+
+{
+	imports
+	{
+		Base
+	}
+
+	item ammocan
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	15,
+        Weight	=	2,
+        Type	=	Container,
+        Capacity	=	10,
+        DisplayName	=	Ammo Can,
+        Icon	=	ammocan,
+        OpenSound   =   OpenBag,
+        RunSpeedModifier = 0.98,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+		ReplaceInSecondHand = Bag_ammocan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ammocan_RHand holdingbagright,
+        WorldStaticModel = ammocan_Ground,
+    }
+	
+	item basket
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	55,
+        Weight	=	0.2,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Basket,
+        Icon	=	basket,
+        OpenSound   =   OpenBag,
+        RunSpeedModifier = 0.99,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+		ReplaceInSecondHand = Bag_basket_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_basket_RHand holdingbagright,
+        WorldStaticModel = basket_Ground,
+    }
+	
+	item tacklebox
+    {
+        DisplayCategory = Container,
+        WeightReduction	=	15,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	8,
+        DisplayName	=	Tackle Box,
+        Icon	=	tacklebox,
+        OpenSound   =   OpenBag,
+        RunSpeedModifier = 0.99,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+		ReplaceInSecondHand = Bag_tacklebox_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_tacklebox_RHand holdingbagright,
+        WorldStaticModel = tacklebox_Ground,
+    }
+}
