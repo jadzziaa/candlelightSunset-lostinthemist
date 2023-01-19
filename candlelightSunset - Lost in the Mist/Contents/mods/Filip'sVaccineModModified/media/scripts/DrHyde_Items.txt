@@ -11,6 +11,7 @@ module LabItems {
 		Weight = 5.0,
 		DisplayName = LabMicroscope,
 		WorldObjectSprite = demonius_vaccine_01_0,
+		DisplayCategory = Chemistry,
 		Tooltip = Tooltip_LabMicroscope,
 	}
 	item LabChromatograph {
@@ -19,6 +20,7 @@ module LabItems {
 		Weight = 16.0,
 		DisplayName = LabChromatograph,
 		WorldObjectSprite = demonius_vaccine_01_4,
+		DisplayCategory = Chemistry,
 		Tooltip = Tooltip_LabChromatograph,
 	}
 	item LabSpectrometer {
@@ -27,6 +29,7 @@ module LabItems {
 		Weight = 12.0,
 		DisplayName = LabSpectrometer,
 		WorldObjectSprite = demonius_vaccine_01_8,
+		DisplayCategory = Chemistry,
 		Tooltip = Tooltip_LabSpectrometer,
 	}
 	item LabChemistrySet {
@@ -35,6 +38,7 @@ module LabItems {
 		Weight = 8.0,
 		DisplayName = LabChemistrySet,
 		WorldObjectSprite = demonius_vaccine_01_12,
+		DisplayCategory = Chemistry,
 		Tooltip = Tooltip_LabChemistrySet,
 	}
 	item LabCentrifuge {
@@ -43,6 +47,7 @@ module LabItems {
 		Weight = 12.0,
 		DisplayName = LabCentrifuge,
 		WorldObjectSprite = demonius_vaccine_01_16,
+		DisplayCategory = Chemistry,
 		Tooltip = Tooltip_LabCentrifuge,
 	}
 	item LabMuffleFurnace {
@@ -51,6 +56,7 @@ module LabItems {
 		Weight = 14.0,
 		DisplayName = LabMuffleFurnace,
 		WorldObjectSprite = demonius_vaccine_01_20,
+		DisplayCategory = Chemistry,
 		Tooltip = Tooltip_LabMuffleFurnace,
 	}
 	item LabWorkbench {
@@ -59,6 +65,7 @@ module LabItems {
 		Weight = 15.0,
 		DisplayName = LabWorkbench,
 		WorldObjectSprite = demonius_vaccine_01_56,
+		DisplayCategory = Chemistry,
 		Tooltip = Tooltip_LabWorkbench,
 	}
 	item LabEasel {
@@ -170,6 +177,7 @@ module LabItems {
 		DisplayName = LabSyringe,
 		Tooltip = Tooltip_LabSyringe,
 		WorldStaticModel = LabItems.Item_LabSyringe,
+		DisplayCategory = Chemistry,
 	}
 	item LabSyringeReusable {
 		Type = Normal,
@@ -178,6 +186,7 @@ module LabItems {
 		DisplayName = LabSyringeReusable,
 		Tooltip = Tooltip_LabSyringe,
 		WorldStaticModel = LabItems.Item_LabSyringe,
+		DisplayCategory = Chemistry,
 	}
 	item LabSyringeReusableUsed {
 		Type = Normal,
@@ -186,6 +195,7 @@ module LabItems {
 		DisplayName = LabSyringeReusableUsed,
 		Tooltip = Tooltip_LabSyringeReusableUsed,
 		WorldStaticModel = LabItems.Item_LabSyringeUsed,
+		DisplayCategory = Chemistry,
 	}
 	item LabSyringePack {
 		Type = Normal,
@@ -194,6 +204,7 @@ module LabItems {
 		DisplayName = LabSyringePack,
 		Tooltip = Tooltip_LabSyringePack,
 		WorldStaticModel = LabItems.Item_LabSyringePack,
+		DisplayCategory = Chemistry,
 	}
 	item LabSyringeUsed {
 		Type = Normal,
@@ -202,6 +213,7 @@ module LabItems {
 		DisplayName = LabSyringeUsed,
 		Tooltip = Tooltip_LabSyringeUsed,
 		WorldStaticModel = LabItems.Item_LabSyringeUsed,
+		DisplayCategory = Chemistry,
 	}
 	item LabTestTube {
 		Type = Normal,
@@ -211,7 +223,7 @@ module LabItems {
 		Tooltip = Tooltip_LabTestTube,
 		WorldStaticModel = LabItems.Item_LabTestTube,
 		Categories = TestTube,
-		DisplayCategory = TestTube,
+		DisplayCategory = Chemistry,
 	}
 	item LabTestTubeDirty {
 		Type = Normal,
@@ -220,6 +232,7 @@ module LabItems {
 		DisplayName = LabTestTubeDirty,
 		Tooltip = Tooltip_LabTestTubeDirty,
 		WorldStaticModel = LabItems.Item_LabTestTubeDirty,
+		DisplayCategory = Chemistry,
 	}
 	item LabFlask {
 		Type = Normal,
@@ -230,6 +243,7 @@ module LabItems {
 		ReplaceOnUseOn = WaterSource-LabFlaskWater,
 		Tooltip = Tooltip_LabFlask,
 		WorldStaticModel = LabItems.Item_LabFlask,
+		DisplayCategory = Chemistry,
 	}
 	item LabFlaskWater {
 		Type = Drainable,
@@ -243,6 +257,7 @@ module LabItems {
 		ReplaceOnUseOn = WaterSource-LabFlaskWater,
 		ReplaceOnDeplete = LabFlask,
 		WorldStaticModel = LabItems.Item_LabFlaskWater,
+		DisplayCategory = Chemistry,
 	}
 	item LabFlaskDirty {
 		Type = Normal,
@@ -251,6 +266,7 @@ module LabItems {
 		DisplayName = LabFlaskDirty,
 		Tooltip = Tooltip_LabFlaskDirty,
 		WorldStaticModel = LabItems.Item_LabFlaskDirty,
+		DisplayCategory = Chemistry,
 	}
 	item LabTestResultNegative {
 		Type = Normal,
@@ -258,6 +274,7 @@ module LabItems {
 		Weight = 0.1,
 		DisplayName = LabTestResultNegative,
 		WorldStaticModel = LabItems.Item_LabTestResultNegative,
+		DisplayCategory = Chemistry,
 	}
 	item LabTestResultPositive {
 		Type = Normal,
@@ -265,6 +282,7 @@ module LabItems {
 		Weight = 0.1,
 		DisplayName = LabTestResultPositive,
 		WorldStaticModel = LabItems.Item_LabTestResultPositive,
+		DisplayCategory = Chemistry,
 	}
 	item LabGarbageBagWithRemains {
 		Type = Normal,
@@ -275,6 +293,7 @@ module LabItems {
 		ReplaceInPrimaryHand = Bag_Garbagebag_RHand holdingbagright,
 		Tooltip = Tooltip_LabGarbageBagWithRemains,
 		WorldStaticModel = GarbageBag,
+		DisplayCategory = Chemistry,
 	}
 	item LabPlasticBagWithRemains {
 		Type = Normal,
@@ -285,6 +304,7 @@ module LabItems {
 		ReplaceInPrimaryHand = Bag_Plasticbag_RHand holdingbagright,
 		Tooltip = Tooltip_LabPlasticBagWithRemains,
 		WorldStaticModel = PlasticBag,
+		DisplayCategory = Chemistry,
 	}
 
 	/* ------------------------------ Base Materials ------------------------------ */
@@ -296,6 +316,7 @@ module LabItems {
 		DisplayName = MatInfectedBlood,
 		Tooltip = Tooltip_MatInfectedBlood,
 		WorldStaticModel = LabItems.Item_MatInfectedBlood,
+		DisplayCategory = Chemistry,
 	}
 	item MatTaintedBlood {
 		Type = Normal,
@@ -304,6 +325,7 @@ module LabItems {
 		DisplayName = MatTaintedBlood,
 		Tooltip = Tooltip_MatTaintedBlood,
 		WorldStaticModel = LabItems.Item_MatTaintedBlood,
+		DisplayCategory = Chemistry,
 	}
 	item MatShatteredGlass {
 		Type = Normal,
@@ -312,6 +334,7 @@ module LabItems {
 		DisplayName = MatShatteredGlass,
 		Tooltip = Tooltip_MatShatteredGlass,
 		WorldStaticModel = LabItems.Item_MatShatteredGlass,
+		DisplayCategory = Chemistry,
 	}
 	item MatInfectedSaliva {
 		Type = Normal,
@@ -320,6 +343,7 @@ module LabItems {
 		DisplayName = MatInfectedSaliva,
 		Tooltip = Tooltip_MatInfectedSaliva,
 		WorldStaticModel = LabItems.Item_MatInfectedSaliva,
+		DisplayCategory = Chemistry,
 	}
 	item CmpTestTubeWithInfectedSaliva {
 		Type = Normal,
@@ -328,6 +352,7 @@ module LabItems {
 		DisplayName = CmpTestTubeWithInfectedSaliva,
 		Tooltip = Tooltip_CmpTestTubeWithInfectedSaliva,
 		WorldStaticModel = LabItems.Item_CmpTestTubeWithInfectedSaliva,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithVirus {
 		Type = Normal,
@@ -336,6 +361,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithVirus,
 		Tooltip = Tooltip_CmpFlaskWithVirus,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithVirus,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithWeakenedVirus {
 		Type = Normal,
@@ -352,6 +378,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTestVaccine,
 		Tooltip = Tooltip_CmpSyringeWithTestVaccine,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithTestVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithTestVaccine {
 		Type = Normal,
@@ -360,6 +387,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTestVaccine,
 		Tooltip = Tooltip_CmpSyringeWithTestVaccine,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithTestVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item LabVaccineTestSuccessful1 {
 		Type = Normal,
@@ -368,6 +396,7 @@ module LabItems {
 		DisplayName = LabVaccineTestSuccessful1,
 		Tooltip = Tooltip_LabVaccineTestSuccessful1,
 		WorldStaticModel = LabItems.Item_LabVaccineTestSuccessful,
+		DisplayCategory = Chemistry,
 	}
 	item LabVaccineTestUnsuccessful {
 		Type = Normal,
@@ -376,6 +405,7 @@ module LabItems {
 		DisplayName = LabVaccineTestUnsuccessful,
 		Tooltip = Tooltip_LabVaccineTestUnsuccessful,
 		WorldStaticModel = LabItems.Item_LabVaccineTestUnsuccessful,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeWithTestVaccineV2 {
 		Type = Normal,
@@ -384,6 +414,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTestVaccineV2,
 		Tooltip = Tooltip_CmpSyringeWithTestVaccineV2,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithPlainVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithTestVaccineV2 {
 		Type = Normal,
@@ -392,6 +423,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTestVaccineV2,
 		Tooltip = Tooltip_CmpSyringeWithTestVaccineV2,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithPlainVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item LabVaccineTestSuccessful2 {
 		Type = Normal,
@@ -400,6 +432,7 @@ module LabItems {
 		DisplayName = LabVaccineTestSuccessful2,
 		Tooltip = Tooltip_LabVaccineTestSuccessful2,
 		WorldStaticModel = LabItems.Item_LabVaccineTestSuccessful,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeWithTestVaccineV3 {
 		Type = Normal,
@@ -408,6 +441,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTestVaccineV3,
 		Tooltip = Tooltip_CmpSyringeWithTestVaccineV3,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithAdvancedVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithTestVaccineV3 {
 		Type = Normal,
@@ -416,6 +450,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTestVaccineV3,
 		Tooltip = Tooltip_CmpSyringeWithTestVaccineV3,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithAdvancedVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item LabVaccineTestSuccessful3 {
 		Type = Normal,
@@ -424,6 +459,7 @@ module LabItems {
 		DisplayName = LabVaccineTestSuccessful3,
 		Tooltip = Tooltip_LabVaccineTestSuccessful3,
 		WorldStaticModel = LabItems.Item_LabVaccineTestSuccessful,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeWithQualityVaccine {
 		Type = Normal,
@@ -432,6 +468,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithQualityVaccine,
 		Tooltip = Tooltip_CmpSyringeWithQualityVaccine,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithQualityVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithQualityVaccine {
 		Type = Normal,
@@ -440,6 +477,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithQualityVaccine,
 		Tooltip = Tooltip_CmpSyringeWithQualityVaccine,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithQualityVaccine,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeWithVirus {
 		Type = Normal,
@@ -448,6 +486,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithVirus,
 		Tooltip = Tooltip_CmpSyringeWithVirus,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithVirus,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithVirus {
 		Type = Normal,
@@ -456,6 +495,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithVirus,
 		Tooltip = Tooltip_CmpSyringeWithVirus,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithVirus,
+		DisplayCategory = Chemistry,
 	}
 	item LabSyringeReusablePack {
 		Type = Normal,
@@ -464,6 +504,7 @@ module LabItems {
 		DisplayName = LabSyringeReusablePack,
 		Tooltip = Tooltip_LabSyringeReusablePack,
 		WorldStaticModel = LabItems.Item_LabSyringeReusablePack,
+		DisplayCategory = Chemistry,
 	}
 	item AlcoholWipesPack {
 		Type = Normal,
@@ -472,6 +513,7 @@ module LabItems {
 		DisplayName = AlcoholWipesPack,
 		Tooltip = Tooltip_AlcoholWipesPack,
 		WorldStaticModel = LabItems.Item_AlcoholWipesPack,
+		DisplayCategory = FirstAid,
 	}
 	item CmpFlaskWithPyroligneousAcid {
 		Type = Normal,
@@ -480,6 +522,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithPyroligneousAcid,
 		Tooltip = Tooltip_CmpFlaskWithPyroligneousAcid,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithBloodPlasma,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithMethanol {
 		Type = Normal,
@@ -488,6 +531,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithMethanol,
 		Tooltip = Tooltip_CmpFlaskWithMethanol,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithHydrogenPeroxide,
+		DisplayCategory = Chemistry,
 	}
 
 	/* ------------------------------ Base Chemicals ------------------------------ */
@@ -500,6 +544,7 @@ module LabItems {
 		UseDelta = 0.1,
 		Tooltip = Tooltip_ChHydrochloricAcidCan,
 		WorldStaticModel = LabItems.Item_ChHydrochloricAcidCan,
+		DisplayCategory = Chemistry,
 	}
 	item ChSodiumHydroxideBag {
 		Type = Drainable,
@@ -508,7 +553,8 @@ module LabItems {
 		DisplayName = ChSodiumHydroxideBag,
 		UseDelta = 0.1,
 		Tooltip = Tooltip_ChSodiumHydroxideBag,
-		WorldStaticModel = LabItems.Item_ChSodiumHydroxideBag,	
+		WorldStaticModel = LabItems.Item_ChSodiumHydroxideBag,
+		DisplayCategory = Chemistry,	
 	}
 	item ChAmmonia {
 		Type = Drainable,
@@ -518,6 +564,7 @@ module LabItems {
 		UseDelta = 0.125,
 		Tooltip = Tooltip_ChAmmonia,
 		WorldStaticModel = PillBottle,
+		DisplayCategory = Chemistry,
 	}
 	item ChSulfuricAcidCan {
 		Type = Drainable,
@@ -527,6 +574,7 @@ module LabItems {
 		UseDelta = 0.1,
 		Tooltip = Tooltip_ChSulfuricAcidCan,
 		WorldStaticModel = LabItems.Item_ChSulfuricAcidCan,
+		DisplayCategory = Chemistry,
 	}
 	item ChFormaldehydeCan {
 		Type = Drainable,
@@ -536,6 +584,7 @@ module LabItems {
 		UseDelta = 0.1,
 		Tooltip = Tooltip_ChFormaldehydeCan,
 		WorldStaticModel = LabItems.Item_ChFormaldehydeCan,
+		DisplayCategory = Chemistry,
 	}
 
 	/* ------------------------------ Compounds ------------------------------ */
@@ -547,6 +596,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithBlood,
 		Tooltip = Tooltip_CmpSyringeWithBlood,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithBlood,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithBlood {
 		Type = Normal,
@@ -555,6 +605,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithBlood,
 		Tooltip = Tooltip_CmpSyringeWithBlood,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithBlood,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeWithTaintedBlood {
 		Type = Normal,
@@ -563,6 +614,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTaintedBlood,
 		Tooltip = Tooltip_CmpSyringeWithTaintedBlood,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithTaintedBlood,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithTaintedBlood {
 		Type = Normal,
@@ -571,6 +623,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithTaintedBlood,
 		Tooltip = Tooltip_CmpSyringeWithTaintedBlood,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithTaintedBlood,
+		DisplayCategory = Chemistry,
 	}
 	item CmpTestTubeWithInfectedBlood {
 		Type = Normal,
@@ -579,6 +632,7 @@ module LabItems {
 		DisplayName = CmpTestTubeWithInfectedBlood,
 		Tooltip = Tooltip_CmpTestTubeWithInfectedBlood,
 		WorldStaticModel = LabItems.Item_CmpTestTubeWithInfectedBlood,
+		DisplayCategory = Chemistry,
 	}
 	item CmpTestTubeWithTaintedBlood {
 		Type = Normal,
@@ -587,6 +641,7 @@ module LabItems {
 		DisplayName = CmpTestTubeWithTaintedBlood,
 		Tooltip = Tooltip_CmpFlaskWithBloodPlasma,
 		WorldStaticModel = LabItems.Item_CmpTestTubeWithTaintedBlood,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithBloodCells {
 		Type = Normal,
@@ -595,6 +650,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithBloodCells,
 		Tooltip = Tooltip_CmpFlaskWithBloodCells,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithBloodCells,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithBloodPlasma {
 		Type = Normal,
@@ -603,6 +659,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithBloodPlasma,
 		Tooltip = Tooltip_CmpFlaskWithBloodPlasma,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithBloodPlasma,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithLeukocytes {
 		Type = Normal,
@@ -611,6 +668,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithLeukocytes,
 		Tooltip = Tooltip_CmpFlaskWithLeukocytes,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithLeukocytes,
+		DisplayCategory = Chemistry,
 	}
 	item CmpTestTubeWithAntibodies {
 		Type = Normal,
@@ -619,6 +677,7 @@ module LabItems {
 		DisplayName = CmpTestTubeWithAntibodies,
 		Tooltip = Tooltip_CmpTestTubeWithAntibodies,
 		WorldStaticModel = LabItems.Item_CmpTestTubeWithAntibodies,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeWithCure {
 		Type = Normal,
@@ -627,6 +686,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithCure,
 		Tooltip = Tooltip_CmpSyringeWithCure,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithCure,
+		DisplayCategory = Chemistry,
 	}
 	item CmpSyringeReusableWithCure {
 		Type = Normal,
@@ -635,6 +695,7 @@ module LabItems {
 		DisplayName = CmpSyringeWithCure,
 		Tooltip = Tooltip_CmpSyringeWithCure,
 		WorldStaticModel = LabItems.Item_CmpSyringeWithCure,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithSodiumHypochlorite {
 		Type = Normal,
@@ -643,6 +704,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithSodiumHypochlorite,
 		Tooltip = Tooltip_CmpFlaskWithSodiumHypochlorite,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithSodiumHypochlorite,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithAmmoniumSulfate {
 		Type = Normal,
@@ -651,6 +713,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithAmmoniumSulfate,
 		Tooltip = Tooltip_CmpFlaskWithAmmoniumSulfate,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithAmmoniumSulfate,
+		DisplayCategory = Chemistry,
 	}
 	item CmpFlaskWithHydrogenPeroxide {
 		Type = Normal,
@@ -659,6 +722,7 @@ module LabItems {
 		DisplayName = CmpFlaskWithHydrogenPeroxide,
 		Tooltip = Tooltip_CmpFlaskWithHydrogenPeroxide,
 		WorldStaticModel = LabItems.Item_CmpFlaskWithHydrogenPeroxide,
+		DisplayCategory = Chemistry,
 	}
 	item CmpAlbuminPills {
 		Type = Drainable,
@@ -671,6 +735,7 @@ module LabItems {
 		WorldStaticModel = LabItems.Item_CmpAlbuminPills,
 		Medical = true,
 		Tooltip = Tooltip_CmpAlbuminPills,
+		DisplayCategory = Chemistry,
 	}
 	item CmpChlorineTablets {
 		Type = Drainable,
@@ -681,6 +746,7 @@ module LabItems {
 		StaticModel = PillBottle,
 		WorldStaticModel = PillBottle,
 		Tooltip = Tooltip_CmpChlorineTablets,
+		DisplayCategory = Chemistry,
 	}
 
 	/* ------------------------------ Furnace Items And Materials------------------------------ */
@@ -803,6 +869,7 @@ module LabItems {
 	ReplaceOnUse = JournalOfResearch,
 	StaticModel = Book,
 	WorldStaticModel = BookClosedLightBlue_Ground,
+	DisplayCategory = Chemistry,
     }
 }
 
