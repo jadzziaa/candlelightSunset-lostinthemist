@@ -1,35 +1,35 @@
 ItemName_EN = {
 --    /******************* REGULAR BICYCLE *******************/
-    ItemName_Base.BicycleFrameRegular = "Regular bicycle frame",
-    ItemName_Base.BicycleSuspensionRegular3 = "Regular bicycle suspension",
-    ItemName_Base.BicycleBrakesRegular3 = "Regular bicycle brake",
-    ItemName_Base.BicycleTireRegular = "Regular bicycle tire",
-    ItemName_Base.BicycleSeat = "Bicycle seat",
+    ItemName_Base.BicycleFrameRegular = "Bicycle Frame Type Regular",
+    ItemName_Base.BicycleSuspensionRegular3 = "Bicycle Suspension Type Regular",
+    ItemName_Base.BicycleBrakesRegular3 = "Bicycle Brake Type Regular",
+    ItemName_Base.BicycleTireRegular = "Bicycle Tire Type Regular",
+    ItemName_Base.BicycleSeat = "Bicycle Seat Type Regular",
     
-    ItemName_Base.BicycleFrameRegularScrap = "Regular bicycle frame (Scrap)",
-    ItemName_Base.BicycleSuspensionRegularScrap3 = "Regular bicycle suspension (Scrap)",
-    ItemName_Base.BicycleBrakesRegularScrap3 = "Regular bicycle brake (Scrap)",
-    ItemName_Base.BicycleTireRegularScrap = "Regular bicycle tire (Scrap)",
-    ItemName_Base.BicycleSeatScrap = "Bicycle seat (Scrap)",
+    ItemName_Base.BicycleFrameRegularScrap = "Bicycle Frame Type Regular (Scrap)",
+    ItemName_Base.BicycleSuspensionRegularScrap3 = "Bicycle Suspension Type Regular (Scrap)",
+    ItemName_Base.BicycleBrakesRegularScrap3 = "Bicycle Brake Type Regular (Scrap)",
+    ItemName_Base.BicycleTireRegularScrap = "Bicycle Tire Type Regular (Scrap)",
+    ItemName_Base.BicycleSeatScrap = Bicycle Seat Type Regular (Scrap)",
 
 --    /******************* MOUNTAIN BICYCLE *******************/
-    ItemName_Base.BicycleFrameMTB = "MTB frame",
-    ItemName_Base.BicycleSuspensionMTB3 = "MTB suspension",
-    ItemName_Base.BicycleBrakesMTB3 = "MTB brake",
-    ItemName_Base.BicycleTireMTB = "MTB tire",
+    ItemName_Base.BicycleFrameMTB = "Bicycle Frame Type Mountain",
+    ItemName_Base.BicycleSuspensionMTB3 = "Bicycle Suspension Type Mountain",
+    ItemName_Base.BicycleBrakesMTB3 = "Bicycle Brake Type Mountain",
+    ItemName_Base.BicycleTireMTB = Bicycle Tire Type Mountain",
 
-    ItemName_Base.BicycleFrameMTBScrap = "MTB frame (Scrap)",
-    ItemName_Base.BicycleSuspensionMTBScrap3 = "MTB suspension (Scrap)",
-    ItemName_Base.BicycleBrakesMTBScrap3 = "MTB brake (Scrap)",
-    ItemName_Base.BicycleTireMTBScrap = "MTB tire (Scrap)",
+    ItemName_Base.BicycleFrameMTBScrap = "Bicycle Frame Type Mountain (Scrap)",
+    ItemName_Base.BicycleSuspensionMTBScrap3 = "Bicycle Suspension Type Mountain (Scrap)",
+    ItemName_Base.BicycleBrakesMTBScrap3 = "Bicycle Brake Type Mountain (Scrap)",
+    ItemName_Base.BicycleTireMTBScrap = "Bicycle Tire Type Mountain (Scrap)",
 
 --    /******************* ACCESSORIES *******************/
-    ItemName_Base.BicycleBasket3 = "Bicycle basket",
-    ItemName_Base.BicycleHeadlight3 = "Bicycle headlight",
+    ItemName_Base.BicycleBasket3 = "Bicycle Part Basket",
+    ItemName_Base.BicycleHeadlight3 = "Bicycle Part Headlight",
 
 --    /******************* MISC *******************/
-    ItemName_Base.BicycleLock = "Bicycle lock",
-    ItemName_Base.BicycleLockKey = "Bicycle lock key",
+    ItemName_Base.BicycleLock = "Bicycle Lock",
+    ItemName_Base.BicycleLockKey = "Key - Bicycle",
     ItemName_Base.BicyclesMagVol1 = "Biking Vol. 1",
     ItemName_Base.BicyclesMagVol2 = "Biking Vol. 2",
     ItemName_Base.BicyclesMagVol3 = "Biking Vol. 3",

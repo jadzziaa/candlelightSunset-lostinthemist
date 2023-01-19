@@ -5,7 +5,7 @@ module DrugDummies
         Base
     }
 
-	recipe Roll a blunt {
+	recipe Roll Blunt with Cannabis {
 		WeedBaggie=1,
 		SheetPaper2=1,
 		Result:WeedBlunt=1,
@@ -14,7 +14,7 @@ module DrugDummies
 		Time:150.0,
 		Category:Other,
 	}
-	recipe Fill a baggie with cocaine {
+	recipe Fill Baggie with Cocaine {
 		EmptyBaggie=1,
 		CocaineBrick=1,
 		Result:CocaineBaggie=1,
@@ -23,7 +23,7 @@ module DrugDummies
 		Time:150.0,
 		Category:Other,
 	}
-	recipe Empty out a baggie {
+	recipe Empty Baggie {
 		destroy CocaineBaggie/WeedBaggie/MethBaggie,
 		Result:EmptyBaggie=1,
 		NeedToBeLearn:false,

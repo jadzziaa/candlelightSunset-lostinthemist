@@ -4,7 +4,7 @@ module Base
     item ahzfitnesssocks
     {
         Type = Clothing,
-        DisplayName = Fitness Compression Stockings,
+        DisplayName = Compression Stockings,
         ClothingItem = ahzfitnesssocks,
 		BodyLocation = Socks,
         IconsForTexture = ahzfitnesssocks1;ahzfitnesssocks2;ahzfitnesssocks3;ahzfitnesssocks4;ahzfitnesssocks5;ahzfitnesssocks6,
@@ -21,7 +21,7 @@ module Base
     item ahzfitnessarms
     {
         Type = Clothing,
-        DisplayName = Fitness Compression Sleeves,
+        DisplayName = Compression Sleeves,
         ClothingItem = ahzfitnessarms,
         BodyLocation = Sweater,
         BloodLocation = Jacket,
@@ -41,7 +41,7 @@ module Base
     {
         DisplayCategory = Clothing,			
         Type = Clothing,
-        DisplayName = Fitness Compression Underpants,
+        DisplayName = Compression Underpants,
         ClothingItem = ahzfitnesspants,
         BodyLocation = Underwear,
 		IconsForTexture = ahzfitnessupants1;ahzfitnessupants2;ahzfitnessupants3;ahzfitnessupants4;ahzfitnessupants5;ahzfitnessupants6,
@@ -58,7 +58,7 @@ module Base
 	{
         DisplayCategory = Clothing,		
 		Type = Clothing,
-		DisplayName = Fitness Compression Bra,
+		DisplayName = Compression Bra,
 		ClothingItem = ahzfitnessbra,
 		BodyLocation = UnderwearTop,
         ScratchDefense = 5,
@@ -124,7 +124,7 @@ module Base
 	item ahztoplongsleevecut
 	{
        Type = Clothing,
-       DisplayName = Long Sleeve Croptop Cut,
+       DisplayName = Long Sleeve Croptop (Cut),
        ClothingItem = ahztoplongsleevecut,
        BodyLocation = Shirt,
        Icon = ahztoplongsleevecut,

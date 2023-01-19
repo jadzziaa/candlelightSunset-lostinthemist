@@ -1,5 +1,5 @@
 UI_EN = {
-    UI_suicide_are_you_sure = "Suicide? Are you sure?",
-    UI_no_Ammo = "No ammo or need reload",
-    UI_Suicide = "Suicide"
+    UI_suicide_are_you_sure = "End your life?",
+    UI_no_Ammo = "Missing ammunition or needs reloading.",
+    UI_Suicide = "Shoot Yourself"
 }

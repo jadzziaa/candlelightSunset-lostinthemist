@@ -10,7 +10,7 @@ module DrugDummies {
         Icon = WeedBlunt,
         Weight = 0.01,
         RequireInHandOrInventory = Lighter/Matches,
-        DisplayName = Weed Blunt,
+        DisplayName = Blunt with Cannabis,
         DisplayCategory = Drug,
         StressChange	=	-70,
 		UnhappyChange	=	-70,
@@ -28,7 +28,7 @@ module DrugDummies {
         Weight = 1.0,
         UseDelta = 0.002,
         ReplaceOnUse = ,
-        DisplayName = Cocaine Brick,
+        DisplayName = Brick of Cocaine,
         DisplayCategory = Drug,
         WorldStaticModel = DrugDummies.Item_CocaineBrick,
     }
@@ -38,7 +38,7 @@ module DrugDummies {
         Weight = 0.01,
         UseDelta = 0.25,
         ReplaceOnUse = EmptyBaggie,
-        DisplayName = Cocaine Baggie,
+        DisplayName = Baggie with Cocaine,
         DisplayCategory = Drug,
         WorldStaticModel = DrugDummies.Item_CocaineBaggie,
     }
@@ -48,7 +48,7 @@ module DrugDummies {
         Weight = 0.01,
         UseDelta = 0.25,
         ReplaceOnUse = EmptyBaggie,
-        DisplayName = Meth Baggie,
+        DisplayName = Baggie with Meth,
         DisplayCategory = Drug,
         WorldStaticModel = DrugDummies.Item_MethBaggie,
     }
@@ -58,7 +58,7 @@ module DrugDummies {
         Weight = 0.01,
         UseDelta = 0.5,
         ReplaceOnUse = EmptyBaggie,
-        DisplayName = Weed Baggie,
+        DisplayName = Baggie with Cannabis,
         DisplayCategory = Drug,
         WorldStaticModel = DrugDummies.Item_WeedBaggie,
     }

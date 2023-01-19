@@ -15,13 +15,13 @@ require 'Items/ProceduralDistributions'
 
 --BandanaTop_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.BandanaTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.BandanaTop_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.BandanaTop_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.BandanaTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.BandanaTop_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.BandanaTop_White");
@@ -29,11 +29,11 @@ table.insert(ProceduralDistributions.list["Locker"].items, 0.4);
 table.insert(ProceduralDistributions.list["GymLockers"].items, "INMS_CE.BandanaTop_White");
 table.insert(ProceduralDistributions.list["GymLockers"].items, 0.001);
 table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, "INMS_CE.BandanaTop_White");
-table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, "INMS_CE.BandanaTop_White");
-table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, "INMS_CE.BandanaTop_White");
-table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.8);
+table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.09);
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, "INMS_CE.BandanaTop_White");
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
@@ -159,25 +159,25 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --BandanaTopShort_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.BandanaTopShort_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["Locker"].items, 0.4);
+table.insert(ProceduralDistributions.list["Locker"].items, 0.09);
 table.insert(ProceduralDistributions.list["GymLockers"].items, "INMS_CE.BandanaTopShort_White");
 table.insert(ProceduralDistributions.list["GymLockers"].items, 0.001);
 table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, "INMS_CE.BandanaTopShort_White");
-table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.8);
+table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.09);
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, "INMS_CE.BandanaTopShort_White");
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
@@ -303,25 +303,25 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --ChainTopNoArms_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.ChainTopNoArms_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["Locker"].items, 0.4);
+table.insert(ProceduralDistributions.list["Locker"].items, 0.09);
 table.insert(ProceduralDistributions.list["GymLockers"].items, "INMS_CE.ChainTopNoArms_White");
 table.insert(ProceduralDistributions.list["GymLockers"].items, 0.001);
 table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, "INMS_CE.ChainTopNoArms_White");
-table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.8);
+table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.09);
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, "INMS_CE.ChainTopNoArms_White");
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
@@ -447,13 +447,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --ChainTopLong_Trans_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.ChainTopLong_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.ChainTopLong_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.ChainTopLong_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.ChainTopLong_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.ChainTopLong_Trans_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.ChainTopLong_Trans_Black");
@@ -461,24 +461,24 @@ table.insert(ProceduralDistributions.list["Locker"].items, 0.4);
 table.insert(ProceduralDistributions.list["GymLockers"].items, "INMS_CE.ChainTopLong_Trans_Black");
 table.insert(ProceduralDistributions.list["GymLockers"].items, 0.001);
 table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, "INMS_CE.ChainTopLong_Trans_Black");
-table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, "INMS_CE.ChainTopLong_Trans_Black");
-table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, "INMS_CE.ChainTopLong_Trans_Black");
-table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.8);
+table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.09);
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, "INMS_CE.ChainTopLong_Trans_Black");
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 
 --ChainTopLong_Trans_Lace_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
@@ -486,11 +486,11 @@ table.insert(ProceduralDistributions.list["Locker"].items, 0.4);
 table.insert(ProceduralDistributions.list["GymLockers"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
 table.insert(ProceduralDistributions.list["GymLockers"].items, 0.001);
 table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.5);
+table.insert(ProceduralDistributions.list["ClothingStorageAllShirts"].items, 0.09);
 table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
 table.insert(ProceduralDistributions.list["ClothingStoresShirts"].items, 0.5);
 table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.8);
+table.insert(ProceduralDistributions.list["ClothingStoresShirtsFormal"].items, 0.09);
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, "INMS_CE.ChainTopLong_Trans_Lace_Black");
 table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
@@ -501,13 +501,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CrissCrossTopNoArms_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CrissCrossTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CrissCrossTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CrissCrossTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CrissCrossTopNoArms_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CrissCrossTopNoArms_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CrissCrossTopNoArms_White");
@@ -645,13 +645,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CrissCrossTopNoArmsShort_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CrissCrossTopNoArmsShort_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CrissCrossTopNoArmsShort_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CrissCrossTopNoArmsShort_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CrissCrossTopNoArmsShort_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CrissCrossTopNoArmsShort_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CrissCrossTopNoArmsShort_White");
@@ -1027,13 +1027,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTop_BigCutout_BoundF_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTop_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTop_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTop_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTop_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTop_BigCutout_BoundF_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTop_BigCutout_BoundF_White");
@@ -1171,13 +1171,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTopNoArms_BigCutout_BoundF_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTopNoArms_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTopNoArms_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTopNoArms_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTopNoArms_BigCutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTopNoArms_BigCutout_BoundF_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTopNoArms_BigCutout_BoundF_White");
@@ -1315,13 +1315,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTop_Cutout_BoundF_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTop_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTop_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTop_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTop_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTop_Cutout_BoundF_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTop_Cutout_BoundF_White");
@@ -1459,13 +1459,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTopNoArms_Cutout_BoundF_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTopNoArms_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTopNoArms_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTopNoArms_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTopNoArms_Cutout_BoundF_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTopNoArms_Cutout_BoundF_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTopNoArms_Cutout_BoundF_White");
@@ -1603,13 +1603,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTop_Cutout_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTop_Cutout_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTop_Cutout_White");
@@ -1747,13 +1747,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTopNoArms_Cutout_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTopNoArms_Cutout_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTopNoArms_Cutout_White");
@@ -1891,13 +1891,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTopRing_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTopRing_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTopRing_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTopRing_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTopRing_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTopRing_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTopRing_White");
@@ -2035,13 +2035,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --CropTopOneCarrier_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.CropTopOneCarrier_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.CropTopOneCarrier_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.CropTopOneCarrier_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.CropTopOneCarrier_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.CropTopOneCarrier_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.CropTopOneCarrier_White");
@@ -2179,13 +2179,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --NeckholderTankTop_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.NeckholderTankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.NeckholderTankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.NeckholderTankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.NeckholderTankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.NeckholderTankTop_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.NeckholderTankTop_White");
@@ -2467,13 +2467,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --NeckholderTop_Backstrap_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.NeckholderTop_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.NeckholderTop_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.NeckholderTop_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.NeckholderTop_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.NeckholderTop_Backstrap_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.NeckholderTop_Backstrap_White");
@@ -2611,13 +2611,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --NeckholderTopShort_Backstrap_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.NeckholderTopShort_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.NeckholderTopShort_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.NeckholderTopShort_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.NeckholderTopShort_Backstrap_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.NeckholderTopShort_Backstrap_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.NeckholderTopShort_Backstrap_White");
@@ -2755,13 +2755,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --NeckholderTop_Cutout_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.NeckholderTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.NeckholderTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.NeckholderTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.NeckholderTop_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.NeckholderTop_Cutout_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.NeckholderTop_Cutout_White");
@@ -2899,13 +2899,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --NeckholderTop_DoubleStrap_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.NeckholderTop_DoubleStrap_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.NeckholderTop_DoubleStrap_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.NeckholderTop_DoubleStrap_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.NeckholderTop_DoubleStrap_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.NeckholderTop_DoubleStrap_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.NeckholderTop_DoubleStrap_White");
@@ -3043,13 +3043,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --Special_BR_Black_Red
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.Special_BR_Black_Red");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.Special_BR_Black_Red");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.Special_BR_Black_Red");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.Special_BR_Black_Red");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.Special_BR_Black_Red");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.Special_BR_Black_Red");
@@ -3072,13 +3072,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --StripesTop_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.StripesTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.StripesTop_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.StripesTop_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.StripesTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.StripesTop_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.StripesTop_White");
@@ -3216,13 +3216,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --TankTop_BoundB_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.TankTop_BoundB_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.TankTop_BoundB_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.TankTop_BoundB_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.TankTop_BoundB_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.TankTop_BoundB_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.TankTop_BoundB_White");
@@ -3360,13 +3360,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --TankTop_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.TankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.TankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.TankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.TankTop_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.TankTop_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.TankTop_White");
@@ -3504,13 +3504,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --TankTopShort_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.TankTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.TankTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.TankTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.TankTopShort_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.TankTopShort_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.TankTopShort_White");
@@ -3648,13 +3648,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --TankTop_Trans_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.TankTop_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.TankTop_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.TankTop_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.TankTop_Trans_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.TankTop_Trans_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.TankTop_Trans_Black");
@@ -3673,13 +3673,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --TankTop_Trans_Lace_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.TankTop_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.TankTop_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.TankTop_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.TankTop_Trans_Lace_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.TankTop_Trans_Lace_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.TankTop_Trans_Lace_Black");
@@ -3702,13 +3702,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --TwistedTopNoArms_Cutout_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.TwistedTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.TwistedTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.TwistedTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.TwistedTopNoArms_Cutout_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.6);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.TwistedTopNoArms_Cutout_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.TwistedTopNoArms_Cutout_White");
@@ -3855,13 +3855,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_BoundS_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_BoundS_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_BoundS_Black");
@@ -3882,13 +3882,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_BoundS_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_BoundS_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_BoundS_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_BoundS_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_BoundS_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_BoundS_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_BoundS_Blue");
@@ -3909,13 +3909,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_BoundS_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_BoundS_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_BoundS_Grey");
@@ -3936,13 +3936,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_BoundS_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_BoundS_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_BoundS_White");
@@ -3967,13 +3967,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_Black");
@@ -3994,13 +3994,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_Blue");
@@ -4021,13 +4021,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_Grey");
@@ -4048,13 +4048,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_White");
@@ -4079,13 +4079,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_Ripped_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_Ripped_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_Ripped_Black");
@@ -4106,13 +4106,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_Ripped_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_Ripped_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_Ripped_Blue");
@@ -4133,13 +4133,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_Ripped_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_Ripped_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_Ripped_Grey");
@@ -4160,13 +4160,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Normal_Ripped_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Normal_Ripped_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Normal_Ripped_White");
@@ -4191,13 +4191,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_Black");
@@ -4218,13 +4218,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_LightBlue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_LightBlue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_LightBlue");
@@ -4245,13 +4245,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_Grey");
@@ -4272,13 +4272,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.095);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_White");
@@ -4303,13 +4303,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_Ripped_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_Ripped_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_Ripped_Black");
@@ -4330,13 +4330,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_Ripped_LightBlue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_Ripped_LightBlue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_Ripped_LightBlue");
@@ -4357,13 +4357,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_Ripped_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_Ripped_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_Ripped_Grey");
@@ -4384,13 +4384,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Skull_Ripped_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Skull_Ripped_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Skull_Ripped_White");
@@ -4415,13 +4415,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Special_Skull_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Special_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Special_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Special_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Special_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Special_Skull_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Special_Skull_Black");
@@ -4442,13 +4442,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Special_Skull_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Special_Skull_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Special_Skull_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Special_Skull_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Special_Skull_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Special_Skull_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Special_Skull_Blue");
@@ -4469,13 +4469,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Special_Skull_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Special_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Special_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Special_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Special_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Special_Skull_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Special_Skull_Grey");
@@ -4496,13 +4496,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansHPants_Special_Skull_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansHPants_Special_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansHPants_Special_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansHPants_Special_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansHPants_Special_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansHPants_Special_Skull_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansHPants_Special_Skull_White");
@@ -4527,13 +4527,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_BoundS_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_BoundS_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_BoundS_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_BoundS_Black");
@@ -4554,13 +4554,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_BoundS_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_BoundS_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_BoundS_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_BoundS_Grey");
@@ -4581,13 +4581,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_BoundS_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_BoundS_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_BoundS_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_BoundS_White");
@@ -4612,13 +4612,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_Black");
@@ -4639,13 +4639,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_Blue");
@@ -4666,13 +4666,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_Grey");
@@ -4693,13 +4693,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_White");
@@ -4724,13 +4724,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_Ripped_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_Ripped_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_Ripped_Black");
@@ -4751,13 +4751,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_Ripped_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_Ripped_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_Ripped_Blue");
@@ -4778,13 +4778,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_Ripped_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_Ripped_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_Ripped_Grey");
@@ -4805,13 +4805,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Normal_Ripped_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Normal_Ripped_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Normal_Ripped_White");
@@ -4836,13 +4836,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_Black");
@@ -4863,13 +4863,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_LightBlue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_LightBlue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_LightBlue");
@@ -4890,13 +4890,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_Grey");
@@ -4917,13 +4917,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_White");
@@ -4948,13 +4948,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_Ripped_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_Ripped_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_Ripped_Black");
@@ -4975,13 +4975,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_Ripped_LightBlue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_Ripped_LightBlue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_Ripped_LightBlue");
@@ -5002,13 +5002,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_Ripped_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_Ripped_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_Ripped_Grey");
@@ -5029,13 +5029,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansLong_Skull_Ripped_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansLong_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansLong_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansLong_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansLong_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansLong_Skull_Ripped_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansLong_Skull_Ripped_White");
@@ -5060,13 +5060,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_Black");
@@ -5087,13 +5087,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_Blue");
@@ -5114,13 +5114,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_Grey");
@@ -5141,13 +5141,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_White");
@@ -5172,13 +5172,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_Ripped_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_Ripped_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_Ripped_Black");
@@ -5199,13 +5199,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_Ripped_Blue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_Ripped_Blue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_Ripped_Blue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_Ripped_Blue");
@@ -5226,13 +5226,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_Ripped_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_Ripped_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_Ripped_Grey");
@@ -5253,13 +5253,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Normal_Ripped_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Normal_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Normal_Ripped_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Normal_Ripped_White");
@@ -5284,13 +5284,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_Black");
@@ -5311,13 +5311,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_LightBlue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_LightBlue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_LightBlue");
@@ -5338,13 +5338,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_Grey");
@@ -5365,13 +5365,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_White");
@@ -5396,13 +5396,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_Ripped_Black
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_Ripped_Black");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_Ripped_Black");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_Ripped_Black");
@@ -5423,13 +5423,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_Ripped_LightBlue
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_Ripped_LightBlue");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_Ripped_LightBlue");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_Ripped_LightBlue");
@@ -5450,13 +5450,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_Ripped_Grey
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_Ripped_Grey");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_Ripped_Grey");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_Ripped_Grey");
@@ -5477,13 +5477,13 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 0.001);
 
 --JeansShorts_Skull_Ripped_White
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "INMS_CE.JeansShorts_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeChild"].items, "INMS_CE.JeansShorts_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeChild"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "INMS_CE.JeansShorts_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeWoman"].items, "INMS_CE.JeansShorts_Skull_Ripped_White");
-table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.5);
+table.insert(ProceduralDistributions.list["WardrobeWoman"].items, 0.09);
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, "INMS_CE.JeansShorts_Skull_Ripped_White");
 table.insert(ProceduralDistributions.list["WardrobeMan"].items, 0.001);
 table.insert(ProceduralDistributions.list["Locker"].items, "INMS_CE.JeansShorts_Skull_Ripped_White");

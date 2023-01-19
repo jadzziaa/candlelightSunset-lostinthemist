@@ -8,7 +8,7 @@ module Base {
 		Type             = Drainable,
 		UseDelta         = 0.25,
 		UseWhileEquipped = FALSE,
-		DisplayName      = FireKlean gun lube,
+		DisplayName      = Firearm Cleaner,
 		Icon             = fireklean,
 		Weight           = 0.2,
 		WorldStaticModel = FireKlean,

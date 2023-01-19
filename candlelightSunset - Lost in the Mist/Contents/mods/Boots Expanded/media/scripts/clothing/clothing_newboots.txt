@@ -34,7 +34,7 @@ module Base
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-		DisplayName = Dr Harlems™ Boots,
+		DisplayName = Doctor Harlem Boots,
 		ClothingItem = Shoes_DrMartens,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -444,7 +444,7 @@ module Base
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-		DisplayName = Some-Stars™ Sneakers,
+		DisplayName = Some-Stars Sneakers,
 		ClothingItem = Shoes_ConverseSnickers,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -471,7 +471,7 @@ module Base
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-		DisplayName = Some-Stars™ Boots,
+		DisplayName = Some-Stars Boots,
 		ClothingItem = Shoes_ConverseBoots,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes;LowerLegs,

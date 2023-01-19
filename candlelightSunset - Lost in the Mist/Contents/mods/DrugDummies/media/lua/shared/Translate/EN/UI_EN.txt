@@ -1,4 +1,4 @@
 UI_EN = {
-UI_trait_DrugAddict = "Drug Addict",
-UI_trait_DrugAddictDesc = "You can't live without them.",
+UI_trait_DrugAddict = "Addict to Narcotics",
+UI_trait_DrugAddictDesc = "You will struggle, potentially even die, if put into narcotics withdrawal.",
 }

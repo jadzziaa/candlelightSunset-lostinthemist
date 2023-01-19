@@ -71,7 +71,7 @@ module BCGTools
 		IsAimedHandWeapon			=	TRUE,
 		DoorDamage					=	1,
 		SwingAnim					=	Stab,
-		DisplayName					=	Cheap Survival Knife,
+		DisplayName					=	Survival Knife (Weak),
 		MinRange					=	0.61,
 		CloseKillMove 				= Jaw_Stab,
 		SwingTime					=	2,
@@ -307,7 +307,7 @@ module BCGTools
         MaxHitCount	=	2,
         DoorDamage	=	10,
         SwingAnim	=	Spear,
-        DisplayName	=	Spear With Kukri Machete,
+        DisplayName	=	Spear with Kukri Machete,
         MinRange	=	0.98,
         SwingTime	=	2,
         KnockdownMod	=	0,
@@ -355,7 +355,7 @@ module BCGTools
         MaxHitCount	=	2,
         DoorDamage	=	8,
         SwingAnim	=	Spear,
-        DisplayName	=	Spear With Survival Knife,
+        DisplayName	=	Spear with Survival Knife,
         MinRange	=	0.98,
         SwingTime	=	2,
         KnockdownMod	=	0,
@@ -401,7 +401,7 @@ module BCGTools
         MaxHitCount	=	2,
         DoorDamage	=	8,
         SwingAnim	=	Spear,
-        DisplayName	=	Spear With Cheap Survival Knife,
+        DisplayName	=	Spear with Survival Knife (Weak),
         MinRange	=	0.98,
         SwingTime	=	2,
         KnockdownMod	=	0,
@@ -439,7 +439,7 @@ module BCGTools
         Category:Survivalist,
     }
 
-    recipe Attach Cheap Survival Knife to Spear
+    recipe Attach Survival Knife (Weak) to Spear
     {
         SpearCrafted,
         CheapSurvivalKnife,
@@ -462,7 +462,7 @@ module BCGTools
         AllowDestroyedItem:true,
     }
 	
-    recipe Reclaim Cheap Survival Knife from Spear
+    recipe Reclaim Survival Knife (Weak) from Spear
     {
         SpearCheapSurvivalKnife,
 

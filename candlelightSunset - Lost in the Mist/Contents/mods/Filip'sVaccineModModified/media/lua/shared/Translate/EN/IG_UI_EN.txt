@@ -1,9 +1,10 @@
-IGUI_RU = {
-	IGUI_ItemCat_TestTube = "TestTube",
-	IGUI_perks_VaccineResearch = "VaccineResearch",
+IGUI_EN = {
+	IGUI_ItemCat_TestTube = "Chemistry - Test Tube",
+	IGUI_ItemCat_Chemistry = "Chemistry - Materials",
+	IGUI_perks_VaccineResearch = "Chemistry",
 	IGUI_perks_Crafting = "Crafting",
-	IGUI_CraftCategory_Equipment = "Equipment",
-	IGUI_CraftCategory_Decorations = "Decorations",
-	IGUI_CraftCategory_Chemistry = "Chemistry",
+	IGUI_CraftCategory_Equipment = "Chemistry - Equipment",
+	IGUI_CraftCategory_Decorations = "Chemistry - Decorations",
+	IGUI_CraftCategory_Chemistry = "Chemistry - Materials",
 	IGUI_CraftCategory_Other = "Other",
 }

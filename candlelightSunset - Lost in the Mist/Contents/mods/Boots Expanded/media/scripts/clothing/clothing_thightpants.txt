@@ -27,7 +27,7 @@ item Trousers_Denim_Thight
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Jeans (Thight),
+        DisplayName = Jeans (Tight),
         ClothingItem = Trousers_Denim_Thight,
         BodyLocation = Pants,
         IconsForTexture = TrousersDenimBlue;TrousersDenimBlack;TrousersDenimLightBlue,
@@ -204,7 +204,7 @@ item Trousers_Denim_Thight
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Military Green Camo Pants (Thight),
+        DisplayName = Military Green Camo Pants (Tight),
         ClothingItem = Trousers_CamoGreen_Thight,
         BodyLocation = Pants,
         Icon = TrousersCamoGreen,
@@ -294,7 +294,7 @@ item Trousers_Denim_Thight
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Military Desert Camo Pants (Thight),
+        DisplayName = Military Desert Camo Pants (Tight),
         ClothingItem = Trousers_CamoDesert_Thight,
         BodyLocation = Pants,
         Icon = TrousersCamoSand,
@@ -357,7 +357,7 @@ item Trousers_Denim_Thight
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Military Urban Camo Pants (Thight),
+        DisplayName = Military Urban Camo Pants (Tight),
         ClothingItem = Trousers_CamoUrban_Thight,
         BodyLocation = Pants,
         Icon = TrousersCamoGrey,

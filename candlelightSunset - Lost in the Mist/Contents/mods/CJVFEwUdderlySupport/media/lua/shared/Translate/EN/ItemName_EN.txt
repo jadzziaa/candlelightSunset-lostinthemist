@@ -1,17 +1,17 @@
 ItemName_EN = 
 {
 	ItemName_Base.MagAA12 = "AA-12 Magazine",
-	ItemName_Base.357Magnum = ".357 Ammo",
-	ItemName_Base.357MagnumBox = "Box of .357 Bullets",
-	ItemName_Base.MagAUGA9MM = "AUG A3 Para Magazine",
+	ItemName_Base.357Magnum = ".357 Ammunition",
+	ItemName_Base.357MagnumBox = "Box of .357 Ammunition",
+	ItemName_Base.MagAUGA9MM = "AUG Magazine",
 	ItemName_Base.MagM60 = "M60 Magazine",
 	ItemName_Base.MagM249 = "M249 Magazine",	
 	
 	ItemName_Base.AA12 = "AA-12 Shotgun",
-	ItemName_Base.AUGA9MM = "AUG A3 Para",
-	ItemName_Base.ColtPython = "Colt Python",
+	ItemName_Base.AUGA9MM = "AUG Rifle",
+	ItemName_Base.ColtPython = "Colt 'Python' Revolver",
 	ItemName_Base.M40 = "M40 Rifle",
-	ItemName_Base.M60 = "M60 Machinegun",
-	ItemName_Base.M249 = "M249 Machinegun",
-	ItemName_Base.Striker = "Armsel Striker",
+	ItemName_Base.M60 = "M60 Machine Gun",
+	ItemName_Base.M249 = "M249 Machine Gun",
+	ItemName_Base.Striker = "Armsel STRIKER Shotgun",
 }

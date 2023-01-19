@@ -1,11 +1,11 @@
-Items_RU = {
-	DisplayName_LabMicroscope = "Microscope",
-	DisplayName_LabChromatograph = "Chromatograph",
-	DisplayName_LabSpectrometer = "Spectrometer",
-	DisplayName_LabChemistrySet = "Chemistry Set",
-	DisplayName_LabCentrifuge = "Centrifuge",
-	DisplayName_LabMuffleFurnace = "Muffle Furnace",
-	DisplayName_LabWorkbench = "Workbench",
+Items_EN = {
+	DisplayName_LabMicroscope = "Chemistry Part Microscope",
+	DisplayName_LabChromatograph = "Chemistry Part Chromatograph",
+	DisplayName_LabSpectrometer = "Chemistry Part Spectrometer",
+	DisplayName_LabChemistrySet = "Chemistry Part Liquids Set",
+	DisplayName_LabCentrifuge = "Chemistry Part Centrifuge",
+	DisplayName_LabMuffleFurnace = "Chemistry Part Muffle Furnace",
+	DisplayName_LabWorkbench = "Chemistry Part Workbench",
 	DisplayName_LabEasel = "Easel",
 	DisplayName_LabDecorSkeleton = "Skeleton",
 	DisplayName_LabDecorVirusModel = "Virus Model",
@@ -51,7 +51,7 @@ Items_RU = {
 	DisplayName_CmpFlaskWithBloodCells = "Flask with Blood Cells",
 	DisplayName_CmpFlaskWithLeukocytes = "Flask with Leukocytes",
 	DisplayName_CmpTestTubeWithAntibodies = "Test Tube with Antibodies",
-	DisplayName_CmpSyringeWithCure = "Syringe with Cure for Zombie Virus",
+	DisplayName_CmpSyringeWithCure = "Syringe with Cure for Virus",
 	DisplayName_CmpFlaskWithSodiumHypochlorite = "Flask with Sodium Hypochlorite",
 	DisplayName_CmpFlaskWithAmmoniumSulfate = "Flask with Ammonium Sulfate",
 	DisplayName_CmpFlaskWithHydrogenPeroxide = "Flask with Hydrogen Peroxide",
@@ -67,13 +67,13 @@ Items_RU = {
 	DisplayName_MoneyStack20 = "Stack of 20 money",
 	DisplayName_MoneyStack50 = "Stack of 50 money",
 
-	DisplayName_BkLaboratoryEquipment1 = "Laboratory Equipment. Vol. 1",
-	DisplayName_BkLaboratoryEquipment2 = "Laboratory Equipment. Vol. 2",
-	DisplayName_BkLaboratoryEquipment3 = "Laboratory Equipment. Vol. 3",
-	DisplayName_BkVirologyCourses1 = "Virology Courses. Vol. 1",
-	DisplayName_BkVirologyCourses2 = "Virology Courses. Vol. 2",
-	DisplayName_BkVirologyCourses3 = "Virology Courses. Vol. 3",
-	DisplayName_BkChemistryCourse = "Brief Chemistry Course",
+	DisplayName_BkLaboratoryEquipment1 = "Laboratory Affairs Vol. 1",
+	DisplayName_BkLaboratoryEquipment2 = "Laboratory Affairs Vol. 2",
+	DisplayName_BkLaboratoryEquipment3 = "Laboratory Affairs Vol. 3",
+	DisplayName_BkVirologyCourses1 = "Chemistry Vol. 1",
+	DisplayName_BkVirologyCourses2 = "Chemistry Vol. 2",
+	DisplayName_BkVirologyCourses3 = "Chemistry Vol. 3",
+	DisplayName_BkChemistryCourse = "Folio of Basic Chemistry",
 
 	DisplayName_MatInfectedSaliva = "Infected Saliva",
 	DisplayName_CmpTestTubeWithInfectedSaliva = "Test Tube with Infected Saliva",
@@ -105,7 +105,7 @@ Items_RU = {
 	DisplayName_FrnCoinMold = "Coin Mold",
 
 
-	DisplayName_JournalOfResearch = "Journal of research",
+	DisplayName_JournalOfResearch = "Chemistry Journal",
 	DisplayName_CureNotes = "Dr. Hyde's notes about the Cure",
 	DisplayName_DrHydePhotograph = "Dr. Hyde's photograph",
 }
