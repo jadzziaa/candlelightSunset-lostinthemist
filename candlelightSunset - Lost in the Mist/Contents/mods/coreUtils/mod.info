@@ -1,0 +1,6 @@
+name=coreUtils
+id=coreUtils
+description=Core utilities for candlelightSunset - Lost in the Mist
+poster=poster.png
+pack=MyTiles
+tiledef=MyDefinitions 999
