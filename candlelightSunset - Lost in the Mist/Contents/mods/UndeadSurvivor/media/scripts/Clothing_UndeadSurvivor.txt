@@ -7,7 +7,7 @@ module UndeadSurvivor
     item AmazonaHipBag
     {
         DisplayCategory = Bag,
-        WeightReduction	=	80,
+        WeightReduction	=	50,
         Weight	=	0.6,
         Type	=	Container,
         Capacity	=	6,
@@ -440,7 +440,7 @@ module UndeadSurvivor
 	
 	item PrepperVestPacked
     {
-        WeightReduction	=	95,
+        WeightReduction	=	84,
         Weight	=	1,
         Capacity	=	12,
         OpenSound   =   OpenBag,
