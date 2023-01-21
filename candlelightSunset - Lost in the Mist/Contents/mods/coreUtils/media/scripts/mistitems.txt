@@ -3,24 +3,24 @@ module Base
 
 
 
-item CamdenMap
+item MistMap
     {
         DisplayCategory = Cartography,
         Type				=			Map,
         DisplayName			=		    Map of Region,
         Icon				=			Map,
         Weight				=			0.1,
-        Map                 =           CamdenMap,
+        Map                 =           MistMap,
         WorldStaticModel = Map,
     }
-item CamdenMapEmpty
+item MistMapEmpty
     {
         DisplayCategory = Cartography,
         Type				=			Map,
         DisplayName			=		    Custom Map,
         Icon				=			Map,
         Weight				=			0.1,
-        Map                 =           CamdenMapEmpty,
+        Map                 =           MistMapEmpty,
         WorldStaticModel = Map,
     }
 	
