@@ -4,8 +4,6 @@ function RecipeDetection()
 	if SandboxVars.CustomizableRecipes.Recipes == true then
 
 		
-		getPlayer():getKnownRecipes():add("Craft Respawn Token")
-		
 		getPlayer():getKnownRecipes():add("RESPAWN")
 
 		function RecipesBrita()
@@ -227,8 +225,6 @@ function RecipeDetection()
 		
 	elseif SandboxVars.CustomizableRecipes.Recipes == false then
 
-	
-		getPlayer():getKnownRecipes():remove("Craft Respawn Token")
 	
 		getPlayer():getKnownRecipes():remove("RESPAWN")
 		

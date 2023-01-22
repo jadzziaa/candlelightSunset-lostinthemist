@@ -230,12 +230,12 @@ local function InsurgentBeginGame(_player)
         end
 		if player:HasTrait("Prepmedic") then
             inv:AddItems("Base.RippedSheets", 2);
-            local firstaidkit = inv:AddItems("Base.FirstAidKit", 1);
-            firstaidkit:getInventory():AddItems("Base.Bandaid", 2);
-            firstaidkit:getInventory():AddItems("Base.AlcoholBandage", 2);
-            firstaidkit:getInventory():AddItems("Base.Splint", 1);
-            firstaidkit:getInventory():AddItems("Base.SutureNeedle", 1);
-            firstaidkit:getInventory():AddItems("Base.SutureNeedleHolder", 1);
+            inv:AddItems("Base.FirstAidKit", 1);
+            inv:AddItems("Base.Bandaid", 2);
+            inv:AddItems("Base.AlcoholBandage", 2);
+            inv:AddItems("Base.Splint", 1);
+            inv:AddItems("Base.SutureNeedle", 1);
+            inv:AddItems("Base.SutureNeedleHolder", 1);
         end
 		if player:HasTrait("Prepslayer") then
             inv:AddItems("Base.BaseballBat", 1);
@@ -248,6 +248,10 @@ local function InsurgentBeginGame(_player)
             inv:AddItems("Base.HandAxe", 1);
             inv:AddItems("Base.Saw", 1);
             inv:AddItems("Base.RippedSheets", 2);
+        end
+		if player:HasTrait("Smoker") then
+            inv:AddItems("Base.CigarettesPack", 1);
+            inv:AddItems("Base.Lighter", 1);
         end
 
         if player:HasTrait("RoughLanding") and player:isFemale() then

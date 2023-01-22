@@ -5,7 +5,7 @@ local function kayse_updateTimeReport()
 	local day = gTime:getDay()+1
 	local hour = gTime:getHour()
 	local minute = gTime:getMinutes()
-	local text = string.format("Current Time: %i/%i/%i %i:%02i", month, day, year+5, hour, minute)
+	local text = string.format("Current Time: %i/%i/%i %i:%02i", month, day, year+1, hour, minute)
 
 	local rain = RainManager:getRainIntensity();
 	local rv = 0;

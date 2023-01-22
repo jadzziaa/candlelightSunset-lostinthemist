@@ -247,7 +247,7 @@ end
 -- -- -- -- --
 
 
-LootMaps.Init.CamdenMap = function(mapUI)
+LootMaps.Init.MistMap = function(mapUI)
 	local mapAPI = mapUI.javaObject:getAPIv1()
 
 	-- Add XML data from base-game map directories.
@@ -266,10 +266,10 @@ LootMaps.Init.CamdenMap = function(mapUI)
 	MapUtils.overlayPaper(mapUI)
 
 	-- The original loot map texture, used to position things correctly.
-	overlayPNG(mapUI, 32*300+55, 41*300+155, 0.666, "lootMapPNG", "media/ui/LootableMaps/camdenmap.png", 1.0)
+	overlayPNG(mapUI, 32*300+55, 41*300+155, 0.666, "lootMapPNG", "media/ui/LootableMaps/mistmap.png", 1.0)
 end
 
-LootMaps.Init.CamdenMapEmpty = function(mapUI)
+LootMaps.Init.MistMapEmpty = function(mapUI)
 	local mapAPI = mapUI.javaObject:getAPIv1()
 
 	-- Add XML data from base-game map directories.
@@ -288,5 +288,5 @@ LootMaps.Init.CamdenMapEmpty = function(mapUI)
 	MapUtils.overlayPaper(mapUI)
 
 	-- The original loot map texture, used to position things correctly.
-	overlayPNG(mapUI, 32*300+55, 41*300+155, 0.666, "lootMapPNG", "media/ui/LootableMaps/camdenmapempty.png", 1.0)
+	overlayPNG(mapUI, 32*300+55, 41*300+155, 0.666, "lootMapPNG", "media/ui/LootableMaps/mistmapempty.png", 1.0)
 end

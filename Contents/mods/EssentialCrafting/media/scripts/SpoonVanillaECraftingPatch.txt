@@ -159,18 +159,6 @@ module Base
 	   Override:true
     }
 	
-	item SheetPaper2
-    {
-        DisplayCategory = Literature,
-        Weight	=	0.01,
-        Type	=	Literature,
-        DisplayName	=	Sheet of Paper,
-        Icon	=	Paper,
-        CanBeWrite  =   true,
-        PageToWrite =   1,
-        WorldStaticModel = SheetOfPaper,
-    }
-	
 	recipe Create Spear
     {
         Plank/TreeBranch/Poolcue/Mop/Broom/HockeyStick/IceHockeyStick/CanoePadel/LeafRake/Rake,
