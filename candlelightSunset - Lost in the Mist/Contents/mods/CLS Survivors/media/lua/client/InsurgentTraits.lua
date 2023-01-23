@@ -251,7 +251,6 @@ local function InsurgentBeginGame(_player)
         end
 		if player:HasTrait("Smoker") then
             inv:AddItems("Base.CigarettesPack", 1);
-            inv:AddItems("Base.Lighter", 1);
         end
 
         if player:HasTrait("RoughLanding") and player:isFemale() then
