@@ -42,7 +42,7 @@ module Base
         
         SoundVolume	        = 60, /*200->60*/
         SoundRadius	        = 60, /*20->60*/
-        SwingSound	        = o_A9MM,
+        SwingSound	        = o_AUG_o,
         BreakSound              = M16Break,
         InsertAmmoSound         = M16InsertAmmo,
         EjectAmmoSound          = M16EjectAmmo,
