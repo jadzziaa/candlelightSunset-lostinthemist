@@ -84,8 +84,8 @@ local function initInsurgentTraits()
 	local stabber = TraitFactory.addTrait("Stabber", getText("UI_trait_Stabber"), 1, getText("UI_trait_StabberDesc"), false, false);
 	stabber:addXPBoost(Perks.SmallBlade, 5);
     
-	local spearman = TraitFactory.addTrait("Spearman", getText("UI_trait_Spearman"), 1, getText("UI_trait_SpearmanDesc"), false, false);
-	spearman:addXPBoost(Perks.Spear, 5);
+	local spearmancombat = TraitFactory.addTrait("Spearmancombat", getText("UI_trait_Spearmancombat"), 1, getText("UI_trait_SpearmancombatDesc"), false, false);
+	spearmancombat:addXPBoost(Perks.Spear, 5);
     
 	local soldier = TraitFactory.addTrait("Soldier", getText("UI_trait_Soldier"), 1, getText("UI_trait_SoldierDesc"), false, false);
 	soldier:addXPBoost(Perks.Aiming, 4);
@@ -197,23 +197,23 @@ local function initInsurgentTraits()
 	TraitFactory.setMutualExclusive("AxemanNew", "Breaker");
 	TraitFactory.setMutualExclusive("AxemanNew", "Slasher");
 	TraitFactory.setMutualExclusive("AxemanNew", "Stabber");
-	TraitFactory.setMutualExclusive("AxemanNew", "Spearman");
+	TraitFactory.setMutualExclusive("AxemanNew", "Spearmancombat");
 	TraitFactory.setMutualExclusive("AxemanNew", "Soldier");
 	TraitFactory.setMutualExclusive("Bruiser", "Breaker");
 	TraitFactory.setMutualExclusive("Bruiser", "Slasher");
 	TraitFactory.setMutualExclusive("Bruiser", "Stabber");
-	TraitFactory.setMutualExclusive("Bruiser", "Spearman");
+	TraitFactory.setMutualExclusive("Bruiser", "Spearmancombat");
 	TraitFactory.setMutualExclusive("Bruiser", "Soldier");
 	TraitFactory.setMutualExclusive("Breaker", "Slasher");
 	TraitFactory.setMutualExclusive("Breaker", "Stabber");
-	TraitFactory.setMutualExclusive("Breaker", "Spearman");
+	TraitFactory.setMutualExclusive("Breaker", "Spearmancombat");
 	TraitFactory.setMutualExclusive("Breaker", "Soldier");
 	TraitFactory.setMutualExclusive("Slasher", "Stabber");
-	TraitFactory.setMutualExclusive("Slasher", "Spearman");
+	TraitFactory.setMutualExclusive("Slasher", "Spearmancombat");
 	TraitFactory.setMutualExclusive("Slasher", "Soldier");
-	TraitFactory.setMutualExclusive("Stabber", "Spearman");
+	TraitFactory.setMutualExclusive("Stabber", "Spearmancombat");
 	TraitFactory.setMutualExclusive("Stabber", "Soldier");
-	TraitFactory.setMutualExclusive("Spearman", "Soldier");
+	TraitFactory.setMutualExclusive("Spearmancombat", "Soldier");
 	TraitFactory.setMutualExclusive("Carpenterplus", "Metalworkerplus");
 	TraitFactory.setMutualExclusive("Carpenterplus", "Mechanicplus");
 	TraitFactory.setMutualExclusive("Carpenterplus", "Farmerplus");
@@ -377,10 +377,10 @@ local function initInsurgentTraits()
     table.insert(stabber.exclusiveProf, "insurgent");
     table.insert(profExlusiveTraitsList, stabber);
 
-    local spearman = profExclTrait:new();
-    spearman.traitName = "Spearman";
-    table.insert(spearman.exclusiveProf, "insurgent");
-    table.insert(profExlusiveTraitsList, spearman);
+    local spearmancombat = profExclTrait:new();
+    spearmancombat.traitName = "Spearmancombat";
+    table.insert(spearmancombat.exclusiveProf, "insurgent");
+    table.insert(profExlusiveTraitsList, spearmancombat);
 
     local soldier = profExclTrait:new();
     soldier.traitName = "Soldier";
