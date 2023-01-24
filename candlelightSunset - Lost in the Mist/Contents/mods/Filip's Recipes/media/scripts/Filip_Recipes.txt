@@ -190,4 +190,28 @@ module FIL_Crafting
 		Time:1.0,
 		Category:Other,
 	}
+	recipe Convert broken glass {
+		Moveables.brokenglass_1_1=1,
+		Result:MatShatteredGlass=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:1.0,
+		Category:Other,
+	}
+	recipe Convert broken glass {
+		Moveables.brokenglass_1_2=1,
+		Result:MatShatteredGlass=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:1.0,
+		Category:Other,
+	}
+	recipe Convert broken glass {
+		Moveables.brokenglass_1_3=1,
+		Result:MatShatteredGlass=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:1.0,
+		Category:Other,
+	}
 }
