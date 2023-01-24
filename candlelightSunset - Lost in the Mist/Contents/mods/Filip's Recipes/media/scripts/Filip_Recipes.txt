@@ -174,4 +174,20 @@ module FIL_Crafting
 		Time:10.0,
 		Category:Other,
 	}
+	recipe Convert glass shards {
+		MatShatteredGlass=1,
+		Result:Moveables.brokenglass_1_0=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:1.0,
+		Category:Other,
+	}
+	recipe Convert broken glass {
+		Moveables.brokenglass_1_0=1,
+		Result:MatShatteredGlass=1,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:False,
+		Time:1.0,
+		Category:Other,
+	}
 }

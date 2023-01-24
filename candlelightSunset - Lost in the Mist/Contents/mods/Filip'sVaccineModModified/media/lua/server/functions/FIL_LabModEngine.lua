@@ -496,12 +496,8 @@ function LabRecipes_CreateBloodTestResult(items, result, player)
 	for i = 0, items:size()-1 do
 		local item = items:get(i);
 		if item:getType() == "CmpSyringeWithBlood" then
-			if not(item:getModData().IsInfected) then
-				player:getInventory():AddItem("LabItems.LabTestResultNegative");
-			else
-				local testResult = player:getInventory():AddItem("LabItems.LabTestResultPositive");
-				testResult:setName(testResult:getName().." ("..math.floor(item:getModData().InfectionRate*100).."%)");
-			end--if
+			local testResult = player:getInventory():AddItem("LabItems.LabTestResultPositive");
+			testResult:setName("Results Inconclusive");
 		end--if
 	end--for
 end--function
@@ -511,12 +507,8 @@ function LabRecipes_CreateBloodTestResultTwo(items, result, player)
 	for i = 0, items:size()-1 do
 		local item = items:get(i);
 		if item:getType() == "CmpSyringeReusableWithBlood" then
-			if not(item:getModData().IsInfected) then
-				player:getInventory():AddItem("LabItems.LabTestResultNegative");
-			else
-				local testResult = player:getInventory():AddItem("LabItems.LabTestResultPositive");
-				testResult:setName(testResult:getName().." ("..math.floor(item:getModData().InfectionRate*100).."%)");
-			end--if
+			local testResult = player:getInventory():AddItem("LabItems.LabTestResultPositive");
+			testResult:setName("Results Inconclusive");
 		end--if
 	end--for
 end--function

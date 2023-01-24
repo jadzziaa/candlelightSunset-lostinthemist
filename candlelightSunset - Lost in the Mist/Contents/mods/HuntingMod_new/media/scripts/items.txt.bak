@@ -1,0 +1,416 @@
+module HuntingMod
+{
+	item HMAnimalTraces
+	{
+		Weight				=	0.01,
+		Type				=	Normal,
+		Icon				=	HMAnimalTraces,
+		DisplayName			=	Animal Traces,
+        }
+
+	item HMAnimalTracks
+	{
+		Weight				=	0.05,
+		Type				=	Normal,
+		Icon				=	HMAnimalTracks,
+		DisplayName			=	Animal Tracks,
+        }
+
+	item HMAnimalTracksLarge
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		Icon				=	HMAnimalTracksLarge,
+		DisplayName			=	Large Animal Tracks,
+    }
+
+--ANIMALS
+
+	item HMDeadBeaver
+    {
+        HungerChange    =   -40,
+		UnhappyChange	=	20,
+        Weight  =   0.8,
+        Type    =   Food,
+        DisplayName =   Dead Beaver,
+        Icon    =   HMDeadBeaver,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   8,
+		Carbohydrates   = 0,
+		Proteins    = 84.2,
+		Lipids      = 16.8,
+		Calories    = 511.1,
+		ResizeWorldIcon = FALSE,
+    }
+ 
+    item HMDeadFox
+    {
+        HungerChange    =   -25,
+		UnhappyChange	=	40,
+        Weight  =   2.5,
+        Type    =   Food,
+        DisplayName =   Dead Fox,
+        Icon    =   HMDeadFox,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   2,
+		Carbohydrates   = 0,
+		Proteins    = 72,
+		Lipids      = 15,
+		Calories    = 438.1,
+		ResizeWorldIcon = FALSE,	
+    }
+ 
+    item HMDeadRaccoon
+    {
+        HungerChange    =   -45,
+		UnhappyChange	=	20,
+        Weight  =   2.5,
+        Type    =   Food,
+        DisplayName =   Dead Raccoon,
+        Icon    =   HMDeadRaccoon,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   5,
+		Carbohydrates   = 0,
+		Proteins    = 262.8,
+		Lipids      = 130.5,
+		Calories    = 2295,
+		ResizeWorldIcon = FALSE,
+	}
+ 
+    item HMDeadSkunk
+    {
+        HungerChange    =   -30,
+		UnhappyChange	=	50,
+        Weight  =   2.2,
+        Type    =   Food,
+        DisplayName =   Dead Skunk,
+        Icon    =   HMDeadSkunk,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   2,
+		Carbohydrates   = 0,
+		Proteins    = 52,
+		Lipids      = 8.6,
+		Calories    = 376,
+		ResizeWorldIcon = FALSE,
+    }
+ 
+    item HMDeadOpossum
+    {
+        HungerChange    =   -30,
+        Weight  =   0.8,
+        Type    =   Food,
+        DisplayName =   Dead Opossum,
+        Icon    =   HMDeadOpossum,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   4,
+		Carbohydrates   = 0,
+		Proteins    = 105.2,
+		Lipids      = 35.7,
+		Calories    = 773.4,
+		ResizeWorldIcon = FALSE,	
+    }
+ 
+    item HMDeadRabbit
+    {
+        HungerChange    =   -45,
+        Weight  =   1.5,
+        Type    =   Food,
+        DisplayName =   Dead Rabbit,
+        Icon    =   HMDeadRabbit,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   3,
+		Carbohydrates   = 0,
+		Proteins    = 130.8,
+		Lipids      = 13.8,
+		Calories    = 684,
+		ResizeWorldIcon = FALSE,
+    }
+	
+	item HMDeadSquirrel
+    {
+        HungerChange	=	-30,
+        Weight	=	0.2,
+        Type	=	Food,
+        DisplayName	=	Dead Squirrel,
+        Icon	=	HMDeadSquirrel,
+        IsCookable	=	TRUE,
+        DangerousUncooked	=	TRUE,
+        DaysTotallyRotten	=	12,
+        MinutesToBurn	=	60,
+        MinutesToCook	=	25,
+        DaysFresh	=	3,
+		ResizeWorldIcon = FALSE,	
+	}
+    
+    item HMDeadPigeon
+    {
+        HungerChange    =   -20,
+        Weight  =   0.5,
+        Type    =   Food,
+        DisplayName =   Dead Pigeon,
+        Icon    =   BirdDead,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   2,
+		Carbohydrates   = 0,
+		Proteins    = 36.8,
+		Lipids      = 47.4,
+		Calories    = 585.1,
+    }
+ 
+    item HMDeadQuail
+    {
+        HungerChange    =   -25,
+        Weight  =   0.84,
+        Type    =   Food,
+        DisplayName =   Dead Quail,
+        Icon    =   HMDeadQuail,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   2,
+		Carbohydrates   = 0,
+		Proteins    = 21.4,
+		Lipids      = 13,
+		Calories    = 209,
+    }
+ 
+    item HMDeadDuck
+    {
+        HungerChange    =   -30,
+        Weight  =   0.61,
+        Type    =   Food,
+        DisplayName =   Dead Duck,
+        Icon    =   HMDeadDuck,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   2,
+		Carbohydrates   = 0,
+		Proteins    = 41.6,
+		Lipids      = 36.3,
+		Calories    = 504,
+    }
+ 
+    item HMDeadGoose
+    {
+        HungerChange    =   -35,
+        Weight  =   1.2,
+        Type    =   Food,
+        DisplayName =   Dead Goose,
+        Icon    =   HMDeadGoose,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   2,
+		Carbohydrates   = 0,
+		Proteins    = 92.6,
+		Lipids      = 29.2,
+		Calories    = 655,
+    }
+ 
+    item HMDeadTurkey
+    {
+        HungerChange    =   -35,
+        Weight  =   3.5,
+        Type    =   Food,
+        DisplayName =   Dead Wild Turkey,
+        Icon    =   HMDeadTurkey,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   60,
+        MinutesToCook   =   25,
+        DaysFresh   =   5,
+		Carbohydrates   = 0,
+		Proteins    = 574.5,
+		Lipids      = 40.7,
+		Calories    = 2831,
+    }
+ 
+    item HMDeadDeer
+    {
+        HungerChange    =   -135,
+        Weight  =   16.0,
+        Type    =   Food,
+        DisplayName =   Dead Deer,
+        Icon    =   HMDeadDeer,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   180,
+        MinutesToCook   =   90,
+        DaysFresh   =   5,
+		Carbohydrates   = 0,
+		Proteins    = 2066,
+		Lipids      = 217.8,
+		Calories    = 10800,
+		ResizeWorldIcon = TRUE,
+	
+    }
+ 
+    item HMDeadElk
+    {
+        HungerChange    =   -150,
+        Weight  =   17.0,
+        Type    =   Food,
+        DisplayName =   Dead Elk,
+        Icon    =   HMDeadElk,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   220,
+        MinutesToCook   =   140,
+        DaysFresh   =   5,
+		Carbohydrates   = 0,
+		Proteins    = 2525,
+		Lipids      = 159.5,
+		Calories    = 12210,
+		ResizeWorldIcon = TRUE,
+	
+    }
+ 
+    item HMDeadWildpig
+    {
+        HungerChange    =   -140,
+        Weight  =   12.0,
+        Type    =   Food,
+        DisplayName =   Dead Wild Pig,
+        Icon    =   HMDeadWildpig,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   200,
+        MinutesToCook   =   100,
+        DaysFresh   =   5,
+		Carbohydrates   = 0,
+		Proteins    = 2796,
+		Lipids      = 432,
+		Calories    = 15700,
+		ResizeWorldIcon = TRUE,
+	
+    }
+ 
+    item HMDeadBear
+    {
+        HungerChange    =   -240,
+        Weight  =   25.0,
+        Type    =   Food,
+        DisplayName =   Dead Black Bear,
+        Icon    =   HMDeadBear,
+        IsCookable  =   TRUE,
+        DangerousUncooked   =   TRUE,
+        DaysTotallyRotten   =   12,
+        MinutesToBurn   =   220,
+        MinutesToCook   =   140,
+        DaysFresh   =   8,
+		Carbohydrates   = 0,
+		Proteins    = 3072,
+		Lipids      = 462.7,
+		Calories    = 15600,
+		ResizeWorldIcon = TRUE,
+
+    }
+		
+	item HMVenison
+    {
+        HungerChange	=	-40,
+        Weight	=	0.4,
+        Type	=	Food,
+        IsCookable	=	TRUE,
+        DangerousUncooked	=	TRUE,
+        DaysTotallyRotten	=	4,
+        MinutesToBurn	=	70,
+        DisplayName	=	Venison,
+        Icon	=	HMVenison,
+        DaysFresh	=	2,
+        MinutesToCook	=	50,
+        EvolvedRecipe = Soup:15;Stew:16;Pie:15;Stir fry:15;Sandwich:10|Cooked;Burger:15;Salad:10|Cooked;Roasted Vegetables:15,
+        FoodType    =   Game,
+		Carbohydrates = 0,
+        Proteins = 60,
+        Lipids = 10,
+        Calories = 340,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+    }
+
+	item HMBearSteak
+	{
+		HungerChange	=	-40,
+		Weight	=	0.6,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	70,
+		DisplayName	=	Bear Steak,
+		Icon	=	HMBearSteak,
+		DaysFresh	=	2,
+		MinutesToCook	=	50,
+		EvolvedRecipe = Soup:18;Stew:18;Pie:15;Stir fry:18;Sandwich:10|Cooked;Burger:15;Salad:10|Cooked;Roasted Vegetables:18,
+		FoodType    =   Game,
+		Carbohydrates = 0,
+        Proteins = 54,
+        Lipids = 22,
+        Calories = 440,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+	}
+
+	item HMFreshHam
+	{
+		HungerChange	=	-30,
+		Weight	=	0.3,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook = 50,
+		MinutestoBurn = 70,
+		DisplayName	=	Fresh Ham,
+		ReplaceOnCooked		=	Ham,
+		Icon	=	HMFreshHam,
+		FoodType    =   Meat,
+        DaysTotallyRotten	=	5,
+		EvolvedRecipe = Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:15,
+		Carbohydrates = 0,
+        Proteins = 19,
+        Lipids = 9.2,
+        Calories = 180,
+    }
+}

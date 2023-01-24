@@ -1,0 +1,93 @@
+require 'Foraging/forageDefinitions'
+
+--test
+
+
+scavenges.ForestGoods = {}
+
+if forageCategories then
+	forageCategories["ForestGoods"] = {
+		chance = 80,
+		name = "ForestGoods",
+		typeCategory = "Other",
+		showOptionPerk = "PlantScavenging",
+		showCategoryLevel = 1,
+		validFloors = { "ANY" },
+		zoneChance = {
+			DeepForest      = 50,
+			Forest          = 55,
+			Vegitation      = 60,
+			FarmLand        = 40,
+			Farm            = 30,
+			TrailerPark     = 38,
+			TownZone        = 25,
+			Nav             = 12,
+		},
+	};
+end
+
+if forageDefs then
+	forageDefs.HMAnimalTraces = {
+		type = "HuntingMod.HMAnimalTraces",
+		minCount = 4,
+		maxCount = 15,
+		xp = 20,
+		skill = 0,
+		chance = 60,
+		perks = { "PlantScavenging" },
+		categories = { "ForestGoods" },
+		zones = { 
+			Forest      = 30, 
+			DeepForest  = 25, 
+			FarmLand    = 15, 
+			Farm        = 5, 
+			Vegitation  = 40,
+			TrailerPark = 20,
+			TownZone    = 5,
+			Nav         = 2,
+		},
+		spawnFuncs = nil,
+	};
+
+	forageDefs.HMAnimalTracks = {
+		type="HuntingMod.HMAnimalTracks",
+		minCount = 2,
+		maxCount = 10,
+		xp = 40,
+		skill = 4,
+		perks = { "PlantScavenging" },
+		categories = { "ForestGoods" },
+		zones = {
+			Forest      = 30, 
+			DeepForest  = 25, 
+			FarmLand    = 20, 
+			Farm        = 5, 
+			Vegitation  = 30,
+			TrailerPark = 15,
+			TownZone    = 5,
+			Nav         = 2,
+		},
+		spawnFuncs = nil,
+	};
+
+	forageDefs.HMAnimalTracksLarge = {
+		type = "HuntingMod.HMAnimalTracksLarge",
+		minCount = 1,
+		maxCount = 8,
+		xp = 80,
+		skill = 7,
+		perks = { "PlantScavenging" },
+		categories = { "ForestGoods" },
+		zones = {
+			Forest      = 15, 
+			DeepForest  = 50, 
+			FarmLand    = 5, 
+			Farm        = 5, 
+			Vegitation  = 20 ,
+			TrailerPark = 5,
+			TownZone    = 5,
+			Nav         = 2,
+		},
+		spawnFuncs = nil,
+	};
+end

@@ -1,0 +1,224 @@
+module HuntingMod
+{
+
+	imports
+	{
+		Base,
+	}
+
+	recipe Track Game
+    {
+		HMAnimalTraces=2,
+        Result:HMAnimalTracks,
+        Time:250.0,
+        Category:Survivalist,
+	}
+
+	recipe Track Large Game
+    {
+		HMAnimalTracks=3,
+        Result:HMAnimalTracksLarge,
+        Time:250.0,
+        Category:Survivalist,
+    }
+
+	recipe Butcher Small Animal
+    {
+        keep KitchenKnife/HuntingKnife/FlintKnife/MeatCleaver/Machete,
+        HMDeadFox/HMDeadSquirrel/HMDeadSkunk/HMDeadOpossum/HMDeadRaccoon/HMDeadBeaver,
+        Result:Smallanimalmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:Recipe.OnCreate.CutAnimal,
+        Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+	recipe Butcher Rabbit
+    {
+        keep KitchenKnife/HuntingKnife/FlintKnife/MeatCleaver/Machete,
+        HMDeadRabbit,
+        Result:Rabbitmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:Recipe.OnCreate.CutAnimal,
+        Category:Cooking,
+    }
+
+	recipe Butcher Bird
+    {
+		keep KitchenKnife/HuntingKnife/FlintKnife/MeatCleaver/Machete,
+        HMDeadPigeon/HMDeadQuail/HMDeadDuck/HMDeadGoose/HMDeadTurkey,
+        Result:Smallbirdmeat,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        OnCreate:Recipe.OnCreate.CutAnimal,
+        Category:Cooking,
+    }
+
+	recipe Butcher Deer
+    {
+		HMDeadDeer,
+        keep KitchenKnife/HuntingKnife/FlintKnife/MeatCleaver/Machete,
+        Result:HMVenison=3,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+		Category:Cooking,
+		Category:Cooking,
+		OnCreate:Recipe.OnCreate.GetHuntCutDeer,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+	recipe Butcher Elk
+    {
+		HMDeadElk,
+        keep KitchenKnife/HuntingKnife/FlintKnife/MeatCleaver/Machete,
+        Result:HMVenison=4,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+		Category:Cooking,
+		OnCreate:GetHuntCutElk,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+	recipe Butcher Wild Pig
+    {
+		HMDeadWildpig,
+		keep KitchenKnife/HuntingKnife/FlintKnife/MeatCleaver/Machete,
+        Result:PorkChop=5,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        Category:Cooking,
+		OnCreate:GetHuntCutWildpig,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+	recipe Butcher Bear
+    {
+		HMDeadBear,
+		keep KitchenKnife/HuntingKnife/FlintKnife/MeatCleaver/Machete,
+		Result:HMBearSteak=6,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+		OnCreate:getHuntCutBear,
+        Category:Cooking,
+    }
+
+	recipe Hunt Small Game with Throwing Spears
+    {
+		SpearCrafted=1,
+    	HMAnimalTracks, 
+		Result:HMAnimalTraces,
+    	Time:750.0,
+    	Category:Survivalist,
+    	OnCreate:getHuntSGS,
+    }
+
+	recipe Hunt Deer with Throwing Spears
+    {
+		SpearCrafted=2,
+		HMAnimalTracksLarge,
+		Result:HMAnimalTraces,
+		Time:600.0,
+		Category:Survivalist,
+		OnCreate:getHuntDES,
+    }
+
+	recipe Hunt Wild Pigs with Throwing Spears
+    {
+		SpearCrafted=2,
+		HMAnimalTracksLarge,
+		Result:HMAnimalTraces,
+		Time:650.0,
+		Category:Survivalist,
+		OnCreate:getHuntPIS,
+    }
+
+	recipe Hunt Birds with Shotgun
+    {
+		keep Shotgun,
+        ShotgunShells=1,
+		HMAnimalTracks,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:250.0,
+		OnCreate:getHuntBIG,
+    }
+
+	recipe Hunt Wild Pigs with Shotgun
+    {
+		keep Shotgun,
+        ShotgunShells=2,
+		HMAnimalTracksLarge,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:300.0,
+		OnCreate:getHuntPIG,
+    }
+
+	recipe Hunt Bear with Shotgun
+    {
+		keep Shotgun,
+		ShotgunShells=4,
+		HMAnimalTracksLarge,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:400.0,
+		OnCreate:getHuntBEG,
+    }
+
+	recipe Hunt Small Game with Varmint Rifle
+    {
+		keep HuntingRifle/VarmintRifle,
+        223Bullets=2,
+		HMAnimalTracks,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:400.0,
+		OnCreate:getHuntSGV,
+	}
+
+	recipe Hunt Birds with Varmint Rifle
+    {
+		keep HuntingRifle/VarmintRifle,
+        223Bullets=4,
+		HMAnimalTracks,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:500.0,
+		OnCreate:getHuntBIG,
+    }
+
+	recipe Hunt Deer with Rifle
+    {
+		keep HuntingRifle/VarmintRifle,
+        308Bullets=2,
+		HMAnimalTracksLarge,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:250.0,
+		OnCreate:getHuntDER,
+    }
+
+	recipe Hunt Wild Pigs with Rifle
+    {
+		keep HuntingRifle/VarmintRifle,
+        308Bullets=2,
+		HMAnimalTracksLarge,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:250.0,
+		OnCreate:getHuntPIG,
+    }
+
+	recipe Hunt Bear with Rifle
+    {
+		keep HuntingRifle/VarmintRifle,
+        308Bullets=3,
+		HMAnimalTracksLarge,
+		Result:HMAnimalTraces,
+		Category:Survivalist,
+		Time:350.0,
+		OnCreate:getHuntBEG,
+    }
+}

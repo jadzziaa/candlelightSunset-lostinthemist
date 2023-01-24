@@ -1,0 +1,28 @@
+require "Farming/ScavengeDefinition";
+
+getTexture("Item_HMAnimalTraces.png");
+getTexture("Item_HMAnimalTracks.png");
+
+scavenges.ForestGoods = {};
+
+-- ADDITIONS
+local HMAnimalTraces = {};
+HMAnimalTraces.type = "HuntingMod.HMAnimalTraces";
+HMAnimalTraces.minCount = 1;
+HMAnimalTraces.maxCount = 5;
+HMAnimalTraces.skill = 0;
+local HMAnimalTracks = {};
+HMAnimalTracks.type = "HuntingMod.HMAnimalTracks";
+HMAnimalTracks.minCount = 1;
+HMAnimalTracks.maxCount = 3;
+HMAnimalTracks.skill = 3;
+local HMAnimalTracks = {};
+HMAnimalTracks.type = "HuntingMod.HMAnimalTracksLarge";
+HMAnimalTracks.minCount = 1;
+HMAnimalTracks.maxCount = 2;
+HMAnimalTracks.skill = 6;
+
+table.insert(scavenges.ForestGoods, HMAnimalTraces);
+table.insert(scavenges.ForestGoods, HMAnimalTracks);
+table.insert(scavenges.ForestGoods, HMAnimalTracksLarge);
+

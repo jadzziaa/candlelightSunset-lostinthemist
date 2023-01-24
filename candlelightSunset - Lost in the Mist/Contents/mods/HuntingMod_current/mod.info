@@ -1,0 +1,6 @@
+name=HuntingMod
+poster=poster.png
+id=HuntingMod
+description=Adds a new hunting system for small and large game and expands the trapping system to include the new prey.
+
+Current version of the mod. Animal traces not loading in this version for unknown reason. Still working on fixing this.
