@@ -8,8 +8,8 @@ module Base
     {
         
         DisplayName	            =AUG A3 Para,
-        Icon	                    =	AUGA9MM,
-        WeaponSprite	            =	AUGA9MM,
+        Icon	                    =	AUG,
+        WeaponSprite	            =	AUG,
         Weight	                    =	3.3,
         AmmoType                    =   Base.Bullets9mm,
         AmmoBox                     =   Bullets9mmBox,

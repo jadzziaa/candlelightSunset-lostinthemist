@@ -67,11 +67,11 @@ module Base
         Weight	         =	0.3,
         Type	         =	Normal,
         DisplayName	 =      AUG A3 Para Magazine,
-        Icon	         =	AUG9MMMag,
+        Icon	         =	MagAUG,
         MaxAmmo          = 32,
         AmmoType         = Base.Bullets9mm,
         GunType          = AUGA9MM,
-        WorldStaticModel = MagAUGA9MM,
+        WorldStaticModel = MagAUG,
 	}
      item MagM60
     {
