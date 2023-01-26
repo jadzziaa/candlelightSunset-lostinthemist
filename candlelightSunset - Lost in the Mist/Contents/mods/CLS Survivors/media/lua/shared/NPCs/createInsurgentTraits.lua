@@ -13,6 +13,28 @@ local function initInsurgentTraits()
 	
 	local vaccinespecialist = TraitFactory.addTrait("VaccineSpecialist", getText("UI_trait_VaccineSpecialist"), 1, getText("UI_trait_VaccineSpecialistDesc"), false, false);
 	vaccinespecialist:addXPBoost(Perks.VaccineResearch, 7);
+	vaccinespecialist:addXPBoost(Perks.Doctor, 6);
+	vaccinespecialist:addXPBoost(Perks.Nimble, 2);
+	vaccinespecialist:getFreeRecipes():add("LabAssembleChemistrySet");
+	vaccinespecialist:getFreeRecipes():add("ChmCollectInfectedSaliva");
+	vaccinespecialist:getFreeRecipes():add("ChmCollectInfectedSaliva");
+	vaccinespecialist:getFreeRecipes():add("ChmResearchSaliva");
+	vaccinespecialist:getFreeRecipes():add("ChmResearchBlood");
+	vaccinespecialist:getFreeRecipes():add("ChmTakeBloodForAnalysis");
+	vaccinespecialist:getFreeRecipes():add("ChmGetBloodTest");
+	vaccinespecialist:getFreeRecipes():add("ChmGetBloodTestTwo");
+	vaccinespecialist:getFreeRecipes():add("ChmCollectInfectedBlood");
+	vaccinespecialist:getFreeRecipes():add("ChmSterilizeTestTube");
+	vaccinespecialist:getFreeRecipes():add("ChmSterilizeFlask");
+	vaccinespecialist:getFreeRecipes():add("ChmSterilizeLabSyringeReusable");
+	vaccinespecialist:getFreeRecipes():add("ChmIsolateVirusFromSaliva");
+	vaccinespecialist:getFreeRecipes():add("ChmResearchVirus");
+	vaccinespecialist:getFreeRecipes():add("ChmMixFlaskOfSodiumHypochlorite");
+	vaccinespecialist:getFreeRecipes():add("ChmMixFlaskOfSodiumHypochlorite2");
+	vaccinespecialist:getFreeRecipes():add("ChmMixFlaskOfAmmoniumSulfate");
+	vaccinespecialist:getFreeRecipes():add("ChmMixFlaskOfAmmoniumSulfate2");
+	vaccinespecialist:getFreeRecipes():add("ChmMixFlaskOfHydrogenPeroxide");
+	vaccinespecialist:getFreeRecipes():add("ChmMixFlaskOfHydrogenPeroxide2");
 
 	local deadeye = TraitFactory.addTrait("Deadeye", getText("UI_trait_Deadeye"), 1, getText("UI_trait_DeadeyeDesc"), false, false);
 	deadeye:addXPBoost(Perks.Aiming, 8);
@@ -137,14 +159,7 @@ local function initInsurgentTraits()
 
 	local prepworker = TraitFactory.addTrait("Prepworker", getText("UI_trait_Prepworker"), 1, getText("UI_trait_Prepared"), false, false);
 
-	local universityelectrician = TraitFactory.addTrait("UniversityElectrician", getText("UI_trait_UniversityElectrician"), 0, getText("UI_trait_UniversityElectricianDesc"), true, false);
-	universityelectrician:getFreeRecipes():add("Assemble a Car Battery Charger");
-	universityelectrician:getFreeRecipes():add("Assemble a Blowtorch");
-	universityelectrician:getFreeRecipes():add("Assemble a Generator");
-	universityelectrician:getFreeRecipes():add("Assemble a Amplifier");
-	universityelectrician:getFreeRecipes():add("Assemble a Radio Receiver");
-	universityelectrician:getFreeRecipes():add("Assemble a Radio Transmitter");
-	universityelectrician:getFreeRecipes():add("Assemble a Receiver");
+	local universityelectrician2 = TraitFactory.addTrait("UniversityElectrician2", getText("UI_trait_UniversityElectrician2"), 0, getText("UI_trait_UniversityElectrician2Desc"), true, false);
 
 	--TRAITS MUTUAL EXCLUSION
 	TraitFactory.setMutualExclusive("VaccineSpecialist", "Deadeye");

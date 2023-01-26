@@ -210,7 +210,7 @@ end
 
 function UniElectricianCheck()
     local player = getPlayer();
-    if player:HasTrait("UniversityElectrician") then
+    if player:HasTrait("UniversityElectrician2") then
 		return true
 	else
 		return false
@@ -221,7 +221,25 @@ function OnGameStart_TraitRegulation()
     local player = getPlayer();
 
     if UniElectricianCheck() == false then
-        player:getTraits():add("UniversityElectrician");
+        if player:getXp():getXP(Perks.Electricity) >= 2775 then
+            player:getTraits():add("UniversityElectrician2");
+
+            player:getKnownRecipes():remove("Assemble a Car Battery Charger");
+            player:getKnownRecipes():remove("Assemble a Blowtorch");
+            player:getKnownRecipes():remove("Assemble a Generator");
+            player:getKnownRecipes():remove("Assemble a Amplifier");
+            player:getKnownRecipes():remove("Assemble a Radio Receiver");
+            player:getKnownRecipes():remove("Assemble a Radio Transmitter");
+            player:getKnownRecipes():remove("Assemble a Receiver");
+
+            player:getKnownRecipes():add("Assemble a Car Battery Charger");
+            player:getKnownRecipes():add("Assemble a Blowtorch");
+            player:getKnownRecipes():add("Assemble a Generator");
+            player:getKnownRecipes():add("Assemble a Amplifier");
+            player:getKnownRecipes():add("Assemble a Radio Receiver");
+            player:getKnownRecipes():add("Assemble a Radio Transmitter");
+            player:getKnownRecipes():add("Assemble a Receiver");
+        end--if
     end--if
 end--function
 
