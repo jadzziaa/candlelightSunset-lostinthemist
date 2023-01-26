@@ -1,8 +1,9 @@
 --//-----ADDITIONAL FUNCTIONS-----\\---------------------------------------------------------------------------------------------------------------------------
 
 local addictionchance = 3;
+local addictionchancetwo = 1;
 local addictioncheck = false;
-local addictionvalue = 0;
+local addictionvalue = 50;
 
 --//-----FUNCTIONS THAT REGULATE OVERDOSE VALUE-----\\---------------------------------------------------------------------------------------------------------
 
@@ -44,6 +45,10 @@ function AddictionRandom()
 	return ZombRand(5)
 end--function
 
+function AddictionRandomTwo()
+	return ZombRand(2)
+end--function
+
 function OnSmoke_WeedBlunt(food, player)
 
 	local dmg = player:getBodyDamage();
@@ -52,6 +57,8 @@ function OnSmoke_WeedBlunt(food, player)
 	stats:setBoredom(stats:getBoredom() - 55.5);
 	stats:setFear(0);
 	stats:setDrunkenness(stats:getDrunkenness() + 80);
+
+	addictionvalue = 0
 end--function
 
 function OnSnort_CocaineBaggie(items, result, player)
@@ -59,13 +66,6 @@ function OnSnort_CocaineBaggie(items, result, player)
 	local stats = player:getStats();
 
 	--STATS--------------------------------------------------------------
-	if AddictionCheck() == false then
-		if AddictionRandom() == addictionchance then
-			player:getTraits():add("DrugAddict");
-			Events.EveryHours.Add(AddictionFunction);
-		end--if
-	end--if
-
 	stats:setBoredom(stats:getBoredom() - 70);
 	stats:setFear(0);
 	stats:setDrunkenness(stats:getDrunkenness() + 4);
@@ -85,37 +85,44 @@ function OnSnort_CocaineBaggie(items, result, player)
 	end--if
 
 	--ADDICTION----------------------------------------------------------
-	if addictionvalue >= 200 then
-		addictionvalue = addictionvalue - 200
-	else
-		addictionvalue = 0
+	if AddictionCheck() == false then
+		if AddictionRandom() == addictionchance then
+			player:getTraits():add("DrugAddict");
+			Events.EveryHours.Add(AddictionFunction);
+		end--if
 	end--if
+
+	addictionvalue = 0
 
 	if addictionvalue < 50 then
 		Events.EveryTenMinutes.Remove(AddictionLevelOne);
 		Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-		Events.OnTick.Remove(AddictionLevelThree);
+		Events.OnTick.Remove(AddictionLevelThreeOnTick);
+		Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 		addictionleveloneval = false;
 		addictionleveltwoval = false;
 		addictionlevelthreeval = false;
 	elseif addictionvalue >= 50 and addictionvalue < 100 and addictionleveloneval == false then
 		Events.EveryTenMinutes.Add(AddictionLevelOne);
 		Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-		Events.OnTick.Remove(AddictionLevelThree);
+		Events.OnTick.Remove(AddictionLevelThreeOnTick);
+		Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 		addictionleveloneval = true;
 		addictionleveltwoval = false;
 		addictionlevelthreeval = false;
 	elseif addictionvalue >= 100 and addictionvalue < 200 and addictionleveltwoval == false then
 		Events.EveryTenMinutes.Remove(AddictionLevelOne);
 		Events.EveryTenMinutes.Add(AddictionLevelTwo);
-		Events.OnTick.Remove(AddictionLevelThree);
+		Events.OnTick.Remove(AddictionLevelThreeOnTick);
+		Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 		addictionleveloneval = false;
 		addictionleveltwoval = true;
 		addictionlevelthreeval = false;
 	elseif addictionvalue >= 200 and addictionlevelthreeval == false then
 		Events.EveryTenMinutes.Remove(AddictionLevelOne);
 		Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-		Events.OnTick.Add(AddictionLevelThree);
+		Events.OnTick.Add(AddictionLevelThreeOnTick);
+		Events.EveryHours.Add(AddictionLevelThreeEveryHours);
 		addictionleveloneval = false;
 		addictionleveltwoval = false;
 		addictionlevelthreeval = true;
@@ -159,13 +166,6 @@ function OnSnort_MethBaggie(items, result, player)
 	local stats = player:getStats();
 	
 	--STATS--------------------------------------------------------------
-	if AddictionCheck() == false then
-		if AddictionRandom() == addictionchance then
-			player:getTraits():add("DrugAddict");
-			Events.EveryHours.Add(AddictionFunction);
-		end--if
-	end--if
-
 	stats:setBoredom(stats:getBoredom() - 55.5);
 	stats:setFear(0);
 	stats:setEndurance(stats:getEndurance() + 50);
@@ -175,37 +175,44 @@ function OnSnort_MethBaggie(items, result, player)
 	dmg:setUnhappynessLevel(dmg:getUnhappynessLevel() -45);
 
 	--ADDICTION----------------------------------------------------------
-	if addictionvalue >= 200 then
-		addictionvalue = addictionvalue - 200
-	else
-		addictionvalue = 0
+	if AddictionCheck() == false then
+		if AddictionRandom() == addictionchance then
+			player:getTraits():add("DrugAddict");
+			Events.EveryHours.Add(AddictionFunction);
+		end--if
 	end--if
+
+	addictionvalue = 0
 
 	if addictionvalue < 50 then
 		Events.EveryTenMinutes.Remove(AddictionLevelOne);
 		Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-		Events.OnTick.Remove(AddictionLevelThree);
+		Events.OnTick.Remove(AddictionLevelThreeOnTick);
+		Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 		addictionleveloneval = false;
 		addictionleveltwoval = false;
 		addictionlevelthreeval = false;
 	elseif addictionvalue >= 50 and addictionvalue < 100 and addictionleveloneval == false then
 		Events.EveryTenMinutes.Add(AddictionLevelOne);
 		Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-		Events.OnTick.Remove(AddictionLevelThree);
+		Events.OnTick.Remove(AddictionLevelThreeOnTick);
+		Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 		addictionleveloneval = true;
 		addictionleveltwoval = false;
 		addictionlevelthreeval = false;
 	elseif addictionvalue >= 100 and addictionvalue < 200 and addictionleveltwoval == false then
 		Events.EveryTenMinutes.Remove(AddictionLevelOne);
 		Events.EveryTenMinutes.Add(AddictionLevelTwo);
-		Events.OnTick.Remove(AddictionLevelThree);
+		Events.OnTick.Remove(AddictionLevelThreeOnTick);
+		Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 		addictionleveloneval = false;
 		addictionleveltwoval = true;
 		addictionlevelthreeval = false;
 	elseif addictionvalue >= 200 and addictionlevelthreeval == false then
 		Events.EveryTenMinutes.Remove(AddictionLevelOne);
 		Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-		Events.OnTick.Add(AddictionLevelThree);
+		Events.OnTick.Add(AddictionLevelThreeOnTick);
+		Events.EveryHours.Add(AddictionLevelThreeEveryHours);
 		addictionleveloneval = false;
 		addictionleveltwoval = false;
 		addictionlevelthreeval = true;
@@ -330,17 +337,27 @@ function AddictionLevelTwo()
 	stats:setStress(stats:getStress() + 0.021);
 end--function
 
-function AddictionLevelThree()
+function AddictionLevelThreeOnTick()
 	local dmg = getPlayer():getBodyDamage();
 	local stats = getPlayer():getStats();
 
-	stats:setStress(0.85);
-	stats:setPanic(40);
-	if stats:getEndurance() > 0.45 then
-		stats:setEndurance(0.45);
+	if stats:getStress() < 0.85 then
+		stats:setStress(0.85);
 	end--if
 	if dmg:getWetness() < 20 then
 		dmg:setWetness(20);
+	end--if
+end--function
+
+function AddictionLevelThreeEveryHours()
+	local dmg = getPlayer():getBodyDamage();
+	local stats = getPlayer():getStats();
+
+	if stats:getPanic() < 50 then
+		stats:setPanic(90);
+	end--if
+	if stats:getEndurance() > 0.26 then
+		stats:setEndurance(0.26);
 	end--if
 end--function
 
@@ -357,28 +374,32 @@ function AddictionFunction()
 		if addictionvalue < 50 then
 			Events.EveryTenMinutes.Remove(AddictionLevelOne);
 			Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-			Events.OnTick.Remove(AddictionLevelThree);
+			Events.OnTick.Remove(AddictionLevelThreeOnTick);
+			Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 			addictionleveloneval = false;
 			addictionleveltwoval = false;
 			addictionlevelthreeval = false;
 		elseif addictionvalue >= 50 and addictionvalue < 100 and addictionleveloneval == false then
 			Events.EveryTenMinutes.Add(AddictionLevelOne);
 			Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-			Events.OnTick.Remove(AddictionLevelThree);
+			Events.OnTick.Remove(AddictionLevelThreeOnTick);
+			Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 			addictionleveloneval = true;
 			addictionleveltwoval = false;
 			addictionlevelthreeval = false;
 		elseif addictionvalue >= 100 and addictionvalue < 200 and addictionleveltwoval == false then
 			Events.EveryTenMinutes.Remove(AddictionLevelOne);
 			Events.EveryTenMinutes.Add(AddictionLevelTwo);
-			Events.OnTick.Remove(AddictionLevelThree);
+			Events.OnTick.Remove(AddictionLevelThreeOnTick);
+			Events.EveryHours.Remove(AddictionLevelThreeEveryHours);
 			addictionleveloneval = false;
 			addictionleveltwoval = true;
 			addictionlevelthreeval = false;
 		elseif addictionvalue >= 200 and addictionlevelthreeval == false then
 			Events.EveryTenMinutes.Remove(AddictionLevelOne);
 			Events.EveryTenMinutes.Remove(AddictionLevelTwo);
-			Events.OnTick.Add(AddictionLevelThree);
+			Events.OnTick.Add(AddictionLevelThreeOnTick);
+			Events.EveryHours.Add(AddictionLevelThreeEveryHours);
 			addictionleveloneval = false;
 			addictionleveltwoval = false;
 			addictionlevelthreeval = true;
