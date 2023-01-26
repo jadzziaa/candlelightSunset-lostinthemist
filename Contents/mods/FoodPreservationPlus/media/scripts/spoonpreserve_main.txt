@@ -162,31 +162,6 @@ module Base
 		WorldStaticModel = Steak,
 	}
 	
-	item SmokedMeat
-	{
-		DisplayName = Recipe to Smoke Meat - Add Meat,
-		DisplayCategory = Food,
-		Type = Food,
-		Weight = 0.5,
-		EvolvedRecipe = Pizza:15;Soup:15;Stew:15;Pie:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Burger:10|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15;Taco:10|Cooked;Burrito:15|Cooked,
-		Icon 				= SmokedMeat,
-		OnCooked            = SmokedMeat_OnCookedNew,
-		DangerousUncooked 	= TRUE,
-		IsCookable 			= TRUE,
-		MinutesToCook 		= 400,
-		MinutesToBurn 		= 600,
-		DaysFresh = 2,
-		DaysTotallyRotten = 4,
-		HungerChange = 0,
-		ThirstChange = -5,
-		Calories = 0,
-		Carbohydrates = 0,
-		Lipids = 0,
-		Proteins = 0,
-		UnhappyChange = 1,
-		WorldStaticModel = Steak,
-	}
-	
 	item SalamiHomemade
 	{
 		DisplayName = Prepared Spices to Create Salami - Add Meat,
