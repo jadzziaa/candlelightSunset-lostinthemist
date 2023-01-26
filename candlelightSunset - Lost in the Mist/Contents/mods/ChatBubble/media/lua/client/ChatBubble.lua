@@ -9,7 +9,7 @@ ChatBubble.say = function(specificPlayer)
 	if (calendarInstance:getTimeInMillis() - ChatBubble.lastSay > 5000) then --overhead messages fade after 5 seconds
 		local bubbleTexture = "media/textures/bubble" .. ChatBubble.imageNumber .. ".png"
 		
-		processSayMessage("[img=" .. bubbleTexture .. "]") --Regular 'Say' function doesn't show for other players in MP
+		processSayMessage("Typing..") --Regular 'Say' function doesn't show for other players in MP
 		
 		if (ChatBubble.imageNumber >= 3) then --cycle through images - 1, 2, 3, 1, 2, 3, etc
 			ChatBubble.imageNumber = 1
@@ -29,11 +29,11 @@ ChatBubble.onAddMessage = function(message, tabId)
 	
 	local messageText = message:getText()
 	
-	if (messageText == "[img=media/textures/bubble1.png]") then --quicker to do 3 exact string matches than use string.find
+	if (messageText == "Typing..") then --quicker to do 3 exact string matches than use string.find
 		ChatBubble.doDelete = true
-	elseif (messageText == "[img=media/textures/bubble2.png]") then
+	elseif (messageText == "Typing..") then
 		ChatBubble.doDelete = true --set doDelete to true if we find an image so we can remove it (almost) instantly in OnPlayerUpdate
-	elseif (messageText == "[img=media/textures/bubble3.png]") then
+	elseif (messageText == "Typing..") then
 		ChatBubble.doDelete = true
 	elseif (ChatBubble.doDelete) then
 		ChatBubble.doDelete = false
@@ -50,7 +50,7 @@ ChatBubble.deleteMessage = function()
 	local chatTextInstanceLines = chatTextInstance.chatTextLines
 	local scrolledToBottom = (chatTextInstance:getScrollHeight() <= chatTextInstance:getHeight()) or (chatTextInstance.vscroll and chatTextInstance.vscroll.pos == 1) --check scroll before removing lines
 	local newText = ""
-	local searchText = "img=media/textures/bubble" --use this string to find/remove from chat
+	local searchText = "Typing.." --use this string to find/remove from chat
 	chatTextInstance.text = ""
 	
 	for i, v in ipairs(chatTextInstanceLines) do --loop once to remove img lines

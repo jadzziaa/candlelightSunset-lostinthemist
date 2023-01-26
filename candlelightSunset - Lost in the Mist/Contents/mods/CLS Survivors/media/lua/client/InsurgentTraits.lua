@@ -208,6 +208,23 @@ function CharacterCreationProfession:onSelectProf(item)
     CharacterCreationMain.sort(self.listboxTraitSelected.items);
 end
 
+function UniElectricianCheck()
+    local player = getPlayer();
+    if player:HasTrait("UniversityElectrician") then
+		return true
+	else
+		return false
+	end--if
+end--function
+
+function OnGameStart_TraitRegulation()
+    local player = getPlayer();
+
+    if UniElectricianCheck() == false then
+        player:getTraits():add("UniversityElectrician");
+    end--if
+end--function
+
 local function InsurgentBeginGame(_player)
     local player = _player;
     if player:getHoursSurvived() > 0 then return end
@@ -510,6 +527,7 @@ local function InitUndyingVoiceLines()
     end
 end
 
+Events.OnGameStart.Add(OnGameStart_TraitRegulation);
 Events.OnWeaponHitCharacter.Add(InsurgentBFrenzyHit);
 Events.OnPlayerMove.Add(InsurgentBreacherKnockdown);
 Events.OnPlayerUpdate.Add(InsurgentPlayerUpdate);

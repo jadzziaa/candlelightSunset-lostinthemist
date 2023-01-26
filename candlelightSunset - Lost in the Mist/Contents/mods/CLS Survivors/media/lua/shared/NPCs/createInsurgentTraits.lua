@@ -137,6 +137,15 @@ local function initInsurgentTraits()
 
 	local prepworker = TraitFactory.addTrait("Prepworker", getText("UI_trait_Prepworker"), 1, getText("UI_trait_Prepared"), false, false);
 
+	local universityelectrician = TraitFactory.addTrait("UniversityElectrician", getText("UI_trait_UniversityElectrician"), 0, getText("UI_trait_UniversityElectricianDesc"), true, false);
+	universityelectrician:getFreeRecipes():add("Assemble a Car Battery Charger");
+	universityelectrician:getFreeRecipes():add("Assemble a Blowtorch");
+	universityelectrician:getFreeRecipes():add("Assemble a Generator");
+	universityelectrician:getFreeRecipes():add("Assemble a Amplifier");
+	universityelectrician:getFreeRecipes():add("Assemble a Radio Receiver");
+	universityelectrician:getFreeRecipes():add("Assemble a Radio Transmitter");
+	universityelectrician:getFreeRecipes():add("Assemble a Receiver");
+
 	--TRAITS MUTUAL EXCLUSION
 	TraitFactory.setMutualExclusive("VaccineSpecialist", "Deadeye");
 	TraitFactory.setMutualExclusive("VaccineSpecialist", "Corpsman");
