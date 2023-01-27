@@ -21,11 +21,15 @@ FancyHands.nomask = {
 }
 
 FancyHands.special = {
-    ["Base.Generator"] = 0,
-    ["Base.CorpseMale"] = 1,
-    ["Base.CorpseFemale"] = 1
+    ["Base.Generator"] = "holdinggenerator",
+    ["Base.CorpseMale"] = "holdingbody",
+    ["Base.CorpseFemale"] = "holdingbody"
 }
 
+-- Use the animations from this mod instead!
+if getActivatedMods():contains('Skizots Visible Boxes and Garbage2') then
+    FancyHands.special = {}
+end
 ------------------------------------------
 -- Fancy Handwork Utilities
 ------------------------------------------
@@ -49,9 +53,10 @@ local FHswapItemsMod = function(character)
 end
 
 local FHcreateBindings = function()
+    --local FHnewBinds = {}
     local FHbindings = {
         {
-            value = '[FancyHandwork]'
+            name = '[FancyHandwork]'
         },
         {
             value = 'FHModifier',
@@ -71,8 +76,12 @@ local FHcreateBindings = function()
     }
 
     for _, bind in ipairs(FHbindings) do
-        if bind.key or not bind.action then
-            table.insert(keyBinding, { value = bind.value, key = bind.key })
+        if bind.name then
+            table.insert(keyBinding, { value = bind.name, key = nil })
+        else
+            if bind.key then
+                table.insert(keyBinding, { value = bind.value, key = bind.key })
+            end
         end
     end
 
@@ -109,18 +118,7 @@ local FHcreateBindings = function()
     
 end
 
-local function fancy(player)
-    if not player then return end
-    local primary = player:getPrimaryHandItem()
-    local secondary = player:getSecondaryHandItem()
-
-    local queue = ISTimedActionQueue.queues[player]
-    if queue and #queue.queue > 0 and not queue.queue[1].FHIgnore then
-        player:setVariable("FHDoingAction", true)
-    else
-        player:setVariable("FHDoingAction", false)
-    end
-
+local function calcRecentMove(player)
     player:getModData().FancyHands = player:getModData().FancyHands or {
         recentMove = false,
         recentDelta = 0
@@ -131,44 +129,51 @@ local function fancy(player)
     else
         if player:getModData().FancyHands.recentMove then
             player:getModData().FancyHands.recentDelta = player:getModData().FancyHands.recentDelta + 1
-            if player:getModData().FancyHands.recentDelta >= ((SandboxVars.FancyHandwork and SandboxVars.FancyHandwork.TurnDelay) or 60) then
+            if player:getModData().FancyHands.recentDelta >= ((SandboxVars.FancyHandwork and SandboxVars.FancyHandwork.TurnDelaySec) or 1)*getPerformance():getFramerate() then
                 player:getModData().FancyHands.recentMove = false
             end
         end
+    end
+end
+
+
+
+local function fancy(player)
+    if not player or player:isDead() or player:isAsleep() then return end
+    local primary = player:getPrimaryHandItem()
+    local secondary = player:getSecondaryHandItem()
+
+    local queue = ISTimedActionQueue.queues[player]
+    if queue and #queue.queue > 0 and not queue.queue[1].FHIgnore then
+        player:setVariable("FHDoingAction", true)
+    else
+        player:setVariable("FHDoingAction", false)
     end
 
     -- 2 hands
     if primary == secondary then
         if primary then
-            if FancyHands.special[primary:getFullType()] == 0 then
-                player:setVariable("LeftHandMask", "holdinggenerator")
+            if FancyHands.special[primary:getFullType()] then
+                player:setVariable("LeftHandMask", FancyHands.special[primary:getFullType()])
                 player:clearVariable("RightHandMask")    
                 return
-            elseif FancyHands.special[primary:getFullType()] == 1 then
-                player:setVariable("LeftHandMask", "holdingbody")
-                player:clearVariable("RightHandMask")    
-                return           
             end
+            -- some other mods do have their own anim masks, so lets keep those!
+            if primary:getItemReplacementPrimaryHand() then
+                --player:clearVariable("LeftHandMask")
+                return
+            end            
         end
         player:clearVariable("LeftHandMask")
         player:clearVariable("RightHandMask")
         return
     end
 
-    --- Blech, sometimes the item mask would match instead of the gun based on parameters. :/ 
     if primary then
         if not primary:getItemReplacementPrimaryHand() then
             if instanceof(primary, "HandWeapon") then
-                if primary:isRanged() then
-                    player:setVariable("RightHandMask", "holdinggunright")
-                    if player:getPerkLevel(Perks.Aiming) >= ((SandboxVars.FancyHandwork and SandboxVars.FancyHandwork.ExperiencedAiming) or 3) then
-                        player:setVariable("FHExp", true)
-                    else
-                        player:setVariable("FHExp", false)
-                    end
-                else
-                    player:setVariable("RightHandMask", "holdingitemright")
-                end
+                player:setVariable("RightHandMask", (primary:isRanged() and "holdinggunright") or "holdingitemright")
+                player:setVariable("FHExp", player:getPerkLevel(Perks.Aiming) >= ((SandboxVars.FancyHandwork and SandboxVars.FancyHandwork.ExperiencedAiming) or 3))
             else
                 player:clearVariable("RightHandMask")
             end
@@ -180,43 +185,52 @@ local function fancy(player)
     if secondary then
         if not secondary:getItemReplacementSecondHand() then
             if instanceof(secondary, "HandWeapon") then
-                if secondary:isRanged() then
-                    player:setVariable("LeftHandMask", "holdinghgunleft")
-                else
-                    player:setVariable("LeftHandMask", "holdingitemleft")
-                end
-                --player:setVariable("FHExp", test)
+                player:setVariable("LeftHandMask", (secondary:isRanged() and "holdinghgunleft") or "holdingitemleft")
             else
                 player:clearVariable("LeftHandMask")
-            end
+            end 
         end
     else
         player:clearVariable("LeftHandMask")
     end
 end
 
+local curPlayer = 0
+local function fancyMP(player)
+    if not player or player:isDead() or player:isAsleep() then return end
+    
+    fancy(player)
+    
+    -- We will do one player per tick to set their state
+    ---- We do this to ensure each tick doesn't take too long
+    local players = getOnlinePlayers()
+    if curPlayer > (players:size()-1) then curPlayer = 0 end
+    local mPlayer = players:get(curPlayer)
+    if mPlayer ~= player then
+        fancy(mPlayer)
+    end
+    curPlayer = curPlayer + 1
+end
+
 local function FancyHandwork()
+    print(getText("UI_Init_FancyHandwork"))
+
+    if isServer() then return end
     FHcreateBindings()
 
     Events.OnGameStart.Add(function()
         if isClient() then
-            local curPlayer = 0
-            Events.OnTick.Add(function()
-                -- We will do one player per tick to set their state
-                ---- We do this to ensure each tick doesn't take too long
-                local players = getOnlinePlayers()
-                if curPlayer > (players:size()-1) then curPlayer = 0 end
-                fancy(players:get(curPlayer))
-                curPlayer = curPlayer + 1
+            Events.OnPlayerUpdate.Add(function(player)
+                fancyMP(player)
+                calcRecentMove(player)
             end)
         else
             Events.OnPlayerUpdate.Add(function(player)
                 fancy(player)
+                calcRecentMove(player)
             end)
         end
     end)
-
-    print(getText("UI_Init_FancyHandwork"))
 end
 
 FancyHandwork()

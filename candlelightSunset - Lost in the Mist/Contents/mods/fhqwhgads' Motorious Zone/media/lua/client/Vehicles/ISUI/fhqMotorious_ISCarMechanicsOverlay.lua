@@ -161,9 +161,14 @@ ISCarMechanicsOverlay.CarList["Base.fhqM715MZ"] = {imgPrefix = "truck_", x=10,y=
 ISCarMechanicsOverlay.CarList["Base.fhqM715hardtopCivMZ"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.fhqM715CivMZ"] = {imgPrefix = "truck_", x=10,y=0};
 
+ISCarMechanicsOverlay.CarList["Base.fhqCelicaGT4RC"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.fhqG4Coupe"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.fhqFBMustangHatchSSP"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.fhqFBMustangHatchSSPLightbar"] = {imgPrefix = "sportscar_", x=10,y=0};
+
 ---PARTS LISTS for custom overlays---
 
----300ZX Z32---
+---300ZX Z32/Japanese Modern Sports---
 
 ISCarMechanicsOverlay.PartList["DoorFrontLeft"].vehicles["300ZXZ32_"] = {x=90,y=264,x2=99,y2=346};
 ISCarMechanicsOverlay.PartList["DoorFrontRight"].vehicles["300ZXZ32_"] = {x=193,y=264,x2=202,y2=346};
@@ -179,7 +184,7 @@ ISCarMechanicsOverlay.PartList["TireFrontRight"].vehicles["300ZXZ32_"] = {x=204,
 ISCarMechanicsOverlay.PartList["TireRearLeft"].vehicles["300ZXZ32_"] = {x=78,y=352,x2=87,y2=416};
 ISCarMechanicsOverlay.PartList["TireRearRight"].vehicles["300ZXZ32_"] = {x=204,y=352,x2=213,y2=416};
 
----Reliant Robin---
+---Reliant Robin/Modern 3-wheeler---
 
 ISCarMechanicsOverlay.PartList["DoorFrontLeft"].vehicles["fhqrobinmk2_"] = {x=86,y=260,x2=94,y2=342};
 ISCarMechanicsOverlay.PartList["DoorFrontRight"].vehicles["fhqrobinmk2_"] = {x=199,y=260,x2=207,y2=342};
@@ -200,7 +205,7 @@ ISCarMechanicsOverlay.PartList["TireFrontLeft"].vehicles["fhqrobinmk2_"] = {x=21
 ISCarMechanicsOverlay.PartList["SuspensionFrontRight"].vehicles["fhqrobinmk2_"] = {x=0,y=0,x2=0,y2=0};
 ISCarMechanicsOverlay.PartList["BrakeFrontRight"].vehicles["fhqrobinmk2_"] = {x=0,y=0,x2=0,y2=0};
 
----VW Bus---
+---VW Bus/Classic RE Minibus---
 
 ISCarMechanicsOverlay.PartList["DoorFrontLeft"].vehicles["fhqvwbus_"] = {x=77,y=181,x2=80,y2=258};
 ISCarMechanicsOverlay.PartList["DoorFrontRight"].vehicles["fhqvwbus_"] = {x=208,y=181,x2=211,y2=258};
@@ -251,7 +256,7 @@ ISCarMechanicsOverlay.PartList["GasTank"].vehicles["fhqvwbustruck_"] = {x=182,y=
 ISCarMechanicsOverlay.PartList["Engine"].vehicles["fhqvwbustruck_"] = {x=73,y=496,x2=174,y2=549};
 ISCarMechanicsOverlay.PartList["Muffler"].vehicles["fhqvwbustruck_"] = {x=25,y=487,x2=59,y2=540};
 
----Diablo---
+---Diablo/Mid-Engine Exotic---
 ISCarMechanicsOverlay.PartList["DoorFrontLeft"].vehicles["fhqdiablo_"] = {x=87,y=221,x2=94,y2=305};
 ISCarMechanicsOverlay.PartList["DoorFrontRight"].vehicles["fhqdiablo_"] = {x=197,y=221,x2=204,y2=305};
 ISCarMechanicsOverlay.PartList["WindowFrontLeft"].vehicles["fhqdiablo_"] = {x=94,y=221,x2=110,y2=305};

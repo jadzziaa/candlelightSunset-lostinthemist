@@ -1,0 +1,29 @@
+module SapphCooking
+{
+	imports
+	{
+		Base,
+	}
+
+	/****************************** This file is for testing recipes. ******************************/	
+
+	item PalateCleanser
+	{
+		DisplayCategory = Food,
+		HungerChange	=	30,
+		Weight	=	0.01,
+		Type	=	Food,
+		DisplayName	=	Palate Cleanser,
+		Icon	=	,
+        	Carbohydrates = 160,
+        	Proteins = 22,
+        	Lipids = 60,
+        	Calories = 800,
+        	WorldStaticModel = ,
+	}
+
+	/****************************** Palate Cleanser is for testing. ******************************/	
+
+
+}
+

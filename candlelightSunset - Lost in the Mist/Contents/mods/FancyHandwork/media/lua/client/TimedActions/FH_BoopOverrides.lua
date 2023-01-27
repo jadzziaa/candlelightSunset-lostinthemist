@@ -84,7 +84,7 @@ end
 
 local _ISCampingInfoAction_perform = ISCampingInfoAction.perform
 function ISCampingInfoAction:perform()
-    ISTimedActionQueue.add(FHBoopAction:new(self.character, { item = (self.campfireTable or self.campfire), extra = 1 }))
+    ISTimedActionQueue.add(FHBoopAction:new(self.character, { item = self.campfire, extra = 1 }))
     _ISCampingInfoAction_perform(self)
 end
 
@@ -106,5 +106,15 @@ function ISInventoryPage:toggleStove()
     if UIManager.getSpeedControls() and UIManager.getSpeedControls():getCurrentGameSpeed() == 0 then
 		return
 	end
-    ISTimedActionQueue.add(FHBoopAction:new(getSpecificPlayer(self.player), { item = self.object, extra = 0 }))
+    ISTimedActionQueue.add(FHBoopAction:new(getSpecificPlayer(self.player), { item = self.inventoryPane.inventory:getParent(), extra = 0 }))
+end
+
+local _ISRadioAction_perform = ISRadioAction.perform
+
+function ISRadioAction:perform()
+    -- Fix for the infinite error when the device is in your inventory
+    if not (instanceof(self.device, "InventoryItem") and self.device:isInPlayerInventory()) then
+        ISTimedActionQueue.add(FHBoopAction:new(self.character, { item = self.device, extra = 0 }))
+    end
+    _ISRadioAction_perform(self)
 end

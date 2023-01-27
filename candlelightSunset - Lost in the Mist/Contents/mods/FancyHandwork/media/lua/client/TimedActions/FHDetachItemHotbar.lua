@@ -34,21 +34,13 @@ function ISDetachItemHotbar:animEvent(event, parameter)
     -- Fix the models
     if event == 'detachConnect' then
         -- Fix updating the inventory
-        self.character:getInventory():setDrawDirty(true)
+        --self.character:getInventory():setDrawDirty(true)
         getPlayerData(self.character:getPlayerNum()).playerInventory:refreshBackpacks()
 
-        if self.character:getPrimaryHandItem() == self.character:getSecondaryHandItem() then -- special case if 2handed
-            if self.animHand == "left" then
-                self:setOverrideHandModels(self.character:getPrimaryHandItem(), self.item)
-            else
-                self:setOverrideHandModels(self.item, self.character:getSecondaryHandItem()) 
-            end
+        if self.animHand == "left" then
+            self:setOverrideHandModels(self.character:getPrimaryHandItem(), self.item)
         else
-            if self.animHand == "left" then
-                self:setOverrideHandModels(self.character:getPrimaryHandItem(), self.item)
-            else
-                self:setOverrideHandModels(self.item, self.character:getSecondaryHandItem()) 
-            end
+            self:setOverrideHandModels(self.item, self.character:getSecondaryHandItem()) 
         end
     end
 end

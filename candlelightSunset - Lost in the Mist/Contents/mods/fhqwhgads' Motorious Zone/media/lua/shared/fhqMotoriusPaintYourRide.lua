@@ -118,6 +118,9 @@ if getActivatedMods():contains("PaintYourRide") and PaintVehicleConfig then
 	
 	PaintVehicleConfig.addVehicle("Base.fhqDeltaEvo", 24);
 	
-	PaintVehicleConfig.addVehicle("Base.fhqDeltaEvo", 24);
-	PaintVehicleConfig.addVehicle("Base.fhqDeltaEvo", 24);
+	PaintVehicleConfig.addVehicle("Base.fhqM715hardtopCivMZ", 37);
+	PaintVehicleConfig.addVehicle("Base.fhqM715CivMZ", 37);
+	
+	PaintVehicleConfig.addVehicle("Base.fhqCelicaGT4RC", 25);
+	PaintVehicleConfig.addVehicle("Base.fhqG4Coupe", 19);
 end

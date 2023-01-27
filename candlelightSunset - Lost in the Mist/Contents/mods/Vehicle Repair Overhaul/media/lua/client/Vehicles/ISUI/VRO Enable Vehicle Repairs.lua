@@ -13,7 +13,8 @@ function ISVehicleMechanics:doPartContextMenu(part, x, y)
 
     if (part:getId() == ("GloveBox") or ("Heater") or ("Battery") or ("Brake") or ("Door") or ("EngineDoor") or
             ("GasTank") or ("Tire") or ("Trunk") or ("TrunkDoor") or ("Headlight") or ("Seat") or ("Window)") or
-            ("Muffler") or ("Radio") or ("Suspension") or ("Windshield") or ("PWRSideskirts") or ("BodyWork") or ("Fender") or ("TowBar"))then
+            ("Muffler") or ("Radio") or ("Suspension") or ("Windshield") or ("TowBar"))then
+
 
         if part:getCondition() < 100 then
             part:getScriptPart():setRepairMechanic(true);

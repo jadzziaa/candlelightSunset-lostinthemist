@@ -2,11 +2,28 @@ module Base
 {
 	model fhqGT40HPPolice
 	{
-		mesh = vehicles/Vehicles_fhqGT40HPPolice,
+		mesh = vehicles/Vehicles_fhqGT40HPPolice|fhq_GT40Police,
 		shader = vehicle_norandom_multiuv,
 		invertX = FALSE,
 		scale = 0.37,
 	}
+	model fhqGT40HPRHeadlight
+	{
+		mesh = vehicles/Vehicles_fhqGT40HPPolice|fhq_GT40LMRHeadCover,
+		texture = Vehicles/vehicle_fhqGT40HeadlightCover,
+		shader = basicEffect,
+		invertX = FALSE,
+		scale = 0.37,
+	}
+	model fhqGT40HPLHeadlight
+	{
+		mesh = vehicles/Vehicles_fhqGT40HPPolice|fhq_GT40LMLHeadCover,
+		texture = Vehicles/vehicle_fhqGT40HeadlightCover,
+		shader = basicEffect,
+		invertX = FALSE,
+		scale = 0.37,
+	}
+	
 	vehicle fhqHPGT40Police
 	{
 		mechanicType = 3,
@@ -31,11 +48,11 @@ module Base
 
 		textureMask = Vehicles/vehicle_fhqGT40Police_mask,
 		textureLights = Vehicles/vehicle_fhqGT40HPPolice_lights,
-		textureDamage1Overlay = Vehicles/vehicle_fhqGT40_blood,
-		textureDamage2Overlay = Vehicles/vehicle_fhqGT40_blood,
-		textureDamage1Shell = Vehicles/vehicle_fhqGT40_shell_damage_01,
-		textureDamage2Shell = Vehicles/vehicle_fhqGT40_shell_damage_02,
-		textureRust = Vehicles/vehicle_fhqGT40_rust,
+		textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/Veh_Damage1,
+		textureDamage2Shell = Vehicles/Veh_Damage2,
+		textureRust = Vehicles/Veh_Rust,
 
 		lightbar
 		{
@@ -491,6 +508,22 @@ module Base
 		template = Radio_HAM,
 
 		template = Headlight,
+		
+		part HeadlightLeft
+		{
+			model Default
+			{
+				file = fhqGT40HPLHeadlight,
+			}
+		}
+		
+		part HeadlightRight
+		{
+			model Default
+			{
+				file = fhqGT40HPRHeadlight,
+			}
+		}
 
 		attachment trailer
 		{

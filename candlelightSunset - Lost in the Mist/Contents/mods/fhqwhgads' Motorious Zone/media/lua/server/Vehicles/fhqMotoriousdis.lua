@@ -381,3 +381,8 @@ distributionTable["fhqM715hardtopMZ"] = { Normal = VehicleDistributions.fhqMilit
 distributionTable["fhqM715MZ"] = { Normal = VehicleDistributions.fhqMilitaryMZ; }
 distributionTable["fhqM715hardtopCivMZ"] = distributionTable["CarNormal"]
 distributionTable["fhqM715CivMZ"] = distributionTable["CarNormal"]
+
+distributionTable["fhqCelicaGT4RC"] = distributionTable["CarNormal"]
+distributionTable["fhqG4Coupe"] = distributionTable["CarNormal"]
+distributionTable["fhqFBMustangHatchSSP"] = distributionTable["CarLightsPolice"]
+distributionTable["fhqFBMustangHatchSSPLightbar"] = distributionTable["CarLightsPolice"]

@@ -30,11 +30,11 @@ module Base
 
 		textureMask = Vehicles/vehicle_fhqStratosPolice_mask,
 		textureLights = Vehicles/vehicle_fhqStratosRanger_lights,
-		textureDamage1Overlay = Vehicles/vehicle_fhqStratos_blood,
-		textureDamage2Overlay = Vehicles/vehicle_fhqStratos_blood,
-		textureDamage1Shell = Vehicles/vehicle_fhqStratos_shell_damage_01,
-		textureDamage2Shell = Vehicles/vehicle_fhqStratos_shell_damage_02,
-		textureRust = Vehicles/vehicle_fhqStratos_rust,
+		textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/Veh_Damage1,
+		textureDamage2Shell = Vehicles/Veh_Damage2,
+		textureRust = Vehicles/Veh_Rust,
 
 		sound
 		{
@@ -86,7 +86,7 @@ module Base
 		wheel FrontLeft
 		{
 			front = true,
-			offset = 0.3077 -0.2198 0.4780,
+			offset = 0.3297 -0.2088 0.4780,
 			radius = 0.13f,
 			width = 0.23f,
 		}
@@ -94,7 +94,7 @@ module Base
 		wheel FrontRight
 		{
 			front = true,
-			offset = -0.3077 -0.2198 0.4780,
+			offset = -0.3297 -0.2088 0.4780,
 			radius = 0.13f,
 			width = 0.23f,
 		}
@@ -102,7 +102,7 @@ module Base
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.3242 -0.2088 -0.5165,
+			offset = 0.3571 -0.1978 -0.5165,
 			radius = 0.13f,
 			width = 0.23f,
 		}
@@ -110,7 +110,7 @@ module Base
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.3242 -0.2088 -0.5165,
+			offset = -0.3626 -0.1978 -0.5165,
 			radius = 0.13f,
 			width = 0.23f,
 		}

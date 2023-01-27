@@ -75,6 +75,7 @@ local _ISDryMyself_start = ISDryMyself.start
 function ISDryMyself:start()
     self:setActionAnim("WearClothing")
     self:setAnimVariable("WearClothingLocation", WearAnims[ZombRand(#WearAnims)+1] or "")
+    self:setOverrideHandModels(nil, nil)
     _ISDryMyself_start(self)
 end
 
@@ -84,6 +85,7 @@ local _ISFinalizeDealAction_start = ISFinalizeDealAction.start
 function ISFinalizeDealAction:start()
     self:setActionAnim("Loot")
     self:setAnimVariable("LootPosition", "Mid")
+    self.FHIgnore = true
     _ISFinalizeDealAction_start(self)
 end
 
@@ -131,6 +133,7 @@ function ISStopAlarmClockAction:start()
     if not self.character:isEquipped(self.alarm) then
         self:setOverrideHandModels(nil, self.alarm)
     end
+    self.FHIgnore = true
     _ISStopAlarmClockAction_start(self)
 end
 
@@ -149,7 +152,7 @@ function ISConsolidateDrainableAll:start()
         item = i
         break
     end
-    self:setOverrideHandModels(self.item, self.drainable)
+    self:setOverrideHandModels(item, self.drainable)
     _ISConsolidateDrainableAll_start(self)
 end
 
@@ -159,6 +162,7 @@ local _ISBBQLightFromKindle_start = ISBBQLightFromKindle.start
 function ISBBQLightFromKindle:start()
     self:setActionAnim("Loot")
 	self.character:SetVariable("LootPosition", "Mid")
+    self.FHIgnore = true
     _ISBBQLightFromKindle_start(self)
 end
 
@@ -166,6 +170,7 @@ local _ISFireplaceLightFromKindle_start = ISFireplaceLightFromKindle.start
 function ISFireplaceLightFromKindle:start()
     self:setActionAnim("Loot")
 	self.character:SetVariable("LootPosition", "Low")
+    self.FHIgnore = true
     _ISFireplaceLightFromKindle_start(self)
 end
 
@@ -197,3 +202,35 @@ function ISWearClothing:new(...)
     return o
 end
 
+--- DON'T LOOK AT ME! :O 
+---- I'm trying to add some new animations for Transfer Actions, but wasn't able to get this completed before the next update.
+-- -- Fix for the Transfer action.
+-- --- Player will now only pick items off the ground when they are on the ground :)
+-- local _ISInventoryTransferAction_doActionAnim = ISInventoryTransferAction.doActionAnim
+-- function ISInventoryTransferAction:doActionAnim(cont)
+--     _ISInventoryTransferAction_doActionAnim(self, cont)
+--     if self.srcContainer:getType() == "floor" then
+--         local worldItem = self.item:getWorldItem()
+--         if worldItem then
+--             --worldItem:removeFromSquare()
+--             local anim = (self.item:getActualWeight() <= 1.0 and "FancyLoot") or nil
+--             local posAnim = (anim and "FH_Hand") or "LootPosition"
+--             local z = worldItem:getWorldPosZ() - self.character:getZ()
+--             local position
+--             if z > 0.1 then
+--                 position = (anim and ((ZombRand(3) == 1 and "left") or "right")) or "Mid"
+--             elseif z > 0.5 then
+--                 position = "High"
+--             end
+--             if position == "left" then
+--                 self.action:setOverrideHandModels(nil, self.item)
+--             else
+--                 self.action:setOverrideHandModels(self.item, nil)
+--             end
+--             if anim then
+--                 self:setActionAnim(anim)
+--             end
+--             self:setAnimVariable(posAnim, position)
+--         end
+--     end
+-- end

@@ -158,4 +158,9 @@ IG_UI_EN = {
 	IGUI_VehicleNamefhqM715MZ = "M715",
 	IGUI_VehicleNamefhqM715hardtopCivMZ = "M715",
 	IGUI_VehicleNamefhqM715CivMZ = "M715",
+	
+	IGUI_VehicleNamefhqCelicaGT4RC = "Kiichiro Paraisa 4WDRS-SE",
+	IGUI_VehicleNamefhqG4Coupe = "Walklett 105GT",
+	IGUI_VehicleNamefhqFBMustangHatchSSPLightbar = "Franklin Caballo Fennec Police",
+	IGUI_VehicleNamefhqFBMustangHatchSSP = "Franklin Caballo Fennec Police",
 }

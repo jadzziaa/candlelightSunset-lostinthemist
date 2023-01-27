@@ -455,12 +455,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;1, /*This one is reduced by 1 instead of 2 because otherwise it'd give nothin, might revisit and do chance in the future.*/
+		Result:ScrapMetalBits;1, /*This one is reduced by 1 instead of 2 because otherwise it'd give nothin, might revisit and do chance in the future.*/
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits50PercentChanceOf1,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder50PercentChance1,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -471,12 +471,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;3,
+		Result:ScrapMetalBits;1,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits1,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder3,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -487,12 +487,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;7,
+		Result:ScrapMetalBits;1,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits1,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder7,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -503,12 +503,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;8,
+		Result:ScrapMetalBits;2,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits2,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder8,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -519,12 +519,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;9,
+		Result:ScrapMetalBits;3,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits3,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder9,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -535,12 +535,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;9,
+		Result:ScrapMetalBits;3,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits3,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder9,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -551,12 +551,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;13,
+		Result:ScrapMetalBits;4,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits4,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder13,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -567,12 +567,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;16,
+		Result:ScrapMetalBits;5,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits5,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder16,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -583,12 +583,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;19,
+		Result:ScrapMetalBits;5,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits5,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder19,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	
@@ -599,12 +599,12 @@ module Base
 		keep Wrench,
 		keep [Recipe.GetItemTypes.Hammer],
 		   
-		Result:GunPowder;22,
+		Result:ScrapMetalBits;5,
 		Time:15.0,
 		Category:Firearm,
 		SkillRequired:Reloading=1,
 		NeedToBeLearn:true,
-		OnCreate:UdderlyAmmoCrafting.OnCreateGiveScrapBits5,
+		OnCreate:UdderlyAmmoCrafting.OnCreateGiveGunpowder22,
 		OnGiveXP:UdderlyAmmoCrafting.ReloadingXP1,
 	}
 	

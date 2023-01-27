@@ -5,14 +5,7 @@ RemoteLC_ControllerUI.instance = {}
 RemoteLC_ControllerUI.messages = {}
 
 local textManager = getTextManager()
-local FONT_SMALL_HEIGHT = textManager:getFontHeight(UIFont.Small)
-local FONT_MEDIUM_HEIGHT = textManager:getFontHeight(UIFont.Medium)
-local BUTTON_HEIGHT = math.max(FONT_SMALL_HEIGHT + 3 * 2, 25)
-local CLOSE_BUTTON_SIZE = 20
-local EDGE_PADDING = 12
 local ELEMENT_PADDING = 5
-local SECTION_PADDING = 20
-local SECTION_BORDER_PADDING = 5
 local TEXTS = {
     Activate = getText("UI_RemoteLC_Activate"),
     All = getText("UI_RemoteLC_All"),

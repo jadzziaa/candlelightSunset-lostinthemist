@@ -10,11 +10,7 @@ require "TimedActions/ISBaseTimedAction"
 FHSwapHandsAction = ISBaseTimedAction:derive("FHSwapHandsAction")
 
 function FHSwapHandsAction:isValid()
-	if self.character:getPrimaryHandItem() or self.character:getSecondaryHandItem() then
-		return true
-	else
-		return false
-	end
+	return ((self.character:getPrimaryHandItem() or self.character:getSecondaryHandItem()) ~= nil)
 end
 
 function FHSwapHandsAction:update()
@@ -32,27 +28,17 @@ function FHSwapHandsAction:start()
     if self.itemL then
 	    self.itemL:setJobType(getText("ContextMenu_Equip_Primary") .. " " .. self.itemL:getName())
 	    self.itemL:setJobDelta(0.0)
-        sound = self.itemL:getUnequipSound()
     end
     if self.itemR then
         self.itemR:setJobType(getText("ContextMenu_Equip_Secondary") .. " " .. self.itemR:getName())
 	    self.itemR:setJobDelta(0.0)
-        if not sound then
-            sound = self.itemR:getUnequipSound()
-        end
     end
 	self:setActionAnim("EquipItem")
     self:setOverrideHandModels(self.itemR, self.itemL)
 
-	if sound then
-		self.sound = self.character:getEmitter():playSound(sound)
-	end
 end
 
 function FHSwapHandsAction:stop()
-	if self.sound then
-		self.character:getEmitter():stopSound(self.sound)
-	end
     if self.itemL then
         self.itemL:setJobDelta(0.0)
     end
@@ -63,10 +49,6 @@ function FHSwapHandsAction:stop()
 end
 
 function FHSwapHandsAction:perform()
-	if self.sound then
-		self.character:getEmitter():stopSound(self.sound)
-	end
-
     if self.itemL then
         self.itemL:getContainer():setDrawDirty(true)
         self.itemL:setJobDelta(0.0)
@@ -76,18 +58,8 @@ function FHSwapHandsAction:perform()
         self.itemR:setJobDelta(0.0)
     end
 
-	self.character:setPrimaryHandItem(nil)
-	self.character:setSecondaryHandItem(nil)
-
-	if self.itemL then
-		self.character:setPrimaryHandItem(self.itemL)
-	end
-
-	if self.itemR then --and FancyHands.config.applyRotationL then
-		self.character:setSecondaryHandItem(self.itemR)
-	end
-
-	getPlayerInventory(self.character:getPlayerNum()):refreshBackpacks()
+	self.character:setPrimaryHandItem(self.itemL)
+	self.character:setSecondaryHandItem(self.itemR)
 
     -- needed to remove from queue / start next.
 	ISBaseTimedAction.perform(self);

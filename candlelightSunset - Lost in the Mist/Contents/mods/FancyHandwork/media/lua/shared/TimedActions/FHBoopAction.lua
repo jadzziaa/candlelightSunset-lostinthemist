@@ -1,19 +1,35 @@
 --- These actions all do a small hand movement now.
+FHBoopAction = ISBaseTimedAction:derive("FHBoopAction")
 
--- function FHBoopAction:start()
---     self:setActionAnim("FH_Boop")
---     print("Boop")
---     --self:adjustMaxTime(20)
--- end
+local rearObjects = {
+	["LightSwitch"] = true,
+	["LightSource"] = true,
+	["Stove"] = true,
+	["ClothingDryer"] = true,
+	["ClothingWasher"] = true,
+	["CombinationWasherDryer"] = true,
+	["Door"] = true,
+	["Radio"] = true,
+	["Television"] = true,
+}
 
--- -- local _FHBoopAction_new = FHBoopAction.new
--- -- function FHBoopAction:new(character, item, time)
--- --     return _FHBoopAction_new(self, character,item,200)
--- -- end
+local function skipInstances(obj)
+	return not obj or rearObjects[obj:getObjectName()] or (obj:getObjectName() == "Thumpable" and obj:isDoor())
+end
 
-require "TimedActions/ISBaseTimedAction"
-
-FHBoopAction = ISBaseTimedAction:derive("FHBoopAction");
+--character:getModData().FancyHands and not character:getModData().FancyHands.recentMove  and (character:getModData().FancyHands.recentMove and not skipInstances(data.item) or true)
+local function shouldDoTurn(obj, player)
+	if not obj or not player or player:isAiming() or not SandboxVars.FancyHandwork or SandboxVars.FancyHandwork.DisableTurn == 1 then return false end
+	if SandboxVars.FancyHandwork.DisableTurn == 3 then return true end
+	if instanceof(obj, "InventoryItem") and obj:isInPlayerInventory() then return false end -- safeguard
+	if SandboxVars.FancyHandwork.TurnBehavior <= 2 then
+		return (player:getModData().FancyHands and not player:getModData().FancyHands.recentMove)
+	elseif SandboxVars.FancyHandwork.TurnBehavior == 3 then
+		return not (skipInstances(obj) or not (player:getModData().FancyHands and not player:getModData().FancyHands.recentMove))
+	end
+	
+	return false
+end
 
 function FHBoopAction:isValid()
 	return true;
@@ -21,27 +37,82 @@ end
 
 -- blech, I really want this, but turning overrides my animation
 function FHBoopAction:waitToStart()
-	if self.turn then
+	if self.character:isSeatedInVehicle() then
+		-- If we are in a car, we should just stop here actually
+		self:forceComplete()
+		return false
+	elseif self.turn then
 		self.character:faceThisObject(self.item)
 		return self.character:shouldBeTurning()
 	end
+	
 	return false
 end
 
-function FHBoopAction:doThing(left, secondary)
+function FHBoopAction:isInRearRange()
+	-- This game is weird man
+	---- I tried to get the angle between the player and the object but its fucking inconsistent because large numbers, AND fucking light switches
+	---- isFacingObject returns a value of 1,-1 and 0 represents it being perpendicular (left OR right)
+	---- This is also SUPER picky, in that moving a step in the same direction can go from 0.4 to -0.1 and below, or in the opposite direction who knows man.
+	---- So already off, not the best function.  I will revisit this, I am way to tired to do the math right now and don't give a shit.
+	---- This function itself has lost me like 3 days. fuck this for now.
+	return not (self.character:isFacingObject(self.item, -0.65))
+end
+
+
+
+function FHBoopAction:doRearDoor(left)
+	if self.turn or not self:isInRearRange() then return false end
+
+	if left == 1 then -- left
+		self:setActionAnim("FH_Boop_Rear_L")
+	elseif left == 2 then -- right
+		self:setActionAnim("FH_Boop_Rear_R")
+	else
+		if ZombRand(3) == 1 then
+			self:setActionAnim("FH_Boop_Rear_L")
+		else
+			self:setActionAnim("FH_Boop_Rear_R")
+		end
+	end
+	return true
+end
+
+function FHBoopAction:doRearFlick(left)
+	if self.turn or not self:isInRearRange() then return false end
+
+	if left == 1 then -- left
+		self:setActionAnim("FH_Boop_Rear_Flick_L")
+	elseif left == 2 then -- right
+		self:setActionAnim("FH_Boop_Rear_Flick_R")
+	else
+		if ZombRand(3) == 1 then
+			self:setActionAnim("FH_Boop_Rear_Flick_L")
+		else
+			self:setActionAnim("FH_Boop_Rear_Flick_R")
+		end
+	end
+	return true
+end
+
+function FHBoopAction:doThing(left)
 	left = left or 0
-	--local gun = secondary and instanceof(secondary, "HandWeapon") and secondary:isRanged()
+
+	if instanceof(self.item, "IsoDoor") then
+		if self:doRearDoor(left) then return end
+	elseif skipInstances(self.item) then
+		if self:doRearFlick(left) then return end
+	end
+
 	if left == 1 then -- left
 		self:setActionAnim("FH_BoopL")
 	elseif left == 2 then -- right
 		self:setActionAnim("FH_Boop")
-		--if gun then self:setAnimVariable("RightHandMask", "holdinggunright") end
 	else
 		if ZombRand(3) == 1 then
 			self:setActionAnim("FH_BoopL")
 		else
 			self:setActionAnim("FH_Boop")
-			--if gun then self:setAnimVariable("RightHandMask", "holdinggunright") end
 		end
 	end
 end
@@ -60,20 +131,14 @@ function FHBoopAction:start()
 		local primary = self.character:getPrimaryHandItem()
 		local secondary = self.character:getSecondaryHandItem()
 		if primary then
-			if (primary and secondary) and not self.character:isAiming() and primary ~= secondary then
-				-- Doesn't matter which hand here
-				self:doThing(0, secondary)
-			else
-				self:doThing(1, secondary)
-			end
+			self:doThing((((primary and secondary) and not self.character:isAiming() and primary ~= secondary) and 0) or 1)	
 		else
-			if not secondary then
-				self:doThing(0,secondary)
-			else
-				self:doThing(2, secondary)
-			end
+			self:doThing((not secondary and 0) or 2)
 		end 
 	end
+	--self.character
+	-- set this here again to undo any moodles and such
+	self.action:setTime(15)
 end
 
 function FHBoopAction:stop()
@@ -81,7 +146,7 @@ function FHBoopAction:stop()
 end
 
 function FHBoopAction:perform()
-	--self.item:ToggleDoor(self.character);
+
     -- needed to remove from queue / start next.
 	ISBaseTimedAction.perform(self);
 end
@@ -94,12 +159,11 @@ function FHBoopAction:new(character, data)
 	o.character = character
 	o.item = data.item
 	o.extra = data.extra
-	--print(item);
 	o.stopOnWalk = false
 	o.stopOnRun = false
 	o.maxTime = 15
 	o.FHIgnore = true
 	o.useProgressBar = false
-	o.turn = (o.item and o.character:getModData().FancyHands and not o.character:getModData().FancyHands.recentMove)
+	o.turn = shouldDoTurn(data.item, character)
 	return o
 end

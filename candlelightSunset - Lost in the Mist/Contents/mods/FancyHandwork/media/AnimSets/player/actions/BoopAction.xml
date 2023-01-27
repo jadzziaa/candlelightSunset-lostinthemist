@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animNode>
 	<m_Name>FH_Boop</m_Name>
-	<m_AnimName>Bob_IdleLooting_Mid</m_AnimName>
+	<m_AnimName>Bob_FH_Boop</m_AnimName>
 	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
 	<m_Looped>false</m_Looped>
 	<m_SpeedScale>0.80</m_SpeedScale>
@@ -45,7 +45,7 @@
 	</m_SubStateBoneWeights>
 	<m_SubStateBoneWeights>
 		<boneName>Translation_Data</boneName>
-		<weight>0.5</weight>
+		<weight>0.25</weight>
 	</m_SubStateBoneWeights>
 	<m_Events>
 		<m_EventName>SetVariable</m_EventName>

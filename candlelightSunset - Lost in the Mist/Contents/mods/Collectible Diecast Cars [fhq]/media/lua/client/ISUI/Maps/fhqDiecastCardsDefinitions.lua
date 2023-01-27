@@ -204,6 +204,78 @@ LootMaps.Init.fhqZeroRCard = function(mapUI)
     MapUtils.overlayPaper(mapUI)
 end
 
+LootMaps.Init.fhqM715Card = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqM715Card.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
+LootMaps.Init.fhqDeltaCard = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqDeltaCard.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
+LootMaps.Init.fhqE36Card = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqE36Card.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
+LootMaps.Init.fhqDiabloCard = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqDiabloCard.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
+LootMaps.Init.fhqZ32Card = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqZ32Card.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
+LootMaps.Init.fhqBelAirCard = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqBelAirCard.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
+LootMaps.Init.fhqCelicaGT4Card = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqCelicaGT4Card.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
+LootMaps.Init.fhqGinettaG4Card = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(10, 10, 10 + PNGX, 10 + PNGY)
+    MapUtils.initDefaultStyleV1(mapUI)
+    overlayPNG(mapUI, 10, 10, 1, "lootMapPNG", "media/ui/LootableMaps/fhqGinettaG4Card.png", 1.0)
+    MapUtils.overlayPaper(mapUI)
+end
+
 LootMaps.Init.fhqDCNullCard = function(mapUI)
     local mapAPI = mapUI.javaObject:getAPIv1()
     MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')

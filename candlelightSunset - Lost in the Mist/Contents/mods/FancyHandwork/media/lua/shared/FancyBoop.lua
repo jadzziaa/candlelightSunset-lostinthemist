@@ -11,28 +11,32 @@ local curtainType = {
     ["CurtainShort"] = 1,
     ["CurtainShade"] = 2,
     ["CurtainSheet"] = 2,
-    ["DoorSheet"] = 1
+    ["DoorSheet"] = 2
 }
 -- Delayed parameter is for when the action is done after
 FancyHands.checkWindow = function(obj, playerObj, delayed)
     local curtains = false
     local type = ""
+    local open = false
     if instanceof(obj, "IsoCurtain") then
         curtains = true
         type = obj:getSoundPrefix()
+        open = obj:IsOpen()
     elseif instanceof(obj, "IsoWindow") and obj:HasCurtains() then
         obj = obj:HasCurtains()
         curtains = obj:canInteractWith(playerObj) and isKeyDown(Keyboard.KEY_LSHIFT)
         type = obj:getSoundPrefix()
+        open = obj:IsOpen()
     elseif instanceof(obj, "IsoDoor") and obj:HasCurtains() then
         curtains = playerObj:getCurrentSquare() == obj:getSheetSquare() and isKeyDown(Keyboard.KEY_LSHIFT)
         type = "DoorSheet"
+        open = obj:isCurtainOpen()
     end
     --if curtains and not curtains:getSquare():getProperties():Is(IsoFlagType.exterior) and not playerObj:getCurrentSquare():Is(IsoFlagType.exterior) then
     if curtains then
         local cur = curtainType[type]
         if not cur or cur > 1 then
-            if obj:IsOpen() then
+            if open then
                 cur = 101
             else
                 cur = 1
@@ -44,14 +48,9 @@ FancyHands.checkWindow = function(obj, playerObj, delayed)
 end
 
 FancyHands.doorDecide = function(obj, playerObj, delayed, fromClick)
-    if fromClick and isKeyDown(Keyboard.KEY_LSHIFT) then return end
+    if (fromClick and isKeyDown(Keyboard.KEY_LSHIFT)) or obj:isDestroyed() then return end
     if obj:getProperties():Is("GarageDoor") then
-        local open = (delayed and obj:IsOpen()) or not obj:IsOpen()
-        if open then
-            return { item = obj, extra = -1 }
-        else
-            return { item = obj, extra = 101 }
-        end
+        return { item = obj, extra = ((delayed and obj:IsOpen() and -1) or (not delayed and not obj:IsOpen() and -1)) or 101 }
     else
         return { item = obj, extra = 0 }
     end
@@ -59,7 +58,7 @@ end
 
 FancyHands.checkDoor = function(obj, playerObj, delayed, fromClick) 
     local out
-    if obj and playerObj and not obj:isDestroyed() then
+    if obj and playerObj then
         if instanceof(obj, "IsoCurtain") or instanceof(obj, "IsoWindow") then
             out = FancyHands.checkWindow(obj, playerObj)
         elseif instanceof(obj, "IsoDoor") then
@@ -122,8 +121,8 @@ end
 
 FancyHands.testForAction = function(dir, playerObj)
     local playerNum = playerObj:getPlayerNum()
-    local square1 = playerObj:getCurrentSquare();
-    local square2 = square1:getAdjacentSquare(dir);
+    local square1 = playerObj:getCurrentSquare()
+    local square2 = square1:getAdjacentSquare(dir)
     if square2 == nil then return nil end
 
     local found = nil
@@ -132,31 +131,13 @@ FancyHands.testForAction = function(dir, playerObj)
         found = FancyHands.checkDoor(playerObj:getContextDoorOrWindowOrWindowFrame(dir), playerObj)
     end
 
-    -- Stove does not seem to be something you can do via the "E" key
-    -- if not found and square1:getRoom() then
-    --     if (SandboxVars.ElecShutModifier > -1 and getGameTime():getNightsSurvived() < SandboxVars.ElecShutModifier) or square1:haveElectricity() then
-    --         -- Stove on adjacent square
-    --         for i=1,square2:getObjects():size() do
-    --             local object = square2:getObjects():get(i-1)
-    --             if instanceof(object, "IsoStove") and not ISWorldObjectContextMenu.isSomethingTo(object, playerNum) then
-    --                 if object:Activated() then
-    --                     self:setAPrompt(getText("ContextMenu_Turn_Off"), self.cmdToggleStove, object)
-    --                 else
-    --                     self:setAPrompt(getText("ContextMenu_Turn_On"), self.cmdToggleStove, object)
-    --                 end
-    --                 break
-    --             end
-    --         end
-    --     end
-    -- end
-
     if not found then
         local vehicle = playerObj:getUseableVehicle()
         if vehicle then
             local part = vehicle:getUseablePart(playerObj)
             if part then
-                if part:getDoor() and part:getInventoryItem() then
-                    if part:getId() == "EngineDoor" then 
+                if part:getDoor() and part:getDoor():isLocked() and part:getInventoryItem() then
+                    if part:getId() == "EngineDoor" then
                         -- Skip the hood
                     elseif part:getId() == "TrunkDoor" or part:getId() == "DoorRear" then
                         -- Do the trunk/compartments

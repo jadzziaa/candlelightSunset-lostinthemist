@@ -92,7 +92,7 @@ module Base
 		mass = 750,
 		physicsChassisShape = 0.8571 0.5604 1.8791,
 		centerOfMassOffset = 0.0000 0.2802 0.0000,
-		shadowExtents = 0.9377 2.1542,
+		shadowExtents = 0.8553 2.1542,
 		shadowOffset = 0.0000 0.0000,
 		engineForce = 4250,
 		engineLoudness = 85,

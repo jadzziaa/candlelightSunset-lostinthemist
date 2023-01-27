@@ -64,7 +64,7 @@ VehicleZoneDistribution.parkingstall.vehicles["Base.fhq92EconolineXLPanel"] = {i
 VehicleZoneDistribution.parkingstall.vehicles["Base.fhq92EconolinePAYDAY"] = {index = 0, spawnChance = 0.01};
 VehicleZoneDistribution.parkingstall.vehicles["Base.fhq92EconolineValkyrie"] = {index = 0, spawnChance = 0.01};
 
-VehicleZoneDistribution.parkingstall.vehicles["Base.fhqCrestaJZX90"] = {index = 0, spawnChance = 0.8};
+VehicleZoneDistribution.parkingstall.vehicles["Base.fhqCrestaJZX90"] = {index = 0, spawnChance = 0.08};
 VehicleZoneDistribution.parkingstall.vehicles["Base.fhqMarkIIJZX90"] = {index = 0, spawnChance = 0.1};
 VehicleZoneDistribution.parkingstall.vehicles["Base.fhqChaserJZX90"] = {index = 0, spawnChance = 0.12};
 
@@ -117,6 +117,8 @@ VehicleZoneDistribution.parkingstall.vehicles["Base.fhqDeltaEvo"] = {index = -1,
 
 VehicleZoneDistribution.parkingstall.vehicles["Base.fhqM715hardtopCivMZ"] = {index = -1, spawnChance = 0.4};
 VehicleZoneDistribution.parkingstall.vehicles["Base.fhqM715CivMZ"] = {index = -1, spawnChance = 0.4};
+
+VehicleZoneDistribution.parkingstall.vehicles["Base.fhqCelicaGT4RC"] = {index = -1, spawnChance = 0.15};
 
 ---Trailer Park: Vehicles that will spawn in trailer park areas. Typically lower quality, but offroad vehicles could work as well---
 
@@ -281,6 +283,9 @@ VehicleZoneDistribution.medium.vehicles["Base.fhq70ChallengerShaker"] = {index =
 
 VehicleZoneDistribution.medium.vehicles["Base.fhqDeltaEvo"] = {index = -1, spawnChance = 2};
 
+VehicleZoneDistribution.medium.vehicles["Base.fhqG4Coupe"] = {index = -1, spawnChance = 1.3};
+VehicleZoneDistribution.medium.vehicles["Base.fhqCelicaGT4RC"] = {index = -1, spawnChance = 3};
+
 ---Good Vehicles: These areas are around nicer neighborhoods. Riverside is very dense with these spawn zones---
 
 VehicleZoneDistribution.good.vehicles["Base.fhqGT40Gulf"] = {index = -1, spawnChance = 2};
@@ -387,6 +392,9 @@ VehicleZoneDistribution.good.vehicles["Base.fhq70ChallengerShaker"] = {index = 0
 VehicleZoneDistribution.good.vehicles["Base.fhqDeltaEvo"] = {index = 0, spawnChance = 7};
 VehicleZoneDistribution.good.vehicles["Base.fhqDeltaEvoRally"] = {index = 0, spawnChance = 1};
 
+VehicleZoneDistribution.good.vehicles["Base.fhqG4Coupe"] = {index = 0, spawnChance = 4};
+VehicleZoneDistribution.good.vehicles["Base.fhqCelicaGT4RC"] = {index = 0, spawnChance = 6};
+
 ---Sport Vehicles: Very rarely used zones, but they should only contain performance/rare cars. There is some overlap with Good spawn zones---
 
 VehicleZoneDistribution.sport.vehicles["Base.fhqGT40"] = {index = -1, spawnChance = 15};
@@ -460,6 +468,9 @@ VehicleZoneDistribution.sport.vehicles["Base.fhqLexusSC400"] = {index = -1, spaw
 
 VehicleZoneDistribution.sport.vehicles["Base.fhqDeltaEvo"] = {index = 0, spawnChance = 30};
 VehicleZoneDistribution.sport.vehicles["Base.fhqDeltaEvoRally"] = {index = 0, spawnChance = 5};
+
+VehicleZoneDistribution.sport.vehicles["Base.fhqG4Coupe"] = {index = 0, spawnChance = 22};
+VehicleZoneDistribution.sport.vehicles["Base.fhqCelicaGT4RC"] = {index = 0, spawnChance = 30};
 
 ---Traffic Jam: Preset traffic jam areas around the map.---
 
@@ -586,6 +597,9 @@ VehicleZoneDistribution.trafficjamw.vehicles["Base.fhqM715MZ"] = {index = -1, sp
 VehicleZoneDistribution.trafficjamw.vehicles["Base.fhqM715hardtopCivMZ"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.fhqM715CivMZ"] = {index = -1, spawnChance = 1};
 
+VehicleZoneDistribution.trafficjamw.vehicles["Base.fhqG4Coupe"] = {index = -1, spawnChance = 0.3};
+VehicleZoneDistribution.trafficjamw.vehicles["Base.fhqCelicaGT4RC"] = {index = -1, spawnChance = 0.5};
+
 ---Junkyard: Cars in this list will usually be in very poor condition. Due to large amounts of spawns in these areas, it's a good place to put rare classic vehicles so that it becomes a bit of a restoration project---
 
 VehicleZoneDistribution.junkyard.vehicles["Base.fhqGT40Gulf"] = {index = -1, spawnChance = 0.35};
@@ -659,6 +673,8 @@ VehicleZoneDistribution.junkyard.vehicles["Base.fhqDeltaEvoRally"] = {index = -1
 VehicleZoneDistribution.junkyard.vehicles["Base.fhqM715hardtopCivMZ"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.junkyard.vehicles["Base.fhqM715CivMZ"] = {index = -1, spawnChance = 1};
 
+VehicleZoneDistribution.junkyard.vehicles["Base.fhqG4Coupe"] = {index = -1, spawnChance = 0.25};
+
 ---Farm: A normally empty vanilla list. Offroad vehicles are an excellent candidate for this spawn zone---
 
 VehicleZoneDistribution.farm = VehicleZoneDistribution.farm or {};
@@ -690,6 +706,9 @@ VehicleZoneDistribution.police.vehicles["Base.fhq57BelAirPolice"] = {index = -1,
 VehicleZoneDistribution.police.vehicles["Base.fhq57BelAirKSP"] = {index = -1, spawnChance = 10};
 
 VehicleZoneDistribution.police.vehicles["Base.fhqLeCarPolice"] = {index = -1, spawnChance = 10};
+
+VehicleZoneDistribution.police.vehicles["Base.fhqFBMustangHatchSSPLightbar"] = {index = 0, spawnChance = 10};
+VehicleZoneDistribution.police.vehicles["Base.fhqFBMustangHatchSSP"] = {index = 0, spawnChance = 10};
 
 ---Ambulance---
 VehicleZoneDistribution.ambulance.vehicles["Base.fhq92EconolineAmbulance"] = {index = -1, spawnChance = 175};
@@ -758,6 +777,8 @@ VehicleZoneDistribution.collectors.vehicles["Base.fhqFBMustangSAACMkII"] = {inde
 VehicleZoneDistribution.collectors.vehicles["Base.fhqDeltaEvo"] = {index = -1, spawnChance = 12};
 VehicleZoneDistribution.collectors.vehicles["Base.fhqDeltaEvoRally"] = {index = -1, spawnChance = 3};
 
+VehicleZoneDistribution.collectors.vehicles["Base.fhqG4Coupe"] = {index = -1, spawnChance = 18};
+
 ---Exotic: Similar to sport, but for modern exotic cars---
 
 VehicleZoneDistribution.exotic = VehicleZoneDistribution.exotic or {};
@@ -809,6 +830,8 @@ VehicleZoneDistribution.barnfind.vehicles["Base.fhq70ChallengerRT"] = {index = -
 VehicleZoneDistribution.barnfind.vehicles["Base.fhq70ChallengerTA"] = {index = -1, spawnChance = 12};
 
 VehicleZoneDistribution.barnfind.vehicles["Base.fhq57BelAir"] = {index = -1, spawnChance = 20};
+
+VehicleZoneDistribution.barnfind.vehicles["Base.fhqG4Coupe"] = {index = -1, spawnChance = 7};
 
 ---Expo Car Show: These zones will be near expo centers, or other places where there may be large car shows. Here you will find exotics, classics, and most importantly concepts and one-offs---
 
@@ -896,6 +919,9 @@ VehicleZoneDistribution.specialdealer.vehicles["Base.fhqHQSandman"] = {index = -
 VehicleZoneDistribution.specialdealer.vehicles["Base.fhqHQPanelVan"] = {index = -1, spawnChance = 15};
 
 VehicleZoneDistribution.specialdealer.vehicles["Base.fhqDeltaEvo"] = {index = -1, spawnChance = 15};
+
+VehicleZoneDistribution.specialdealer.vehicles["Base.fhqG4Coupe"] = {index = -1, spawnChance = 10};
+VehicleZoneDistribution.specialdealer.vehicles["Base.fhqCelicaGT4RC"] = {index = -1, spawnChance = 20};
 
 ---New Dealer: Zone for new car dealerships. Should lean towards modern cars, with a rare chance for a display car. Higher condition and key chance.
 
@@ -1045,6 +1071,9 @@ VehicleZoneDistribution.import.vehicles["Base.fhqHQPanelVan"] = {index = 0, spaw
 
 VehicleZoneDistribution.import.vehicles["Base.fhqDeltaEvo"] = {index = -1, spawnChance = 30};
 
+VehicleZoneDistribution.import.vehicles["Base.fhqG4Coupe"] = {index = -1, spawnChance = 17};
+VehicleZoneDistribution.import.vehicles["Base.fhqCelicaGT4RC"] = {index = -1, spawnChance = 27};
+
 ---Used Dealer: Zone for used car dealers. Should contain older cars, but newer cars can also be included as well. Higher key chance, lower condition.---
 
 VehicleZoneDistribution.useddealer = VehicleZoneDistribution.useddealer or {};
@@ -1156,10 +1185,13 @@ VehicleZoneDistribution.policeonly.vehicles["Base.fhqFBMustangSSPLightbar"] = {i
 
 VehicleZoneDistribution.policeonly.vehicles["Base.fhq70ChallengerSF"] = {index = -1, spawnChance = 7};
 
-VehicleZoneDistribution.policeonly.vehicles["Base.fhq57BelAirPolice"] = {index = 0, spawnChance = 10};
-VehicleZoneDistribution.policeonly.vehicles["Base.fhq57BelAirKSP"] = {index = 0, spawnChance = 10};
+VehicleZoneDistribution.policeonly.vehicles["Base.fhq57BelAirPolice"] = {index = 0, spawnChance = 7};
+VehicleZoneDistribution.policeonly.vehicles["Base.fhq57BelAirKSP"] = {index = 0, spawnChance = 7};
 
-VehicleZoneDistribution.policeonly.vehicles["Base.fhqLeCarPolice"] = {index = 0, spawnChance = 10};
+VehicleZoneDistribution.policeonly.vehicles["Base.fhqLeCarPolice"] = {index = 0, spawnChance = 7};
+
+VehicleZoneDistribution.policeonly.vehicles["Base.fhqFBMustangSSP"] = {index = 0, spawnChance = 7};
+VehicleZoneDistribution.policeonly.vehicles["Base.fhqFBMustangSSPLightbar"] = {index = 0, spawnChance = 7};
 
 ---Ambulance Exclusive: The vanilla ambulance list, but will only spawn ambulances---
 

@@ -2,11 +2,26 @@ module Base
 {
 	model fhqSupraMkIVPolice
 	{
-		mesh = vehicles/vehicles_fhqSupraMkIVpolice,
+		mesh = vehicles/vehicles_fhqSupraMkIVpolice|fhqMKIVSupraPolice,
 		shader = vehicle_multiuv,
 		invertX = FALSE,
 		scale = 0.41,
 	}
+	model fhqSupraMKIVHPRHeadlight
+	{
+		mesh = vehicles/vehicles_fhqSupraMkIV|fhqMKIVSupraRHeadCover,
+		shader = basicEffect,
+		invertX = FALSE,
+		scale = 0.41,
+	}
+	model fhqSupraMKIVHPLHeadlight
+	{
+		mesh = vehicles/vehicles_fhqSupraMkIV|fhqMKIVSupraLHeadCover,
+		shader = basicEffect,
+		invertX = FALSE,
+		scale = 0.41,
+	}
+	
 	vehicle fhqHPSupraMkIVPoliceHP
 	{
 		mechanicType = 3,
@@ -31,11 +46,11 @@ module Base
 
 		textureMask = Vehicles/vehicle_fhqSupraMkIVPolice_mask,
 		textureLights = Vehicles/vehicle_fhqSupraMkIVPolice_lights,
-		textureDamage1Overlay = Vehicles/vehicle_fhqSupraMkIV_blood,
-		textureDamage2Overlay = Vehicles/vehicle_fhqSupraMkIV_blood,
-		textureDamage1Shell = Vehicles/vehicle_fhqSupraMkIV_shell_damage_01,
-		textureDamage2Shell = Vehicles/vehicle_fhqSupraMkIV_shell_damage_02,
-		textureRust = Vehicles/vehicle_fhqSupraMkIV_rust,
+		textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/Veh_Damage1,
+		textureDamage2Shell = Vehicles/Veh_Damage2,
+		textureRust = Vehicles/Veh_Rust,
 
 		sound
 		{
@@ -584,6 +599,22 @@ module Base
 		template = Radio_HAM,
 
 		template = Headlight,
+		
+		part HeadlightLeft
+		{
+			model Default
+			{
+				file = fhqSupraMKIVHPLHeadlight,
+			}
+		}
+
+		part HeadlightRight
+		{
+			model Default
+			{
+				file = fhqSupraMKIVHPRHeadlight,
+			}
+		}
 
 		attachment trailer
 		{

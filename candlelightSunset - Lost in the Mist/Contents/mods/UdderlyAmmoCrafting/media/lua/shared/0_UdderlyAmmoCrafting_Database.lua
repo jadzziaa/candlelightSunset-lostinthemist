@@ -116,7 +116,134 @@ function UdderlyAmmoCrafting.OnCreateGiveScrapBits10(items, result, player)
 	player:getInventory():AddItems("Base.ScrapMetalBits", 10)
 end
 
+---@param player IsoGameCharacter
+function UdderlyAmmoCrafting.ConsolidateGunpowder(amount,result,player)
+	amount = amount * .001
+	local otherGunpowders = player:getInventory():getItemsFromType("Base.GunPowder")
+	for i=0, otherGunpowders:size()-1 do
+		---@type DrainableComboItem
+		local otherGunpowder = otherGunpowders:get(i)
+		if otherGunpowder:getUsedDelta() < 1 then
+			local gunpowderAmount = otherGunpowder:getUsedDelta() + amount
+			if gunpowderAmount > 1 then
+				amount = gunpowderAmount-1
+				gunpowderAmount = 1
+			else
+				amount = 0
+			end
+			otherGunpowder:setUsedDelta(gunpowderAmount)
+			if amount == 0 then
+				return
+			end
+		end
+	end
+	if amount>0 then
+		local remainderPowder = player:getInventory():AddItem("Base.GunPowder")
+		remainderPowder:setUsedDelta(amount)
+	end
+end
 
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder50PercentChance1(items, result, player)
+	if ZombRand(2)==1 then
+		UdderlyAmmoCrafting.ConsolidateGunpowder(1,result,player)
+	end
+
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder1(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(1,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder2(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(2,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder3(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(3,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder4(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(4,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder5(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(5,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder6(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(6,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder7(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(7,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder8(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(8,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder9(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(9,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder10(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(10,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder11(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(11,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder12(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(12,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder13(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(13,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder14(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(14,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder15(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(15,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder16(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(16,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder17(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(17,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder18(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(18,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder19(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(19,result,player)
+end
+
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder20(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(20,result,player)
+end
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder21(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(21,result,player)
+end
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder22(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(22,result,player)
+end
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder23(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(23,result,player)
+end
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder24(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(24,result,player)
+end
+function UdderlyAmmoCrafting.OnCreateGiveGunpowder25(items, result, player)
+	UdderlyAmmoCrafting.ConsolidateGunpowder(25,result,player)
+end
 	--OnGiveXP
 
 function UdderlyAmmoCrafting.ReloadingXP1(recipe, ingredients, result, player)

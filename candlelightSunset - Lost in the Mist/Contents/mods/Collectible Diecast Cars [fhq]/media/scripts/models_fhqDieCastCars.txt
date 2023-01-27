@@ -3600,6 +3600,201 @@ module Base
 		}
 	}
 	
+	model fhqDCDeltaDrbyGrn
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_drbygrn,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaLrdBlu
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_lrdblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaMnzaRd
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_mnzard,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaWht
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_wht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCDeltaWnrRd
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_wnrrd,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+		model fhqDCDeltaRally
+	{
+		mesh = WorldItems/fhqDiecast18Delta,
+		texture = WorldItems/fhqdelta_dc_rally,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCM715OD
+	{
+		mesh = WorldItems/fhqDiecast18M715,
+		texture = WorldItems/fhqm715_dc_od,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4Black
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_black,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4BluishGry
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_bluishgray,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4SprRed
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_superred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCCelicaGT4SprWht
+	{
+		mesh = WorldItems/fhqDiecast18CelicaGT4,
+		texture = WorldItems/fhqcelicagt4_dc_superwhite,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4CirsWht
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_cirruswht,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4LagonBlu
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_lagoonblu,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4LotsYlw
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_lotusylw,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	model fhqDCG4MrsRed
+	{
+		mesh = WorldItems/fhqDiecast18G4Coupe,
+		texture = WorldItems/fhqg4_dc_marsred,
+		scale = 0.55,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+/*===========================================VANILLA CARS===========================================*/
 	model fhqDCCarLuxuryBge
 	{
 		mesh = WorldItems/fhqDiecast18CarLuxury,

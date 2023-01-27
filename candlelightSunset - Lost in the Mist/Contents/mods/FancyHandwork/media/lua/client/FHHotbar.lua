@@ -5,8 +5,7 @@
 
 -- Override on GameStart
 local function doOverride()
-    -- SwapIt is better, I'd rather use their features than mine.
-    ---- Hopefully we can get compatibility. :)
+    -- SwapIt support was merged! :D Use that if installed
     if getActivatedMods():contains('SwapIt') then return end
 
     local _ISHotbar_equipItem = ISHotbar.equipItem

@@ -5,7 +5,7 @@ module Base
 		mesh = vehicles/vehicles_fhqFBMustangGTpolice,
 		shader = vehicle_norandom_multiuv,
 		invertX = FALSE,
-		scale = 1,
+		scale = 0.43,
 	}
 	vehicle fhqHPFBMustangGTSheriff
 	{
@@ -18,8 +18,8 @@ module Base
 		model
 		{
 			file = fhqFBMustangGTPolice,
-			scale = 0.8000,
-			offset = 0.0000 0.6494 0.0000,
+			scale = 1.8200,
+			offset = 0.0000 0.2473 0.0000,
 		}
 
 		spawnOffsetY = 0.12999995,
@@ -31,11 +31,11 @@ module Base
 
 		textureMask = Vehicles/vehicle_fhqFBMustangGTPolice_mask,
 		textureLights = Vehicles/vehicle_fhqFBMustangGTPolice_lights,
-		textureDamage1Overlay = Vehicles/vehicle_fhqFBMustang_blood,
-		textureDamage2Overlay = Vehicles/vehicle_fhqFBMustang_blood,
-		textureDamage1Shell = Vehicles/vehicle_fhqFBMustang_shell_damage_01,
-		textureDamage2Shell = Vehicles/vehicle_fhqFBMustang_shell_damage_02,
-		textureRust = Vehicles/vehicle_fhqFBMustangSVT_rust,
+		textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/Veh_Damage1,
+		textureDamage2Shell = Vehicles/Veh_Damage2,
+		textureRust = Vehicles/Veh_Rust,
 
 		sound
 		{
@@ -53,11 +53,11 @@ module Base
 			rightCol = 1;0;0,
 		}
 
-		extents = 1.9250 1.4250 4.9750,
+		extents = 0.8242 0.5604 2.1319,
 		mass = 770,
-		physicsChassisShape = 1.9250 1.4000 4.9750,
-		centerOfMassOffset = 0.0000 0.7125 0.0000,
-		shadowExtents = 1.8490 5.0175,
+		physicsChassisShape = 0.8242 0.5604 2.1319,
+		centerOfMassOffset = 0.0000 0.2418 -0.0055,
+		shadowExtents = 0.8490 2.2867,
 		shadowOffset = 0.0000 0.0000,
 		engineForce = 5400,
 		engineLoudness = 85,
@@ -81,32 +81,32 @@ module Base
 		wheel FrontLeft
 		{
 			front = true,
-			offset = 0.7792 -0.6364 1.3506,
-			radius = 0.32f,
+			offset = 0.3242 -0.2802 0.5824,
+			radius = 0.15f,
 			width = 0.25f,
 		}
 
 		wheel FrontRight
 		{
 			front = true,
-			offset = -0.7792 -0.6364 1.3506,
-			radius = 0.32f,
+			offset = -0.3242 -0.2802 0.5824,
+			radius = 0.15f,
 			width = 0.25f,
 		}
 
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.7792 -0.6364 -1.4286,
-			radius = 0.32f,
+			offset = 0.3242 -0.2802 -0.6154,
+			radius = 0.15f,
 			width = 0.25f,
 		}
 
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.7792 -0.6364 -1.4286,
-			radius = 0.32f,
+			offset = -0.3242 -0.2802 -0.6154,
+			radius = 0.15f,
 			width = 0.25f,
 		}
 
@@ -116,13 +116,13 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.3896 -0.3117 0.0649,
+				offset = 0.1758 -0.1154 -0.0604,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = 1.3247 -1.0000 0.2857,
+				offset = 0.5659 -0.4396 -0.0275,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontLeft,
 			}
@@ -132,13 +132,13 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.3896 -0.3117 0.0649,
+				offset = -0.1758 -0.1154 -0.0604,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = -1.3247 -1.0000 0.2857,
+				offset = -0.5659 -0.4396 -0.0275,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontRight,
 			}
@@ -148,7 +148,7 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.4545 -0.3117 -0.9740,
+				offset = 0.1758 -0.1154 -0.3791,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
@@ -161,7 +161,7 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.4545 -0.3117 -0.9740,
+				offset = -0.1758 -0.1154 -0.3791,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
@@ -172,47 +172,47 @@ module Base
 
 		area Engine
 		{
-			xywh = 0.0000 3.0649 2.0000 1.1688,
+			xywh = 0.0000 1.3022 0.8242 0.4835,
 		}
 
 		area TruckBed
 		{
-			xywh = 0.0000 -3.0390 2.1558 1.1169,
+			xywh = 0.0000 -1.3132 0.8242 0.4835,
 		}
 
 		area SeatFrontLeft
 		{
-			xywh = 1.4416 -0.0390 0.9610 1.0649,
+			xywh = 0.6538 -0.0440 0.4835 0.4835,
 		}
 
 		area SeatFrontRight
 		{
-			xywh = -1.4416 -0.0779 0.9610 1.0649,
+			xywh = -0.6538 -0.0440 0.4835 0.4835,
 		}
 
 		area GasTank
 		{
-			xywh = -1.2338 -2.0519 0.5455 0.5455,
+			xywh = -0.6319 -0.8626 0.4396 0.4396,
 		}
 
 		area TireFrontLeft
 		{
-			xywh = 1.2857 1.3247 0.6494 0.6494,
+			xywh = 0.6538 0.5879 0.4835 0.4835,
 		}
 
 		area TireFrontRight
 		{
-			xywh = -1.2857 1.3247 0.6494 0.6494,
+			xywh = -0.6538 0.5879 0.4835 0.4835,
 		}
 
 		area TireRearLeft
 		{
-			xywh = 1.2857 -1.4416 0.6494 0.6494,
+			xywh = 0.6538 -0.6154 0.4835 0.4835,
 		}
 
 		area TireRearRight
 		{
-			xywh = -1.2857 -1.4416 0.6494 0.6494,
+			xywh = -0.6538 -0.6154 0.4835 0.4835,
 		}
 
 		template = TrunkDoor,
@@ -553,14 +553,14 @@ module Base
 
 		attachment trailer
 		{
-			offset = 0.0000 -0.4625 -2.4375,
+			offset = 0.0000 -0.1264 -1.0769,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = -1.0000,
 		}
 
 		attachment trailerfront
 		{
-			offset = 0.0000 -0.5500 2.4125,
+			offset = 0.0000 -0.1374 1.0495,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = 1.0000,
 		}

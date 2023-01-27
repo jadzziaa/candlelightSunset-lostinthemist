@@ -9,13 +9,8 @@ function ISEquipWeaponAction:start()
 	-- So, items in your other hand are unequiped if a handgun is equipped
 	--- i.e. a handgun in primary hand will be unequiped if a secondary item is equipped and vice versa
 	--- this should restore this feature. First, we cache the weapon if needed
-	self.hgun = nil
 	if instanceof(self.item, "HandWeapon") and not self.twoHands and self.character:getPrimaryHandItem() ~= self.character:getSecondaryHandItem() and self.item ~= self.character:getPrimaryHandItem() and self.item ~= self.character:getSecondaryHandItem() then
-		if self.primary then 
-			self.hgun = self.character:getSecondaryHandItem()
-		else
-			self.hgun = self.character:getPrimaryHandItem()
-		end
+		self.hgun = (self.primary and self.character:getSecondaryHandItem()) or self.character:getPrimaryHandItem()
 	end
 
 	-- Run the base, then override

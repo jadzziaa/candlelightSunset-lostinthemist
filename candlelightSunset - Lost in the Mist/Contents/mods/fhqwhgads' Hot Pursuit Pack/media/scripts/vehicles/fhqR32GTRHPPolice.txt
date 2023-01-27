@@ -31,11 +31,11 @@ module Base
 
 		textureMask = Vehicles/vehicle_fhqR32_mask,
 		textureLights = Vehicles/vehicle_fhqR32HPPolice_lights,
-		textureDamage1Overlay = Vehicles/vehicle_fhqR32_blood,
-		textureDamage2Overlay = Vehicles/vehicle_fhqR32_blood,
-		textureDamage1Shell = Vehicles/vehicle_fhqR32_shell_damage_01,
-		textureDamage2Shell = Vehicles/vehicle_fhqR32_shell_damage_02,
-		textureRust = Vehicles/vehicle_fhqR32_rust,
+		textureDamage1Overlay = Vehicles/Veh_Blood_Mask,
+		textureDamage2Overlay = Vehicles/Veh_Blood_Hvy,
+		textureDamage1Shell = Vehicles/Veh_Damage1,
+		textureDamage2Shell = Vehicles/Veh_Damage2,
+		textureRust = Vehicles/Veh_Rust,
 
 		sound
 		{
