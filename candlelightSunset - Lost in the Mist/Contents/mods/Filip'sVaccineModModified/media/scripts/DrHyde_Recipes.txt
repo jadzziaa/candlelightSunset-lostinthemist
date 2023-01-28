@@ -905,7 +905,7 @@ module LabRecipes {
 		ChSodiumHydroxideBag=1,
 		LabFlaskWater=1,
 		LabFlask=1,
-		keep HazmatSuit,
+		keep HazmatSuit/HazmatSuit2NoMaskNoShoes/HazmatSuit2NoShoes/HazmatSuit2NoMask/HazmatSuit2,
 		NoBrokenItems:true,
 		Result:CmpFlaskWithSodiumHypochlorite=1,
 		Sound:Mixing_A,
@@ -939,7 +939,7 @@ module LabRecipes {
 		ChSulfuricAcidCan=1,
 		LabFlaskWater=1,
 		LabFlask=1,
-		keep HazmatSuit,
+		keep HazmatSuit/HazmatSuit2NoMaskNoShoes/HazmatSuit2NoShoes/HazmatSuit2NoMask/HazmatSuit2,
 		NoBrokenItems:true,
 		Result:CmpFlaskWithAmmoniumSulfate=1,
 		Sound:Mixing_A,
@@ -969,7 +969,7 @@ module LabRecipes {
 	recipe ChmMixFlaskOfHydrogenPeroxide2 {
 		ChSulfuricAcidCan=1,
 		LabFlask=1,
-		keep HazmatSuit,
+		keep HazmatSuit/HazmatSuit2NoMaskNoShoes/HazmatSuit2NoShoes/HazmatSuit2NoMask/HazmatSuit2,
 		NoBrokenItems:true,
 		Result:CmpFlaskWithHydrogenPeroxide=1,
 		Sound:Mixing_A,
@@ -1739,7 +1739,7 @@ module LabRecipes {
 	}
 	recipe ExtractSulfuricAcid2 {
 		CarBattery1/CarBattery2/CarBattery3,
-		keep HazmatSuit,
+		keep HazmatSuit/HazmatSuit2NoMaskNoShoes/HazmatSuit2NoShoes/HazmatSuit2NoMask/HazmatSuit2,
 		NoBrokenItems:true,
 		Result:ChSulfuricAcidCan=1,
 		Sound:Mixing_C,
