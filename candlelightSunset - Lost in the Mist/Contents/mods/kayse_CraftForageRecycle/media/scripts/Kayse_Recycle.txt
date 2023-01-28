@@ -1,0 +1,1121 @@
+module Kayse_Recycle
+{
+	imports
+	{
+		Base
+	}
+
+	/************************ Electrical Recipes ************************/
+		
+	recipe Dismantle Amplifier
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		Amplifier=1,
+	    Result:ElectronicsScrap=2,
+		Time:75.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Electrical01,
+		AnimNode:Disassemble,
+    }
+	
+	recipe Dismantle Electrical Component
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		RadioReceiver/RadioTransmitter,
+	    Result:ElectronicsScrap=1,
+		Time:75.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Electrical01,
+		AnimNode:Disassemble,
+    }
+	
+	recipe Separate Electric Wire
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		ElectronicsScrap=2,
+	    Result:ElectricWire,
+		Time:100.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Electrical01,
+    }
+	
+	recipe Make Amplifier
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		ElectronicsScrap=3,
+		ElectricWire,
+	    Result:Amplifier,
+		Time:250.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Kayse_CFR_Electrical02,
+		SkillRequired:Electricity=1,
+    }
+	
+	recipe Make Headphones
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		ElectronicsScrap=2,
+		ElectricWire,
+	    Result:Headphones,
+		Time:250.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Kayse_CFR_Electrical02,
+		SkillRequired:Electricity=1,
+    }
+	
+	recipe Make Radio Receiver
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		ElectronicsScrap=1,
+		Amplifier,
+	    Result:RadioReceiver,
+		Time:250.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Kayse_CFR_Electrical02,
+		SkillRequired:Electricity=2,
+    }
+	
+	recipe Make Earbuds
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		ElectronicsScrap=1,
+		ElectricWire,
+	    Result:Earbuds,
+		Time:250.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Kayse_CFR_Electrical02,
+		SkillRequired:Electricity=2,
+    }
+	
+	recipe Make Radio Transmitter
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		ElectronicsScrap=1,
+		Amplifier,
+	    Result:RadioTransmitter,
+		Time:250.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Kayse_CFR_Electrical02,
+		SkillRequired:Electricity=3,
+    }
+	
+	recipe Craft Makeshift Batteries
+	{
+		keep [Recipe.GetItemTypes.Screwdriver],
+		ElectronicsScrap,
+		Vinegar,
+		Aluminum,
+		ElectricWire,
+	    Result:Battery,
+		Time:100.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		OnGiveXP:Kayse_CFR_Electrical02,
+		SkillRequired:Electricity=3,
+    }
+	
+	recipe Make Value Walkie Talkie
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WalkieTalkieMakeShift,
+		Amplifier,
+		RadioReceiver,
+		RadioTransmitter,
+		Aluminum=2,
+		ElectricWire=2,
+	    Result:WalkieTalkie2,
+		Time:500.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		OnGiveXP:Kayse_CFR_Electrical05,
+		SkillRequired:Electricity=4,
+    }
+	
+	recipe Make Premium Walkie Talkie
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WalkieTalkie2,
+		Amplifier,
+		RadioReceiver,
+		RadioTransmitter,
+		Aluminum=2,
+		ElectricWire=2,
+	    Result:WalkieTalkie3,
+		Time:500.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		OnGiveXP:Kayse_CFR_Electrical05,
+		SkillRequired:Electricity=5,
+    }
+	
+	recipe Make Generator
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		keep Wrench,
+		EngineParts=5,
+		MetalPipe=15,
+		SmallSheetMetal=20,
+		ElectronicsScrap=10,
+		ElectricWire=50,
+		EmptyPetrolCan,
+	    Result:Generator,
+		Time:2500.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		OnGiveXP:Kayse_CFR_Generator,
+		SkillRequired:Electricity=8,
+		CanBeDoneFromFloor:true,
+    }
+	
+	/************************ Metal Recipes ************************/
+		
+	recipe Draw Electric Wire
+    {
+		keep [Recipe.GetItemTypes.Hammer],
+		keep WeldingMask,
+		ScrapMetal=5,
+		BlowTorch=1,
+	    Result:ElectricWire=4,
+		Time:200.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Metalworking05,
+		SkillRequired:MetalWelding=1,
+    }
+	
+	recipe Make Welder Mask
+    {
+		keep [Recipe.GetItemTypes.Hammer],
+		SmallSheetMetal,
+		Glasses_Aviators/Glasses_Sun/Glasses/Glasses_Shooting/Glasses_SkiGoggles/Glasses_SwimmingGoggles,
+		Glue,
+	    Result:WeldingMask,
+		Time:200.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Metalworking05,
+		SkillRequired:MetalWelding=1,
+    }
+	
+	recipe Glassblow Jar
+    {
+		BlowTorch=2,
+		keep MetalPipe,
+		Moveables.brokenglass_1_2=3,
+		Result:EmptyJar,
+		Time:300.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Glassblowing,
+		SkillRequired:MetalWelding=2,
+    }
+	
+	recipe Glassblow Wine Bottle
+    {
+		BlowTorch=2,
+		keep MetalPipe,
+		Moveables.brokenglass_1_2=3,
+		Result:WineEmpty,
+		Time:300.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Glassblowing,
+		SkillRequired:MetalWelding=3,
+    }
+	
+	recipe Glassblow Whiskey Bottle
+    {
+		BlowTorch=2,
+		keep MetalPipe,
+		Moveables.brokenglass_1_2=3,
+		Result:WhiskeyEmpty,
+		Time:300.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Glassblowing,
+		SkillRequired:MetalWelding=3,
+    }
+	
+	recipe Craft Jar Lid
+    {
+		keep WeldingMask,
+		BlowTorch=2,
+		WeldingRods=2,
+		MetalPipe,
+		ScrapMetal=3,
+		Result:JarLid,
+		Time:300.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Metalworking05,
+		SkillRequired:MetalWelding=3,
+    }
+	
+	/*recipe Locksmith Key For Building
+    {
+		keep WeldingMask,
+		BlowTorch=2,
+		ScrapMetal=3,
+	    Result:Key1,
+		Time:500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Metalworking05,
+		SkillRequired:MetalWelding=5,
+		OnCreate:Kayse_CFR_HouseKey,
+    }*/
+	
+	
+	/*recipe Fabricate Engine Parts
+    {
+		keep Wrench,
+		keep WeldingMask,
+		BlowTorch=5,
+		WeldingRods=4,
+		MetalPipe,
+		SmallSheetMetal=3,
+		keep MechanicMag1/MechanicMag2/MechanicMag3,
+	    Result:EngineParts=3,
+		Time:500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_EngineParts,
+		SkillRequired:MetalWelding=5,
+    }*/
+	
+	/*recipe Improvise Engine Parts
+    {
+		keep Wrench,
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.Saw],
+		DuctTape=4,
+		MetalPipe,
+		SmallSheetMetal=3,
+	    Result:EngineParts=3,
+		Time:500.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_EngineParts,
+		SkillRequired:Mechanics=5,
+    }*/
+	
+	recipe Craft Empty Blow Torch
+    {
+		BlowTorch=5,
+		WeldingRods=4,
+		MetalPipe,
+		ScrapMetal=3,
+		Result:BlowTorch,
+		Time:50.0,
+		Category:Welding,
+		OnGiveXP:Kayse_CFR_Metalworking05,
+		SkillRequired:MetalWelding=6,
+		OnCreate:Kayse_CFR_EmptyBlowTorch,
+    }
+	
+	/* TODO: Empty Water Bottles?*/
+	
+	/************************ Food and Drink Recipes ************************/
+		
+	recipe Juice Apples
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		Apple;20,
+		WineEmpty/WineEmpty2,
+	    Result:kayse_AppleJuice,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+    }
+	
+	recipe Ferment Apple Vinegar
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		Apple;10,
+		WaterBottleEmpty/PopBottleEmpty/WineEmpty/WineEmpty2,
+	    Result:kayse_AppleVinegar_Fermenting,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking05,
+    }
+	
+	recipe Filter Apple Vinegar
+    {
+		keep SheetPaper2/DishCloth/RippedSheets,
+		kayse_AppleVinegar_Sediment=1,
+	    Result:Vinegar,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+    }
+	
+	recipe Mill Flour
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		kayse_WheatGrass=15,
+	    Result:Flour,
+		Time:300.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+    }
+	
+	recipe Extract Mineral Salt
+    {
+		keep [Recipe.GetItemTypes.Hammer],
+		keep [Recipe.GetItemTypes.MortarPestle],
+		Stone=3,
+		WaterSaucepan;10,
+	    Result:Salt,
+		Time:300.0,
+		Heat:-0.22,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+		SkillRequired:Cooking=1,
+    }
+	
+	recipe Pitch Yeast Starter
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		EmptyJar,
+		[Recipe.GetItemTypes.Sugar];5,
+		Yeast,
+		WaterSaucepan;10,
+	    Result:kayse_YeastStarter,
+		Time:60.0,
+		Heat:-0.22,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+		SkillRequired:Cooking=2,
+    }
+	
+	recipe Dry Yeast
+    {
+		keep SheetPaper2/DishCloth/RippedSheets,
+		kayse_YeastStarter_Done,
+	    Result:Yeast,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+		SkillRequired:Cooking=2,
+		OnCreate:Kayse_CFR_AddJar,
+    }
+	
+	recipe Refine Maple Syrup From Sap
+    {
+		keep SheetPaper2/DishCloth/RippedSheets,
+		keep WhiskeyEmpty,
+		kayse_SapBall=10,
+		WaterSaucepan;10,
+	    Result:MapleSyrup,
+		Time:60.0,
+		Heat:-0.22,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking05,
+		SkillRequired:Cooking=2
+    }
+	
+	recipe Make Sugar From Syrup
+    {
+		keep Spoon,
+		WaterSaucepan;10,
+		MapleSyrup;45,
+	    Result:Sugar,
+		Time:60.0,
+		Heat:-0.22,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+		SkillRequired:Cooking=2,
+    }
+	
+	recipe Make Brown Sugar From Syrup
+    {
+		keep Spoon,
+		WaterSaucepan;10,
+		MapleSyrup;45,
+	    Result:SugarBrown,
+		Time:60.0,
+		Heat:-0.22,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+		SkillRequired:Cooking=2,
+    }
+	
+	recipe Make Non-Dairy Milk
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		keep Spoon,
+		keep Bowl,
+		OatsRaw;10,
+		[Recipe.GetItemTypes.Sugar];1,
+		Salt=1,
+	    Result:Milk,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking01,
+		SkillRequired:Cooking=2,
+		OnCreate:Kayse_CFR_NonDairyMilk,
+    }
+	
+	recipe Make Red Wine
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		[Recipe.GetItemTypes.Sugar];1,
+		Grapes;20,
+		Yeast,
+		WineEmpty/WineEmpty2,
+	    Result:kayse_RedWine_Fermenting,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking05,
+		SkillRequired:Cooking=3,
+    }
+	
+	recipe Make White Wine
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		[Recipe.GetItemTypes.Sugar];1,
+		Grapes;20,
+		Yeast,
+		WineEmpty/WineEmpty2,
+	    Result:kayse_WhiteWine_Fermenting,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking05,
+		SkillRequired:Cooking=3,
+    }
+	
+	recipe Start Whiskey Mash
+    {
+		keep [Recipe.GetItemTypes.MortarPestle],
+		Corn;20,
+		[Recipe.GetItemTypes.Sugar];10,
+		WaterSaucepan;10,
+		Yeast,
+		WhiskeyEmpty,
+	    Result:kayse_WhiskeyMash,
+		Time:100.0,
+		Heat:-0.22,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking05,
+		SkillRequired:Cooking=4,
+    }
+	
+	recipe Distill Whiskey
+    {
+		kayse_WhiskeyMash_done,
+		keep SheetPaper2/DishCloth/RippedSheets,
+		keep MetalPipe,
+		keep Moveables.carpentry_02_52/Moveables.carpentry_02_53,
+		WaterSaucepan;10,
+		Result:WhiskeyFull,
+		Time:300.0,
+		Heat:-0.22,
+		Category:Cooking,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Cooking05,
+		SkillRequired:Cooking=5,
+    }
+	
+	/************************ First Aid Recipes ************************/
+	
+	recipe Make Wound Recovery Poultice 
+    {
+        keep [Recipe.GetItemTypes.MortarPestle],
+        kayse_BirchBark=5,
+
+        Result:PlantainCataplasm,
+        Time:60.0,
+        Category:Health,
+		OnGiveXP:Kayse_CFR_FirstAid05,
+		OnCreate:Kayse_CFR_WoundPoultice,
+    }
+	
+	recipe Refine Painkillers 
+    {
+        keep [Recipe.GetItemTypes.MortarPestle],
+        kayse_BirchBark/BlackSage=10,
+		WaterSaucepan;10,
+        Result:Pills,
+        Time:120.0,
+		Heat:-0.22,
+        Category:Health,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_FirstAid05,
+		SkillRequired:Doctor=1,
+    }
+	
+	/*recipe Destructively Study Corpse  
+    {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver/Scalpel,
+        CorpseMale/CorpseFemale,
+        Result:kayse_LeatherStrips_Human,
+        Time:1200.0,
+        Category:Health,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_FirstAid25,
+		SkillRequired:Doctor=2,
+		OnCreate:Kayse_CFR_Autopsy,
+    }*/
+	
+	/************************ Woodworking Recipes ************************/
+	
+	recipe Make Paper From Twigs
+    {
+        keep [Recipe.GetItemTypes.Hammer],
+        Twigs=10,
+		WaterSaucepan;10,
+        Result:SheetPaper2,
+        Time:300.0,
+		Heat:-0.22,
+		CanBeDoneFromFloor:true,
+        Category:Carpentry,
+		OnGiveXP:Kayse_CFR_Carpentry01,
+    }
+	
+	recipe Whittle Branch 
+    {
+        keep [Recipe.GetItemTypes.SharpKnife],
+        TreeBranch,
+		Result:Twigs,
+        Time:300.0,
+		CanBeDoneFromFloor:true,
+        Category:Carpentry,
+		OnGiveXP:Kayse_CFR_Carpentry01,
+		OnCreate:Kayse_CFR_Whittle,
+    }
+	
+	/************************ Tailoring Recipes ************************/
+	
+	recipe Craft Eyepatch
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=2,
+		Thread=1,
+
+		Result:Glasses_Eyepatch_Left,
+		Time:300.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring01,
+	}
+	
+	recipe Sew Bandana
+	{
+		keep Needle/SutureNeedle,
+		Sheet=2,
+		Thread=1,
+
+		Result:Hat_BandanaMaskTINT,
+		Time:300.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring01,
+	}
+	
+	recipe Sew Scarf
+	{
+		keep Needle/SutureNeedle,
+		Sheet=2,
+		Thread=1,
+
+		Result:Scarf_White,
+		Time:300.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring01,
+	}
+	
+	recipe Sew T-Shirt
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=4,
+		Thread=3,
+
+		Result:Tshirt_WhiteTINT,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=2,
+	}
+	
+	recipe Sew Pants
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=4,
+		Thread=3,
+
+		Result:Trousers,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=2,
+	}
+	
+	recipe Sew Jacket
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=6,
+		Thread=4,
+
+		Result:Jacket_WhiteTINT,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=2,
+	}
+	
+	recipe Sew Dress
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=8,
+		Thread=4,
+
+		Result:Dress_Normal,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=2,
+	}
+	
+	recipe Sew Gloves
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		RippedSheets=4,
+		Thread=2,
+
+		Result:Gloves_WhiteTINT,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=3,
+	}
+	
+	recipe Craft Black Shoes
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=8,
+		Thread=4,
+
+		Result:Shoes_Black,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=3,
+	}
+	
+	recipe Craft Brown Shoes
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=8,
+		Thread=4,
+
+		Result:Shoes_Brown,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=3,
+	}
+	
+	recipe Sew Padded Jacket
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=10,
+		Thread=10,
+
+		Result:Jacket_PaddedDOWN,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=4,
+	}
+	
+	recipe Sew Padded Pants
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=10,
+		Thread=10,
+
+		Result:Trousers_Padded,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=4,
+	}
+	
+	recipe Sew White Apron
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=8,
+		Thread=4,
+
+		Result:Apron_White,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=4,
+	}
+	
+	recipe Sew Black Apron
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=8,
+		Thread=4,
+
+		Result:Apron_Black,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=4,
+	}
+	
+	recipe Sew Orange Jumpsuit
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=16,
+		Thread=8,
+
+		Result:Boilersuit_Prisoner,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=4,
+	}
+	
+	recipe Sew Jeans
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		DenimStrips=12,
+		Thread=6,
+
+		Result:Trousers_Denim,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=5,
+	}
+	
+	recipe Sew Denim Shirt
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		DenimStrips=12,
+		Thread=6,
+
+		Result:Shirt_Denim,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=5,
+	}
+	
+	recipe Sew Leather Jacket
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=20,
+		Thread=10,
+
+		Result:Jacket_Black,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=6,
+	}
+
+	recipe Craft Black Boots
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=12,
+		Thread=6,
+
+		Result:Shoes_BlackBoots,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=6,
+	}
+	
+	recipe Craft Tan Boots
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=12,
+		Thread=6,
+
+		Result:Shoes_ArmyBootsDesert,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=6,
+	}
+	
+	/************************ Formal Tailoring Recipes ************************/
+	
+	recipe Tailor Formal Shirt
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=6,
+		Thread=3,
+
+		Result:Shirt_FormalWhite,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=3,
+	}
+	
+	recipe Tailor Tie
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=2,
+		Thread=2,
+
+		Result:Tie_Full,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=3,
+	}
+	
+	recipe Tailor Long Gloves
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=2,
+		Thread=2,
+
+		Result:Gloves_LongWomenGloves,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=3,
+	}
+	
+	recipe Craft Fancy Shoes
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=8,
+		Thread=4,
+
+		Result:Shoes_Fancy,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=5,
+	}
+	
+	recipe Craft Strapped Shoes
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=8,
+		Thread=4,
+
+		Result:Shoes_Strapped,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=5,
+	}
+	
+	recipe Tailor Suit Pants
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=6,
+		Thread=3,
+
+		Result:Trousers_Suit,
+		Time:900.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=6,
+	}
+	
+	recipe Tailor Wedding Jacket
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=6,
+		Thread=3,
+
+		Result:WeddingJacket,
+		Time:900.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=6,
+	}
+	
+	recipe Tailor Wedding Dress
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=8,
+		Thread=4,
+
+		Result:WeddingDress,
+		Time:900.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=6,
+	}
+	
+	recipe Tailor Wedding Viel
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		Sheet=2,
+		Thread=2,
+
+		Result:Hat_WeddingVeil,
+		Time:600.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring10,
+		SkillRequired:Tailoring=6,
+	}
+	
+	/************************ Cannible Tailoring Recipes ************************/
+	
+	/*recipe Sew Human Leather Cowboy Hat
+	{
+		keep Needle/SutureNeedle,
+		kayse_LeatherStrips_Human=10,
+		Thread=3,
+
+		Result:kayse_Hat_Cowboy,
+		Time:300.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Kayse_CFR_Tailoring05,
+		SkillRequired:Tailoring=3,
+	}*/
+	
+}

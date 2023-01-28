@@ -1,0 +1,278 @@
+module Kayse_Recycle
+{
+	imports
+	{
+		Base
+	}
+	
+	item kayse_AppleJuice
+	{
+		DisplayName = Apple Juice,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.0,
+		Icon = WineFull,
+		ColorRed = 230,
+		ColorGreen = 184,
+		ColorBlue = 105,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:2,
+		FoodType = NoExplicit,
+		Packaged = TRUE,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		ReplaceOnUse = WineEmpty,
+		HungerChange = -10,
+		ThirstChange = -20,
+		Calories = 285,
+		Carbohydrates = 75.39,
+		Lipids = 0.93,
+		Proteins = 1.41,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCarton,
+		StaticModel = WhiteWineBottle,
+		WorldStaticModel = WineWhiteGround,
+	}
+	
+	item kayse_AppleVinegar_Fermenting
+	{
+		DisplayName = Fermenting Apple Vinegar,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Vinegar,
+		ColorRed = 172,
+		ColorGreen = 138,
+		ColorBlue = 78,
+		CantBeFrozen = TRUE,
+		DaysFresh = 0,
+		DaysTotallyRotten = 7,
+        ReplaceOnRotten = kayse_AppleVinegar_Sediment,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		ReplaceOnUse = WaterBottleEmpty,
+		HungerChange = -10,
+		ThirstChange = -10,
+		UnhappyChange = 50,
+		StaticModel = Vinegar,
+		WorldStaticModel = Vinegar,
+	}
+	
+	item kayse_AppleVinegar_Sediment
+	{
+		DisplayName = Apple Vinegar and Sediment,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = Vinegar,
+		ColorRed = 230,
+		ColorGreen = 184,
+		ColorBlue = 105,
+		CantBeFrozen = TRUE,
+		DaysFresh = 365,
+		DaysTotallyRotten = 365,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		ReplaceOnUse = WaterBottleEmpty
+		HungerChange = -10,
+		ThirstChange = -10,
+		UnhappyChange = 50,
+		StaticModel = Vinegar,
+		WorldStaticModel = Vinegar,
+	}
+	
+	item kayse_YeastStarter
+	{
+        DisplayCategory = Food,
+        Type				=		Food,
+        DisplayName			=		Fermenting Yeast Starter,
+        Icon				=		JarWhite,
+		ColorRed = 230,
+		ColorGreen = 184,
+		ColorBlue = 105,
+        Weight				=		0.5,
+        DaysFresh 			=		3,
+        DaysTotallyRotten 	=	 	3,
+		ReplaceOnRotten = kayse_YeastStarter_Done,
+        OnCooked            =       CannedFood_OnCooked,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodPotatoes_Ground,
+	}
+	
+	item kayse_YeastStarter_Done
+	{
+		DisplayCategory = Food,
+        Type = Food,
+        DisplayName = Ready Yeast Starter,
+        Icon = JarWhite,
+		ColorRed = 172,
+		ColorGreen = 138,
+		ColorBlue = 78,
+        Weight = 0.5,
+        DaysFresh = 365,
+        DaysTotallyRotten = 365,
+		ReplaceOnRotten = kayse_YeastStarter_Done,
+        StaticModel = CanClosed,
+        WorldStaticModel = JarFoodPotatoes_Ground,
+	}
+	
+	item kayse_WhiteWine_Fermenting
+    {
+        Weight	=	1,
+        Type	=	Food,
+        DisplayName	=	Fermenting White Wine,
+        ReplaceOnUse = WineEmpty,
+		DaysFresh = 7,
+		DaysTotallyRotten = 7,
+        ReplaceOnRotten = Wine,
+        Icon = WineFull,
+        CantBeFrozen = TRUE,
+		StaticModel = WhiteWineBottle,
+		WorldStaticModel = WineWhiteGround,
+    }
+	
+	item kayse_RedWine_Fermenting
+    {
+        Weight	=	1,
+        Type	=	Food,
+        DisplayName	=	Fermenting Red Wine,
+        ReplaceOnUse = WineEmpty2,
+		DaysFresh = 7,
+		DaysTotallyRotten = 7,
+        ReplaceOnRotten = Wine2,
+        Icon = Wine2Full,
+        CantBeFrozen = TRUE,
+		StaticModel = RedWineBottle,
+		WorldStaticModel = WineRedGround,
+    }
+	
+	item kayse_WhiskeyMash
+	{
+		DisplayName = Fermenting Whiskey Mash,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = WhiskeyFull,
+		ColorRed = 172,
+		ColorGreen = 138,
+		ColorBlue = 78,
+		CantBeFrozen = TRUE,
+		DaysFresh = 0,
+		DaysTotallyRotten = 7,
+        ReplaceOnRotten = kayse_WhiskeyMash_done,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		ReplaceOnUse = WhiskeyEmpty,
+		HungerChange = -10,
+		ThirstChange = -10,
+		UnhappyChange = 50,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+	}
+	
+	item kayse_WhiskeyMash_done
+	{
+		DisplayName = Fermented Whiskey Mash,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = WhiskeyFull,
+		ColorRed = 230,
+		ColorGreen = 184,
+		ColorBlue = 105,
+		CantBeFrozen = TRUE,
+		DaysFresh = 365,
+		DaysTotallyRotten = 365,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		ReplaceOnUse = WhiskeyEmpty,
+		HungerChange = -10,
+		ThirstChange = -10,
+		UnhappyChange = 50,
+		StaticModel = WhiskeyBottle,
+		WorldStaticModel = WhiskeyBottleGround,
+	}
+	
+	item kayse_BirchBark
+    {
+        DisplayCategory = FirstAid,
+        Weight = 0.1,
+        Type = Food,
+        DisplayName = Birch Bark,
+        Icon = UnsableWood,
+		ColorRed = 230,
+		ColorGreen = 184,
+		ColorBlue = 105,
+		PainReduction = 7,
+		Spice = true,
+		Tooltip = Tooltip_BlackSage,
+		HungerChange = -1,
+		Calories = 0.1,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+        WorldStaticModel = UnusableWood,
+    }
+	
+	item kayse_WheatGrass
+	{
+		DisplayName = Wheat Grass,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = LemonGrass,
+		ReduceFoodSickness = 12,
+		Tooltip = Tooltip_LemonGrass,
+		HungerChange = -1,
+		Calories = 0.1,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = LemonGrass,
+	}
+	
+	item kayse_SapBall
+	{
+		DisplayName = Glob of Maple Sap,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Orange,
+		ColorRed = 191,
+		ColorGreen = 42,
+		ColorBlue = 9,
+		WorldStaticModel = Orange,
+	}
+	
+	item kayse_Hat_Cowboy
+	{
+		DisplayCategory	= Accessory,
+		Type		= Clothing,
+		DisplayName	= Human Leather Cowboy Hat,
+		ClothingItem	= Hat_Cowboy_HumanLeather,
+		BodyLocation	= Hat,
+		IconsForTexture	= HatCowboyRed,
+		CanHaveHoles	= false,
+		BiteDefense	= 25,
+		ScratchDefense	= 25,
+		BulletDefense = 25,
+		ChanceToFall	= 0,
+		Insulation	= 0.6,
+		WindResistance	= 0.4,
+		BloodLocation	= Head,
+	}
+	
+	item kayse_LeatherStrips_Human
+    {
+        DisplayCategory = Material,
+        CanBandage	=	TRUE,
+        Weight	=	0.05,
+        AlwaysWelcomeGift = FALSE,
+        Type	=	Normal,
+        DisplayName	=	Human Leather Strips,
+        Icon	=	LeatherStrips,
+        BandagePower = 1,
+        CanBandage = TRUE,
+        WorldStaticModel = LeatherStripsDirty,
+    }
+}

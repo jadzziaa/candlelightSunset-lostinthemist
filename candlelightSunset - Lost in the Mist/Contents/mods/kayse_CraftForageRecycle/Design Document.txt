@@ -1,0 +1,15 @@
+Design Document for “Kayse's Foraging and Upcycling”
+The IC logic behind this mod is to allow players to produce a wider selection of vanilla items after all of the easy to loot food/items has been consumed.
+
+The OOC logic is to better match what would be realistic to produce in Syracuse, to give players a reason to leave their compounds to get raw materials, and to allow a variety of items to exist. I’m allow trying to fill out the professions so that each starter profession can craft something useful needed for recipe chains.
+I’m intending to keep the number of new items low but will add them if needed.
+
+Raw Material nodes: If possible, I’d like to see if I can make raw material nodes that slowly generate potential items over time and require the players to journey to obtain the materials. My intent is that the nodes are unmovable furniture that functions like composers. The nodes will be places in logical place around Syracuse and will give different factions something to control and trade and will give players a reason to leave their safe compounds and risk interactions with other factions/zombies. 
+Examples: Maple Trees (Maple Syrup), Apple Trees (Apples), Junkyards (Car Parts, Scrap metal), Electronic Factory (Electric Scrap).
+
+Upcycling: With those raw materials (and with Viperel’s Recycling Center), I would like to have recipes that allow characters to make more complex items.
+Examples Recipe Chains (other inputs required for recipes):
+Electric Scrap -> Amplifiers -> Make Shift Walkie Talkie -> Value Walkie Talkie -> Premium Walkie Talkie (stopping at premium to give military and tactical some rarity for NPC traders or other event rewards).
+Apples -> Apple Juice -> Vinegar -> Batteries
+Maple Syrup -> Sugar -> Bourbon ->  Disinfectant (granting First Aid XP)
+
