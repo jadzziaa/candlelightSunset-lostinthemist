@@ -44,7 +44,7 @@ function searchPlayerContextOption(player, context, worldObjects)
     end
 
     if otherPlayer and otherPlayer ~= playerObj and not otherPlayer:isAsleep() and isClient() then
-        local text = getText("UI_SearchStub", otherPlayer:getDisplayName());
+        local text = getText("UI_SearchStub");
         local option = context:addOption(text, worldobjects, onSearchPlayerContextSelected, playerObj, otherPlayer)
         if math.abs(playerObj:getX() - otherPlayer:getX()) > 2 or math.abs(playerObj:getY() - otherPlayer:getY()) > 2 then
             local tooltip = ISWorldObjectContextMenu.addToolTip();

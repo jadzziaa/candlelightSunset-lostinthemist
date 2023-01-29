@@ -506,7 +506,6 @@ end
 local function initInsurgentProfs()
     local insurgent = ProfessionFactory.addProfession("insurgent", getText("UI_prof_insurgent"), "profession_insurgent", 4);
     insurgent:addFreeTrait("Desensitized");
-    insurgent:addFreeTrait("RoughLanding");
     insurgent:addFreeTrait("GeneratorKnowledge");
     insurgent:addXPBoost(Perks.Fitness, 1);	
     insurgent:addXPBoost(Perks.Strength, 1);		

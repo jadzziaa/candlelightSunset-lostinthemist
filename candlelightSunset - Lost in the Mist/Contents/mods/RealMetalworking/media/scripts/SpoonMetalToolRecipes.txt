@@ -451,7 +451,7 @@ module SpoonMetalworkStuff
        keep PercedWood/Lighter/Matches,
        keep [Recipe.GetItemTypes.Hammer],
 
-       Result                   :DoorKnob,
+       Result                   :Doorknob,
        Time                     :400.0,
        Sound                    :LogAddToStack,
        AnimNode 				:Disassemble,

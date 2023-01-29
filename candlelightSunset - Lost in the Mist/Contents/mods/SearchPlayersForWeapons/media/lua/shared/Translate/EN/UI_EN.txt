@@ -4,5 +4,5 @@ UI_EN = {
     UI_SearchingItemsFound = "Found weapons",
     UI_SearchingNoItems = "No weapons",
     UI_SearchingGetCloser = "You must get closer to search them",
-    UI_SearchStub = "Search %1",
+    UI_SearchStub = "Search for weapons",
 }

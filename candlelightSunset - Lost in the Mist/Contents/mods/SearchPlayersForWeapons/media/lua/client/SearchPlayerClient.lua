@@ -16,7 +16,7 @@ local function OnServerCommand(module, command, args)
             local otherPlayer = getPlayerByOnlineID(args[1])
             local playerInv = player:getInventory();
             local weapons = playerInv:getAllEval(predicateWeapon);
-            player:Say("Being searched by " .. otherPlayer:getDisplayName())
+            player:Say("Being searched")
             print("Found " .. weapons:size() .. " weapons");
             if weapons and weapons:size() > 0 then
                 for i=1,weapons:size() do
