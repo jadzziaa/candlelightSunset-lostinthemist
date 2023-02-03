@@ -46,7 +46,7 @@ function AddictionRandom()
 end--function
 
 function AddictionRandomTwo()
-	return ZombRand(2)
+	return ZombRand(4)
 end--function
 
 function OnSmoke_WeedBlunt(food, player)
@@ -353,11 +353,16 @@ function AddictionLevelThreeEveryHours()
 	local dmg = getPlayer():getBodyDamage();
 	local stats = getPlayer():getStats();
 
-	if stats:getPanic() < 50 then
-		stats:setPanic(90);
+	if AddictionRandomTwo() == addictionchancetwo then
+		if stats:getPanic() < 50 then
+			stats:setPanic(90);
+		end--if
 	end--if
-	if stats:getEndurance() > 0.26 then
-		stats:setEndurance(0.26);
+
+	if AddictionRandomTwo() == addictionchancetwo then
+		if stats:getEndurance() > 0.26 then
+			stats:setEndurance(0.26);
+		end--if
 	end--if
 end--function
 
