@@ -75,7 +75,7 @@ Recipe_EN = {
 	Recipe_ChmSterilizeFlask = "Sterilize Flask"
 	Recipe_ChmMakeSyringe = "Make Reusable Syringe",
 	Recipe_ChmSterilizeLabSyringeReusable = "Sterilize Reusable Syringe",
-	Recipe_ChmSynthesizeCureTwo = "Synthesize Cure for Zombie Virus",
+	Recipe_ChmSynthesizeCureTwo = "Synthesize Cure for Zombie Virus (Chemistry set)",
 	Recipe_ChmGetBloodTestTwo = "Get a Blood Test (Spectrometer)",
 
 	Recipe_ChmCollectInfectedSaliva = "Collect Infected Saliva in a Test Tube",
