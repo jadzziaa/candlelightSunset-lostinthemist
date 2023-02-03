@@ -3,6 +3,17 @@
 	
 	<!--Shark's Law Enforcement Overhaul -->
 
+
+	<files>
+	<path>media/clothing/clothingItems/Hat_M1HelmetPolice.xml</path>
+	<guid>1f934941-6b24-4a8b-8989-660678c2dfc0</guid>
+	</files>
+
+	<files>
+	<path>media/clothing/clothingItems/Hat_M1HelmetPoliceStrapless.xml</path>
+	<guid>0fa03cb4-e886-4a47-9c5f-6e0b836fae45</guid>
+	</files>
+
 	<files>
 	<path>media/clothing/clothingItems/Hat_BlueTruckerCap.xml</path>
 	<guid>53d48fd0-61bf-4701-bea1-add10d8688eb</guid>

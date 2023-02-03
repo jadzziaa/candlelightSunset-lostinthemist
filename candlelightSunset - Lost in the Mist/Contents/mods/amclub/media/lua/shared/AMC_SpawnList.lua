@@ -5,6 +5,7 @@ VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_bmw_classic"] = {index =
 VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_bmw_custom"] = {index = -1, spawnChance = 3};
 VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_harley"] = {index = -1, spawnChance = 3};
 VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 3};
+VehicleZoneDistribution.parkingstall.vehicles["Base.TrailerAMC"] = {index = -1, spawnChance = 2};
 
 -- Trailer Parks --
 VehicleZoneDistribution.trailerpark.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 3};

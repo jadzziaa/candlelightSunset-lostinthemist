@@ -7,6 +7,7 @@ module Base
         invertX = FALSE,
         scale = 1.00,
     }
+    
     model AMC_harley_86_gastank
     {
         mesh = moto/AMC_harley86|gastank,
@@ -129,6 +130,7 @@ module Base
             {
                 disableDoorLocker = 1,
                 disableSleep = 1,
+                wreckerName = TrailerAMC,
             }
         }
 
@@ -449,6 +451,10 @@ module Base
         }
 
         template = Headlight/part/HeadlightRearLeft,
+        part HeadlightRearLeft
+		{
+			area = TireRearLeft,
+		}
         template! = ATAMotoWheelsReady,
 
         part ATAMotoTireFrontWheel

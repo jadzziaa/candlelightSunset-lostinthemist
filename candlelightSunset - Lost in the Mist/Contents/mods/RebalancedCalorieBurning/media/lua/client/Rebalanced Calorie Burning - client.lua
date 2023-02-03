@@ -1,12 +1,12 @@
 ---values and methods taken from `zombie\characters\BodyDamage\Nutrition.java`
 
----Values from vanilla (41.73)
+---Values from vanilla (41.78)
 local caloriesDecrease = {}
 caloriesDecrease.Exercise = 0.13
 caloriesDecrease.Sleeping = 0.003
 caloriesDecrease.Normal = 0.016
 ---additional rates
-caloriesDecrease.Sitting = caloriesDecrease.Normal*0.66
+caloriesDecrease.Sitting = 0.010 --(Normal * 0.66)
 
 
 ---used for debug checks that don't spam the log
@@ -71,19 +71,27 @@ local function RCB_updateCalories(player)
     if player:isPlayerMoving() then
         if player:isSprinting() then
             debugChecks.state = "sprinting"
+            baseRate = (SandboxVars.RebalancedCalorieBurning.SprintingMultiplier or 1) * 1.3
+
         elseif player:isRunning() then
             debugChecks.state = "running"
+            baseRate = SandboxVars.RebalancedCalorieBurning.RunningMultiplier or 1
         else
             debugChecks.state = "moving"
+            baseRate = (SandboxVars.RebalancedCalorieBurning.WalkingMultiplier or 1) * 0.6
         end
+
     elseif player:isAsleep() then
         debugChecks.state = "sleeping"
+        baseRate = SandboxVars.RebalancedCalorieBurning.AsleepMultiplier or 1
 
     elseif player:isSitOnGround() then
         debugChecks.state = "sitting"
+        baseRate = SandboxVars.RebalancedCalorieBurning.SittingMultiplier or 1
         appliedCaloriesDecrease = caloriesDecrease.Sitting
     else
         debugChecks.state = "idle"
+        baseRate = SandboxVars.RebalancedCalorieBurning.IdleMultiplier or 1
     end
 
     local rebalancedRate = baseRate * appliedCaloriesDecrease * weightModifier * thermoModifier * getGameTime():getGameWorldSecondsSinceLastUpdate()
@@ -91,7 +99,7 @@ local function RCB_updateCalories(player)
     --inventory impact
     local carryingRatio = math.max(0,player:getInventoryWeight()/player:getMaxWeight())
     local inventoryModifier = 1+(carryingRatio*0.01)
-    rebalancedRate = rebalancedRate / inventoryModifier
+    rebalancedRate = rebalancedRate * inventoryModifier
 
 
     ---Apply sandbox option
@@ -101,8 +109,8 @@ local function RCB_updateCalories(player)
     local burnRate = (rebalancedRate-vanillaBaseRate)
 
     if burnRate ~= 0 then
-        if getDebug() and (debugChecks.state~=debugChecks.lastState ) then
-            print("Rebalanced Calorie Burning: ["..debugChecks.state.."]  added-burn:"..burnRate)
+        if getDebug() and (debugChecks.state~=debugChecks.lastState ) and player==getSpecificPlayer(0) then
+            print("Rebalanced Calorie Burning: ["..debugChecks.state.."]  vanilla:"..vanillaBaseRate.."  added-burn:"..burnRate)
             debugChecks.lastState = debugChecks.state
         end
         pNutrition:setCalories(pNutrition:getCalories()-burnRate)

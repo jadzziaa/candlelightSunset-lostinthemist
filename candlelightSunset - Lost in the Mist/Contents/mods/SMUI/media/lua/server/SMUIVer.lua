@@ -1,1 +1,1 @@
-Events.OnGameBoot.Add(print("SMUI - Fixes"))
+Events.OnGameBoot.Add(print("SMUI - Zoning, Bug Fixes, Clean-Up"))

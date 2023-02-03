@@ -1,16 +1,7 @@
+require "Vehicles/ISUI/TSL_ISCarMechanicsOverlay"
 
 -- Harley
 ISCarMechanicsOverlay.CarList["Base.AMC_harley"] = {imgPrefix = "AMC_harley_", x=10,y=0};
--- Top secret parts
-ISCarMechanicsOverlay.PartList["SuspensionFrontRight"].vehicles = ISCarMechanicsOverlay.PartList["SuspensionFrontRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["SuspensionFrontRight"].vehicles["AMC_harley_"] = {img="suspension_front_left", x=0,y=0,x2=0,y2=0};
-ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles = ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles["AMC_harley_"] = {x=0,y=0,x2=0,y2=0};
-ISCarMechanicsOverlay.PartList["TireFrontRight"].vehicles = ISCarMechanicsOverlay.PartList["TireFrontRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireFrontRight"].vehicles["AMC_harley_"] = {x=0,y=0,x2=0,y2=0};
-ISCarMechanicsOverlay.PartList["TireRearRight"].vehicles = ISCarMechanicsOverlay.PartList["TireRearRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireRearRight"].vehicles["AMC_harley_"] = {x=0,y=0,x2=0,y2=0};
---
 ISCarMechanicsOverlay.PartList["Battery"].vehicles = ISCarMechanicsOverlay.PartList["Battery"].vehicles or {};
 ISCarMechanicsOverlay.PartList["Battery"].vehicles["AMC_harley_"] = {img="battery", x=14,y=150,x2=60,y2=182};
 --
@@ -33,10 +24,8 @@ ISCarMechanicsOverlay.PartList["HeadlightLeft"].vehicles["AMC_harley_"] = {x=128
 ISCarMechanicsOverlay.PartList["Muffler"].vehicles = ISCarMechanicsOverlay.PartList["Muffler"].vehicles or {};
 ISCarMechanicsOverlay.PartList["Muffler"].vehicles["AMC_harley_"] = {x=232,y=245,x2=268,y2=315};
 --
-ISCarMechanicsOverlay.PartList["TireFrontLeft"].vehicles = ISCarMechanicsOverlay.PartList["TireFrontLeft"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireFrontLeft"].vehicles["AMC_harley_"] = {x=132,y=57,x2=149,y2=77};
-ISCarMechanicsOverlay.PartList["TireRearLeft"].vehicles = ISCarMechanicsOverlay.PartList["TireRearLeft"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireRearLeft"].vehicles["AMC_harley_"] = {x=14,y=274,x2=54,y2=313};
+ISCarMechanicsOverlay.PartList["ATAMotoTireFrontWheel"].vehicles["AMC_harley_"] = {x=132,y=57,x2=149,y2=77};
+ISCarMechanicsOverlay.PartList["ATAMotoTireRearWheel"].vehicles["AMC_harley_"] = {x=14,y=274,x2=54,y2=313};
 --
 ISCarMechanicsOverlay.PartList["GasTank"].vehicles = ISCarMechanicsOverlay.PartList["GasTank"].vehicles or {};
 ISCarMechanicsOverlay.PartList["GasTank"].vehicles["AMC_harley_"] = {img="gastank", x=206,y=192,x2=268,y2=232};
@@ -44,28 +33,19 @@ ISCarMechanicsOverlay.PartList["GasTank"].vehicles["AMC_harley_"] = {img="gastan
 -- BMW
 ISCarMechanicsOverlay.CarList["Base.AMC_bmw_classic"] = {imgPrefix = "AMC_bmw_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.AMC_bmw_custom"] = {imgPrefix = "AMC_bmw_", x=10,y=0};
--- Top secret parts
-ISCarMechanicsOverlay.PartList["SuspensionFrontRight"].vehicles = ISCarMechanicsOverlay.PartList["SuspensionFrontRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["SuspensionFrontRight"].vehicles["AMC_bmw_"] = {img="suspension_front_left", x=0,y=0,x2=0,y2=0};
-ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles = ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles["AMC_bmw_"] = {x=0,y=0,x2=0,y2=0};
-ISCarMechanicsOverlay.PartList["TireFrontRight"].vehicles = ISCarMechanicsOverlay.PartList["TireFrontRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireFrontRight"].vehicles["AMC_bmw_"] = {x=0,y=0,x2=0,y2=0};
-ISCarMechanicsOverlay.PartList["TireRearRight"].vehicles = ISCarMechanicsOverlay.PartList["TireRearRight"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireRearRight"].vehicles["AMC_bmw_"] = {x=0,y=0,x2=0,y2=0};
---
+
 ISCarMechanicsOverlay.PartList["Battery"].vehicles = ISCarMechanicsOverlay.PartList["Battery"].vehicles or {};
 ISCarMechanicsOverlay.PartList["Battery"].vehicles["AMC_bmw_"] = {img="battery", x=14,y=150,x2=60,y2=182};
 --
 ISCarMechanicsOverlay.PartList["SuspensionFrontLeft"].vehicles = ISCarMechanicsOverlay.PartList["SuspensionFrontLeft"].vehicles or {};
 ISCarMechanicsOverlay.PartList["SuspensionFrontLeft"].vehicles["AMC_bmw_"] = {img="suspension_front_left", x=14,y=57,x2=54,y2=94};
-ISCarMechanicsOverlay.PartList["SuspensionRearLeft"].vehicles = ISCarMechanicsOverlay.PartList["SuspensionRearLeft"].vehicles or {};
-ISCarMechanicsOverlay.PartList["SuspensionRearLeft"].vehicles["AMC_bmw_"] = {x=14,y=200,x2=54,y2=238};
+ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles = ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles or {};
+ISCarMechanicsOverlay.PartList["SuspensionRearRight"].vehicles["AMC_bmw_"] = {x=14,y=200,x2=54,y2=238};
 --
 ISCarMechanicsOverlay.PartList["BrakeFrontLeft"].vehicles = ISCarMechanicsOverlay.PartList["BrakeFrontLeft"].vehicles or {};
 ISCarMechanicsOverlay.PartList["BrakeFrontLeft"].vehicles["AMC_bmw_"] = {img="brake_front_left", x=14,y=94,x2=54,y2=132};
-ISCarMechanicsOverlay.PartList["BrakeRearLeft"].vehicles = ISCarMechanicsOverlay.PartList["BrakeRearLeft"].vehicles or {};
-ISCarMechanicsOverlay.PartList["BrakeRearLeft"].vehicles["AMC_bmw_"] = {x=14,y=238,x2=54,y2=274};
+ISCarMechanicsOverlay.PartList["BrakeRearRight"].vehicles = ISCarMechanicsOverlay.PartList["BrakeRearRight"].vehicles or {};
+ISCarMechanicsOverlay.PartList["BrakeRearRight"].vehicles["AMC_bmw_"] = {x=14,y=238,x2=54,y2=274};
 --
 ISCarMechanicsOverlay.PartList["Engine"].vehicles = ISCarMechanicsOverlay.PartList["Engine"].vehicles or {};
 ISCarMechanicsOverlay.PartList["Engine"].vehicles["AMC_bmw_"] = {x=196,y=57,x2=268,y2=100};
@@ -76,10 +56,8 @@ ISCarMechanicsOverlay.PartList["HeadlightLeft"].vehicles["AMC_bmw_"] = {x=128,y=
 ISCarMechanicsOverlay.PartList["Muffler"].vehicles = ISCarMechanicsOverlay.PartList["Muffler"].vehicles or {};
 ISCarMechanicsOverlay.PartList["Muffler"].vehicles["AMC_bmw_"] = {x=232,y=245,x2=268,y2=315};
 --
-ISCarMechanicsOverlay.PartList["TireFrontLeft"].vehicles = ISCarMechanicsOverlay.PartList["TireFrontLeft"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireFrontLeft"].vehicles["AMC_bmw_"] = {x=132,y=57,x2=149,y2=77};
-ISCarMechanicsOverlay.PartList["TireRearLeft"].vehicles = ISCarMechanicsOverlay.PartList["TireRearLeft"].vehicles or {};
-ISCarMechanicsOverlay.PartList["TireRearLeft"].vehicles["AMC_bmw_"] = {x=14,y=274,x2=54,y2=313};
+ISCarMechanicsOverlay.PartList["ATAMotoTireFrontWheel"].vehicles["AMC_bmw_"] = {x=132,y=57,x2=149,y2=77};
+ISCarMechanicsOverlay.PartList["ATAMotoTireRearWheel"].vehicles["AMC_bmw_"] = {x=14,y=274,x2=54,y2=313};
 --
 ISCarMechanicsOverlay.PartList["GasTank"].vehicles = ISCarMechanicsOverlay.PartList["GasTank"].vehicles or {};
 ISCarMechanicsOverlay.PartList["GasTank"].vehicles["AMC_bmw_"] = {img="gastank", x=206,y=192,x2=268,y2=232};

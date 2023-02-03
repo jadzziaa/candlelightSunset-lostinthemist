@@ -34,7 +34,6 @@ table.insert(ProceduralDistributions.list.PrisonGuardLockers.items, 5);
 table.insert(ProceduralDistributions.list.PoliceLockers.items, "SLEOClothing.Vest_AntiStab");
 table.insert(ProceduralDistributions.list.PoliceLockers.items, 5);
 
-
 table.insert(ProceduralDistributions.list.PrisonGuardLockers.items, "Base.Hat_RiotHelmet");
 table.insert(ProceduralDistributions.list.PrisonGuardLockers.items, 2);
 
@@ -114,6 +113,9 @@ table.insert(ProceduralDistributions.list.PoliceLockers.items, 2);
 table.insert(ProceduralDistributions.list.PoliceLockers.items, "SLEOClothing.BlackLegPouch_RLeg");
 table.insert(ProceduralDistributions.list.PoliceLockers.items, 2);
 
+table.insert(ProceduralDistributions.list.PoliceLockers.items, "SLEOClothing.Hat_M1HelmetStatePolice");
+table.insert(ProceduralDistributions.list.PoliceLockers.items, 0.5);
+
 table.insert(ProceduralDistributions.list.PoliceLockers.items, "SLEOClothing.Vest_PoliceBulletproofVest");
 table.insert(ProceduralDistributions.list.PoliceLockers.items, 2);
 
@@ -123,4 +125,7 @@ table.insert(ProceduralDistributions.list.SchoolLockers.items, "SLEOClothing.TSh
 table.insert(ProceduralDistributions.list.SchoolLockers.items, 5);
 
 table.insert(ProceduralDistributions.list.ArmySurplusHeadwear.items, "SLEOClothing.Hat_PoliceHelmetGreen");
+table.insert(ProceduralDistributions.list.ArmySurplusHeadwear.items, 2);
+
+table.insert(ProceduralDistributions.list.ArmySurplusHeadwear.items, "SLEOClothing.Hat_M1HelmetStatePolice");
 table.insert(ProceduralDistributions.list.ArmySurplusHeadwear.items, 2);

@@ -47,10 +47,11 @@ module SMUIClothing
 		Icon = MarkIIHelmet,
 		CanHaveHoles = false,
 		BloodLocation = Head,
-		BiteDefense = 100,
-		ScratchDefense = 100,
-		BulletDefense = 10,
+		BiteDefense = 90,
+		ScratchDefense = 90,
+		BulletDefense = 20,
 		Insulation = 0.10,
+        Weight = 2.5,
 		WaterResistance = 80,
         Tags = Military,
 		WorldStaticModel = MarkIIHelmet_WorldItem,
@@ -71,6 +72,7 @@ module SMUIClothing
 		BulletDefense = 70,
 		Insulation = 0.45,
 		WaterResistance = 0.4,
+        Weight = 2.5,
         Tags = Military,
 		WorldStaticModel = T56Helmet_WorldItem,
 	}
@@ -90,6 +92,7 @@ module SMUIClothing
 		BulletDefense = 70,
 		Insulation = 0.45,
 		WaterResistance = 0.4,
+        Weight = 2.5,
         Tags = Military,
 		WorldStaticModel = DH132_WorldItem,
 	}
@@ -109,6 +112,7 @@ module SMUIClothing
 		BulletDefense = 100,
 		Insulation = 0.45,
 		WaterResistance = 0.4,
+        Weight = 2.5,
         Tags = Military,
 		WorldStaticModel = DH132Goggles_WorldItem,
 	}
@@ -165,7 +169,7 @@ module SMUIClothing
         CanHaveHoles = false,
         Insulation = 1.0,
         WaterResistance = 0.4,
-        Weight = 0.3,
+        Weight = 1.0,
         Tags = Military,
         WorldStaticModel = MilitaryTacticalHelmetNVGMount_WorldItem,
     }
@@ -185,6 +189,7 @@ module SMUIClothing
         Weight = 0.2,
         Insulation = 0.75,
         WindResistance = 0.45,
+        Weight = 0.5,
 		AttachmentType  = GasMask,	
 		StaticModel 	= GasMaskM17NotWorn,
         WorldStaticModel = M9GasMask_WorldItem,
@@ -206,6 +211,7 @@ module SMUIClothing
         Weight = 0.2,
         Insulation = 0.75,
         WindResistance = 0.45,
+        Weight = 0.5,
 		AttachmentType  = GasMask,	
 		StaticModel 	= GasMaskM17NotWorn,
         WorldStaticModel = M9GasMask_WorldItem,
@@ -227,6 +233,7 @@ module SMUIClothing
         Weight = 0.2,
         Insulation = 0.75,
         WindResistance = 0.45,
+        Weight = 0.5,
 		AttachmentType  = GasMask,	
 		StaticModel 	= GasMaskM17NotWorn,
         WorldStaticModel = M17_WorldItem,
@@ -245,7 +252,7 @@ module SMUIClothing
         CanHaveHoles = false,
         BiteDefense = 5,
         ScratchDefense = 10,
-        Weight = 0.2,
+        Weight = 0.5,
         Insulation = 0.75, 
         WindResistance = 0.45,
 		AttachmentType  = GasMask,	
@@ -270,7 +277,7 @@ module SMUIClothing
         WorldStaticModel = MilitaryGoggles_WorldItem,
 	}        
     
-    item Hat_Shemagh
+        item Hat_Shemagh
     {
         DisplayCategory = Accessory,
         Type = Clothing,

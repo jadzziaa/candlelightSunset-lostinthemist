@@ -393,28 +393,7 @@ module Base
         template = Brake/part/BrakeFrontRight,
         template = Brake/part/BrakeRearLeft,
         template = Brake/part/BrakeRearRight,
-
-        part BrakeFrontLeft
-        {
-            area = TireFrontLeft,
-        }
-
-        part BrakeRearLeft
-        {
-            area = TireRearLeft,
-        }
-
         template = Suspension,
-
-        part SuspensionFront*
-        {
-            area = TireRearLeft,
-        }
-
-        part SuspensionRear*
-        {
-            area = TireRearRight,
-        }
 
         template = Headlight/part/HeadlightLeft,
         template = Headlight/part/HeadlightRight,
@@ -433,6 +412,11 @@ module Base
         }
 
         template = Headlight/part/HeadlightRearLeft,
+        part HeadlightRearLeft
+		{
+			area = TrunkBedRear,
+		}
+        
         template = Tire,
 
         part TireFrontLeft

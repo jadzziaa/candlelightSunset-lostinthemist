@@ -35,7 +35,7 @@ module SMUIClothing
         ChanceToFall = 80,
         Insulation = 0.10,
         Weight = 0.1,
-        WorldStaticModel = PatrolCapOG106_WorldItem,
+        WorldStaticModel = OG106Cap_WorldItem,
     }
 
         item Hat_PatrolCapOG107

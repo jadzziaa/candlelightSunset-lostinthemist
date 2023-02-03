@@ -35,7 +35,6 @@ function FHBoopAction:isValid()
 	return true;
 end
 
--- blech, I really want this, but turning overrides my animation
 function FHBoopAction:waitToStart()
 	if self.character:isSeatedInVehicle() then
 		-- If we are in a car, we should just stop here actually

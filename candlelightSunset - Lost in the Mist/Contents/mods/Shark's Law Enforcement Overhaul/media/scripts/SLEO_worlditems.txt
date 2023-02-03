@@ -88,14 +88,14 @@ module Base
 		model PoliceUtilityBagGreen_WorldItem
 	{
 		mesh = WorldItems/PoliceUtilityBag_WorldItem,
-		texture = WorldItems/PoliceUtilityBagGreen,
+		texture = clothes/misc/PoliceUtilityBagGreen,
 		scale = 0.5,
 	}
 
 	    model PoliceTacticalVest_WorldItem
 	{
 		mesh = WorldItems/PoliceTacticalVest_WorldItem,
-		texture = WorldItems/PoliceTacticalVest,
+		texture = clothes/vest/PoliceTacticalVest,
 		scale = 0.5,
 	}
 
@@ -110,13 +110,6 @@ module Base
 	{
 		mesh = WorldItems/PoliceDutyBelt_WorldItem,
 		texture = WorldItems/PoliceDutyBelt,
-		scale = 0.5,
-	}
-
-		model TacticalVestPouches_WorldItem
-	{
-		mesh = WorldItems/TacticalVestPouches_WorldItem,
-		texture = WorldItems/PoliceTacticalVest,
 		scale = 0.5,
 	}
 
@@ -194,6 +187,34 @@ module Base
 	{
 		mesh = WorldItems/UtilityCap_WorldItem,
 		texture = clothes/hat/blackSWATcap,
+		scale = 0.5,
+	}
+
+		model BlackUtilityCap_WorldItem
+	{
+		mesh = WorldItems/UtilityCap_WorldItem,
+		texture = clothes/hat/blackSWATcap,
+		scale = 0.5,
+	}
+
+        model PoliceWebbing_WorldItem
+	{
+		mesh = WorldItems/MilitaryWebbing_WorldItem,
+		texture = clothes/misc/PoliceWebbing,
+		scale = 0.5,
+	}
+
+		model M1HelmetBluePolice_WorldItem
+	{
+		mesh = WorldItems/M1Helmet_WorldItem,
+		texture = clothes/hat/Hat_M1HelmetBluePolice,
+		scale = 0.5,
+	}
+	
+		model M1HelmetBluePoliceStrapless_WorldItem
+	{
+		mesh = WorldItems/M1Helmet_WorldItem,
+		texture = clothes/hat/Hat_M1HelmetBluePolice,
 		scale = 0.5,
 	}
 }

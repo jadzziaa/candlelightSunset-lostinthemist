@@ -1,7 +1,7 @@
-name=Autotsar Motorclub v.1.01
+name=Autotsar Motorclub v.1.02
 poster=poster.png
 id=amclub
-versionMin=41.65
+versionMin=41.73
 require=tsarslib
 description=---
 url=

@@ -30,6 +30,12 @@ FancyHands.special = {
 if getActivatedMods():contains('Skizots Visible Boxes and Garbage2') then
     FancyHands.special = {}
 end
+
+-- We will begin to store compatibility objects here
+FancyHands.compat = {}
+-- if getActivatedMods():contains('Amputation2') then -- now included in TOC!
+--     FancyHands.compat.TOC = require('compat/FH_TOC')
+-- end
 ------------------------------------------
 -- Fancy Handwork Utilities
 ------------------------------------------

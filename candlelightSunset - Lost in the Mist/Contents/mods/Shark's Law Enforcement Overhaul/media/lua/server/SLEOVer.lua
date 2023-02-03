@@ -1,1 +1,1 @@
-Events.OnGameBoot.Add(print("Shark's Law Enforcement Overhaul - Fixes"))
+Events.OnGameBoot.Add(print("Shark's Law Enforcement Overhaul - Fixes and Zoning"))

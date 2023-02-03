@@ -12,7 +12,7 @@ AttachedWeaponDefinitions.assaultRifleM16OnBack = {
 	weaponLocation =  {"Rifle On Back"},
 	bloodLocations = nil,
 	addHoles = false,
-	daySurvived = 0,
+	daySurvived = 20,
 	weapons = {
 		"Base.AssaultRifle",
 	},

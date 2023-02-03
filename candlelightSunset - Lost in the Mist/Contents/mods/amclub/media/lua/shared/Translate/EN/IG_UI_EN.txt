@@ -5,6 +5,7 @@ IGUI_EN = {
 	IGUI_VehicleNameAMC_quad = "Suvzuki Quadruiner",
 	IGUI_VehicleNameAMC_Waverunner = "Yamama Waveruiner 650TL",
 	IGUI_VehicleNameAMC_Waverunner_Ground = "Yamama Waveruiner 650TL",
-	IGUI_VehicleNameTrailerAMCWaverunner = "Autotsar WT-3M",
+	IGUI_VehicleNameTrailerAMC = "Autotsar Mototrailer-2M",
+	IGUI_VehicleNameTrailerAMCWaverunner = "Autotsar Watertrailer-3M",
 	IGUI_VehicleNameTrailerAMCWaverunnerWithBody = "Yamama Waveruiner 650TL",
 }
