@@ -125,10 +125,29 @@ module Base
         BodyLocation = Sweater,
         BloodLocation = JumperNoSleeves,
         Icon = PotatoSackShirt,
- 	BiteDefense = 6,
+		BiteDefense = 6,
         ScratchDefense = 14,
         Insulation = 0.45,
         WindResistance = 0.55,
         WorldStaticModel = JumperSleeveless_Ground,
     }
+    item Makeshift_Hood_Rogue
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Rogue Hood,
+        ClothingItem = Makeshift_Hood_Rogue,
+        BodyLocation = FullHat,
+        Icon = HoodRogue,
+        BloodLocation = FullHelmet,
+        BiteDefense = 20,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.1,
+        WaterResistance = 0.2,
+        Weight = 1,
+        WorldStaticModel = HoodRogue_Ground,
+    }
+
 }

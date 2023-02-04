@@ -95,5 +95,18 @@ module Base
         FabricType = Cotton,
         WorldStaticModel = CropTop_Ground,
     }
+    item Makeshift_Shirt_Rogue
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Rogue Shirt,
+        ClothingItem = Makeshift_Shirt_Rogue,
+        BodyLocation = Tshirt,
+        Icon	=	RogueShirt,
+        BloodLocation = ShirtLongSleeves,
+        Insulation = 0.5,
+        WindResistance = 0.25,
+        WorldStaticModel = ShirtRogue_Ground,
+    }
   
 }

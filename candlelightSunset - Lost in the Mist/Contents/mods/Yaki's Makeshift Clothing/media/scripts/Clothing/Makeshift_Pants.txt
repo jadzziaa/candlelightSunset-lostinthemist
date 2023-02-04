@@ -79,7 +79,7 @@ module Base
         Icon = MedievalPants,
         Insulation = 0.50,
         WindResistance = 0.40,
-	FabricType = Cotton,
+		FabricType = Cotton,
         WorldStaticModel = Trousers_Ground,
     }
     item Pants_Leather
@@ -147,6 +147,37 @@ module Base
         WindResistance = 0.40,
         Icon = PotatoSackLongShorts,
         WorldStaticModel = LongShorts_Ground,
+    }
+    item Makeshift_Pants_Junker
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Junker Pants,
+        ClothingItem = Makeshift_Pants_Junker,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = JunkerPants,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.65,
+        WindResistance = 0.60,
+        FabricType = Leather,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Makeshift_Pants_Rogue
+    {
+        Type = Clothing,
+        DisplayName = Rogue Trousers,
+        ClothingItem = Makeshift_Pants_Rogue,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        FabricType = Cotton,
+        Icon = MedievalPants,
+        Insulation = 0.50,
+        WindResistance = 0.40,
+	FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
     }
         
 }

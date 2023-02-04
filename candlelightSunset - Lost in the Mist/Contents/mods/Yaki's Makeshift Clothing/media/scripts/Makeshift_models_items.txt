@@ -1,5 +1,29 @@
 module Base
 {
+		model AtomicDuck
+	{
+		mesh = WorldItems/AtomicDuck,
+		texture = WorldItems/AtomicDuck,
+		scale = 0.005,
+	}
+		model SolidRubber
+	{
+		mesh = WorldItems/SolidRubber,
+		texture = WorldItems/SolidRubber,
+		scale = 0.010,
+	}
+		model TailoringBench
+	{
+		mesh = WorldItems/TailoringBench,
+		texture = WorldItems/TailoringBench,
+		scale = 0.005,
+	}
+		model DestroyedCarTire
+	{
+		mesh = WorldItems/DestroyedCarTire,
+		texture = WorldItems/DestroyedCarTire,
+		scale = 0.004,
+	}
 		model Leather
 	{
 		mesh = WorldItems/Leather,

@@ -16,6 +16,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		SkillRequired:Tailoring=2,
 		AnimNode 		: RipSheets,
 	}
@@ -26,6 +27,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Corset Dress
@@ -33,11 +35,14 @@ module Base
 		FabricRoll=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_Corset,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make White Laced Dress
@@ -45,11 +50,14 @@ module Base
 		FabricRoll=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LacedRed,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingWhite,
 		AnimNode 		: RipSheets,
 	}
@@ -59,11 +67,14 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LacedRed,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -73,11 +84,14 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LacedRed,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -87,11 +101,14 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LacedRed,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -101,11 +118,14 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LacedRed,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -115,11 +135,14 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LacedRed,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -128,11 +151,14 @@ module Base
 		FabricRoll=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LongBelt,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingWhite,
 		AnimNode 		: RipSheets,
 	}
@@ -141,11 +167,14 @@ module Base
 		FabricRollRed=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LongBelt,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -154,11 +183,14 @@ module Base
 		FabricRollGreen=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LongBelt,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -167,11 +199,14 @@ module Base
 		FabricRollBlue=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LongBelt,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -180,11 +215,14 @@ module Base
 		FabricRollBrown=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LongBelt,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -193,11 +231,14 @@ module Base
 		FabricRollGrey=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_LongBelt,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -206,11 +247,14 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Dress_Medieval,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		AnimNode 		: RipSheets,
 	}
 		recipe Make White Peasant Dress
@@ -222,7 +266,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingWhite,
 		AnimNode 		: RipSheets,
 	}
@@ -235,7 +280,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -248,7 +294,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -261,7 +308,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -274,7 +322,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -287,7 +336,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -300,7 +350,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingWhite,
 		AnimNode 		: RipSheets,
 	}
@@ -313,7 +364,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -326,7 +378,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -339,7 +392,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -352,7 +406,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -365,7 +420,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -376,6 +432,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Skin Cape
@@ -385,7 +442,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=1,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Skin Shirt
@@ -395,7 +452,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=1,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Skin Tunic
@@ -405,7 +462,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=1,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Nice White Tunic
@@ -413,11 +470,14 @@ module Base
 		FabricRoll=1,
 		Thread=2,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Jumper_NiceTunic,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingWhite,
 		AnimNode 		: RipSheets,
 	}
@@ -426,11 +486,14 @@ module Base
 		FabricRollRed=1,
 		Thread=2,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Jumper_NiceTunic,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -439,11 +502,14 @@ module Base
 		FabricRollGreen=1,
 		Thread=2,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Jumper_NiceTunic,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -452,11 +518,14 @@ module Base
 		FabricRollBlue=1,
 		Thread=2,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Jumper_NiceTunic,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -465,11 +534,14 @@ module Base
 		FabricRollBrown=1,
 		Thread=2,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Jumper_NiceTunic,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -478,11 +550,14 @@ module Base
 		FabricRollGrey=1,
 		Thread=2,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Jumper_NiceTunic,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -495,7 +570,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingWhite,
 		AnimNode 		: RipSheets,
 	}
@@ -508,7 +584,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -521,7 +598,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -534,7 +612,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -547,7 +626,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -560,7 +640,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -569,11 +650,14 @@ module Base
 		Leather=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Pants_Leather,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Rus Pants
@@ -581,11 +665,14 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Pants_Medieval,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Sheet Pants
@@ -596,6 +683,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Trashbag Pants
@@ -606,6 +694,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Medieval Hood
@@ -613,11 +702,14 @@ module Base
 		Leather=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Poncho_MedievalHood,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Corset Shirt
@@ -626,11 +718,12 @@ module Base
 		LeatherStrips=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Shirt_Corset,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Laced Collar Shirt
@@ -638,10 +731,13 @@ module Base
 		FabricRoll=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Shirt_LacedCollar,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		SkillRequired:Tailoring=2,
 		AnimNode 		: RipSheets,
 	}
@@ -650,11 +746,14 @@ module Base
 		Leather=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Shirt_Leather,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Ripped Sheet Shirt
@@ -673,6 +772,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Sheet Shirt
@@ -683,6 +783,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make TrashBag Shirt
@@ -693,6 +794,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Fur Boots
@@ -703,7 +805,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=1,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Leather Shoes
@@ -711,11 +813,14 @@ module Base
 		LeatherStrips=2,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Shoes_Leather,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=3,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Medieval Boots
@@ -723,11 +828,14 @@ module Base
 		Leather=1,
 		Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Shoes_MedievalBoots,
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=4,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Trashbag Shoes
@@ -738,6 +846,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Long Sheet Shorts
@@ -748,6 +857,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Grass Loincloth
@@ -757,6 +867,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Loincloth
@@ -766,6 +877,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Sheet Skirt
@@ -776,6 +888,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Skin Skirt
@@ -785,7 +898,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=1,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Ripped Sheet Socks
@@ -795,6 +908,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 50.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Potato Sack Dress
@@ -805,6 +919,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Potato Sack Shirt
@@ -815,6 +930,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Potato Sack Socks
@@ -825,6 +941,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Potato Sack Long Shorts
@@ -835,6 +952,7 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Roman Dress
@@ -845,7 +963,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Roman Dress with White Toga
@@ -856,7 +975,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Roman Dress with Red Toga
@@ -868,7 +988,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -881,7 +1002,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -894,7 +1016,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -907,7 +1030,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -920,7 +1044,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -932,7 +1057,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Roman White Emperor Tunic
@@ -943,7 +1069,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Roman Red Emperor Tunic
@@ -955,7 +1082,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
 		AnimNode 		: RipSheets,
 	}
@@ -968,7 +1096,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
 		AnimNode 		: RipSheets,
 	}
@@ -981,7 +1110,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
 		AnimNode 		: RipSheets,
 	}
@@ -994,7 +1124,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
 		AnimNode 		: RipSheets,
 	}
@@ -1007,7 +1138,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
 		AnimNode 		: RipSheets,
 	}
@@ -1020,7 +1152,8 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=1,
 		AnimNode 		: RipSheets,
 	}
 
@@ -1224,11 +1357,13 @@ module Base
 		LeatherStrips=4,
 	    	Thread=2,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Leather,
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=1,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Sheet
@@ -1236,10 +1371,13 @@ module Base
 		RippedSheets=5,
 	    	Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: Sheet,
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Fabric Roll
@@ -1247,11 +1385,13 @@ module Base
 		Sheet=2,
 	    	Thread=1,
 		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
 		Result 		: FabricRoll,
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
-		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
 	recipe Make Leather Strips
@@ -1262,7 +1402,597 @@ module Base
 		Sound 		: ClothesRipping,
 		Time 		: 100.0,
 		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
 		AnimNode 		: RipSheets,
 	}
+    	/************************ MrAtomicDuckUpdate ************************/
+
+  	/************************ Solid Rubber/Linen ************************/
+
+	recipe Make Solid Rubber
+	{
+		DestroyedCarTire=1,
+		keep [Recipe.GetItemTypes.SharpKnife]/Scissors,
+		Result 		: SolidRubber=5,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		AnimNode 		: RipSheets,
+	}
+	recipe Make Fabric Roll with Loom
+	{
+		Yarn=2,
+	    	Thread=1,
+		keep MakeshiftLoom/PlanksLoom,
+		CanBeDoneFromFloor:true,
+		Result 		: FabricRoll,
+		Sound 		: Sawing,
+		Time 		: 200.0,
+		Category    :  Tailoring,
+	}
+	
+	/************************ Tailoring Bench/Loom ************************/
+
+	recipe Make Tailoring Bench
+	{
+		Plank=7,
+		Nails=7,
+		keep [Recipe.GetItemTypes.Saw],
+		keep Hammer/HammerStone/BallPeenHammer,
+		SkillRequired:Woodwork=1,
+		Result 		: TailoringBench,
+		Sound 		: Sawing,
+		Time 		: 200.0,
+		Category    :  Carpentry,
+	}
+	recipe Make Makeshift Needle
+	{
+		Nails,
+		keep Hammer/HammerStone/BallPeenHammer,
+		Result 		: Needle,
+		Time 		: 100.0,
+	}
+
+		/************************ Junker Armor ************************/
+		
+	recipe Make Junker ShoulderPads
+    {
+		SmallSheetMetal=4,
+		DuctTape=2,
+		Leather,
+		keep Needle,
+		Thread=1,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result:Makeshift_Shoulders_JunkerShoulderPads,
+		Time:150.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=5,
+    }
+	recipe Add Skull to Junker ShoulderPads
+    {
+       Makeshift_Shoulders_JunkerShoulderPads,
+       CorpseMale/CorpseFemale,
+       Result:Makeshift_Shoulders_JunkerShoulderPadsSkull,
+       Time:150.0,
+    }
+	recipe Make Junker Boots
+    {
+       Leather=1,
+       DuctTape=2,
+       SmallSheetMetal=2,
+	keep Needle,
+	CanBeDoneFromFloor:true,
+	Thread=1,
+       Result:Makeshift_Shoes_JunkerBoots,
+       Time:150.0,
+	   Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=5,
+       NeedToBeLearn:false,
+	   AnimNode: RipSheets,
+    }
+	recipe Make Junker Pants
+    {
+		Pants_Medieval,
+		SmallSheetMetal,
+		RippedSheets,
+		Thread=1,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Pants_Junker,
+		Sound 		: ClothesRipping,
+		Time 		: 50.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=5,
+		AnimNode 		: RipSheets,
+    }
+	recipe Make Junker Belt
+    {
+		LeatherStrips=2,
+		Thread=1,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Belt_Junker,
+		Sound 		: ClothesRipping,
+		Time 		: 50.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=5,
+		AnimNode 		: RipSheets,
+    }
+	recipe Add Skull to Junker Belt
+    {
+		Makeshift_Belt_Junker,
+		CorpseMale/CorpseFemale,
+		Result 		: Makeshift_Belt_JunkerSkull,
+		Sound 		: ClothesRipping,
+		Time 		: 50.0,
+		AnimNode 		: RipSheets,
+    }
+	recipe Make Junker Chest Plate
+    {
+		Leather=1,
+		DuctTape=2,
+		SmallSheetMetal=4,
+		Thread=1,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Vest_Junker,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=5,
+		AnimNode 				: RipSheets,
+    }
+
+		/************************ Leather Armor ************************/
+
+	recipe Make Leather Chest Plate
+    {
+		Leather=3,
+		LeatherStrips=4,
+		Thread=2,
+		Nails=10,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Vest_LeatherChestPlate,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Leather Armored Boots
+    {
+		Leather=2,
+		LeatherStrips=2,
+		Thread=1,
+		Nails=8,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Shoes_LeatherBoots,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Leather Left Arm Protection
+    {
+		Leather=1,
+		LeatherStrips=1,
+		Thread=1,
+		Nails=2,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Arms_LeatherProtectionsLEFT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Leather Right Arm Protection
+    {
+		Leather=1,
+		LeatherStrips=1,
+		Thread=1,
+		Nails=2,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Arms_LeatherProtectionsRIGHT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Leather Shoulder Pads
+    {
+		Leather=1,
+		LeatherStrips=1,
+		Thread=1,
+		Nails=4,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Shoulders_LeatherShoulderPads,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=3,
+		AnimNode 				: RipSheets,
+    }
+		/************************ Tire Armor ************************/
+
+	recipe Make Tire Shoulder Pads
+    {
+		LeatherStrips=1,
+		SolidRubber=4,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Shoulders_TireShoulderPads,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=4,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Shoulder Pads Yellow
+    {
+		Makeshift_Shoulders_TireShoulderPads,
+		HairDyeBlonde/HairDyeYellow/PaintYellow=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Shoulders_TireShoulderPads,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Shoulder Pads Red
+    {
+		Makeshift_Shoulders_TireShoulderPads,
+		HairDyeRed/HairDyeRed/PaintRed=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Shoulders_TireShoulderPads,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Shoulder Pads Green
+    {
+		Makeshift_Shoulders_TireShoulderPads,
+		HairDyeGreen/HairDyeGreen/PaintGreen=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Shoulders_TireShoulderPads,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Shoulder Pads Blue
+    {
+		Makeshift_Shoulders_TireShoulderPads,
+		HairDyeBlue/HairDyeBlue/PaintBlue=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Shoulders_TireShoulderPads,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Tire Leg Pad Right
+    {
+		LeatherStrips=1,
+		SolidRubber=2,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_LegPad_TireRIGHT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=4,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Right Yellow
+    {
+		Makeshift_LegPad_TireRIGHT,
+		HairDyeBlonde/HairDyeYellow/PaintYellow=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireRIGHT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Right Red
+    {
+		Makeshift_LegPad_TireRIGHT,
+		HairDyeRed/HairDyeRed/PaintRed=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireRIGHT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Right Green
+    {
+		Makeshift_LegPad_TireRIGHT,
+		HairDyeGreen/HairDyeGreen/PaintGreen=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireRIGHT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Right Blue
+    {
+		Makeshift_LegPad_TireRIGHT,
+		HairDyeBlue/HairDyeBlue/PaintBlue=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireRIGHT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Tire Leg Pad Left
+    {
+		LeatherStrips=1,
+		SolidRubber=2,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_LegPad_TireLEFT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=4,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Left Yellow
+    {
+		Makeshift_LegPad_TireLEFT,
+		HairDyeBlonde/HairDyeYellow/PaintYellow=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireLEFT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Left Red
+    {
+		Makeshift_LegPad_TireLEFT,
+		HairDyeRed/HairDyeRed/PaintRed=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireLEFT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Left Green
+    {
+		Makeshift_LegPad_TireLEFT,
+		HairDyeGreen/HairDyeGreen/PaintGreen=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireLEFT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Leg Pad Left Blue
+    {
+		Makeshift_LegPad_TireLEFT,
+		HairDyeBlue/HairDyeBlue/PaintBlue=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_LegPad_TireLEFT,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Tire Chest Plate
+    {
+		LeatherStrips=1,
+		Nails=4,
+		SolidRubber=4,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Vest_TireChestPlate,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=4,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGrey,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Chest Plate Yellow
+    {
+		Makeshift_Vest_TireChestPlate,
+		HairDyeBlonde/HairDyeYellow/PaintYellow=1,
+		PaintWhite=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Vest_TireChestPlate,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBrown,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Chest Plate Red
+    {
+		Makeshift_Vest_TireChestPlate,
+		HairDyeRed/HairDyeRed/PaintRed=1,
+		PaintWhite=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Vest_TireChestPlate,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingRed,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Chest Plate Green
+    {
+		Makeshift_Vest_TireChestPlate,
+		HairDyeGreen/HairDyeGreen/PaintGreen=1,
+		PaintWhite=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Vest_TireChestPlate,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingGreen,
+		AnimNode 				: RipSheets,
+    }
+	recipe Paint Tire Chest Plate Blue
+    {
+		Makeshift_Vest_TireChestPlate,
+		HairDyeBlue/HairDyeBlue/PaintBlue=1,
+		PaintWhite=1,
+		keep Paintbrush=1,
+		Result 		: Makeshift_Vest_TireChestPlate,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnCreate: Yaki_Recipes.OnCreate.DyeClothingBlue,
+		AnimNode 				: RipSheets,
+    }
+
+		/************************ Rogue Armor ************************/
+
+	recipe Make Rogue Shirt
+    {
+		Leather=1,
+		FabricRollBrown=1,
+		Thread=1,
+		keep TailoringBench,
+		keep Needle,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Shirt_Rogue,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Rogue Corset
+    {
+		Leather=1,
+		LeatherStrips=1,
+		Thread=1,
+		keep TailoringBench,
+		keep Needle,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Vest_RogueCorset,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Rogue Belt
+    {
+		LeatherStrips=1,
+		Thread=1,
+		keep TailoringBench,
+		keep Needle,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Belt_RoguePouch,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Rogue Pants
+    {
+		FabricRollBrown=1,
+		RippedSheets=4,
+		Thread=1,
+		keep TailoringBench,
+		keep Needle,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Pants_Rogue,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Rogue Hood
+    {
+		FabricRollBrown=1,
+		RippedSheets=2,
+		Thread=1,
+		keep Needle,
+		keep TailoringBench,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Hood_Rogue,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
+		AnimNode 				: RipSheets,
+    }
+	recipe Make Rogue Boots
+    {
+		Leather=1,
+		LeatherStrips=4,
+		Thread=1,
+		keep TailoringBench,
+		keep Needle,
+		CanBeDoneFromFloor:true,
+		Result 		: Makeshift_Shoes_RogueBoots,
+		Sound 		: ClothesRipping,
+		Time 		: 100.0,
+		Category    :  Tailoring,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring10,
+		SkillRequired:Tailoring=2,
+		AnimNode 				: RipSheets,
+    }
 
 }

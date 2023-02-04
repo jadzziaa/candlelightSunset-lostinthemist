@@ -1,7 +1,43 @@
 module Base {
   imports {
       Base
-  }
+	}
+	item AtomicDuck
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.2,
+		Type	=	Normal,
+		DisplayName	=	AtomicDuck,
+		Icon	=	AtomicDuck,
+		WorldStaticModel = AtomicDuck,
+	}
+	item TailoringBench
+	{
+		Weight 		     = 30,
+		WorldStaticModel = TailoringBench,
+		Type 		     = Container,
+		Capacity 		 = 50,
+		DisplayName 	 = Tailoring Bench,
+		Icon 		     = TailoringBench,
+	}
+    item SolidRubber
+    {
+        DisplayCategory = Material,
+        Weight	=	0.6,
+        Type	=	Normal,
+        DisplayName	=	SolidRubber,
+        Icon	=	SolidRubber,
+        WorldStaticModel = SolidRubber,
+    }
+    item DestroyedCarTire
+    {
+        DisplayCategory = Material,
+        Weight	=	6,
+        Type	=	Normal,
+        DisplayName	=	DestroyedCarTire,
+        Icon	=	DestroyedCarTire,
+        WorldStaticModel = DestroyedCarTire,
+    }
     item Leather
     {
         DisplayCategory = Material,

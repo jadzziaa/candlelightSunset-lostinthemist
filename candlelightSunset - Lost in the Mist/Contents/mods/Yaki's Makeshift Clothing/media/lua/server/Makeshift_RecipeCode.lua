@@ -43,3 +43,11 @@ function Yaki_Recipes.GiveEmptyPot(items, result, player, selectedItem)
   local inv = player:getInventory();
   inv:AddItem("Base.Pot");
 end
+
+-- Give Tailoring XP
+function Recipe.OnGiveXP.Tailoring10(recipe, ingredients, result, player)
+    player:getXp():AddXP(Perks.Tailoring, 10);
+end
+
+-- 
+Give10TXP = Recipe.OnGiveXP.Tailoring10

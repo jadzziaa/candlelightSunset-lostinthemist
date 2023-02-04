@@ -191,4 +191,5 @@ module Base
         WaterResistance = 0.25,
         WorldStaticModel = Shoes_Ground,
 	}
+
 }
